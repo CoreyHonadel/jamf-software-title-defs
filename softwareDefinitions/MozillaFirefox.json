@@ -1,0 +1,1785 @@
+{
+    "name": "Mozilla Firefox",
+    "publisher": "Mozilla",
+    "appName": "Firefox.app",
+    "bundleId": "org.mozilla.firefox",
+    "lastModified": "0000-00-00T00:00:00Z",
+    "currentVersion": "51.0.1",
+    "requirements": [
+        {
+            "name": "Application Bundle ID",
+            "operator": "is",
+            "value": "org.mozilla.firefox",
+            "type": "recon",
+            "and": true
+        }
+    ],
+    "patches": [
+        {
+            "version": "51.0.1",
+            "releaseDate": "2017-01-26T20:44:25.474Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "51.0.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "51.0.1",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "51.0",
+            "releaseDate": "2017-01-24T13:44:24.028Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "51.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "51.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "50.1.0",
+            "releaseDate": "2016-12-13T19:57:24.028Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "50.1.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "50.1.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "50.0.2",
+            "releaseDate": "2016-12-01T01:00:30.560Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "50.0.2",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "50.0.2",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "50.0.1",
+            "releaseDate": "2016-11-29T01:28:14.603Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "50.0.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "50.0.1",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "50.0",
+            "releaseDate": "2016-11-16T09:46:14.603Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "50.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "50.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "49.0.2",
+            "releaseDate": "2016-10-21T00:29:14.603Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "49.0.2",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "49.0.2",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "49.0.1",
+            "releaseDate": "2016-09-26T10:29:14.603Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "49.0.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "49.0.1",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "49.0",
+            "releaseDate": "2016-09-20T14:44:14.603Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "49.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "49.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "48.0.2",
+            "releaseDate": "2016-08-25T10:32:14.603Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "48.0.2",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "48.0.2",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "48.0.1",
+            "releaseDate": "2016-08-18T19:00:14.603Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "48.0.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "48.0.1",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "48.0",
+            "releaseDate": "2016-08-02T14:09:23Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "48.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "48.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "47.0.1",
+            "releaseDate": "2016-06-29T13:39:23Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "47.0.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "47.0.1",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "47.0",
+            "releaseDate": "2016-06-08T08:55:23Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "47.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "47.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "46.0.1",
+            "releaseDate": "2016-05-04T08:35:23Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "46.0.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "46.0.1",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "46.0",
+            "releaseDate": "2016-04-26T13:26:23Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "46.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "46.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "45.0.2",
+            "releaseDate": "2016-04-12T08:10:44Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "45.0.2",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "45.0.2",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "45.0.1",
+            "releaseDate": "2016-03-21T07:22:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "45.0.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "45.0.1",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "45.0",
+            "releaseDate": "2016-03-08T08:30:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "45.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "45.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "44.0.2",
+            "releaseDate": "2016-02-11T07:36:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "44.0.2",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "44.0.2",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "44.0.1",
+            "releaseDate": "2016-02-08T09:54:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "44.0.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "44.0.1",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "44.0",
+            "releaseDate": "2016-01-26T12:33:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "44.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "44.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "43.0.4",
+            "releaseDate": "2016-01-07T15:01:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "43.0.4",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "43.0.4",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "43.0.3",
+            "releaseDate": "2015-12-28T15:23:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "43.0.3",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "43.0.3",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "43.0.2",
+            "releaseDate": "2015-12-23T19:11:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "43.0.2",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "43.0.2",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "43.0.1",
+            "releaseDate": "2015-12-18T20:41:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "43.0.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "43.0.1",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "43.0",
+            "releaseDate": "2015-12-16T15:48:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "43.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "43.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "42.0",
+            "releaseDate": "2015-11-03T09:51:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "42.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "42.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "41.0.2",
+            "releaseDate": "2015-10-22T11:34:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "41.0.2",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "41.0.2",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "41.0.1",
+            "releaseDate": "2015-08-27T19:20:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "41.0.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "41.0.1",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "41.0",
+            "releaseDate": "2015-07-27T08:00:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "41.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "41.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "40.0.3",
+            "releaseDate": "2015-06-27T21:59:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "40.0.3",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "40.0.3",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "40.0.2",
+            "releaseDate": "2015-05-13T22:23:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "40.0.2",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "40.0.2",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "40.0",
+            "releaseDate": "2015-04-11T07:20:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "40.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "40.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "39.0.3",
+            "releaseDate": "2015-03-06T07:34:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "39.0.3",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "39.0.3",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "39.0",
+            "releaseDate": "2015-02-02T08:35:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "39.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "39.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "38.0.5",
+            "releaseDate": "2015-01-22T09:16:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "38.0.5",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "38.0.5",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "38.0.1",
+            "releaseDate": "2015-01-20T18:58:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "38.0.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "38.0.1",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "38.0",
+            "releaseDate": "2015-01-12T17:55:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "38.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "38.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "37.0.2",
+            "releaseDate": "2014-12-20T18:24:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "37.0.2",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "37.0.2",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "37.0.1",
+            "releaseDate": "2014-11-03T19:11:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "37.0.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "37.0.1",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "37.0",
+            "releaseDate": "2014-10-11T22:21:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox",
+                    "version": "37.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "org.mozilla.firefox",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "37.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        }
+    ],
+    "extensionAttributes": [],
+    "id": "MozillaFirefox"
+}
