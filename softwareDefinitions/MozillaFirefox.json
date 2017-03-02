@@ -3,7 +3,7 @@
     "publisher": "Mozilla",
     "appName": "Firefox.app",
     "bundleId": "org.mozilla.firefox",
-    "lastModified": "2017-01-26T20:44:25.474Z",
+    "lastModified": "2017-01-26T20:44:25Z",
     "currentVersion": "51.0.1",
     "requirements": [
         {
