@@ -1,0 +1,1575 @@
+{
+    "name": "Skype",
+    "publisher": "Microsoft",
+    "appName": "Skype.app",
+    "bundleId": "com.skype.skype",
+    "lastModified": "0000-00-00T00:00:00Z",
+    "currentVersion": "7.46",
+    "requirements": [
+        {
+            "name": "Application Bundle ID",
+            "operator": "is",
+            "value": "com.skype.skype",
+            "type": "recon",
+            "and": true
+        }
+    ],
+    "patches": [
+        {
+            "version": "7.46",
+            "releaseDate": "2017-02-08T17:00:29.649Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.46",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.46",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.44",
+            "releaseDate": "2017-01-12T15:00:24.397Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.44",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.44",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.43",
+            "releaseDate": "2016-12-14T15:00:27.451Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.43",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.43",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.42",
+            "releaseDate": "2016-11-30T14:09:18.060Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.42",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.42",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.41",
+            "releaseDate": "2016-11-16T15:00:59.761Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.41",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.41",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.39",
+            "releaseDate": "2016-10-19T14:00:22.399Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.39",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.39",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.37",
+            "releaseDate": "2016-09-26T12:02:26.771Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.37",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.37",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.36",
+            "releaseDate": "2016-09-16T18:00:43.690Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.36",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.36",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.35",
+            "releaseDate": "2016-08-24T19:00:17.571Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.35",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.35",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.34",
+            "releaseDate": "2016-08-17T18:05:53.309Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.34",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.34",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.33",
+            "releaseDate": "2016-07-28T09:50.385Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.33",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.33",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.32",
+            "releaseDate": "2016-07-20T11:17:19Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.32",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.32",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.31",
+            "releaseDate": "2016-06-30T08:10:19Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.31",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.31",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.30",
+            "releaseDate": "2016-06-15T12:00:19Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.30",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.30",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.29",
+            "releaseDate": "2016-06-01T11:24:19Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.29",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.29",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.28",
+            "releaseDate": "2016-05-19T13:18:19Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.28",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.28",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.27",
+            "releaseDate": "2016-05-05T09:05:19Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.27",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.27",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.26",
+            "releaseDate": "2016-04-21T08:46:30Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.26",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.26",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.25",
+            "releaseDate": "2016-04-08T14:26:30Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.25",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.25",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.24",
+            "releaseDate": "2016-03-23T08:10:30Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.24",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.24",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.21",
+            "releaseDate": "2016-02-17T15:10:30Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.21",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.21",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.19",
+            "releaseDate": "2016-01-11T07:11:30Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.19",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.19",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.18",
+            "releaseDate": "2015-12-28T16:20:30Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.18",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.18",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.16",
+            "releaseDate": "2015-11-11T07:32:30Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.16",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.16",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.15",
+            "releaseDate": "2015-10-20T07:12:30Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.15",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.15",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.14",
+            "releaseDate": "2015-09-15T09:43:30Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.14",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.14",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.13",
+            "releaseDate": "2015-08-09T08:21:30Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.13",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.13",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.12",
+            "releaseDate": "2015-07-10T07:38:30Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.12",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.12",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.11",
+            "releaseDate": "2015-06-30T07:34:30Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.11",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.11",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.10",
+            "releaseDate": "2015-05-22T07:44:30Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.10",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.10",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.9",
+            "releaseDate": "2015-04-17T12:43:30Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.9",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.9",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.8",
+            "releaseDate": "2015-03-27T08:22:30Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.8",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.8",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.7",
+            "releaseDate": "2015-02-15T19:11:30Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.7",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.7",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.6",
+            "releaseDate": "2015-01-19T12:20:30Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.6",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.6",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.5",
+            "releaseDate": "2014-12-26T07:36:30Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.5",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.5",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.2",
+            "releaseDate": "2014-11-26T09:28:30Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.2",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.2",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "7.1",
+            "releaseDate": "2014-10-26T07:55:30Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.skype.skype",
+                    "appName": "Skype.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype",
+                    "version": "7.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.skype.skype",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.1",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        }
+    ],
+    "extensionAttributes": [],
+    "id": "Skype"
+}
