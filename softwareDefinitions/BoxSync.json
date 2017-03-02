@@ -1,0 +1,525 @@
+{
+    "name" : "GitHub Box Sync",
+    "publisher" : "Box",
+    "appName" : "Box Sync.app",
+    "bundleId" : "com.box.sync",
+    "lastModified" : "2017-02-08T20:44:25Z",
+    "currentVersion" : "4.0.7724",
+    "requirements" : [
+        {
+            "name" : "Application Bundle ID",
+            "operator" : "is",
+            "value" : "com.box.sync",
+            "type" : "recon",
+            "and" : true
+        }
+    ],
+    "patches" : [
+        {
+            "version" : "4.0.7724",
+            "releaseDate" : "2016-09-22T00:00:00.000Z",
+            "standalone" : true,
+            "minimumOperatingSystem" : "10.10",
+            "reboot" : false,
+            "killApps" : [
+                {
+                    "bundleId" : "com.box.sync",
+                    "appName" : "Box Sync.app"
+                }
+            ],
+            "components" : [
+                {
+                    "name" : "Box Sync",
+                    "version" : "4.0.7724",
+                    "criteria" : [
+                        {
+                            "name" : "Application Bundle ID",
+                            "operator" : "is",
+                            "value" : "com.box.sync",
+                            "type" : "recon"
+                        },
+                        {
+                            "name" : "Application Version",
+                            "operator" : "is",
+                            "value" : "4.0.7724 (75bea18)",
+                            "type" : "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities" : [
+                {
+                    "name" : "Operating System Version",
+                    "operator" : "greater than or equal",
+                    "value" : "10.10",
+                    "type" : "recon"
+                }
+            ],
+            "dependencies" : [ ]
+        },
+        {
+            "version" : "4.0.7702",
+            "releaseDate" : "2016-08-09T00:00:00.000Z",
+            "standalone" : true,
+            "minimumOperatingSystem" : "10.10",
+            "reboot" : false,
+            "killApps" : [
+                {
+                    "bundleId" : "com.box.sync",
+                    "appName" : "Box Sync.app"
+                }
+            ],
+            "components" : [
+                {
+                    "name" : "Box Sync",
+                    "version" : "4.0.7702",
+                    "criteria" : [
+                        {
+                            "name" : "Application Bundle ID",
+                            "operator" : "is",
+                            "value" : "com.box.sync",
+                            "type" : "recon"
+                        },
+                        {
+                            "name" : "Application Version",
+                            "operator" : "is",
+                            "value" : "4.0.7702 (c5f9b9d)",
+                            "type" : "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities" : [
+                {
+                    "name" : "Operating System Version",
+                    "operator" : "greater than or equal",
+                    "value" : "10.10",
+                    "type" : "recon"
+                }
+            ],
+            "dependencies" : [ ]
+        },
+        {
+            "version" : "4.0.7693",
+            "releaseDate" : "2016-07-23T00:00:00.000Z",
+            "standalone" : true,
+            "minimumOperatingSystem" : "10.10",
+            "reboot" : false,
+            "killApps" : [
+                {
+                    "bundleId" : "com.box.sync",
+                    "appName" : "Box Sync.app"
+                }
+            ],
+            "components" : [
+                {
+                    "name" : "Box Sync",
+                    "version" : "4.0.7693",
+                    "criteria" : [
+                        {
+                            "name" : "Application Bundle ID",
+                            "operator" : "is",
+                            "value" : "com.box.sync",
+                            "type" : "recon"
+                        },
+                        {
+                            "name" : "Application Version",
+                            "operator" : "is",
+                            "value" : "4.0.7693 (cb21aae)",
+                            "type" : "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities" : [
+                {
+                    "name" : "Operating System Version",
+                    "operator" : "greater than or equal",
+                    "value" : "10.10",
+                    "type" : "recon"
+                }
+            ],
+            "dependencies" : [ ]
+        },
+        {
+            "version" : "4.0.7571",
+            "releaseDate" : "2016-06-23T00:00:00.000Z",
+            "standalone" : true,
+            "minimumOperatingSystem" : "10.10",
+            "reboot" : false,
+            "killApps" : [
+                {
+                    "bundleId" : "com.box.sync",
+                    "appName" : "Box Sync.app"
+                }
+            ],
+            "components" : [
+                {
+                    "name" : "Box Sync",
+                    "version" : "4.0.7571",
+                    "criteria" : [
+                        {
+                            "name" : "Application Bundle ID",
+                            "operator" : "is",
+                            "value" : "com.box.sync",
+                            "type" : "recon"
+                        },
+                        {
+                            "name" : "Application Version",
+                            "operator" : "is",
+                            "value" : "4.0.7571 (9fc157f)",
+                            "type" : "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities" : [
+                {
+                    "name" : "Operating System Version",
+                    "operator" : "greater than or equal",
+                    "value" : "10.10",
+                    "type" : "recon"
+                }
+            ],
+            "dependencies" : [ ]
+        },
+        {
+            "version" : "4.0.7415",
+            "releaseDate" : "2016-05-20T00:00:00.000Z",
+            "standalone" : true,
+            "minimumOperatingSystem" : "10.10",
+            "reboot" : false,
+            "killApps" : [
+                {
+                    "bundleId" : "com.box.sync",
+                    "appName" : "Box Sync.app"
+                }
+            ],
+            "components" : [
+                {
+                    "name" : "Box Sync",
+                    "version" : "4.0.7415",
+                    "criteria" : [
+                        {
+                            "name" : "Application Bundle ID",
+                            "operator" : "is",
+                            "value" : "com.box.sync",
+                            "type" : "recon"
+                        },
+                        {
+                            "name" : "Application Version",
+                            "operator" : "is",
+                            "value" : "4.0.7415 (ef5c0cc)",
+                            "type" : "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities" : [
+                {
+                    "name" : "Operating System Version",
+                    "operator" : "greater than or equal",
+                    "value" : "10.10",
+                    "type" : "recon"
+                }
+            ],
+            "dependencies" : [ ]
+        },
+        {
+            "version" : "4.0.7373",
+            "releaseDate" : "2016-04-28T00:00:00.000Z",
+            "standalone" : true,
+            "minimumOperatingSystem" : "10.10",
+            "reboot" : false,
+            "killApps" : [
+                {
+                    "bundleId" : "com.box.sync",
+                    "appName" : "Box Sync.app"
+                }
+            ],
+            "components" : [
+                {
+                    "name" : "Box Sync",
+                    "version" : "4.0.7373",
+                    "criteria" : [
+                        {
+                            "name" : "Application Bundle ID",
+                            "operator" : "is",
+                            "value" : "com.box.sync",
+                            "type" : "recon"
+                        },
+                        {
+                            "name" : "Application Version",
+                            "operator" : "is",
+                            "value" : "4.0.7373 (b4a19ca)",
+                            "type" : "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities" : [
+                {
+                    "name" : "Operating System Version",
+                    "operator" : "greater than or equal",
+                    "value" : "10.10",
+                    "type" : "recon"
+                }
+            ],
+            "dependencies" : [ ]
+        },
+        {
+            "version" : "4.0.7318",
+            "releaseDate" : "2016-04-18T00:00:00.000Z",
+            "standalone" : true,
+            "minimumOperatingSystem" : "10.10",
+            "reboot" : false,
+            "killApps" : [
+                {
+                    "bundleId" : "com.box.sync",
+                    "appName" : "Box Sync.app"
+                }
+            ],
+            "components" : [
+                {
+                    "name" : "Box Sync",
+                    "version" : "4.0.7318",
+                    "criteria" : [
+                        {
+                            "name" : "Application Bundle ID",
+                            "operator" : "is",
+                            "value" : "com.box.sync",
+                            "type" : "recon"
+                        },
+                        {
+                            "name" : "Application Version",
+                            "operator" : "is",
+                            "value" : "4.0.7318 (a3ec13b)",
+                            "type" : "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities" : [
+                {
+                    "name" : "Operating System Version",
+                    "operator" : "greater than or equal",
+                    "value" : "10.10",
+                    "type" : "recon"
+                }
+            ],
+            "dependencies" : [ ]
+        },
+        {
+            "version" : "4.0.7255",
+            "releaseDate" : "2016-03-18T00:00:00.000Z",
+            "standalone" : true,
+            "minimumOperatingSystem" : "10.10",
+            "reboot" : false,
+            "killApps" : [
+                {
+                    "bundleId" : "com.box.sync",
+                    "appName" : "Box Sync.app"
+                }
+            ],
+            "components" : [
+                {
+                    "name" : "Box Sync",
+                    "version" : "4.0.7255",
+                    "criteria" : [
+                        {
+                            "name" : "Application Bundle ID",
+                            "operator" : "is",
+                            "value" : "com.box.sync",
+                            "type" : "recon"
+                        },
+                        {
+                            "name" : "Application Version",
+                            "operator" : "is",
+                            "value" : "4.0.7255 (5442af7)",
+                            "type" : "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities" : [
+                {
+                    "name" : "Operating System Version",
+                    "operator" : "greater than or equal",
+                    "value" : "10.10",
+                    "type" : "recon"
+                }
+            ],
+            "dependencies" : [ ]
+        },
+        {
+            "version" : "4.0.7100",
+            "releaseDate" : "2016-01-18T00:00:00.000Z",
+            "standalone" : true,
+            "minimumOperatingSystem" : "10.10",
+            "reboot" : false,
+            "killApps" : [
+                {
+                    "bundleId" : "com.box.sync",
+                    "appName" : "Box Sync.app"
+                }
+            ],
+            "components" : [
+                {
+                    "name" : "Box Sync",
+                    "version" : "4.0.7100",
+                    "criteria" : [
+                        {
+                            "name" : "Application Bundle ID",
+                            "operator" : "is",
+                            "value" : "com.box.sync",
+                            "type" : "recon"
+                        },
+                        {
+                            "name" : "Application Version",
+                            "operator" : "is",
+                            "value" : "4.0.7100 (29c8988)",
+                            "type" : "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities" : [
+                {
+                    "name" : "Operating System Version",
+                    "operator" : "greater than or equal",
+                    "value" : "10.10",
+                    "type" : "recon"
+                }
+            ],
+            "dependencies" : [ ]
+        },
+        {
+            "version" : "4.0.7076",
+            "releaseDate" : "2016-01-14T00:00:00.000Z",
+            "standalone" : true,
+            "minimumOperatingSystem" : "10.10",
+            "reboot" : false,
+            "killApps" : [
+                {
+                    "bundleId" : "com.box.sync",
+                    "appName" : "Box Sync.app"
+                }
+            ],
+            "components" : [
+                {
+                    "name" : "Box Sync",
+                    "version" : "4.0.7076",
+                    "criteria" : [
+                        {
+                            "name" : "Application Bundle ID",
+                            "operator" : "is",
+                            "value" : "com.box.sync",
+                            "type" : "recon"
+                        },
+                        {
+                            "name" : "Application Version",
+                            "operator" : "is",
+                            "value" : "4.0.7076 (df5f0fb)",
+                            "type" : "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities" : [
+                {
+                    "name" : "Operating System Version",
+                    "operator" : "greater than or equal",
+                    "value" : "10.10",
+                    "type" : "recon"
+                }
+            ],
+            "dependencies" : [ ]
+        },
+        {
+            "version" : "4.0.7035",
+            "releaseDate" : "2016-01-04T00:00:00.000Z",
+            "standalone" : true,
+            "minimumOperatingSystem" : "10.10",
+            "reboot" : false,
+            "killApps" : [
+                {
+                    "bundleId" : "com.box.sync",
+                    "appName" : "Box Sync.app"
+                }
+            ],
+            "components" : [
+                {
+                    "name" : "Box Sync",
+                    "version" : "4.0.7035",
+                    "criteria" : [
+                        {
+                            "name" : "Application Bundle ID",
+                            "operator" : "is",
+                            "value" : "com.box.sync",
+                            "type" : "recon"
+                        },
+                        {
+                            "name" : "Application Version",
+                            "operator" : "is",
+                            "value" : "4.0.7035 (f0b0d69)",
+                            "type" : "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities" : [
+                {
+                    "name" : "Operating System Version",
+                    "operator" : "greater than or equal",
+                    "value" : "10.10",
+                    "type" : "recon"
+                }
+            ],
+            "dependencies" : [ ]
+        },
+        {
+            "version" : "4.0.6746",
+            "releaseDate" : "2015-10-15T00:00:00.000Z",
+            "standalone" : true,
+            "minimumOperatingSystem" : "10.10",
+            "reboot" : false,
+            "killApps" : [
+                {
+                    "bundleId" : "com.box.sync",
+                    "appName" : "Box Sync.app"
+                }
+            ],
+            "components" : [
+                {
+                    "name" : "Box Sync",
+                    "version" : "4.0.6746",
+                    "criteria" : [
+                        {
+                            "name" : "Application Bundle ID",
+                            "operator" : "is",
+                            "value" : "com.box.sync",
+                            "type" : "recon"
+                        },
+                        {
+                            "name" : "Application Version",
+                            "operator" : "is",
+                            "value" : "4.0.6746 (06c7da8)",
+                            "type" : "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities" : [
+                {
+                    "name" : "Operating System Version",
+                    "operator" : "greater than or equal",
+                    "value" : "10.10",
+                    "type" : "recon"
+                }
+            ],
+            "dependencies" : [ ]
+        },
+    ],
+    "extensionAttributes" : [ ],
+    "id" : "BoxSync"
+}
