@@ -36,13 +36,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.box.sync",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": "true"
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "4.0.7724 (75bea18)",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": "true"
                         }
                     ]
                 }
@@ -52,7 +54,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.10",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": "true"
                 }
             ],
             "dependencies": []
@@ -78,13 +81,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.box.sync",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": "true"
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "4.0.7702 (c5f9b9d)",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": "true"
                         }
                     ]
                 }
@@ -94,7 +99,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.10",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": "true"
                 }
             ],
             "dependencies": []
@@ -120,13 +126,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.box.sync",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": "true"
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "4.0.7693 (cb21aae)",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": "true"
                         }
                     ]
                 }
@@ -136,7 +144,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.10",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": "true"
                 }
             ],
             "dependencies": []
@@ -162,13 +171,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.box.sync",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": "true"
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "4.0.7571 (9fc157f)",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": "true"
                         }
                     ]
                 }
@@ -178,7 +189,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.10",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": "true"
                 }
             ],
             "dependencies": []
@@ -204,13 +216,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.box.sync",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": "true"
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "4.0.7415 (ef5c0cc)",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": "true"
                         }
                     ]
                 }
@@ -220,7 +234,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.10",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": "true"
                 }
             ],
             "dependencies": []
@@ -246,13 +261,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.box.sync",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": "true"
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "4.0.7373 (b4a19ca)",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": "true"
                         }
                     ]
                 }
@@ -262,7 +279,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.10",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": "true"
                 }
             ],
             "dependencies": []
@@ -288,13 +306,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.box.sync",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": "true"
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "4.0.7318 (a3ec13b)",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": "true"
                         }
                     ]
                 }
@@ -304,7 +324,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.10",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": "true"
                 }
             ],
             "dependencies": []
@@ -330,13 +351,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.box.sync",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": "true"
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "4.0.7255 (5442af7)",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": "true"
                         }
                     ]
                 }
@@ -346,7 +369,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.10",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": "true"
                 }
             ],
             "dependencies": []
@@ -372,13 +396,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.box.sync",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": "true"
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "4.0.7100 (29c8988)",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": "true"
                         }
                     ]
                 }
@@ -388,7 +414,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.10",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": "true"
                 }
             ],
             "dependencies": []
@@ -414,13 +441,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.box.sync",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": "true"
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "4.0.7076 (df5f0fb)",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": "true"
                         }
                     ]
                 }
@@ -430,7 +459,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.10",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": "true"
                 }
             ],
             "dependencies": []
@@ -456,13 +486,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.box.sync",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": "true"
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "4.0.7035 (f0b0d69)",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": "true"
                         }
                     ]
                 }
@@ -472,7 +504,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.10",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": "true"
                 }
             ],
             "dependencies": []
@@ -498,13 +531,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.box.sync",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": "true"
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "4.0.6746 (06c7da8)",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": "true"
                         }
                     ]
                 }
@@ -514,7 +549,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.10",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": "true"
                 }
             ],
             "dependencies": []
