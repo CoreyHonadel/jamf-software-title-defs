@@ -1,0 +1,642 @@
+{
+    "name": "Adobe AIR",
+    "publisher": "Adobe",
+    "appName": "Adobe AIR Application Installer.app",
+    "bundleId": "com.adobe.AIR",
+    "lastModified": "0000-00-00T00:00:00Z",
+    "currentVersion": "27.0.0.128",
+    "patches": [
+        {
+            "version": "27.0.0.128",
+            "releaseDate": "2017-09-12T12:01:18.265Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.AIR",
+                    "appName": "Adobe AIR Application Installer.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe AIR",
+                    "version": "27.0.0.128",
+                    "criteria": [
+                        {
+                            "name": "adobe-air",
+                            "operator": "like",
+                            "value": "27.0.0.128",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "26.0.0.127",
+            "releaseDate": "2017-07-11T10:40:18.265Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.0",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.AIR",
+                    "appName": "Adobe AIR Application Installer.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe AIR",
+                    "version": "26.0.0.127",
+                    "criteria": [
+                        {
+                            "name": "adobe-air",
+                            "operator": "like",
+                            "value": "26.0.0.127",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "26.0.0.118",
+            "releaseDate": "2017-06-13T09:28:18.265Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.0",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.AIR",
+                    "appName": "Adobe AIR Application Installer.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe AIR",
+                    "version": "26.0.0.118",
+                    "criteria": [
+                        {
+                            "name": "adobe-air",
+                            "operator": "like",
+                            "value": "26.0.0.118",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "25.0.0.134",
+            "releaseDate": "2017-03-14T10:29:18.265Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.0",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.AIR",
+                    "appName": "Adobe AIR Application Installer.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe AIR",
+                    "version": "25.0.0.134",
+                    "criteria": [
+                        {
+                            "name": "adobe-air",
+                            "operator": "like",
+                            "value": "25.0.0.134",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "24.0.0.180",
+            "releaseDate": "2016-12-13T12:58:18.265Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.0",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.AIR",
+                    "appName": "Adobe AIR Application Installer.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe AIR",
+                    "version": "24.0.0.180",
+                    "criteria": [
+                        {
+                            "name": "adobe-air",
+                            "operator": "like",
+                            "value": "24.0.0.180",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "23.0.0.257",
+            "releaseDate": "2016-09-13T08:00:18.265Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.0",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.AIR",
+                    "appName": "Adobe AIR Application Installer.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe AIR",
+                    "version": "23.0.0.257",
+                    "criteria": [
+                        {
+                            "name": "adobe-air",
+                            "operator": "like",
+                            "value": "23.0.0.257",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "22.0.0.153",
+            "releaseDate": "2016-06-16T03:30:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.0",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.air.ApplicationInstaller",
+                    "appName": "Adobe AIR Application Installer.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe AIR",
+                    "version": "22.0.0.153",
+                    "criteria": [
+                        {
+                            "name": "adobe-air",
+                            "operator": "like",
+                            "value": "22.0.0.153",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "21.0.0.215",
+            "releaseDate": "2016-05-16T09:18:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.0",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.air.ApplicationInstaller",
+                    "appName": "Adobe AIR Application Installer.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe AIR",
+                    "version": "21.0.0.215",
+                    "criteria": [
+                        {
+                            "name": "adobe-air",
+                            "operator": "like",
+                            "value": "21.0.0.215",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "21.0.0.198",
+            "releaseDate": "2016-04-12T08:14:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.0",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.air.ApplicationInstaller",
+                    "appName": "Adobe AIR Application Installer.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe AIR",
+                    "version": "21.0.0.198",
+                    "criteria": [
+                        {
+                            "name": "adobe-air",
+                            "operator": "like",
+                            "value": "21.0.0.198",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "21.0.0.176",
+            "releaseDate": "2016-03-18T14:56:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.0",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.air.ApplicationInstaller",
+                    "appName": "Adobe AIR Application Installer.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe AIR",
+                    "version": "21.0.0.176",
+                    "criteria": [
+                        {
+                            "name": "adobe-air",
+                            "operator": "like",
+                            "value": "21.0.0.176",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "20.0.0.260",
+            "releaseDate": "2016-02-17T11:42:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.0",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.air.ApplicationInstaller",
+                    "appName": "Adobe AIR Application Installer.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe AIR",
+                    "version": "20.0.0.260",
+                    "criteria": [
+                        {
+                            "name": "adobe-air",
+                            "operator": "like",
+                            "value": "20.0.0.260",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "20.0.0.233",
+            "releaseDate": "2016-01-18T09:07:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.0",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.air.ApplicationInstaller",
+                    "appName": "Adobe AIR Application Installer.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe AIR",
+                    "version": "20.0.0.233",
+                    "criteria": [
+                        {
+                            "name": "adobe-air",
+                            "operator": "like",
+                            "value": "20.0.0.233",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "19.0.0.241",
+            "releaseDate": "2015-11-10T08:15:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.0",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.air.ApplicationInstaller",
+                    "appName": "Adobe AIR Application Installer.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe AIR",
+                    "version": "19.0.0.241",
+                    "criteria": [
+                        {
+                            "name": "adobe-air",
+                            "operator": "like",
+                            "value": "19.0.0.241",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "18.0.0.199",
+            "releaseDate": "2015-08-11T18:44:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.0",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.air.ApplicationInstaller",
+                    "appName": "Adobe AIR Application Installer.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe AIR",
+                    "version": "18.0.0.199",
+                    "criteria": [
+                        {
+                            "name": "adobe-air",
+                            "operator": "like",
+                            "value": "18.0.0.199",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "17.0.0.172",
+            "releaseDate": "2015-05-12T20:53:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.0",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.air.ApplicationInstaller",
+                    "appName": "Adobe AIR Application Installer.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe AIR",
+                    "version": "17.0.0.172",
+                    "criteria": [
+                        {
+                            "name": "adobe-air",
+                            "operator": "like",
+                            "value": "17.0.0.172",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "16.0.0.245",
+            "releaseDate": "2015-02-08T23:11:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.0",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.air.ApplicationInstaller",
+                    "appName": "Adobe AIR Application Installer.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe AIR",
+                    "version": "16.0.0.245",
+                    "criteria": [
+                        {
+                            "name": "adobe-air",
+                            "operator": "like",
+                            "value": "16.0.0.245",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        }
+    ],
+    "extensionAttributes": [
+        {
+            "key": "adobe-air",
+            "value": "IyEvYmluL2Jhc2gNCiMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIw0KIyBBIHNjcmlwdCB0byBjb2xsZWN0IHRoZSB2ZXJzaW9uIG9mIEFkb2JlIEFJUiBjdXJyZW50bHkgaW5zdGFsbGVkLiAjDQojIElmIEFkb2JlIEFJUiBpcyBub3QgaW5zdGFsbGVkICJOb3QgSW5zdGFsbGVkIiB3aWxsIHJldHVybiBiYWNrICMNCiMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIw0KDQpOT1RfSU5TVEFMTEVEPSJOb3QgSW5zdGFsbGVkIg0KUkVTVUxUPSIiDQoNCmlmIFsgLWEgL0FwcGxpY2F0aW9ucy9VdGlsaXRpZXMvQWRvYmVcIEFJUlwgQXBwbGljYXRpb25cIEluc3RhbGxlci5hcHAvQ29udGVudHMvSW5mby5wbGlzdCBdDQogIHRoZW4NCiAgICBSRVNVTFQ9JCggL3Vzci9iaW4vZGVmYXVsdHMgcmVhZCAvTGlicmFyeS9GcmFtZXdvcmtzL0Fkb2JlXCBBSVIuZnJhbWV3b3JrL1ZlcnNpb25zLzEuMC9SZXNvdXJjZXMvSW5mbyBDRkJ1bmRsZVZlcnNpb24gKQ0KZWxzZQ0KICAgIFJFU1VMVD0iJE5PVF9JTlNUQUxMRUQiDQpmaQ0KZWNobyAiPHJlc3VsdD4kUkVTVUxUPC9yZXN1bHQ+Ig0K",
+            "displayName": "Adobe AIR Version"
+        }
+    ],
+    "requirements": [
+        {
+            "name": "adobe-air",
+            "operator": "is not",
+            "value": "Not Installed",
+            "type": "extensionAttribute",
+            "and": true
+        },
+        {
+            "name": "adobe-air",
+            "operator": "is not",
+            "value": "",
+            "type": "extensionAttribute",
+            "and": true
+        }
+    ],
+    "id": "AdobeAIR"
+}

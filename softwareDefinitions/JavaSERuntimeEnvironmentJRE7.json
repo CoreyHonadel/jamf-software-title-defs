@@ -1,0 +1,862 @@
+{
+    "name": "Java SE Runtime Environment JRE 7",
+    "publisher": "Oracle",
+    "appName": null,
+    "bundleId": "com.oracle.jre",
+    "lastModified": "0000-00-00T00:00:00Z",
+    "currentVersion": "1.7.80",
+    "patches": [
+        {
+            "version": "1.7.80",
+            "releaseDate": "2015-04-14T19:56:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.3",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.oracle.jre",
+                "appName": "JavaAppletPlugin.plugin"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Java SE Runtime Environment JRE 7",
+                    "version": "1.7.80",
+                    "criteria": [
+                        {
+                            "name": "java-7-runtime",
+                            "operator": "like",
+                            "value": "1.7.80",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.3",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.7.79",
+            "releaseDate": "2015-03-14T08:18:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.3",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.oracle.jre",
+                "appName": "JavaAppletPlugin.plugin"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Java SE Runtime Environment JRE 7",
+                    "version": "1.7.79",
+                    "criteria": [
+                        {
+                            "name": "java-7-runtime",
+                            "operator": "like",
+                            "value": "1.7.79",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.3",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.7.76",
+            "releaseDate": "2015-01-20T20:22:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.3",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.oracle.jre",
+                "appName": "JavaAppletPlugin.plugin"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Java SE Runtime Environment JRE 7",
+                    "version": "1.7.76",
+                    "criteria": [
+                        {
+                            "name": "java-7-runtime",
+                            "operator": "like",
+                            "value": "1.7.76",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.3",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.7.75",
+            "releaseDate": "2015-01-05T18:56:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.3",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.oracle.jre",
+                "appName": "JavaAppletPlugin.plugin"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Java SE Runtime Environment JRE 7",
+                    "version": "1.7.75",
+                    "criteria": [
+                        {
+                            "name": "java-7-runtime",
+                            "operator": "like",
+                            "value": "1.7.75",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.3",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ]
+        },
+        {
+            "version": "1.7.72",
+            "releaseDate": "2014-10-14T10:32:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.3",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.oracle.jre",
+                "appName": "JavaAppletPlugin.plugin"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Java SE Runtime Environment JRE 7",
+                    "version": "1.7.72",
+                    "criteria": [
+                        {
+                            "name": "java-7-runtime",
+                            "operator": "like",
+                            "value": "1.7.72",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.3",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.7.71",
+            "releaseDate": "2014-09-14T09:11:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.3",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.oracle.jre",
+                "appName": "JavaAppletPlugin.plugin"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Java SE Runtime Environment JRE 7",
+                    "version": "1.7.71",
+                    "criteria": [
+                        {
+                            "name": "java-7-runtime",
+                            "operator": "like",
+                            "value": "1.7.71",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.3",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.7.67",
+            "releaseDate": "2014-08-04T08:43:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.3",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.oracle.jre",
+                "appName": "JavaAppletPlugin.plugin"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Java SE Runtime Environment JRE 7",
+                    "version": "1.7.67",
+                    "criteria": [
+                        {
+                            "name": "java-7-runtime",
+                            "operator": "like",
+                            "value": "1.7.67",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.3",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.7.65",
+            "releaseDate": "2014-07-15T07:33:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.3",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.oracle.jre",
+                "appName": "JavaAppletPlugin.plugin"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Java SE Runtime Environment JRE 7",
+                    "version": "1.7.65",
+                    "criteria": [
+                        {
+                            "name": "java-7-runtime",
+                            "operator": "like",
+                            "value": "1.7.65",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.3",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.7.60",
+            "releaseDate": "2014-05-28T16:23:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.3",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.oracle.jre",
+                "appName": "JavaAppletPlugin.plugin"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Java SE Runtime Environment JRE 7",
+                    "version": "1.7.60",
+                    "criteria": [
+                        {
+                            "name": "java-7-runtime",
+                            "operator": "like",
+                            "value": "1.7.60",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.3",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.7.55",
+            "releaseDate": "2014-04-15T09:23:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.3",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.oracle.jre",
+                "appName": "JavaAppletPlugin.plugin"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Java SE Runtime Environment JRE 7",
+                    "version": "1.7.55",
+                    "criteria": [
+                        {
+                            "name": "java-7-runtime",
+                            "operator": "like",
+                            "value": "1.7.55",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.3",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.7.51",
+            "releaseDate": "2014-01-14T08:22:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.3",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.oracle.jre",
+                "appName": "JavaAppletPlugin.plugin"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Java SE Runtime Environment JRE 7",
+                    "version": "1.7.51",
+                    "criteria": [
+                        {
+                            "name": "java-7-runtime",
+                            "operator": "like",
+                            "value": "1.7.51",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.3",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.7.45",
+            "releaseDate": "2013-10-15T07:32:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.3",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.oracle.jre",
+                "appName": "JavaAppletPlugin.plugin"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Java SE Runtime Environment JRE 7",
+                    "version": "1.7.45",
+                    "criteria": [
+                        {
+                            "name": "java-7-runtime",
+                            "operator": "like",
+                            "value": "1.7.45",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.3",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.7.40",
+            "releaseDate": "2013-09-10T07:54:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.3",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.oracle.jre",
+                "appName": "JavaAppletPlugin.plugin"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Java SE Runtime Environment JRE 7",
+                    "version": "1.7.40",
+                    "criteria": [
+                        {
+                            "name": "java-7-runtime",
+                            "operator": "like",
+                            "value": "1.7.40",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.3",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.7.25",
+            "releaseDate": "2013-06-18T17:29:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.3",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.oracle.jre",
+                "appName": "JavaAppletPlugin.plugin"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Java SE Runtime Environment JRE 7",
+                    "version": "1.7.25",
+                    "criteria": [
+                        {
+                            "name": "java-7-runtime",
+                            "operator": "like",
+                            "value": "1.7.25",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.3",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.7.21",
+            "releaseDate": "2013-04-16T13:22:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.3",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.oracle.jre",
+                "appName": "JavaAppletPlugin.plugin"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Java SE Runtime Environment JRE 7",
+                    "version": "1.7.21",
+                    "criteria": [
+                        {
+                            "name": "java-7-runtime",
+                            "operator": "like",
+                            "value": "1.7.21",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.3",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.7.17",
+            "releaseDate": "2013-03-04T07:54:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.3",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.oracle.jre",
+                "appName": "JavaAppletPlugin.plugin"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Java SE Runtime Environment JRE 7",
+                    "version": "1.7.17",
+                    "criteria": [
+                        {
+                            "name": "java-7-runtime",
+                            "operator": "like",
+                            "value": "1.7.17",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.3",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.7.15",
+            "releaseDate": "2013-02-19T06:21:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.3",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.oracle.jre",
+                "appName": "JavaAppletPlugin.plugin"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Java SE Runtime Environment JRE 7",
+                    "version": "1.7.15",
+                    "criteria": [
+                        {
+                            "name": "java-7-runtime",
+                            "operator": "like",
+                            "value": "1.7.15",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.3",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.7.13",
+            "releaseDate": "2013-02-01T08:33:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.3",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.oracle.jre",
+                "appName": "JavaAppletPlugin.plugin"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Java SE Runtime Environment JRE 7",
+                    "version": "1.7.13",
+                    "criteria": [
+                        {
+                            "name": "java-7-runtime",
+                            "operator": "like",
+                            "value": "1.7.13",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.3",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.7.11",
+            "releaseDate": "2013-01-13T07:55:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.3",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.oracle.jre",
+                "appName": "JavaAppletPlugin.plugin"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Java SE Runtime Environment JRE 7",
+                    "version": "1.7.11",
+                    "criteria": [
+                        {
+                            "name": "java-7-runtime",
+                            "operator": "like",
+                            "value": "1.7.11",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.3",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.7.10",
+            "releaseDate": "2012-12-11T07:22:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.3",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.oracle.jre",
+                "appName": "JavaAppletPlugin.plugin"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Java SE Runtime Environment JRE 7",
+                    "version": "1.7.10",
+                    "criteria": [
+                        {
+                            "name": "java-7-runtime",
+                            "operator": "like",
+                            "value": "1.7.10",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.3",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.7.09",
+            "releaseDate": "2012-10-16T07:34:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.3",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.oracle.jre",
+                "appName": "JavaAppletPlugin.plugin"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Java SE Runtime Environment JRE 7",
+                    "version": "1.7.09",
+                    "criteria": [
+                        {
+                            "name": "java-7-runtime",
+                            "operator": "like",
+                            "value": "1.7.09",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.3",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.7.07",
+            "releaseDate": "2012-08-30T11:31:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.3",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.oracle.jre",
+                "appName": "JavaAppletPlugin.plugin"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Java SE Runtime Environment JRE 7",
+                    "version": "1.7.07",
+                    "criteria": [
+                        {
+                            "name": "java-7-runtime",
+                            "operator": "like",
+                            "value": "1.7.07",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.3",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.7.06",
+            "releaseDate": "2012-08-14T12:19:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.3",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.oracle.jre",
+                "appName": "JavaAppletPlugin.plugin"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Java SE Runtime Environment JRE 7",
+                    "version": "1.7.06",
+                    "criteria": [
+                        {
+                            "name": "java-7-runtime",
+                            "operator": "like",
+                            "value": "1.7.06",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.3",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        }
+    ],
+    "extensionAttributes": [
+        {
+            "key": "java-7-runtime",
+            "value": "IyEvdXNyL2Jpbi9lbnYgYmFzaA0KIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjDQojIENvbGxlY3RzIGluZm9ybWF0aW9uIHRvIGRldGVybWluZSB3aGljaCB2ZXJzaW9uIG9mIHRoZSBKYXZhIHBsdWdpbiBpcyBpbnN0YWxsZWQgYW5kICMgDQojIHRoZW4gcmV0dXJuaW5nIHRoYXQgdmVyc2lvbiBiYWNrIGlmIG1ham9yIHZlcnNpb24gKDEuWCkgbWF0Y2ggd2hhdCB3ZSdyZSBzZWFyY2hpbmcgICMgDQojIGZvciB3aXRoIFNFQVJDSF9GT1JfVkVSU0lPTi4gQnVpbGRzIHRoZSByZXN1bHQgYXMgMS5YLlksIGlnbm9yaW5nIHRoZSBidWlsZCBudW1iZXIsICMNCiMgd2hlcmUgWCBpcyBtYWpvciB2ZXJzaW9uIGFuZCBZIGlzIHRoZSBtaW5vciB2ZXJzaW9uLgkJCQkJCQkJICAjCQ0KIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjDQpOT1RfSU5TVEFMTEVEPSJOb3QgSW5zdGFsbGVkIg0KU0VBUkNIX0ZPUl9WRVJTSU9OPSI3Ig0KUkVTVUxUPSIiDQoNCmlmIFsgLWYgIi9MaWJyYXJ5L0ludGVybmV0IFBsdWctSW5zL0phdmFBcHBsZXRQbHVnaW4ucGx1Z2luL0NvbnRlbnRzL0VuYWJsZWQucGxpc3QiIF0gOyB0aGVuDQoJUkVTVUxUPSQoIC91c3IvYmluL2RlZmF1bHRzIHJlYWQgIi9MaWJyYXJ5L0ludGVybmV0IFBsdWctSW5zL0phdmFBcHBsZXRQbHVnaW4ucGx1Z2luL0NvbnRlbnRzL0VuYWJsZWQucGxpc3QiIENGQnVuZGxlVmVyc2lvbiApDQoJUkVQT1JURURfTUFKT1JfVkVSU0lPTj1gZWNobyAiJFJFU1VMVCIgfCBhd2sgLUYnLicgJ3twcmludCAkMn0nYA0KCVJFUE9SVEVEX01JTk9SX1ZFUlNJT049YGVjaG8gIiRSRVNVTFQiIHwgYXdrIC1GJy4nICd7cHJpbnQgJDN9J2ANCglpZiBbICIkUkVQT1JURURfTUFKT1JfVkVSU0lPTiIgIT0gIiRTRUFSQ0hfRk9SX1ZFUlNJT04iIF0gOyB0aGVuDQoJCVJFU1VMVD0iJE5PVF9JTlNUQUxMRUQiDQoJZWxzZQ0KCQlSRVNVTFQ9MS4iJFJFUE9SVEVEX01BSk9SX1ZFUlNJT04iLiRSRVBPUlRFRF9NSU5PUl9WRVJTSU9ODQoJZmkNCmVsc2UNCglSRVNVTFQ9IiROT1RfSU5TVEFMTEVEIg0KZmkNCg0KZWNobyAiPHJlc3VsdD4kUkVTVUxUPC9yZXN1bHQ+Ig==",
+            "displayName": "Java SE Runtime Environment JRE 7"
+        }
+    ],
+    "requirements": [
+        {
+            "name": "java-7-runtime",
+            "operator": "is not",
+            "value": "Not Installed",
+            "type": "extensionAttribute",
+            "and": true
+        },
+        {
+            "name": "java-7-runtime",
+            "operator": "is not",
+            "value": "",
+            "type": "extensionAttribute",
+            "and": true 
+        }
+    ],
+    "id": "JavaSERuntimeEnvironmentJRE7"
+}

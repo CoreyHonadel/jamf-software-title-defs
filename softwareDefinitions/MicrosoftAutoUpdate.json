@@ -1,0 +1,642 @@
+{
+    "name": "Microsoft AutoUpdate",
+    "publisher": "Microsoft",
+    "appName": "AutoUpdate.app",
+    "bundleId": "com.microsoft.autoupdate2",
+    "lastModified": "0000-00-00T00:00:00Z",
+    "currentVersion": "3.11.17101000",
+    "requirements": [
+        {
+            "name": "auto-update2",
+            "operator": "is not",
+            "value": "Not Installed",
+            "type": "extensionAttribute",
+            "and": true
+        },
+        {
+            "name": "auto-update2",
+            "operator": "is not",
+            "value": "",
+            "type": "extensionAttribute",
+            "and": true
+        }
+    ],
+    "patches": [
+        {
+            "version": "3.11.17101000",
+            "releaseDate": "2017-10-10T20:02:15.266Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.autoupdate2",
+                    "appName": "AutoUpdate.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft AutoUpdate",
+                    "version": "3.11.17101000",
+                    "criteria": [
+                        {
+                            "name": "auto-update2",
+                            "operator": "is",
+                            "value": "3.11.17101000",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "3.9.17090200",
+            "releaseDate": "2017-09-12T16:00:36.821Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.autoupdate2",
+                    "appName": "AutoUpdate.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft AutoUpdate",
+                    "version": "3.9.17090200",
+                    "criteria": [
+                        {
+                            "name": "auto-update2",
+                            "operator": "is",
+                            "value": "3.9.17090200",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "3.9.17073100",
+            "releaseDate": "2017-08-15T14:00:53.649Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.autoupdate2",
+                    "appName": "AutoUpdate.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft AutoUpdate",
+                    "version": "3.9.17073100",
+                    "criteria": [
+                        {
+                            "name": "auto-update2",
+                            "operator": "is",
+                            "value": "3.9.17073100",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "3.9.17070200",
+            "releaseDate": "2017-07-11T13:23:53.649Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.autoupdate2",
+                    "appName": "AutoUpdate.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft AutoUpdate",
+                    "version": "3.9.17070200",
+                    "criteria": [
+                        {
+                            "name": "auto-update2",
+                            "operator": "is",
+                            "value": "3.9.17070200",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "3.9.17061000",
+            "releaseDate": "2017-06-22T10:20:53.649Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.autoupdate2",
+                    "appName": "AutoUpdate.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft AutoUpdate",
+                    "version": "3.9.17061000",
+                    "criteria": [
+                        {
+                            "name": "auto-update2",
+                            "operator": "is",
+                            "value": "3.9.17061000",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "3.9.17060300",
+            "releaseDate": "2017-06-13T18:05:53.649Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.autoupdate2",
+                    "appName": "AutoUpdate.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft AutoUpdate",
+                    "version": "3.9.17060300",
+                    "criteria": [
+                        {
+                            "name": "auto-update2",
+                            "operator": "is",
+                            "value": "3.9.17060300",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "3.9.17050900",
+            "releaseDate": "2017-05-09T08:18:00.813Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.autoupdate2",
+                    "appName": "AutoUpdate.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft AutoUpdate",
+                    "version": "3.9.17050900",
+                    "criteria": [
+                        {
+                            "name": "auto-update2",
+                            "operator": "is",
+                            "value": "3.9.17050900",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "3.9.17040900",
+            "releaseDate": "2017-04-09T10:00:00.813Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.autoupdate2",
+                    "appName": "AutoUpdate.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft AutoUpdate",
+                    "version": "3.9.17040900",
+                    "criteria": [
+                        {
+                            "name": "auto-update2",
+                            "operator": "is",
+                            "value": "3.9.17040900",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "3.8.17021600",
+            "releaseDate": "2017-02-16T07:31:00.813Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.autoupdate2",
+                    "appName": "AutoUpdate.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft AutoUpdate",
+                    "version": "3.8.17021600",
+                    "criteria": [
+                        {
+                            "name": "auto-update2",
+                            "operator": "is",
+                            "value": "3.8.17021600",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "3.8.17010400",
+            "releaseDate": "2017-01-04T12:20:00.813Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.autoupdate2",
+                    "appName": "AutoUpdate.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft AutoUpdate",
+                    "version": "3.8.17010400",
+                    "criteria": [
+                        {
+                            "name": "auto-update2",
+                            "operator": "is",
+                            "value": "3.8.17010400",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "3.8.16120900",
+            "releaseDate": "2016-12-13T08:40:00.813Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.autoupdate2",
+                    "appName": "AutoUpdate.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft AutoUpdate",
+                    "version": "3.8.16120900",
+                    "criteria": [
+                        {
+                            "name": "auto-update2",
+                            "operator": "is",
+                            "value": "3.8.16120900",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "3.8.16111001",
+            "releaseDate": "2016-11-15T10:21:00.813Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.autoupdate2",
+                    "appName": "AutoUpdate.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft AutoUpdate",
+                    "version": "3.8.16111001",
+                    "criteria": [
+                        {
+                            "name": "auto-update2",
+                            "operator": "is",
+                            "value": "3.8.16111001",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "3.6.16080300",
+            "releaseDate": "2016-08-22T15:11:00.813Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.autoupdate2",
+                    "appName": "AutoUpdate.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft AutoUpdate",
+                    "version": "3.6.16080300",
+                    "criteria": [
+                        {
+                            "name": "auto-update2",
+                            "operator": "is",
+                            "value": "3.6.16080300",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "3.5.16050600",
+            "releaseDate": "2016-05-10T16:30:00.813Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.autoupdate2",
+                    "appName": "AutoUpdate.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft AutoUpdate",
+                    "version": "3.5.16050600",
+                    "criteria": [
+                        {
+                            "name": "auto-update2",
+                            "operator": "is",
+                            "value": "3.5.16050600",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "3.4.16031500",
+            "releaseDate": "2016-04-12T11:20:00.813Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.autoupdate2",
+                    "appName": "AutoUpdate.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft AutoUpdate",
+                    "version": "3.4.16031500",
+                    "criteria": [
+                        {
+                            "name": "auto-update2",
+                            "operator": "is",
+                            "value": "3.4.16031500",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "3.4",
+            "releaseDate": "2016-01-05T08:12:00.813Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.autoupdate2",
+                    "appName": "AutoUpdate.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft AutoUpdate",
+                    "version": "3.4",
+                    "criteria": [
+                        {
+                            "name": "auto-update2",
+                            "operator": "is",
+                            "value": "3.4",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        }
+    ],
+    "extensionAttributes": [
+        {
+            "key": "auto-update2",
+            "value": "IyEvdXNyL2Jpbi9lbnYgYmFzaAojIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMKIyBBIHNjcmlwdCB0byBjb2xsZWN0IHRoZSB2ZXJzaW9uIG9mIE1pY3Jvc29mdCBBdXRvVXBkYXRlIHRoYXQgaXMgY3VycmVudGx5IGluc3RhbGxlZC4gICAjCiMgSWYgTWljcm9zb2Z0IEF1dG9VcGRhdGUgaXMgbm90IGluc3RhbGxlZCwgIk5vdCBJbnN0YWxsZWQiIHdpbGwgYmUgcmV0dXJuZWQgdG8gdGhlIEpTUy4gIwojIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMKUkVTVUxUPSJOb3QgSW5zdGFsbGVkIgoKCmlmIFsgLWYgIi9MaWJyYXJ5L0FwcGxpY2F0aW9uIFN1cHBvcnQvTWljcm9zb2Z0L01BVTIuMC9NaWNyb3NvZnQgQXV0b1VwZGF0ZS5hcHAvQ29udGVudHMvSW5mby5wbGlzdCIgXSA7IHRoZW4KCVJFU1VMVD0kKCAvdXNyL2Jpbi9kZWZhdWx0cyByZWFkICIvTGlicmFyeS9BcHBsaWNhdGlvbiBTdXBwb3J0L01pY3Jvc29mdC9NQVUyLjAvTWljcm9zb2Z0IEF1dG9VcGRhdGUuYXBwL0NvbnRlbnRzL0luZm8ucGxpc3QiIENGQnVuZGxlVmVyc2lvbiApCmZpCgplY2hvICI8cmVzdWx0PiRSRVNVTFQ8L3Jlc3VsdD4i",
+            "displayName": "Microsoft AutoUpdate"
+        }
+    ],
+    "id": "MicrosoftAutoUpdate"
+}

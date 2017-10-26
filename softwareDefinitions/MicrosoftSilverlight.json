@@ -1,0 +1,610 @@
+{
+    "name": "Microsoft Silverlight",
+    "publisher": "Microsoft",
+    "appName": "Silverlight.Plugin",
+    "bundleId": "com.microsoft.SilverlightPlugin",
+    "lastModified": "0000-00-00T00:00:00Z",
+    "currentVersion": "5.1.50901.0",
+    "patches": [
+        {
+            "version": "5.1.50901.0",
+            "releaseDate": "2016-10-13T08:00:24.493Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.SilverlightPlugin",
+                    "appName": "Silverlight.Plugin"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft Silverlight",
+                    "version": "5.1.50901.0",
+                    "criteria": [
+                        {
+                            "name": "silverlight",
+                            "operator": "is",
+                            "value": "5.1.50901.0",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "5.1.50709.0",
+            "releaseDate": "2016-09-13T18:00:24.493Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.SilverlightPlugin",
+                    "appName": "Silverlight.Plugin"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft Silverlight",
+                    "version": "5.1.50709.0",
+                    "criteria": [
+                        {
+                            "name": "silverlight",
+                            "operator": "is",
+                            "value": "5.1.50709.0",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "5.1.50428.0",
+            "releaseDate": "2016-06-24T09:24:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.SilverlightPlugin",
+                    "appName": "Silverlight.Plugin"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft Silverlight",
+                    "version": "5.1.50428.0",
+                    "criteria": [
+                        {
+                            "name": "silverlight",
+                            "operator": "is",
+                            "value": "5.1.50428.0",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "5.1.41212.0",
+            "releaseDate": "2016-01-12T07:14:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.SilverlightPlugin",
+                    "appName": "Silverlight.Plugin"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft Silverlight",
+                    "version": "5.1.41212.0",
+                    "criteria": [
+                        {
+                            "name": "silverlight",
+                            "operator": "is",
+                            "value": "5.1.41212.0",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "5.1.41105.0",
+            "releaseDate": "2015-12-08T14:22:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.SilverlightPlugin",
+                    "appName": "Silverlight.Plugin"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft Silverlight",
+                    "version": "5.1.41105.0",
+                    "criteria": [
+                        {
+                            "name": "silverlight",
+                            "operator": "is",
+                            "value": "5.1.41105.0",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "5.1.40905.0",
+            "releaseDate": "2015-08-11T08:23:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.SilverlightPlugin",
+                    "appName": "Silverlight.Plugin"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft Silverlight",
+                    "version": "5.1.40905.0",
+                    "criteria": [
+                        {
+                            "name": "silverlight",
+                            "operator": "is",
+                            "value": "5.1.40905.0",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "5.1.40904.0",
+            "releaseDate": "2015-07-11T09:30:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.SilverlightPlugin",
+                    "appName": "Silverlight.Plugin"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft Silverlight",
+                    "version": "5.1.40904.0",
+                    "criteria": [
+                        {
+                            "name": "silverlight",
+                            "operator": "is",
+                            "value": "5.1.40904.0",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "5.1.40728.0",
+            "releaseDate": "2015-06-11T07:45:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.SilverlightPlugin",
+                    "appName": "Silverlight.Plugin"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft Silverlight",
+                    "version": "5.1.40728.0",
+                    "criteria": [
+                        {
+                            "name": "silverlight",
+                            "operator": "is",
+                            "value": "5.1.40728.0",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "5.1.40416.0",
+            "releaseDate": "2015-05-12T07:33:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.SilverlightPlugin",
+                    "appName": "Silverlight.Plugin"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft Silverlight",
+                    "version": "5.1.40416.0",
+                    "criteria": [
+                        {
+                            "name": "silverlight",
+                            "operator": "is",
+                            "value": "5.1.40416.0",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "5.1.30514.0",
+            "releaseDate": "2014-07-14T20:20:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.SilverlightPlugin",
+                    "appName": "Silverlight.Plugin"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft Silverlight",
+                    "version": "5.1.30514.0",
+                    "criteria": [
+                        {
+                            "name": "silverlight",
+                            "operator": "is",
+                            "value": "5.1.30514.0",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "5.1.30214.0",
+            "releaseDate": "2014-03-11T09:56:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.SilverlightPlugin",
+                    "appName": "Silverlight.Plugin"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft Silverlight",
+                    "version": "5.1.30214.0",
+                    "criteria": [
+                        {
+                            "name": "silverlight",
+                            "operator": "is",
+                            "value": "5.1.30214.0",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "5.1.20913.0",
+            "releaseDate": "2013-10-08T08:40:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.SilverlightPlugin",
+                    "appName": "Silverlight.Plugin"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft Silverlight",
+                    "version": "5.1.20913.0",
+                    "criteria": [
+                        {
+                            "name": "silverlight",
+                            "operator": "is",
+                            "value": "5.1.20913.0",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "5.1.20513.0",
+            "releaseDate": "2013-07-09T07:39:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.SilverlightPlugin",
+                    "appName": "Silverlight.Plugin"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft Silverlight",
+                    "version": "5.1.20513.0",
+                    "criteria": [
+                        {
+                            "name": "silverlight",
+                            "operator": "is",
+                            "value": "5.1.20513.0",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "5.1.20125.0",
+            "releaseDate": "2013-03-12T09:25:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.SilverlightPlugin",
+                    "appName": "Silverlight.Plugin"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft Silverlight",
+                    "version": "5.1.20125.0",
+                    "criteria": [
+                        {
+                            "name": "silverlight",
+                            "operator": "is",
+                            "value": "5.1.20125.0",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "5.1.10411.0",
+            "releaseDate": "2012-05-08T10:05:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.SilverlightPlugin",
+                    "appName": "Silverlight.Plugin"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft Silverlight",
+                    "version": "5.1.10411.0",
+                    "criteria": [
+                        {
+                            "name": "silverlight",
+                            "operator": "is",
+                            "value": "5.1.10411.0",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "5.1.61118.0",
+            "releaseDate": "2011-12-09T11:19:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.SilverlightPlugin",
+                    "appName": "Silverlight.Plugin"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft Silverlight",
+                    "version": "5.1.61118.0",
+                    "criteria": [
+                        {
+                            "name": "silverlight",
+                            "operator": "is",
+                            "value": "5.1.61118.0",
+                            "type": "extensionAttribute"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        }
+    ],
+    "extensionAttributes": [
+        {
+            "key": "silverlight",
+            "value": "IyEvdXNyL2Jpbi9lbnYgYmFzaA0KIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjDQojIEEgc2NyaXB0IHRvIGNvbGxlY3QgdGhlIHZlcnNpb24gb2YgU2lsdmVybGlnaHQgY3VycmVudGx5IGluc3RhbGxlZC4gICAgICAgICMNCiMgSWYgU2lsdmVybGlnaHQgaXMgbm90IGluc3RhbGxlZCAiTm90IEluc3RhbGxlZCIgd2lsbCByZXR1cm4gYmFjayAgICAgICAgICAgIw0KIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjDQpSRVNVTFQ9Ik5vdCBJbnN0YWxsZWQiDQoNCmlmIFsgLWYgIi9MaWJyYXJ5L0ludGVybmV0IFBsdWctSW5zL1NpbHZlcmxpZ2h0LnBsdWdpbi9Db250ZW50cy9JbmZvLnBsaXN0IiBdIDsgdGhlbg0KCVJFU1VMVD0kKCAvdXNyL2Jpbi9kZWZhdWx0cyByZWFkICIvTGlicmFyeS9JbnRlcm5ldCBQbHVnLUlucy9TaWx2ZXJsaWdodC5wbHVnaW4vQ29udGVudHMvSW5mby5wbGlzdCIgQ0ZCdW5kbGVWZXJzaW9uICkNCmZpDQoNCmVjaG8gIjxyZXN1bHQ+JFJFU1VMVDwvcmVzdWx0PiI=",
+            "displayName": "Silverlight"
+        }
+    ],
+    "requirements": [
+        {
+            "name": "silverlight",
+            "operator": "is not",
+            "value": "Not Installed",
+            "type": "extensionAttribute",
+            "and": true
+        },
+        {
+            "name": "silverlight",
+            "operator": "is not",
+            "value": "",
+            "type": "extensionAttribute",
+            "and": true
+        }
+    ],
+    "id": "MicrosoftSilverlight"
+}

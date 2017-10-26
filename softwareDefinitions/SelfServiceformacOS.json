@@ -1,0 +1,365 @@
+{
+    "name": "Self Service for macOS",
+    "publisher": "Jamf",
+    "appName": "Self Service.app",
+    "bundleId": "com.jamfsoftware.selfservice",
+    "lastModified": "0000-00-00T00:00:00Z",
+    "currentVersion": "9.101.0",
+    "requirements": [
+        {
+            "name": "Application Bundle ID",
+            "operator": "is",
+            "value": "com.jamfsoftware.selfservice",
+            "type": "recon",
+            "and": true
+        }
+    ],
+    "patches": [
+        {
+            "version": "9.101.0",
+            "releaseDate": "2017-9-12T14:19:38.270Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.jamfsoftware.selfservice",
+                    "appName": "Self Service.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Self Service",
+                    "version": "9.101.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.jamfsoftware.selfservice",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "9.101.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.100.0",
+            "releaseDate": "2017-7-20T16:54:29.814Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.jamfsoftware.selfservice",
+                    "appName": "Self Service.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Self Service",
+                    "version": "9.100.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.jamfsoftware.selfservice",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "9.100.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+                {
+            "version": "9.99.0",
+            "releaseDate": "2017-05-23T18:09:29.814Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.jamfsoftware.selfservice",
+                    "appName": "Self Service.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Self Service",
+                    "version": "9.99.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.jamfsoftware.selfservice",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "9.99.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+                        {
+            "version": "9.98",
+            "releaseDate": "2017-03-22T12:00:00.814Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.jamfsoftware.selfservice",
+                    "appName": "Self Service.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Self Service",
+                    "version": "9.98",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.jamfsoftware.selfservice",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "9.98",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+         },
+                        {
+            "version": "9.97.1488392992",
+            "releaseDate": "2017-03-6T12:00:00.814Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.jamfsoftware.selfservice",
+                    "appName": "Self Service.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Self Service",
+                    "version": "9.97.1488392992",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.jamfsoftware.selfservice",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "9.97.1488392992",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+         },
+                        {
+            "version": "9.97.1482356336",
+            "releaseDate": "2017-03-3T12:00:00.814Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.jamfsoftware.selfservice",
+                    "appName": "Self Service.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Self Service",
+                    "version": "9.97.1482356336",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.jamfsoftware.selfservice",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "9.97.1482356336",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+                        {
+            "version": "9.97",
+            "releaseDate": "2017-03-3T04:00:00.814Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.jamfsoftware.selfservice",
+                    "appName": "Self Service.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Self Service",
+                    "version": "9.97",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.jamfsoftware.selfservice",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "9.97",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+               },
+                        {
+            "version": "9.96",
+            "releaseDate": "2016-08-25T12:00:00.814Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.jamfsoftware.selfservice",
+                    "appName": "Self Service.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Self Service",
+                    "version": "9.96",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.jamfsoftware.selfservice",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "9.96",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        }
+    ],
+    "extensionAttributes": [],
+    "id": "SelfServiceformacOS"
+}

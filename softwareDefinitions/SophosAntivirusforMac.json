@@ -1,0 +1,892 @@
+{
+    "name": "Sophos Antivirus for Mac",
+    "publisher": "Sophos Ltd",
+    "appName": "Sophos Anti-Virus.app",
+    "bundleId": "com.sophos.macendpoint.Sophos-Anti-Virus",
+    "lastModified": "0000-00-00T00:00:00Z",
+    "currentVersion": "9.6.5",
+    "patches": [
+        {
+            "version": "9.6.5",
+            "releaseDate": "2017-10-04T11:48:35.746Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Sophos Antivirus for Mac",
+                    "version": "9.6.5",
+                    "criteria": [
+                        {
+                            "name": "sophos-anti-virus",
+                            "operator": "is",
+                            "value": "9.6.5",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.6.4",
+            "releaseDate": "2017-09-19T16:14:35.746Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Sophos Antivirus for Mac",
+                    "version": "9.6.4",
+                    "criteria": [
+                        {
+                            "name": "sophos-anti-virus",
+                            "operator": "is",
+                            "value": "9.6.4",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.6.3",
+            "releaseDate": "2017-06-20T09:27:21.592Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Sophos Antivirus for Mac",
+                    "version": "9.6.3",
+                    "criteria": [
+                        {
+                            "name": "sophos-anti-virus",
+                            "operator": "is",
+                            "value": "9.6.3",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.6.2",
+            "releaseDate": "2017-02-23T08:49:21.592Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Sophos Antivirus for Mac",
+                    "version": "9.6.2",
+                    "criteria": [
+                        {
+                            "name": "sophos-anti-virus",
+                            "operator": "is",
+                            "value": "9.6.2",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.6.1",
+            "releaseDate": "2017-01-26T07:43:21.592Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Sophos Antivirus for Mac",
+                    "version": "9.6.1",
+                    "criteria": [
+                        {
+                            "name": "sophos-anti-virus",
+                            "operator": "is",
+                            "value": "9.6.1",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.6.0",
+            "releaseDate": "2016-12-16T00:00:21.592Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Sophos Antivirus for Mac",
+                    "version": "9.6.0",
+                    "criteria": [
+                        {
+                            "name": "sophos-anti-virus",
+                            "operator": "is",
+                            "value": "9.6.0",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.5.5",
+            "releaseDate": "2017-01-24T17:01:26.391Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Sophos Antivirus for Mac",
+                    "version": "9.5.5",
+                    "criteria": [
+                        {
+                            "name": "sophos-anti-virus",
+                            "operator": "is",
+                            "value": "9.5.5",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.5.4",
+            "releaseDate": "2016-11-15T13:00:21.592Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Sophos Antivirus for Mac",
+                    "version": "9.5.4",
+                    "criteria": [
+                        {
+                            "name": "sophos-anti-virus",
+                            "operator": "is",
+                            "value": "9.5.4",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.5.3",
+            "releaseDate": "2016-11-14T08:03:40Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Sophos Antivirus for Mac",
+                    "version": "9.5.3",
+                    "criteria": [
+                        {
+                            "name": "sophos-anti-virus",
+                            "operator": "is",
+                            "value": "9.5.3",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.5.2",
+            "releaseDate": "2016-08-31T12:03:40Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Sophos Antivirus for Mac",
+                    "version": "9.5.2",
+                    "criteria": [
+                        {
+                            "name": "sophos-anti-virus",
+                            "operator": "is",
+                            "value": "9.5.2",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.5.0",
+            "releaseDate": "2016-06-14T10:03:40Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Sophos Antivirus for Mac",
+                    "version": "9.5.0",
+                    "criteria": [
+                        {
+                            "name": "sophos-anti-virus",
+                            "operator": "is",
+                            "value": "9.5.0",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.4.3",
+            "releaseDate": "2016-05-10T13:30:40Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Sophos Antivirus for Mac",
+                    "version": "9.4.3",
+                    "criteria": [
+                        {
+                            "name": "sophos-anti-virus",
+                            "operator": "is",
+                            "value": "9.4.3",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.2.10",
+            "releaseDate": "2016-02-25T15:09:40Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Sophos Antivirus for Mac",
+                    "version": "9.2.10",
+                    "criteria": [
+                        {
+                            "name": "sophos-anti-virus",
+                            "operator": "is",
+                            "value": "9.2.10",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.4.2",
+            "releaseDate": "2016-01-24T07:40:40Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Sophos Antivirus for Mac",
+                    "version": "9.4.2",
+                    "criteria": [
+                        {
+                            "name": "sophos-anti-virus",
+                            "operator": "is",
+                            "value": "9.4.2",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.2.9",
+            "releaseDate": "2016-01-25T13:01:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Sophos Antivirus for Mac",
+                    "version": "9.2.9",
+                    "criteria": [
+                        {
+                            "name": "sophos-anti-virus",
+                            "operator": "is",
+                            "value": "9.2.9",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.4.1",
+            "releaseDate": "2015-11-11T08:45:40Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Sophos Antivirus for Mac",
+                    "version": "9.4.1",
+                    "criteria": [
+                        {
+                            "name": "sophos-anti-virus",
+                            "operator": "is",
+                            "value": "9.4.1",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.4.0",
+            "releaseDate": "2015-09-23T11:34:40Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Sophos Antivirus for Mac",
+                    "version": "9.4.0",
+                    "criteria": [
+                        {
+                            "name": "sophos-anti-virus",
+                            "operator": "is",
+                            "value": "9.4.0",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.2.8",
+            "releaseDate": "2015-09-12T08:11:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Sophos Antivirus for Mac",
+                    "version": "9.2.8",
+                    "criteria": [
+                        {
+                            "name": "sophos-anti-virus",
+                            "operator": "is",
+                            "value": "9.2.8",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.2.7",
+            "releaseDate": "2015-06-20T09:22:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Sophos Antivirus for Mac",
+                    "version": "9.2.7",
+                    "criteria": [
+                        {
+                            "name": "sophos-anti-virus",
+                            "operator": "is",
+                            "value": "9.2.7",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.2.4",
+            "releaseDate": "2015-04-20T08:21:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Sophos Antivirus for Mac",
+                    "version": "9.2.4",
+                    "criteria": [
+                        {
+                            "name": "sophos-anti-virus",
+                            "operator": "is",
+                            "value": "9.2.4",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.2.2",
+            "releaseDate": "2014-10-20T13:33:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Sophos Antivirus for Mac",
+                    "version": "9.2.2",
+                    "criteria": [
+                        {
+                            "name": "sophos-anti-virus",
+                            "operator": "is",
+                            "value": "9.2.2",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.1.8",
+            "releaseDate": "2014-10-15T08:54:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Sophos Antivirus for Mac",
+                    "version": "9.1.8",
+                    "criteria": [
+                        {
+                            "name": "sophos-anti-virus",
+                            "operator": "is",
+                            "value": "9.1.8",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.1.7",
+            "releaseDate": "2014-09-20T07:21:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Sophos Antivirus for Mac",
+                    "version": "9.1.7",
+                    "criteria": [
+                        {
+                            "name": "sophos-anti-virus",
+                            "operator": "is",
+                            "value": "9.1.7",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.1.6",
+            "releaseDate": "2014-08-20T11:31:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Sophos Antivirus for Mac",
+                    "version": "9.1.6",
+                    "criteria": [
+                        {
+                            "name": "sophos-anti-virus",
+                            "operator": "is",
+                            "value": "9.1.6",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.1.5",
+            "releaseDate": "2014-07-20T10:22:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Sophos Antivirus for Mac",
+                    "version": "9.1.5",
+                    "criteria": [
+                        {
+                            "name": "sophos-anti-virus",
+                            "operator": "is",
+                            "value": "9.1.5",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.1.4",
+            "releaseDate": "2014-04-20T08:43:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Sophos Antivirus for Mac",
+                    "version": "9.1.4",
+                    "criteria": [
+                        {
+                            "name": "sophos-anti-virus",
+                            "operator": "is",
+                            "value": "9.1.4",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        }
+    ],
+    "extensionAttributes": [
+        {
+            "key": "sophos-anti-virus",
+            "value": "IyEvdXNyL2Jpbi9lbnYgYmFzaA0KIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMNCiMgQSBzY3JpcHQgdG8gY29sbGVjdCB0aGUgdmVyc2lvbiBvZiBTb3Bob3MgQW50aS1WaXJ1cyBpcyBjdXJyZW50bHkgaW5zdGFsbGVkLiAjDQojIElmIFNvcGhvcyBpcyBub3QgaW5zdGFsbGVkICJOb3QgSW5zdGFsbGVkIiB3aWxsIHJldHVybiBiYWNrICAgICAgICAgICAgICAgICAgIw0KIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMNCg0KUkVTVUxUPSJOb3QgSW5zdGFsbGVkIg0KDQppZiBbIC1kIC9BcHBsaWNhdGlvbnMvU29waG9zXCBBbnRpLVZpcnVzLmFwcCBdOyB0aGVuDQpSRVNVTFQ9JCggL3Vzci9iaW4vZGVmYXVsdHMgcmVhZCAvTGlicmFyeS9Tb3Bob3NcIEFudGktVmlydXMvcHJvZHVjdC1pbmZvIFByb2R1Y3RWZXJzaW9uKQ0KZmkNCg0KZWNobyAiPHJlc3VsdD4kUkVTVUxUPC9yZXN1bHQ+Ig==",
+            "displayName": "Sophos AntiVirus for Mac"
+        }
+    ],
+    "requirements": [
+        {
+            "name": "sophos-anti-virus",
+            "operator": "is not",
+            "value": "Not Installed",
+            "type": "extensionAttribute",
+            "and": true
+        },
+        {
+            "name": "sophos-anti-virus",
+            "operator": "is not",
+            "value": "",
+            "type": "extensionAttribute",
+            "and": true
+        }
+    ],
+    "id": "SophosAntivirusforMac"
+}

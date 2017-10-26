@@ -1,10 +1,10 @@
 {
-    "name": "GitHub Google Chrome",
+    "name": "Google Chrome",
     "publisher": "Google",
     "appName": "Google Chrome.app",
     "bundleId": "com.google.Chrome",
-    "lastModified": "2017-02-02T01:00:26Z",
-    "currentVersion": "56.0.2924.87",
+    "lastModified": "0000-00-00T00:00:00Z",
+    "currentVersion": "62.0.3202.62",
     "requirements": [
         {
             "name": "Application Bundle ID",
@@ -15,6 +15,816 @@
         }
     ],
     "patches": [
+        {
+            "version": "62.0.3202.62",
+            "releaseDate": "2017-10-17T22:00:09.049Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.google.Chrome",
+                    "appName": "Google Chrome.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Google Chrome",
+                    "version": "62.0.3202.62",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.google.Chrome",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "62.0.3202.62",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "61.0.3163.100",
+            "releaseDate": "2017-09-21T22:00:11.730Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.google.Chrome",
+                    "appName": "Google Chrome.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Google Chrome",
+                    "version": "61.0.3163.100",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.google.Chrome",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "61.0.3163.100",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "61.0.3163.91",
+            "releaseDate": "2017-09-14T20:00:49.446Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.google.Chrome",
+                    "appName": "Google Chrome.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Google Chrome",
+                    "version": "61.0.3163.91",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.google.Chrome",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "61.0.3163.91",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "61.0.3163.79",
+            "releaseDate": "2017-09-05T20:01:23.155Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.google.Chrome",
+                    "appName": "Google Chrome.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Google Chrome",
+                    "version": "61.0.3163.79",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.google.Chrome",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "61.0.3163.79",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "60.0.3112.113",
+            "releaseDate": "2017-08-24T18:00:37.264Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.google.Chrome",
+                    "appName": "Google Chrome.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Google Chrome",
+                    "version": "60.0.3112.113",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.google.Chrome",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "60.0.3112.113",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "60.0.3112.101",
+            "releaseDate": "2017-08-14T15:46:22.436Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.google.Chrome",
+                    "appName": "Google Chrome.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Google Chrome",
+                    "version": "60.0.3112.101",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.google.Chrome",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "60.0.3112.101",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "60.0.3112.90",
+            "releaseDate": "2017-08-03T09:28:22.436Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.google.Chrome",
+                    "appName": "Google Chrome.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Google Chrome",
+                    "version": "60.0.3112.90",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.google.Chrome",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "60.0.3112.90",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "60.0.3112.78",
+            "releaseDate": "2017-07-25T14:19:22.436Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.google.Chrome",
+                    "appName": "Google Chrome.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Google Chrome",
+                    "version": "60.0.3112.78",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.google.Chrome",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "60.0.3112.78",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "59.0.3071.115",
+            "releaseDate": "2017-06-24T14:34:22.436Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.google.Chrome",
+                    "appName": "Google Chrome.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Google Chrome",
+                    "version": "59.0.3071.115",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.google.Chrome",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "59.0.3071.115",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "59.0.3071.109",
+            "releaseDate": "2017-06-21T09:14:22.436Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.google.Chrome",
+                    "appName": "Google Chrome.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Google Chrome",
+                    "version": "59.0.3071.109",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.google.Chrome",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "59.0.3071.109",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "59.0.3071.104",
+            "releaseDate": "2017-06-15T19:28:22.436Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.google.Chrome",
+                    "appName": "Google Chrome.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Google Chrome",
+                    "version": "59.0.3071.104",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.google.Chrome",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "59.0.3071.104",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "59.0.3071.86",
+            "releaseDate": "2017-06-05T22:00:50.688Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.google.Chrome",
+                    "appName": "Google Chrome.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Google Chrome",
+                    "version": "59.0.3071.86",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.google.Chrome",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "59.0.3071.86",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "58.0.3029.110",
+            "releaseDate": "2017-05-09T18:00:38.270Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.google.Chrome",
+                    "appName": "Google Chrome.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Google Chrome",
+                    "version": "58.0.3029.110",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.google.Chrome",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "58.0.3029.110",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "58.0.3029.96",
+            "releaseDate": "2017-05-02T18:00:29.814Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.google.Chrome",
+                    "appName": "Google Chrome.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Google Chrome",
+                    "version": "58.0.3029.96",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.google.Chrome",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "58.0.3029.96",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "58.0.3029.81",
+            "releaseDate": "2017-04-19T20:01:33.526Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.google.Chrome",
+                    "appName": "Google Chrome.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Google Chrome",
+                    "version": "58.0.3029.81",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.google.Chrome",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "58.0.3029.81",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "57.0.2987.133",
+            "releaseDate": "2017-03-29T19:39:33.243Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.google.Chrome",
+                    "appName": "Google Chrome.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Google Chrome",
+                    "version": "57.0.2987.133",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.google.Chrome",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "57.0.2987.133",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "57.0.2987.110",
+            "releaseDate": "2017-03-16T20:00:31.374Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.google.Chrome",
+                    "appName": "Google Chrome.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Google Chrome",
+                    "version": "57.0.2987.110",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.google.Chrome",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "57.0.2987.110",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "57.0.2987.98",
+            "releaseDate": "2017-03-09T21:14:36.255Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.google.Chrome",
+                    "appName": "Google Chrome.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Google Chrome",
+                    "version": "57.0.2987.98",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.google.Chrome",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "57.0.2987.98",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
         {
             "version": "56.0.2924.87",
             "releaseDate": "2017-02-02T01:00:26.648Z",
@@ -36,13 +846,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "56.0.2924.87",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -52,7 +864,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.9",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -78,13 +891,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "56.0.2924.76",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -94,7 +909,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.9",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -120,13 +936,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "55.0.2883.95",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -136,7 +954,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.9",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -162,13 +981,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "55.0.2883.87",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -178,7 +999,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.9",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -204,13 +1026,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "55.0.2883.75",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -220,7 +1044,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.9",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -246,13 +1071,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "54.0.2840.98",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -262,7 +1089,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.9",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -288,13 +1116,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "54.0.2840.87",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -304,7 +1134,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.9",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -330,13 +1161,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "54.0.2840.71",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -346,7 +1179,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.9",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -372,13 +1206,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "54.0.2840.59",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -388,7 +1224,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.9",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -414,13 +1251,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "53.0.2785.143",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -430,7 +1269,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.9",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -456,13 +1296,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "53.0.2785.116",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -472,7 +1314,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.9",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -498,13 +1341,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "53.0.2785.113",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -514,7 +1359,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.9",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -540,13 +1386,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "53.0.2785.101",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -556,7 +1404,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.9",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -582,13 +1431,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "53.0.2785.89",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -598,7 +1449,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.9",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -624,13 +1476,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "52.0.2743.116",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -640,7 +1494,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.9",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -666,13 +1521,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "52.0.2743.82",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -682,7 +1539,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.9",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -708,13 +1566,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "51.0.2704.106",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -724,7 +1584,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.9",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -750,13 +1611,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "51.0.2704.103",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -766,7 +1629,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.9",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -792,13 +1656,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "51.0.2704.84",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -808,7 +1674,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.9",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -834,13 +1701,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "51.0.2704.79",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -850,7 +1719,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.9",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -876,13 +1746,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "51.0.2704.63",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -892,7 +1764,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.9",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -918,13 +1791,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "50.0.2661.102",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -934,7 +1809,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.9",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -960,13 +1836,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "50.0.2661.94",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -976,7 +1854,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.9",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -1002,13 +1881,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "50.0.2661.86",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -1018,7 +1899,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.9",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -1044,13 +1926,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "50.0.2661.75",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -1060,7 +1944,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.9",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -1086,13 +1971,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "49.0.2623.112",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -1102,7 +1989,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.6",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -1128,13 +2016,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "49.0.2623.110",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -1144,7 +2034,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.6",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -1170,13 +2061,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "49.0.2623.108",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -1186,7 +2079,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.6",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -1212,13 +2106,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "49.0.2623.87",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -1228,7 +2124,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.6",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -1254,13 +2151,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "49.0.2623.75",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -1270,7 +2169,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.6",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -1296,13 +2196,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "48.0.2564.116",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -1312,7 +2214,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.6",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -1338,13 +2241,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "48.0.2564.109",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -1354,7 +2259,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.6",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -1380,13 +2286,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "48.0.2564.103",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -1396,7 +2304,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.6",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -1422,13 +2331,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "48.0.2564.97",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -1438,7 +2349,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.6",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -1464,13 +2376,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "48.0.2564.82",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -1480,7 +2394,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.6",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -1506,13 +2421,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "47.0.2526.111",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -1522,7 +2439,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.6",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -1548,13 +2466,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "47.0.2526.106",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -1564,7 +2484,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.6",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -1590,13 +2511,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "47.0.2526.80",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -1606,7 +2529,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.6",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -1632,13 +2556,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "47.0.2526.73",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -1648,7 +2574,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.6",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -1674,13 +2601,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "46.0.2490.86",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -1690,7 +2619,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.6",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -1716,13 +2646,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "46.0.2490.80",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -1732,7 +2664,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.6",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -1758,13 +2691,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "46.0.2490.71",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -1774,7 +2709,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.6",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -1800,13 +2736,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "45.0.2454.101",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -1816,7 +2754,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.6",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -1842,13 +2781,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "45.0.2454.99",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -1858,7 +2799,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.6",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -1884,13 +2826,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "45.0.2454.93",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -1900,7 +2844,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.6",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -1926,13 +2871,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "45.0.2454.86",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -1942,7 +2889,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.6",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -1968,13 +2916,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "45.0.2454.85",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -1984,7 +2934,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.6",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -2010,13 +2961,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "43.0.2357.130",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -2026,7 +2979,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.6",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ]
         },
@@ -2051,13 +3005,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "43.0.2357.124",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -2067,7 +3023,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.6",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ]
         },
@@ -2092,13 +3049,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "43.0.2357.81",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -2108,7 +3067,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.6",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -2134,13 +3094,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "43.0.2357.65",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -2150,7 +3112,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.6",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -2176,13 +3139,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "43.0.2311.152",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -2192,7 +3157,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.3",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -2218,13 +3184,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "43.0.2311.135",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -2234,7 +3202,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.3",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -2260,13 +3229,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "43.0.2311.90",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -2276,7 +3247,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.3",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -2302,13 +3274,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "43.0.2272.118",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -2318,7 +3292,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.3",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -2344,13 +3319,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "43.0.2272.104",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -2360,7 +3337,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.3",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -2386,13 +3364,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "43.0.2272.101",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -2402,7 +3382,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.3",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -2428,13 +3409,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "43.0.2272.89",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -2444,7 +3427,8 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.3",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
@@ -2470,13 +3454,15 @@
                             "name": "Application Bundle ID",
                             "operator": "is",
                             "value": "com.google.Chrome",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "43.0.2272.76",
-                            "type": "recon"
+                            "type": "recon",
+                            "and": true
                         }
                     ]
                 }
@@ -2486,12 +3472,13 @@
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.3",
-                    "type": "recon"
+                    "type": "recon",
+                    "and": true
                 }
             ],
             "dependencies": []
         }
     ],
     "extensionAttributes": [],
-    "id": "GitGoogleChrome"
+    "id": "GoogleChrome"
 }

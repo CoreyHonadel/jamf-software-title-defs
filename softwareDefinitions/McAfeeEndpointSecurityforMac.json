@@ -1,0 +1,337 @@
+{
+    "name": "McAfee Endpoint Security for Mac",
+    "publisher": "Intel",
+    "appName": "McAfee Endpoint Security for Mac.app",
+    "bundleId": "com.mcafee.console",
+    "lastModified": "0000-00-00T00:00:00Z",
+    "currentVersion": "10.2.3",
+    "requirements":[
+        {
+            "name": "Application Bundle ID",
+            "operator": "is",
+            "value": "com.mcafee.console",
+            "type": "recon",
+            "and": true
+            
+        }
+            ],
+    "patches": [
+      {
+        "version": "10.2.3",
+        "releaseDate": "2017-10-09T10:24:12Z",
+        "standalone": true,
+        "minimumOperatingSystem": "10.10",
+        "reboot": false,
+        "killApps": [
+          {
+            "bundleId": "com.mcafee.console",
+            "appName": "McAfee Endpoint Security for Mac.app"
+          }
+        ],
+        "components": [
+          {
+            "name": "McAfee Endpoint Security for Mac",
+            "version": "10.2.3",
+            "criteria": [
+              {
+                "name": "Application Bundle ID",
+                "operator": "is",
+                "value": "com.mcafee.console",
+                "type": "recon",
+                "and": true
+              },
+              {
+                "name": "Application Version",
+                "operator": "is",
+                "value": "10.2.3",
+                "type": "recon",
+                "and": true
+              }
+            ]
+          }
+        ],
+        "capabilities": [
+          {
+            "name": "Operating System Version",
+            "operator": "greater than or equal",
+            "value": "10.10",
+            "type": "recon",
+            "and": true
+          }
+        ],
+        "dependencies": [ ]
+      },
+      {
+            "version": "10.2.2",
+            "releaseDate": "2017-03-20T14:45:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.mcafee.console",
+                "appName": "McAfee Endpoint Security for Mac.app"
+            }
+        ],
+            "components": [
+                {
+                    "name": "McAfee Endpoint Security for Mac",
+                    "version": "10.2.2",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.mcafee.console",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "10.2.2",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ]
+        },
+        {
+            "version": "10.2.1",
+            "releaseDate": "2016-09-26T14:45:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.mcafee.console",
+                "appName": "McAfee Endpoint Security for Mac.app"
+            }
+        ],
+            "components": [
+                {
+                    "name": "McAfee Endpoint Security for Mac",
+                    "version": "10.2.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.mcafee.console",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "10.2.1",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ]
+        },
+        {
+            "version": "10.2",
+            "releaseDate": "2016-08-03T17:11:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.mcafee.console",
+                "appName": "McAfee Endpoint Security for Mac.app"
+            }
+        ],
+            "components": [
+                {
+                    "name": "McAfee Endpoint Security for Mac",
+                    "version": "10.2",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.mcafee.console",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "10.2",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ]
+        },
+        {
+            "version": "10.1.1",
+            "releaseDate": "2016-05-16T00:11:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.mcafee.console",
+                "appName": "McAfee Endpoint Security for Mac.app"
+            }
+        ],
+            "components": [
+                {
+                    "name": "McAfee Endpoint Security for Mac",
+                    "version": "10.1.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.mcafee.console",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "10.1.1",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ]
+        },
+        {
+            "version": "10.1", 
+            "releaseDate": "2015-12-10T08:08:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.mcafee.console",
+                "appName": "McAfee Endpoint Security for Mac.app"
+            }
+        ],
+            "components": [
+                {
+                    "name": "McAfee Endpoint Security for Mac",
+                    "version":"10.1", 
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.mcafee.console",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "10.1",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ]
+        },
+        {
+            "version": "10.0",
+            "releaseDate": "2015-06-12T08:31:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.mcafee.console",
+                "appName": "McAfee Endpoint Security for Mac.app"
+            }
+        ],
+            "components": [
+                {
+                    "name": "McAfee Endpoint Security for Mac",
+                    "version": "10.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.mcafee.console",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "10.0",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ]
+        }
+    ],
+    "extensionAttributes": [],
+    "id": "McAfeeEndpointSecurityforMac"
+}

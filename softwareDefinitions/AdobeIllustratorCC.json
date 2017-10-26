@@ -1,0 +1,529 @@
+{
+    "name": "Adobe Illustrator CC",
+    "publisher": "Adobe",
+    "appName": "Adobe Illustrator CC 2018.app",
+    "bundleId": "com.adobe.illustrator",
+    "lastModified": "0000-00-00T00:00:00Z",
+    "currentVersion": "22.0.0",
+    "requirements": [
+        {
+            "name": "Application Bundle ID",
+            "operator": "is",
+            "value": "com.adobe.illustrator",
+            "type": "recon",
+            "and": true
+        }
+    ],
+    "patches": [
+        {
+            "version": "22.0.0",
+            "releaseDate": "2017-10-19T14:35:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.11",
+            "reboot": false,
+            "killApps": [
+              {
+                "bundleId": "com.adobe.illustrator",
+                "appName": "Adobe Illustrator CC 2018.app"
+              },
+              {
+                    "bundleId": "com.adobe.illustrator",
+                    "appName": "Adobe Illustrator.app"
+              }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Illustrator CC",
+                    "version": "22.0.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.illustrator",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "22.0.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.11",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ]
+        },
+        {
+            "version": "21.1.0",
+            "releaseDate": "2017-04-06T10:21:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.illustrator",
+                "appName": "Adobe Illustrator.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe Illustrator CC",
+                    "version": "21.1.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.illustrator",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "21.1.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "21.0.2",
+            "releaseDate": "2017-01-16T09:01:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.illustrator",
+                "appName": "Adobe Illustrator.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe Illustrator CC",
+                    "version": "21.0.2",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.illustrator",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "21.0.2",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "21.0.1",
+            "releaseDate": "2017-01-10T08:03:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.illustrator",
+                "appName": "Adobe Illustrator.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe Illustrator CC",
+                    "version": "21.0.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.illustrator",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "21.0.1",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "21.0.0",
+            "releaseDate": "2016-11-02T10:48:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.illustrator",
+                "appName": "Adobe Illustrator.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe Illustrator CC",
+                    "version": "21.0.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.illustrator",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "21.0.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "20.1.0",
+            "releaseDate": "2016-08-11T13:00:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.illustrator",
+                "appName": "Adobe Illustrator.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe Illustrator CC",
+                    "version": "20.1.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.illustrator",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "20.1.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "20.0.0",
+            "releaseDate": "2016-06-22T10:26:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.illustrator",
+                "appName": "Adobe Illustrator.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe Illustrator CC",
+                    "version": "20.0.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.illustrator",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "20.0.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "19.2.1",
+            "releaseDate": "2016-01-22T20:21:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.illustrator",
+                "appName": "Adobe Illustrator.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe Illustrator CC",
+                    "version": "19.2.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.illustrator",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "19.2.1",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "19.2.0",
+            "releaseDate": "2015-11-26T09:40:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.illustrator",
+                "appName": "Adobe Illustrator.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe Illustrator CC",
+                    "version": "19.2.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.illustrator",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "19.2.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "19.1.0",
+            "releaseDate": "2015-06-15T07:21:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.illustrator",
+                "appName": "Adobe Illustrator.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe Illustrator CC",
+                    "version": "19.1.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.illustrator",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "19.1.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "19.0.1",
+            "releaseDate": "2015-05-15T07:33:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.illustrator",
+                "appName": "Adobe Illustrator.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe Illustrator CC",
+                    "version": "19.0.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.illustrator",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "19.0.1",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "19.0.0",
+            "releaseDate": "2015-04-15T08:11:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.illustrator",
+                "appName": "Adobe Illustrator.app"
+            }           
+        ],
+            "components": [
+                {
+                    "name": "Adobe Illustrator CC",
+                    "version": "19.0.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.illustrator",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "19.0.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        }
+    ],
+    "extensionAttributes": [],
+    "id": "AdobeIllustratorCC"
+}

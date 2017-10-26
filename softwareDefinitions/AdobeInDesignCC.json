@@ -1,0 +1,497 @@
+{
+    "name": "Adobe InDesign CC",
+    "publisher": "Adobe",
+    "appName": "Adobe InDesign CC 2018.app",
+    "bundleId": "com.adobe.InDesign",
+    "lastModified": "0000-00-00T00:00:00Z",
+    "currentVersion": "13.0.0.125",
+    "requirements": [
+        {
+            "name": "Application Bundle ID",
+            "operator": "is",
+            "value": "com.adobe.InDesign",
+            "type": "recon", 
+            "and": true
+        }
+    ],
+    "patches": [
+        {
+            "version": "13.0.0.125",
+            "releaseDate": "2017-10-19T14:40:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.11",
+            "reboot": false,
+            "killApps": [
+              {
+                "bundleId": "com.adobe.InDesign",
+                "appName": "Adobe InDesign CC 2018.app"
+              },
+              {
+                    "bundleId": "com.adobe.InDesign",
+                    "appName": "Adobe InDesign CC 2017.app"
+                },
+                {
+                    "bundleId": "com.adobe.InDesign",
+                    "appName": "Adobe InDesign CC 2015.app"
+                },
+                {
+                    "bundleId": "com.adobe.InDesign ",
+                    "appName": "Adobe InDesign CC 2014.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe InDesign CC",
+                    "version": "13.0.0.125",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.InDesign",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "13.0.0.125",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.11",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ]
+        },
+        {
+            "version": "12.1.0.56",
+            "releaseDate": "2017-04-06T10:55:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.InDesign",
+                "appName": "Adobe InDesign CC 2017.app"
+            },
+            {
+                "bundleId": "com.adobe.InDesign",
+                "appName": "Adobe InDesign CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.InDesign ",
+                "appName": "Adobe InDesign CC 2014.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe InDesign CC",
+                    "version": "12.1.0.56",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.InDesign",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "12.1.0.56",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "12.0.0.81",
+            "releaseDate": "2016-11-02T12:58:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.InDesign",
+                "appName": "Adobe InDesign CC 2017.app"
+            },
+            {
+                "bundleId": "com.adobe.InDesign",
+                "appName": "Adobe InDesign CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.InDesign ",
+                "appName": "Adobe InDesign CC 2014.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe InDesign CC",
+                    "version": "12.0.0.81",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.InDesign",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "12.0.0.81",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "11.4.1.102",
+            "releaseDate": "2016-08-22T10:41:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.InDesign",
+                "appName": "Adobe InDesign CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.InDesign ",
+                "appName": "Adobe InDesign CC 2014.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe InDesign CC",
+                    "version": "11.4.1.102",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.InDesign",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.4.1.102",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "11.4.0.90",
+            "releaseDate": "2016-06-21T13:54:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.InDesign",
+                "appName": "Adobe InDesign CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.InDesign ",
+                "appName": "Adobe InDesign CC 2014.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe InDesign CC",
+                    "version": "11.4.0.90",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.InDesign",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.4.0.90",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "11.3.0.34",
+            "releaseDate": "2016-03-11T08:30:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.InDesign",
+                "appName": "Adobe InDesign CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.InDesign ",
+                "appName": "Adobe InDesign CC 2014.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe InDesign CC",
+                    "version": "11.3.0.34",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.InDesign",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.3.0.34",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "11.2.0.99",
+            "releaseDate": "2015-11-26T07:22:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.InDesign",
+                "appName": "Adobe InDesign CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.InDesign ",
+                "appName": "Adobe InDesign CC 2014.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe InDesign CC",
+                    "version": "11.2.0.99",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.InDesign",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.2.0.99",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "11.1.0.122",
+            "releaseDate": "2015-09-22T09:32:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.InDesign",
+                "appName": "Adobe InDesign CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.InDesign",
+                "appName": "Adobe InDesign CC 2014.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe InDesign CC",
+                    "version": "11.1.0.122",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.InDesign",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.1.0.122",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "11.1.0",
+            "releaseDate": "2015-08-01T09:11:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.InDesign",
+                "appName": "Adobe InDesign CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.InDesign",
+                "appName": "Adobe InDesign CC 2014.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe InDesign CC",
+                    "version": "11.1.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.InDesign",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.1.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "11.0.1",
+            "releaseDate": "2015-07-15T07:32:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.InDesign",
+                "appName": "Adobe InDesign CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.InDesign",
+                "appName": "Adobe InDesign CC 2014.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe InDesign CC",
+                    "version": "11.0.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.InDesign",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.0.1",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        }        
+    ],
+    "extensionAttributes": [],
+    "id": "AdobeInDesignCC"
+}

@@ -1,0 +1,1011 @@
+{
+    "name": "Adobe Core Components CC",
+    "publisher": "Adobe",
+    "appName": "Creative Cloud.app",
+    "bundleId": "com.adobe.acc.AdobeCreativeCloud",
+    "lastModified": "0000-00-00T00:00:00Z",
+    "currentVersion": "4.3.0.256",
+    "requirements": [
+        {
+            "name": "Application Bundle ID",
+            "operator": "is",
+            "value": "com.adobe.acc.AdobeCreativeCloud",
+            "type": "recon",
+            "and": true
+        }
+    ],
+    "patches": [
+        {
+            "version": "4.3.0.256",
+            "releaseDate": "2017-09-26T09:09:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.acc.AdobeCreativeCloud",
+                    "appName": "Creative Cloud.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Core Components CC",
+                    "version": "4.3.0.256",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.acc.AdobeCreativeCloud",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "4.3.0.256",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ]
+        },
+        {
+            "version": "4.2.0.211",
+            "releaseDate": "2017-08-01T10:05:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.acc.AdobeCreativeCloud",
+                    "appName": "Creative Cloud.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Core Components CC",
+                    "version": "4.2.0.211",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.acc.AdobeCreativeCloud",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "4.2.0.211",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ]
+        },
+        {
+        "version": "4.1.1.202",
+        "releaseDate": "2017-06-06T10:32:34Z",
+        "standalone": true,
+        "minimumOperatingSystem": "10.9.0",
+        "reboot": false,
+        "killApps": [
+          {
+            "bundleId": "com.adobe.acc.AdobeCreativeCloud",
+            "appName": "Creative Cloud.app"
+          }
+        ],
+        "components": [
+          {
+            "name": "Adobe Core Components CC",
+            "version": "4.1.1.202",
+            "criteria": [
+              {
+                "name": "Application Bundle ID",
+                "operator": "is",
+                "value": "com.adobe.acc.AdobeCreativeCloud",
+                "type": "recon",
+                "and": true
+              },
+              {
+                "name": "Application Version",
+                "operator": "is",
+                "value": "4.1.1.202",
+                "type": "recon",
+                "and": true
+              }
+            ]
+          }
+        ],
+        "capabilities": [
+          {
+            "name": "Operating System Version",
+            "operator": "greater than or equal",
+            "value": "10.9.0",
+            "type": "recon",
+            "and": true
+          }
+        ],
+        "dependencies": [ ]
+      },
+      {
+            "version": "4.1.0.201",
+            "releaseDate": "2017-06-05T13:54:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.acc.AdobeCreativeCloud",
+                    "appName": "Creative Cloud.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Core Components CC",
+                    "version": "4.1.0.201",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.acc.AdobeCreativeCloud",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "4.1.0.201",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ]
+        },
+        {
+            "version": "4.0.1.188",
+            "releaseDate": "2017-03-30T09:30:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.acc.AdobeCreativeCloud",
+                "appName": "Creative Cloud.app"
+            }           
+        ],
+            "components": [
+                {
+                    "name": "Adobe Core Components CC",
+                    "version": "4.0.1.188",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.acc.AdobeCreativeCloud",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "4.0.1.188",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "4.0.0.185",
+            "releaseDate": "2017-03-24T16:11:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.acc.AdobeCreativeCloud",
+                "appName": "Creative Cloud.app"
+            }           
+        ],
+            "components": [
+                {
+                    "name": "Adobe Core Components CC",
+                    "version": "4.0.0.185",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.acc.AdobeCreativeCloud",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "4.0.0.185",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "3.9.5.353",
+            "releaseDate": "2016-12-14T13:28:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.acc.AdobeCreativeCloud",
+                "appName": "Creative Cloud.app"
+            }           
+        ],
+            "components": [
+                {
+                    "name": "Adobe Core Components CC",
+                    "version": "3.9.5.353",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.acc.AdobeCreativeCloud",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "3.9.5.353",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "3.9.1.335",
+            "releaseDate": "2016-10-30T00:00:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.acc.AdobeCreativeCloud",
+                "appName": "Creative Cloud.app"
+            }           
+        ],
+            "components": [
+                {
+                    "name": "Adobe Core Components CC",
+                    "version": "3.9.1.335",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.acc.AdobeCreativeCloud",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "3.9.1.335",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "3.9.0.334",
+            "releaseDate": "2016-10-27T14:00:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.acc.AdobeCreativeCloud",
+                "appName": "Creative Cloud.app"
+            }           
+        ],
+            "components": [
+                {
+                    "name": "Adobe Core Components CC",
+                    "version": "3.9.0.334",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.acc.AdobeCreativeCloud",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "3.9.0.334",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "3.8.0.310",
+            "releaseDate": "2016-08-30T15:23:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.acc.AdobeCreativeCloud",
+                "appName": "Creative Cloud.app"
+            }           
+        ],
+            "components": [
+                {
+                    "name": "Adobe Core Components CC",
+                    "version": "3.8.0.310",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.acc.AdobeCreativeCloud",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "3.8.0.310",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "3.7.0.272",
+            "releaseDate": "2016-06-20T14:40:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.acc.AdobeCreativeCloud",
+                "appName": "Creative Cloud.app"
+            }           
+        ],
+            "components": [
+                {
+                    "name": "Adobe Core Components CC",
+                    "version": "3.7.0.272",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.acc.AdobeCreativeCloud",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "3.7.0.272",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "3.6.0.248",
+            "releaseDate": "2016-04-13T14:02:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.acc.AdobeCreativeCloud",
+                "appName": "Creative Cloud.app"
+            }           
+        ],
+            "components": [
+                {
+                    "name": "Adobe Core Components CC",
+                    "version": "3.6.0.248",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.acc.AdobeCreativeCloud",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "3.6.0.248",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "3.5.1.209",
+            "releaseDate": "2016-02-15T12:11:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.acc.AdobeCreativeCloud",
+                "appName": "Creative Cloud.app"
+            }           
+        ],
+            "components": [
+                {
+                    "name": "Adobe Core Components CC",
+                    "version": "3.5.1.209",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.acc.AdobeCreativeCloud",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "3.5.1.209",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "3.5.0.206",
+            "releaseDate": "2016-02-11T09:32:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.acc.AdobeCreativeCloud",
+                "appName": "Creative Cloud.app"
+            }           
+        ],
+            "components": [
+                {
+                    "name": "Adobe Core Components CC",
+                    "version": "3.5.0.206",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.acc.AdobeCreativeCloud",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "3.5.0.206",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "3.4.3.189",
+            "releaseDate": "2015-12-21T07:53:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.acc.AdobeCreativeCloud",
+                "appName": "Creative Cloud.app"
+            }           
+        ],
+            "components": [
+                {
+                    "name": "Adobe Core Components CC",
+                    "version": "3.4.3.189",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.acc.AdobeCreativeCloud",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "3.4.3.189",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "3.4.2.187",
+            "releaseDate": "2015-12-17T17:22:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.acc.AdobeCreativeCloud",
+                "appName": "Creative Cloud.app"
+            }           
+        ],
+            "components": [
+                {
+                    "name": "Adobe Core Components CC",
+                    "version": "3.4.2.187",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.acc.AdobeCreativeCloud",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "3.4.2.187",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "3.4.1.181",
+            "releaseDate": "2015-11-26T20:31:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.acc.AdobeCreativeCloud",
+                "appName": "Creative Cloud.app"
+            }           
+        ],
+            "components": [
+                {
+                    "name": "Adobe Core Components CC",
+                    "version": "3.4.1.181",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.acc.AdobeCreativeCloud",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "3.4.1.181",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "2.3.0.151",
+            "releaseDate": "2015-09-24T12:32:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.acc.AdobeCreativeCloud",
+                "appName": "Creative Cloud.app"
+            }           
+        ],
+            "components": [
+                {
+                    "name": "Adobe Core Components CC",
+                    "version": "2.3.0.151",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.acc.AdobeCreativeCloud",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "2.3.0.151",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "2.2.0.129",
+            "releaseDate": "2015-07-27T08:11:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.acc.AdobeCreativeCloud",
+                "appName": "Creative Cloud.app"
+            }           
+        ],
+            "components": [
+                {
+                    "name": "Adobe Core Components CC",
+                    "version": "2.2.0.129",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.acc.AdobeCreativeCloud",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "2.2.0.129",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "2.1.3.121",
+            "releaseDate": "2015-07-07T09:44:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.acc.AdobeCreativeCloud",
+                "appName": "Creative Cloud.app"
+            }           
+        ],
+            "components": [
+                {
+                    "name": "Adobe Core Components CC",
+                    "version": "2.1.3.121",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.acc.AdobeCreativeCloud",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "2.1.3.121",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "2.1.1.110",
+            "releaseDate": "2015-06-15T11:32:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.acc.AdobeCreativeCloud",
+                "appName": "Creative Cloud.app"
+            }           
+        ],
+            "components": [
+                {
+                    "name": "Adobe Core Components CC",
+                    "version": "2.1.1.110",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.acc.AdobeCreativeCloud",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "2.1.1.110",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "2.0.1.88",
+            "releaseDate": "2015-04-21T14:56:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.acc.AdobeCreativeCloud",
+                "appName": "Creative Cloud.app"
+            }           
+        ],
+            "components": [
+                {
+                    "name": "Adobe Core Components CC",
+                    "version": "2.0.1.88",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.acc.AdobeCreativeCloud",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "2.0.1.88",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        }
+    ],
+    "extensionAttributes": [],
+    "id": "AdobeCoreComponentsCC"
+}

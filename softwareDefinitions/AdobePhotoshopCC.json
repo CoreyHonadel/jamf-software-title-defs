@@ -1,0 +1,789 @@
+{
+    "name": "Adobe Photoshop CC",
+    "publisher": "Adobe",
+    "appName": "Adobe Photoshop CC 2018.app",
+    "bundleId": "com.adobe.Photoshop",
+    "lastModified": "0000-00-00T00:00:00Z",
+    "currentVersion": "19.0.0",
+    "requirements": [
+        {
+            "name": "Application Bundle ID",
+            "operator": "is",
+            "value": "com.adobe.Photoshop",
+            "type": "recon",
+            "and": true
+        }
+    ],
+    "patches": [
+        {
+            "version": "19.0.0",
+            "releaseDate": "2017-10-19T11:36:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.11",
+            "reboot": false,
+            "killApps": [
+              {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2018.app"
+              },
+              {
+                    "bundleId": "com.adobe.Photoshop",
+                    "appName": "Adobe Photoshop CC 2017.app"
+                },
+                {
+                    "bundleId": "com.adobe.Photoshop",
+                    "appName": "Adobe Photoshop CC 2015.app"
+                },
+                {
+                    "bundleId": "com.adobe.Photoshop",
+                    "appName": "Adobe Photoshop CC 2015.5.app"
+                },
+                {
+                    "bundleId": "com.adobe.Photoshop",
+                    "appName": "Adobe Photoshop CC 2014.app"
+                },
+                {
+                    "bundleId": "com.adobe.AfterEffects",
+                    "appName": "Adobe After Effects CC 2014.app"
+                },
+                {
+                    "bundleId": "com.adobe.AfterEffects",
+                    "appName": "Adobe After Effects CC 2015.app"
+                },
+                {
+                    "bundleId": "com.adobe.Bridge",
+                    "appName": "Adobe Bridge.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Photoshop CC",
+                    "version": "19.0.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Photoshop",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "19.0.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.11",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ]
+        },
+        {
+            "version": "18.1.1",
+            "releaseDate": "2017-05-02T11:36:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2017.app"
+            },
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2015.5.app"
+            },
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2014.app"
+            },
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2014.app"
+            },
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Bridge",
+                "appName": "Adobe Bridge.app"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Adobe Photoshop CC",
+                    "version": "18.1.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Photoshop",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "18.1.1",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "18.1.0",
+            "releaseDate": "2017-04-06T09:27:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2017.app"
+            },
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2015.5.app"
+            },
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2014.app"
+            },
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2014.app"
+            },
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Bridge",
+                "appName": "Adobe Bridge.app"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Adobe Photoshop CC",
+                    "version": "18.1.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Photoshop",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "18.1.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "18.0.1",
+            "releaseDate": "2016-12-13T10:55:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2017.app"
+            },
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2015.5.app"
+            },
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2014.app"
+            },
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2014.app"
+            },
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Bridge",
+                "appName": "Adobe Bridge.app"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Adobe Photoshop CC",
+                    "version": "18.0.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Photoshop",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "18.0.1",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "18.0.0",
+            "releaseDate": "2016-11-02T09:36:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2017.app"
+            },
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2015.5.app"
+            },
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2014.app"
+            },
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2014.app"
+            },
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Bridge",
+                "appName": "Adobe Bridge.app"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Adobe Photoshop CC",
+                    "version": "18.0.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Photoshop",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "18.0.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "17.0.1",
+            "releaseDate": "2016-08-10T14:09:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2015.5.app"
+            },
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2014.app"
+            },
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2014.app"
+            },
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Bridge",
+                "appName": "Adobe Bridge.app"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Adobe Photoshop CC",
+                    "version": "17.0.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Photoshop",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "17.0.1",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "17.0.0",
+            "releaseDate": "2016-06-21T14:32:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2015.5.app"
+            },
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2014.app"
+            },
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2014.app"
+            },
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Bridge",
+                "appName": "Adobe Bridge.app"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Adobe Photoshop CC",
+                    "version": "17.0.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Photoshop",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "17.0.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "16.1.2",
+            "releaseDate": "2016-01-22T08:58:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2015.5.app"
+            },
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2014.app"
+            },
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2014.app"
+            },
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Bridge",
+                "appName": "Adobe Bridge.app"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Adobe Photoshop CC",
+                    "version": "16.1.2",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Photoshop",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "16.1.2",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "16.1.1",
+            "releaseDate": "2015-12-16T12:09:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2015.5.app"
+            },
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2014.app"
+            },
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2014.app"
+            },
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Bridge",
+                "appName": "Adobe Bridge.app"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Adobe Photoshop CC",
+                    "version": "16.1.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Photoshop",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "16.1.1",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "16.1",
+            "releaseDate": "2015-11-26T11:56:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2015.5.app"
+            },
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2014.app"
+            },
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2014.app"
+            },
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Bridge",
+                "appName": "Adobe Bridge.app"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Adobe Photoshop CC",
+                    "version": "16.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Photoshop",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "16.1",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "16.0.1",
+            "releaseDate": "2015-06-22T08:29:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2015.5.app"
+            },
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2014.app"
+            },
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2014.app"
+            },
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Bridge",
+                "appName": "Adobe Bridge.app"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Adobe Photoshop CC",
+                    "version": "16.0.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Photoshop",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "16.0.1",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "16.0.0",
+            "releaseDate": "2015-05-15T07:26:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2015.5.app"
+            },
+            {
+                "bundleId": "com.adobe.Photoshop",
+                "appName": "Adobe Photoshop CC 2014.app"
+            },
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2014.app"
+            },
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Bridge",
+                "appName": "Adobe Bridge.app"
+            }
+        ],
+            "components": [
+                {
+                    "name": "Adobe Photoshop CC",
+                    "version": "16.0.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Photoshop",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "16.0.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        }
+    ],
+    "extensionAttributes": [],
+    "id": "AdobePhotoshopCC"
+}

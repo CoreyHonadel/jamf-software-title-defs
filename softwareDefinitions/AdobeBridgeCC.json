@@ -1,0 +1,376 @@
+{
+    "name": "Adobe Bridge CC",
+    "publisher": "Adobe",
+    "appName": "Adobe Bridge CC 2018.app",
+    "bundleId": "com.adobe.bridge8",
+    "lastModified": "0000-00-00T00:00:00Z",
+    "currentVersion": "8.0.0.262",
+    "requirements": [
+        {
+            "name": "Application Bundle ID",
+            "operator": "is",
+            "value": "com.adobe.bridge8",
+            "type": "recon",
+            "and": false
+        },
+        {
+            "name": "Application Bundle ID",
+            "operator": "is",
+            "value": "com.adobe.bridge7",
+            "type": "recon", 
+            "and": false
+        },
+        {
+            "name": "Application Bundle ID",
+            "operator": "is",
+            "value": "com.adobe.bridge6.3",
+            "type": "recon", 
+            "and": false
+        },
+        {
+            "name": "Application Bundle ID",
+            "operator": "is",
+            "value": "com.adobe.bridge6",
+            "type": "recon", 
+            "and": false
+        }
+    ],
+    "patches": [
+      {
+        "version": "8.0.0.262",
+        "releaseDate": "2017-10-19T14:07:34Z",
+        "standalone": true,
+        "minimumOperatingSystem": "10.11",
+        "reboot": false,
+        "killApps": [
+          {
+            "bundleId": "com.adobe.bridge8",
+            "appName": "Adobe Bridge CC 2018.app"
+          },
+          {
+            "bundleId": "com.adobe.bridge7",
+            "appName": "Adobe Bridge CC 2017.app"
+          },
+          {
+            "bundleId": "com.adobe.bridge6.3",
+            "appName": "Adobe Bridge CC.app"
+          },
+          {
+            "bundleId": "com.adobe.bridge6",
+            "appName": "Adobe Bridge CC.app"
+          }
+        ],
+        "components": [
+          {
+            "name": "Adobe Bridge CC",
+            "version": "8.0.0.262",
+            "criteria": [
+              {
+                "name": "Application Bundle ID",
+                "operator": "is",
+                "value": "com.adobe.bridge8",
+                "type": "recon"
+              },
+              {
+                "name": "Application Version",
+                "operator": "is",
+                "value": "8.0.0.262",
+                "type": "recon"
+              }
+            ]
+          }
+        ],
+        "capabilities": [
+          {
+            "name": "Operating System Version",
+            "operator": "greater than or equal",
+            "value": "10.10",
+            "type": "recon"
+          }
+        ],
+        "dependencies": [ ]
+      },
+      {
+            "version": "7.0.0.93",
+            "releaseDate": "2016-11-02T15:38:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.bridge7",
+                "appName": "Adobe Bridge CC 2017.app"
+            },
+            {
+                "bundleId": "com.adobe.bridge6.3",
+                "appName": "Adobe Bridge CC.app"
+            },
+            {
+                "bundleId": "com.adobe.bridge6",
+                "appName": "Adobe Bridge CC.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe Bridge CC",
+                    "version": "7.0.0.93",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.bridge7",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "7.0.0.93",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "6.3.1.186",
+            "releaseDate": "2016-09-21T15:28:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.bridge6.3",
+                "appName": "Adobe Bridge CC.app"
+            },
+            {
+                "bundleId": "com.adobe.bridge6",
+                "appName": "Adobe Bridge CC.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe Bridge CC",
+                    "version": "6.3.1.186",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.bridge6.3",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "6.3.1.186",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "6.3.0.177",
+            "releaseDate": "2016-07-20T13:55:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.bridge6.3",
+                "appName": "Adobe Bridge CC.app"
+            },
+            {
+                "bundleId": "com.adobe.bridge6",
+                "appName": "Adobe Bridge CC.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe Bridge CC",
+                    "version": "6.3.0.177",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.bridge6.3",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "6.3.0.177",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "6.2.0.179",
+            "releaseDate": "2016-02-09T08:40:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.bridge6",
+                "appName": "Adobe Bridge CC.app"
+            },
+            {
+                "bundleId": "com.adobe.bridge6.3",
+                "appName": "Adobe Bridge CC.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe Bridge CC",
+                    "version": "6.2.0.179",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.bridge6",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "6.2.0.179",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "6.1.1.10",
+            "releaseDate": "2016-01-18T07:31:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.bridge6",
+                "appName": "Adobe Bridge CC.app"
+            },
+            {
+                "bundleId": "com.adobe.bridge6.3",
+                "appName": "Adobe Bridge CC.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe Bridge CC",
+                    "version": "6.1.1.10",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.bridge6",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "6.1.1.10",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "6.0.0.151",
+            "releaseDate": "2015-12-18T14:56:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.bridge6",
+                "appName": "Adobe Bridge CC.app"
+            },
+            {
+                "bundleId": "com.adobe.bridge6.3",
+                "appName": "Adobe Bridge CC.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe Bridge CC",
+                    "version": "6.0.0.151",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.bridge6",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "6.0.0.151",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        }
+    ],
+    "extensionAttributes": [],
+    "id": "AdobeBridgeCC"
+}

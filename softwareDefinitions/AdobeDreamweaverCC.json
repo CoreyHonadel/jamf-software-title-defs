@@ -1,0 +1,502 @@
+{
+	"name": "Adobe Dreamweaver CC",
+	"publisher": "Adobe",
+	"appName": "Adobe Dreamweaver CC 2018.app",
+	"bundleId": "com.adobe.dreamweaver-18.0",
+	"lastModified": "0000-00-00T00:00:00Z",
+	"currentVersion": "18.0.0.10136",
+	"requirements": [
+		{
+			"name": "Application Bundle ID",
+			"operator": "is",
+			"value": "com.adobe.dreamweaver-18.0",
+			"type": "recon",
+			"and": false
+		},
+		{
+			"name": "Application Bundle ID",
+			"operator": "is",
+			"value": "com.adobe.dreamweaver-17.5",
+			"type": "recon",
+			"and": false
+		},
+		{
+			"name": "Application Bundle ID",
+			"operator": "is",
+			"value": "com.adobe.dreamweaver-17.1",
+			"type": "recon",
+			"and": false
+		},
+		{
+			"name": "Application Bundle ID",
+			"operator": "is",
+			"value": "com.adobe.dreamweaver-17.0",
+			"type": "recon",
+			"and": false
+		},
+		{
+			"name": "Application Bundle ID",
+			"operator": "is",
+			"value": "com.adobe.dreamweaver-16.0",
+			"type": "recon",
+			"and": false
+		}
+	],
+	"patches": [
+      {
+        "version": "18.0.0.10136",
+        "releaseDate": "2017-10-19T14:24:46Z",
+        "standalone": true,
+        "minimumOperatingSystem": "10.11",
+        "reboot": false,
+        "killApps": [
+          {
+            "bundleId": "com.adobe.dreamweaver-18.0",
+            "appName": "Adobe Dreamweaver CC 2018.app"
+          },
+          {
+            "bundleId": "com.adobe.dreamweaver-17.5",
+            "appName": "Adobe Dreamweaver CC 2017.app"
+          },
+          {
+            "bundleId": "com.adobe.dreamweaver-17.1",
+            "appName": "Adobe Dreamweaver CC 2017.app"
+          },
+          {
+            "bundleId": "com.adobe.dreamweaver-17.0",
+            "appName": "Adobe Dreamweaver CC 2017.app"
+          },
+          {
+            "bundleId": "com.adobe.dreamweaver-16.0",
+            "appName": "Adobe Dreamweaver CC 2015.app"
+          }
+        ],
+        "components": [
+          {
+            "name": "Adobe Dreamweaver CC",
+            "version": "18.0.0.10136",
+            "criteria": [
+              {
+                "name": "Application Bundle ID",
+                "operator": "is",
+                "value": "com.adobe.dreamweaver-18.0",
+                "type": "recon",
+                "and": true
+              },
+              {
+                "name": "Application Version",
+                "operator": "is",
+                "value": "18.0.0.10136",
+                "type": "recon",
+                "and": true
+              }
+            ]
+          }
+        ],
+        "capabilities": [
+          {
+            "name": "Operating System Version",
+            "operator": "greater than or equal",
+            "value": "10.11",
+            "type": "recon",
+            "and": true
+          }
+        ],
+        "dependencies": [ ]
+      },
+      {
+			"version": "17.5.0.9878",
+			"releaseDate": "2017-06-14T13:31:46Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.10",
+			"reboot": false,
+			"killApps": [
+				{
+					"bundleId": "com.adobe.dreamweaver-17.5",
+					"appName": "Adobe Dreamweaver CC 2017.app"
+				},
+				{
+					"bundleId": "com.adobe.dreamweaver-17.1",
+					"appName": "Adobe Dreamweaver CC 2017.app"
+				},
+				{
+					"bundleId": "com.adobe.dreamweaver-17.0",
+					"appName": "Adobe Dreamweaver CC 2017.app"
+				},
+				{
+					"bundleId": "com.adobe.dreamweaver-16.0",
+					"appName": "Adobe Dreamweaver CC 2015.app"
+				}
+			],
+			"components": [
+				{
+					"name": "Adobe Dreamweaver CC",
+					"version": "17.5.0.9878",
+					"criteria": [
+						{
+							"name": "Application Bundle ID",
+							"operator": "is",
+							"value": "com.adobe.dreamweaver-17.5",
+							"type": "recon",
+							"and": true
+						},
+						{
+							"name": "Application Version",
+							"operator": "is",
+							"value": "17.5.0.9878",
+							"type": "recon",
+							"and": true
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.10",
+					"type": "recon",
+					"and": true
+				}
+			],
+			"dependencies": [ ]
+		},
+		{
+			"version": "17.1.0.9583",
+			"releaseDate": "2017-04-20T09:31:46Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.10",
+			"reboot": false,				
+			"killApps": [
+			{
+				"bundleId": "com.adobe.dreamweaver-17.1",
+				"appName": "Adobe Dreamweaver CC 2017.app"
+			},
+			{
+				"bundleId": "com.adobe.dreamweaver-17.0",
+				"appName": "Adobe Dreamweaver CC 2017.app"
+			},
+			{
+				"bundleId": "com.adobe.dreamweaver-16.0",
+				"appName": "Adobe Dreamweaver CC 2015.app"
+			}
+		],
+			"components": [
+				{
+					"name": "Adobe Dreamweaver CC",
+					"version": "17.1.0.9583",
+					"criteria": [
+						{
+							"name": "Application Bundle ID",
+							"operator": "is",
+							"value": "com.adobe.dreamweaver-17.1",
+							"type": "recon",
+							"and": true
+						},
+						{
+							"name": "Application Version",
+							"operator": "is",
+							"value": "17.1.0.9583",
+							"type": "recon",
+							"and": true
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.10",
+					"type": "recon",
+					"and": true
+				}
+			],	
+			"dependencies": [ ]
+		},
+		{
+			"version": "17.0.2.9391",
+			"releaseDate": "2017-03-29T09:19:46Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.10",
+			"reboot": false,				
+			"killApps": [
+			{
+				"bundleId": "com.adobe.dreamweaver-17.0",
+				"appName": "Adobe Dreamweaver CC 2017.app"
+			},
+			{
+				"bundleId": "com.adobe.dreamweaver-16.0",
+				"appName": "Adobe Dreamweaver CC 2015.app"
+			}
+		],
+			"components": [
+				{
+					"name": "Adobe Dreamweaver CC",
+					"version": "17.0.2.9391",
+					"criteria": [
+						{
+							"name": "Application Bundle ID",
+							"operator": "is",
+							"value": "com.adobe.dreamweaver-17.0",
+							"type": "recon",
+							"and": true
+						},
+						{
+							"name": "Application Version",
+							"operator": "is",
+							"value": "17.0.2.9391",
+							"type": "recon",
+							"and": true
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.10",
+					"type": "recon",
+					"and": true
+				}
+			],	
+			"dependencies": [ ]
+		},
+		{
+			"version": "17.0.1.9346",
+			"releaseDate": "2016-12-20T08:11:46Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.10",
+			"reboot": false,				
+			"killApps": [
+			{
+				"bundleId": "com.adobe.dreamweaver-17.0",
+				"appName": "Adobe Dreamweaver CC 2017.app"
+			},
+			{
+				"bundleId": "com.adobe.dreamweaver-16.0",
+				"appName": "Adobe Dreamweaver CC 2015.app"
+			}
+		],
+			"components": [
+				{
+					"name": "Adobe Dreamweaver CC",
+					"version": "17.0.1.9346",
+					"criteria": [
+						{
+							"name": "Application Bundle ID",
+							"operator": "is",
+							"value": "com.adobe.dreamweaver-17.0",
+							"type": "recon",
+							"and": true
+						},
+						{
+							"name": "Application Version",
+							"operator": "is",
+							"value": "17.0.1.9346",
+							"type": "recon",
+							"and": true
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.10",
+					"type": "recon",
+					"and": true
+				}
+			],	
+			"dependencies": [ ]
+		},
+		{
+			"version": "17.0.0.9315",
+			"releaseDate": "2016-11-03T10:01:46Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.10",
+			"reboot": false,				
+			"killApps": [
+			{
+				"bundleId": "com.adobe.dreamweaver-17.0",
+				"appName": "Adobe Dreamweaver CC 2017.app"
+			},
+			{
+				"bundleId": "com.adobe.dreamweaver-16.0",
+				"appName": "Adobe Dreamweaver CC 2015.app"
+			}
+		],
+			"components": [
+				{
+					"name": "Adobe Dreamweaver CC",
+					"version": "17.0.0.9315",
+					"criteria": [
+						{
+							"name": "Application Bundle ID",
+							"operator": "is",
+							"value": "com.adobe.dreamweaver-17.0",
+							"type": "recon",
+							"and": true
+						},
+						{
+							"name": "Application Version",
+							"operator": "is",
+							"value": "17.0.0.9315",
+							"type": "recon",
+							"and": true
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.10",
+					"type": "recon",
+					"and": true
+				}
+			],	
+			"dependencies": [ ]
+		},
+		{
+			"version": "16.1.2.7884",
+			"releaseDate": "2016-03-16T13:09:46Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.9.0",
+			"reboot": false,				
+			"killApps": [
+			{
+				"bundleId": "com.adobe.dreamweaver-16.0",
+				"appName": "Adobe Dreamweaver CC 2015.app"
+			}
+		],
+			"components": [
+				{
+					"name": "Adobe Dreamweaver CC",
+					"version": "16.1.2.7884",
+					"criteria": [
+						{
+							"name": "Application Bundle ID",
+							"operator": "is",
+							"value": "com.adobe.dreamweaver-16.0",
+							"type": "recon",
+							"and": true
+						},
+						{
+							"name": "Application Version",
+							"operator": "is",
+							"value": "16.1.2.7884",
+							"type": "recon",
+							"and": true
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.9.0",
+					"type": "recon",
+					"and": true
+				}
+			],	
+			"dependencies": [ ]
+		},
+		{
+			"version": "16.1.0.7851",
+			"releaseDate": "2016-01-11T07:21:46Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.9.0",
+			"reboot": false,				
+			"killApps": [
+			{
+				"bundleId": "com.adobe.dreamweaver-16.0",
+				"appName": "Adobe Dreamweaver CC 2015.app"
+			}
+		],
+			"components": [
+				{
+					"name": "Adobe Dreamweaver CC",
+					"version": "16.1.0.7851",
+					"criteria": [
+						{
+							"name": "Application Bundle ID",
+							"operator": "is",
+							"value": "com.adobe.dreamweaver-16.0",
+							"type": "recon",
+							"and": true
+						},
+						{
+							"name": "Application Version",
+							"operator": "is",
+							"value": "16.1.0.7851",
+							"type": "recon",
+							"and": true
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.9.0",
+					"type": "recon",
+					"and": true
+				}
+			],	
+			"dependencies": [ ]
+		},
+		{
+			"version": "16.0.0.7698",
+			"releaseDate": "2015-12-11T08:45:46Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.9.0",
+			"reboot": false,
+			"killApps": [
+			{
+				"bundleId": "com.adobe.dreamweaver-16.0",
+				"appName": "Adobe Dreamweaver CC 2015.app"
+			}
+		],
+			"components": [
+				{
+					"name": "Adobe Dreamweaver CC",
+					"version": "16.0.0.7698",
+					"criteria": [
+						{
+							"name": "Application Bundle ID",
+							"operator": "is",
+							"value": "com.adobe.dreamweaver-16.0",
+							"type": "recon",
+							"and": true
+						},
+						{
+							"name": "Application Version",
+							"operator": "is",
+							"value": "16.0.0.7698",
+							"type": "recon",
+							"and": true
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.9.0",
+					"type": "recon",
+					"and": true
+				}
+			],	
+			"dependencies": [ ]
+		}
+	],
+	"extensionAttributes": [],
+	"id": "AdobeDreamweaverCC"
+}

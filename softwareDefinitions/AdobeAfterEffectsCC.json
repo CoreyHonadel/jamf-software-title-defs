@@ -1,0 +1,724 @@
+{
+    "name": "Adobe After Effects CC",
+    "publisher": "Adobe",
+    "appName": "Adobe After Effects CC 2018.app",
+    "bundleId": "com.adobe.AfterEffects",
+    "lastModified": "0000-00-00T00:00:00Z",
+    "currentVersion": "15.0",
+    "requirements": [
+        {
+            "name": "Application Bundle ID",
+            "operator": "is",
+            "value": "com.adobe.AfterEffects",
+            "type": "recon",
+            "and": true
+        }
+    ],
+    "patches": [
+        {
+            "version": "15.0",
+            "releaseDate": "2017-10-19T13:45:40Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.11",
+            "reboot": false,
+            "killApps": [
+              {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2018.app"
+              },
+              {
+                    "bundleId": "com.adobe.AfterEffects",
+                    "appName": "Adobe After Effects CC 2017.app"
+                },
+                {
+                    "bundleId": "com.adobe.AfterEffects",
+                    "appName": "Adobe After Effects CC 2015.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe After Effects CC",
+                    "version": "15.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.AfterEffects",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "15.0",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.11",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ]
+        },
+        {
+            "version": "14.2.1",
+            "releaseDate": "2017-06-14T13:00:40Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.AfterEffects",
+                    "appName": "Adobe After Effects CC 2017.app"
+                },
+                {
+                    "bundleId": "com.adobe.AfterEffects",
+                    "appName": "Adobe After Effects CC 2015.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe After Effects CC",
+                    "version": "14.2.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.AfterEffects",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "14.2.1",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ]
+        },
+        {
+            "version": "14.2",
+            "releaseDate": "2017-04-20T08:43:40Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2017.app"
+            },
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2015.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe After Effects CC",
+                    "version": "14.2",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.AfterEffects",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "14.2",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "14.1",
+            "releaseDate": "2017-01-19T13:56:40Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2017.app"
+            },
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2015.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe After Effects CC",
+                    "version": "14.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.AfterEffects",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "14.1",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "14.0.1",
+            "releaseDate": "2016-11-17T03:30:40Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2017.app"
+            },
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2015.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe After Effects CC",
+                    "version": "14.0.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.AfterEffects",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "14.0.1",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "14.0",
+            "releaseDate": "2016-11-03T07:51:40Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2017.app"
+            },
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2015.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe After Effects CC",
+                    "version": "14.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.AfterEffects",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "14.0",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "13.8.1",
+            "releaseDate": "2016-08-05T11:51:40Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2015.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe After Effects CC",
+                    "version": "13.8.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.AfterEffects",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "13.8.1",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "13.8",
+            "releaseDate": "2016-06-22T12:51:40Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2015.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe After Effects CC",
+                    "version": "13.8",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.AfterEffects",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "13.8",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "13.7.2",
+            "releaseDate": "2016-04-06T08:18:40Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2015.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe After Effects CC",
+                    "version": "13.7.2",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.AfterEffects",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "13.7.2",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "13.7.1",
+            "releaseDate": "2016-03-22T07:40:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2015.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe After Effects CC",
+                    "version": "13.7.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.AfterEffects",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "13.7.1",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "13.7",
+            "releaseDate": "2016-01-28T20:44:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2015.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe After Effects CC",
+                    "version": "13.7",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.AfterEffects",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "13.7",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "13.6.1",
+            "releaseDate": "2015-12-21T09:56:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2015.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe After Effects CC",
+                    "version": "13.6.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.AfterEffects",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "13.6.1",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "13.6",
+            "releaseDate": "2015-11-26T07:22:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2015.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe After Effects CC",
+                    "version": "13.6",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.AfterEffects",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "13.6",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "13.5.1",
+            "releaseDate": "2015-10-01T07:33:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2015.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe After Effects CC",
+                    "version": "13.5.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.AfterEffects",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "13.5.1",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "13.5.0",
+            "releaseDate": "2015-09-15T14:56:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.AfterEffects",
+                "appName": "Adobe After Effects CC 2015.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe After Effects CC",
+                    "version": "13.5.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.AfterEffects",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "13.5.0",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        }        
+    ],
+    "extensionAttributes": [],
+    "id": "AdobeAfterEffectsCC"
+}

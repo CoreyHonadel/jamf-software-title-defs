@@ -1,0 +1,760 @@
+{
+    "name": "Adobe Premiere Pro CC",
+    "publisher": "Adobe",
+    "appName": "Adobe Premiere Pro CC 2018.app",
+    "bundleId": "com.adobe.PremierePro.CC12",
+    "lastModified": "0000-00-00T00:00:00Z",
+    "currentVersion": "12.0.0",
+    "requirements": [
+        {
+            "name": "Application Bundle ID",
+            "operator": "is",
+            "value": "com.adobe.PremierePro.CC12",
+            "type": "recon",
+            "and": false
+        },
+        {
+            "name": "Application Bundle ID",
+            "operator": "is",
+            "value": "com.adobe.PremierePro.CC11",
+            "type": "recon",
+            "and": false
+        },
+        {
+            "name": "Application Bundle ID",
+            "operator": "is",
+            "value": "com.adobe.PremierePro.CC10",
+            "type": "recon",
+            "and": false
+        },
+        {
+            "name": "Application Bundle ID",
+            "operator": "is",
+            "value": "com.adobe.AdobePremierePro",
+            "type": "recon",
+            "and": false
+        }
+    ],
+    "patches": [
+      {
+        "version": "12.0.0",
+        "releaseDate": "2017-10-19T15:29:00Z",
+        "standalone": true,
+        "minimumOperatingSystem": "10.11",
+        "reboot": false,
+        "killApps": [
+          {
+            "bundleId": "com.adobe.PremierePro.CC12",
+            "appName": "Adobe Premiere Pro CC 2018.app"
+          },
+          {
+            "bundleId": "com.adobe.PremierePro.CC11",
+            "appName": "Adobe Premiere Pro CC 2017.app"
+          },
+          {
+            "bundleId": "com.adobe.PremierePro.CC10",
+            "appName": "Adobe Premiere Pro CC 2015.app"
+          },
+          {
+            "bundleId": "com.adobe.AdobePremierePro",
+            "appName": "Adobe Premiere Pro CC 2015.app"
+          }
+        ],
+        "components": [
+          {
+            "name": "Adobe Premiere Pro CC",
+            "version": "12.0.0",
+            "criteria": [
+              {
+                "name": "Application Bundle ID",
+                "operator": "is",
+                "value": "com.adobe.PremierePro.CC12",
+                "type": "recon",
+                "and": true
+              },
+              {
+                "name": "Application Version",
+                "operator": "is",
+                "value": "12.0.0",
+                "type": "recon",
+                "and": true
+              }
+            ]
+          }
+        ],
+        "capabilities": [
+          {
+            "name": "Operating System Version",
+            "operator": "greater than or equal",
+            "value": "10.11",
+            "type": "recon",
+            "and": true
+          }
+        ],
+        "dependencies": [ ]
+      },
+      {
+            "version": "11.1.2",
+            "releaseDate": "2017-06-14T11:00:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.PremierePro.CC11",
+                    "appName": "Adobe Premiere Pro CC 2017.app"
+                },
+                {
+                    "bundleId": "com.adobe.PremierePro.CC10",
+                    "appName": "Adobe Premiere Pro CC 2015.app"
+                },
+                {
+                    "bundleId": "com.adobe.AdobePremierePro",
+                    "appName": "Adobe Premiere Pro CC 2015.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Premiere Pro CC",
+                    "version": "11.1.2",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.PremierePro.CC11",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.1.2",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ]
+        },
+        {
+            "version": "11.1.1",
+            "releaseDate": "2017-05-17T13:07:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.PremierePro.CC11",
+                "appName": "Adobe Premiere Pro CC 2017.app"
+            },
+            {
+                "bundleId": "com.adobe.PremierePro.CC10",
+                "appName": "Adobe Premiere Pro CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.AdobePremierePro",
+                "appName": "Adobe Premiere Pro CC 2015.app"
+            }            
+        	],
+            "components": [
+                {
+                    "name": "Adobe Premiere Pro CC",
+                    "version": "11.1.1",
+                    "criteria": [
+                         {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.PremierePro.CC11",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.1.1",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "11.1.0",
+            "releaseDate": "2017-04-20T08:01:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.PremierePro.CC11",
+                "appName": "Adobe Premiere Pro CC 2017.app"
+            },
+            {
+                "bundleId": "com.adobe.PremierePro.CC10",
+                "appName": "Adobe Premiere Pro CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.AdobePremierePro",
+                "appName": "Adobe Premiere Pro CC 2015.app"
+            }            
+        	],
+            "components": [
+                {
+                    "name": "Adobe Premiere Pro CC",
+                    "version": "11.1.0",
+                    "criteria": [
+                         {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.PremierePro.CC11",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.1.0",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "11.0.2",
+            "releaseDate": "2017-01-19T11:29:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.PremierePro.CC11",
+                "appName": "Adobe Premiere Pro CC 2017.app"
+            },
+            {
+                "bundleId": "com.adobe.PremierePro.CC10",
+                "appName": "Adobe Premiere Pro CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.AdobePremierePro",
+                "appName": "Adobe Premiere Pro CC 2015.app"
+            }            
+        	],
+            "components": [
+                {
+                    "name": "Adobe Premiere Pro CC",
+                    "version": "11.0.2",
+                    "criteria": [
+                         {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.PremierePro.CC11",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.0.2",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "11.0.1",
+            "releaseDate": "2016-11-17T15:33:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.PremierePro.CC11",
+                "appName": "Adobe Premiere Pro CC 2017.app"
+            },
+            {
+                "bundleId": "com.adobe.PremierePro.CC10",
+                "appName": "Adobe Premiere Pro CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.AdobePremierePro",
+                "appName": "Adobe Premiere Pro CC 2015.app"
+            }            
+        	],
+            "components": [
+                {
+                    "name": "Adobe Premiere Pro CC",
+                    "version": "11.0.1",
+                    "criteria": [
+                         {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.PremierePro.CC11",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.0.1",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "11.0.0",
+            "releaseDate": "2016-11-02T15:33:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.PremierePro.CC11",
+                "appName": "Adobe Premiere Pro CC 2017.app"
+            },
+            {
+                "bundleId": "com.adobe.PremierePro.CC10",
+                "appName": "Adobe Premiere Pro CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.AdobePremierePro",
+                "appName": "Adobe Premiere Pro CC 2015.app"
+            }            
+        	],
+            "components": [
+                {
+                    "name": "Adobe Premiere Pro CC",
+                    "version": "11.0.0",
+                    "criteria": [
+                         {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.PremierePro.CC11",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.0.0",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "10.4.0",
+            "releaseDate": "2016-08-09T14:13:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.PremierePro.CC10",
+                "appName": "Adobe Premiere Pro CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.AdobePremierePro",
+                "appName": "Adobe Premiere Pro CC 2015.app"
+            }            
+        	],
+            "components": [
+                {
+                    "name": "Adobe Premiere Pro CC",
+                    "version": "10.4.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.PremierePro.CC10",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "10.4.0",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "10.3.0",
+            "releaseDate": "2016-06-22T11:33:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.PremierePro.CC10",
+                "appName": "Adobe Premiere Pro CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.AdobePremierePro",
+                "appName": "Adobe Premiere Pro CC 2015.app"
+            }            
+        	],
+            "components": [
+                {
+                    "name": "Adobe Premiere Pro CC",
+                    "version": "10.3.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.PremierePro.CC10",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "10.3.0",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "9.2.0",
+            "releaseDate": "2016-01-31T09:22:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.AdobePremierePro",
+                "appName": "Adobe Premiere Pro CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.PremierePro.CC10",
+                "appName": "Adobe Premiere Pro CC 2015.app"
+            }            
+        	],
+            "components": [
+                {
+                    "name": "Adobe Premiere Pro CC",
+                    "version": "9.2.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.AdobePremierePro",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "9.2.0",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "9.1.0",
+            "releaseDate": "2015-12-21T11:32:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.AdobePremierePro",
+                "appName": "Adobe Premiere Pro CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.PremierePro.CC10",
+                "appName": "Adobe Premiere Pro CC 2015.app"
+            }            
+       	 	],
+            "components": [
+                {
+                    "name": "Adobe Premiere Pro CC",
+                    "version": "9.1.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.AdobePremierePro",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "9.1.0",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "9.0.2",
+            "releaseDate": "2015-09-12T08:11:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.AdobePremierePro",
+                "appName": "Adobe Premiere Pro CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.PremierePro.CC10",
+                "appName": "Adobe Premiere Pro CC 2015.app"
+            }            
+        	],
+            "components": [
+                {
+                    "name": "Adobe Premiere Pro CC",
+                    "version": "9.0.2",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.AdobePremierePro",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "9.0.2",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "9.0.1",
+            "releaseDate": "2015-07-07T07:49:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.AdobePremierePro",
+                "appName": "Adobe Premiere Pro CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.PremierePro.CC10",
+                "appName": "Adobe Premiere Pro CC 2015.app"
+            }            
+        	],
+            "components": [
+                {
+                    "name": "Adobe Premiere Pro CC",
+                    "version": "9.0.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.AdobePremierePro",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "9.0.1",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "9.0.0",
+            "releaseDate": "2015-06-15T09:16:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.AdobePremierePro",
+                "appName": "Adobe Premiere Pro CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.PremierePro.CC10",
+                "appName": "Adobe Premiere Pro CC 2015.app"
+            }            
+        	],
+            "components": [
+                {
+                    "name": "Adobe Premiere Pro CC",
+                    "version": "9.0.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.AdobePremierePro",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "9.0.0",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        }
+    ],
+    "extensionAttributes": [],
+    "id": "AdobePremiereProCC"
+}

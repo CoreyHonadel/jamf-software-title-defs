@@ -1,48 +1,48 @@
 {
-    "name": "Skype for Business",
-    "publisher": "Microsoft",
-    "appName": "Skype for Business.app",
-    "bundleId": "com.microsoft.skypeforbusiness",
+    "name": "Adobe Photoshop Lightroom CC",
+    "publisher": "Adobe",
+    "appName": "Adobe Lightroom.app",
+    "bundleId": "com.adobe.Lightroom6",
     "lastModified": "0000-00-00T00:00:00Z",
-    "currentVersion": "16.11.149",
+    "currentVersion": "Adobe Lightroom [1125239]",
     "requirements": [
         {
             "name": "Application Bundle ID",
             "operator": "is",
-            "value": "com.microsoft.skypeforbusiness",
+            "value": "com.adobe.Lightroom6",
             "type": "recon",
             "and": true
         }
     ],
     "patches": [
         {
-            "version": "16.11.149",
-            "releaseDate": "2017-10-05T13:57:43.323Z",
+            "version": "Adobe Lightroom [1125239]",
+            "releaseDate": "2017-07-19T13:57:34Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.11",
+            "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.microsoft.skypeforbusiness",
-                    "appName": "skypeforbusiness.app"
+                    "bundleId": "com.adobe.Lightroom6",
+                    "appName": "Adobe Lightroom.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype for Business",
-                    "version": "16.11.149",
+                    "name": "Adobe Photoshop Lightroom CC",
+                    "version": "Adobe Lightroom [1125239]",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.microsoft.skypeforbusiness",
+                            "value": "com.adobe.Lightroom6",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "16.11.149",
+                            "value": "Adobe Lightroom [1125239]",
                             "type": "recon",
                             "and": true
                         }
@@ -53,43 +53,43 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.11",
+                    "value": "10.10",
                     "type": "recon",
                     "and": true
                 }
             ],
-            "dependencies": []
+            "dependencies": [ ]
         },
         {
-            "version": "16.10.97",
-            "releaseDate": "2017-08-31T02:04:43.323Z",
+            "version": "Adobe Lightroom [1117303]",
+            "releaseDate": "2017-05-26T09:15:34Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.11",
+            "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
-                {
-                    "bundleId": "com.microsoft.skypeforbusiness",
-                    "appName": "skypeforbusiness.app"
-                }
-            ],
+            {
+                "bundleId": "com.adobe.Lightroom6",
+                "appName": "Adobe Lightroom.app"
+            }           
+        ],
             "components": [
                 {
-                    "name": "Skype for Business",
-                    "version": "16.10.97",
+                    "name": "Adobe Photoshop Lightroom CC",
+                    "version": "Adobe Lightroom [1117303]",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.microsoft.skypeforbusiness",
+                            "value": "com.adobe.Lightroom6",
                             "type": "recon",
-                            "and": true
+            				"and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "16.10.97",
+                            "value": "Adobe Lightroom [1117303]",
                             "type": "recon",
-                            "and": true
+            				"and": true
                         }
                     ]
                 }
@@ -98,43 +98,43 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.11",
+                    "value": "10.10",
                     "type": "recon",
-                    "and": true
+            		"and": true
                 }
             ],
-            "dependencies": []
+            "dependencies": [ ] 
         },
         {
-            "version": "16.9.37",
-            "releaseDate": "2017-08-07T07:53:42.728Z",
+            "version": "Adobe Lightroom [1111918]",
+            "releaseDate": "2017-04-12T13:04:34Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.11",
+            "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
-                {
-                    "bundleId": "com.microsoft.skypeforbusiness",
-                    "appName": "skypeforbusiness.app"
-                }
-            ],
+            {
+                "bundleId": "com.adobe.Lightroom6",
+                "appName": "Adobe Lightroom.app"
+            }           
+        ],
             "components": [
                 {
-                    "name": "Skype for Business",
-                    "version": "16.9.37",
+                    "name": "Adobe Photoshop Lightroom CC",
+                    "version": "Adobe Lightroom [1111918]",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.microsoft.skypeforbusiness",
+                            "value": "com.adobe.Lightroom6",
                             "type": "recon",
-                            "and": true
+            				"and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "16.9.37",
+                            "value": "Adobe Lightroom [1111918]",
                             "type": "recon",
-                            "and": true
+            				"and": true
                         }
                     ]
                 }
@@ -143,43 +143,43 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.11",
+                    "value": "10.10",
                     "type": "recon",
-                    "and": true
+            		"and": true
                 }
             ],
-            "dependencies": []
+            "dependencies": [ ] 
         },
         {
-            "version": "16.8.196",
-            "releaseDate": "2017-06-21T08:25:42.728Z",
+            "version": "Adobe Lightroom [1106920]",
+            "releaseDate": "2017-03-08T08:01:34Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.11",
+            "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
-                {
-                    "bundleId": "com.microsoft.skypeforbusiness",
-                    "appName": "skypeforbusiness.app"
-                }
-            ],
+            {
+                "bundleId": "com.adobe.Lightroom6",
+                "appName": "Adobe Lightroom.app"
+            }           
+        ],
             "components": [
                 {
-                    "name": "Skype for Business",
-                    "version": "16.8.196",
+                    "name": "Adobe Photoshop Lightroom CC",
+                    "version": "Adobe Lightroom [1106920]",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.microsoft.skypeforbusiness",
+                            "value": "com.adobe.Lightroom6",
                             "type": "recon",
-                            "and": true
+            				"and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "16.8.196",
+                            "value": "Adobe Lightroom [1106920]",
                             "type": "recon",
-                            "and": true
+            				"and": true
                         }
                     ]
                 }
@@ -188,43 +188,43 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.11",
+                    "value": "10.10",
                     "type": "recon",
-                    "and": true
+            		"and": true
                 }
             ],
-            "dependencies": []
+            "dependencies": [ ] 
         },
         {
-            "version": "16.6.333",
-            "releaseDate": "2017-05-02T18:00:42.728Z",
+            "version": "Adobe Lightroom [1099473]",
+            "releaseDate": "2016-12-08T11:01:34Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.11",
+            "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
-                {
-                    "bundleId": "com.microsoft.skypeforbusiness",
-                    "appName": "skypeforbusiness.app"
-                }
-            ],
+            {
+                "bundleId": "com.adobe.Lightroom6",
+                "appName": "Adobe Lightroom.app"
+            }           
+        ],
             "components": [
                 {
-                    "name": "Skype for Business",
-                    "version": "16.6.333",
+                    "name": "Adobe Photoshop Lightroom CC",
+                    "version": "Adobe Lightroom [1099473]",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.microsoft.skypeforbusiness",
+                            "value": "com.adobe.Lightroom6",
                             "type": "recon",
-                            "and": true
+            				"and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "16.6.333",
+                            "value": "Adobe Lightroom [1099473]",
                             "type": "recon",
-                            "and": true
+            				"and": true
                         }
                     ]
                 }
@@ -233,43 +233,43 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.11",
+                    "value": "10.10",
                     "type": "recon",
-                    "and": true
+            		"and": true
                 }
             ],
-            "dependencies": []
+            "dependencies": [ ] 
         },
         {
-            "version": "16.6.332",
-            "releaseDate": "2017-04-18T18:07:09.813Z",
+            "version": "Adobe Lightroom [1090788]",
+            "releaseDate": "2016-09-20T13:42:34Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.11",
+            "minimumOperatingSystem": "10.9.0",
             "reboot": false,
             "killApps": [
-                {
-                    "bundleId": "com.microsoft.skypeforbusiness",
-                    "appName": "skypeforbusiness.app"
-                }
-            ],
+            {
+                "bundleId": "com.adobe.Lightroom6",
+                "appName": "Adobe Lightroom.app"
+            }           
+        ],
             "components": [
                 {
-                    "name": "Skype for Business",
-                    "version": "16.6.332",
+                    "name": "Adobe Photoshop Lightroom CC",
+                    "version": "Adobe Lightroom [1090788]",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.microsoft.skypeforbusiness",
+                            "value": "com.adobe.Lightroom6",
                             "type": "recon",
-                            "and": true
+            				"and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "16.6.332",
+                            "value": "Adobe Lightroom [1090788]",
                             "type": "recon",
-                            "and": true
+            				"and": true
                         }
                     ]
                 }
@@ -278,43 +278,43 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.11",
+                    "value": "10.9.0",
                     "type": "recon",
-                    "and": true
+            		"and": true
                 }
             ],
-            "dependencies": []
+            "dependencies": [ ] 
         },
         {
-            "version": "16.5.185",
-            "releaseDate": "2017-03-29T08:25:25.473Z",
+            "version": "Adobe Lightroom [1083169]",
+            "releaseDate": "2016-07-28T13:48:34Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.11",
+            "minimumOperatingSystem": "10.9.0",
             "reboot": false,
             "killApps": [
-                {
-                    "bundleId": "com.microsoft.skypeforbusiness",
-                    "appName": "skypeforbusiness.app"
-                }
-            ],
+            {
+                "bundleId": "com.adobe.Lightroom6",
+                "appName": "Adobe Lightroom.app"
+            }           
+        ],
             "components": [
                 {
-                    "name": "Skype for Business",
-                    "version": "16.5.185",
+                    "name": "Adobe Photoshop Lightroom CC",
+                    "version": "Adobe Lightroom [1083169]",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.microsoft.skypeforbusiness",
+                            "value": "com.adobe.Lightroom6",
                             "type": "recon",
-                            "and": true
+            				"and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "16.5.185",
+                            "value": "Adobe Lightroom [1083169]",
                             "type": "recon",
-                            "and": true
+            				"and": true
                         }
                     ]
                 }
@@ -323,43 +323,43 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.11",
+                    "value": "10.9.0",
                     "type": "recon",
-                    "and": true
+            		"and": true
                 }
             ],
-            "dependencies": []
+            "dependencies": [ ] 
         },
         {
-            "version": "16.3.240",
-            "releaseDate": "2017-02-08T20:44:25.473Z",
+            "version": "Adobe Lightroom [1078672]",
+            "releaseDate": "2016-06-12T21:39:34Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.11",
+            "minimumOperatingSystem": "10.9.0",
             "reboot": false,
             "killApps": [
-                {
-                    "bundleId": "com.microsoft.skypeforbusiness",
-                    "appName": "skypeforbusiness.app"
-                }
-            ],
+            {
+                "bundleId": "com.adobe.Lightroom6",
+                "appName": "Adobe Lightroom.app"
+            }           
+        ],
             "components": [
                 {
-                    "name": "Skype for Business",
-                    "version": "16.3.240",
+                    "name": "Adobe Photoshop Lightroom CC",
+                    "version": "Adobe Lightroom [1078672]",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.microsoft.skypeforbusiness",
+                            "value": "com.adobe.Lightroom6",
                             "type": "recon",
-                            "and": true
+            				"and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "16.3.240",
+                            "value": "Adobe Lightroom [1078672]",
                             "type": "recon",
-                            "and": true
+            				"and": true
                         }
                     ]
                 }
@@ -368,43 +368,43 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.11",
+                    "value": "10.9.0",
                     "type": "recon",
-                    "and": true
+            		"and": true
                 }
             ],
-            "dependencies": []
+            "dependencies": [ ] 
         },
         {
-            "version": "16.2.156",
-            "releaseDate": "2016-12-20T01:34:25.473Z",
+            "version": "Adobe Lightroom [1073342]",
+            "releaseDate": "2016-04-28T11:46:34Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.11",
+            "minimumOperatingSystem": "10.9.0",
             "reboot": false,
             "killApps": [
-                {
-                    "bundleId": "com.microsoft.skypeforbusiness",
-                    "appName": "skypeforbusiness.app"
-                }
-            ],
+            {
+                "bundleId": "com.adobe.Lightroom6",
+                "appName": "Adobe Lightroom.app"
+            }           
+        ],
             "components": [
                 {
-                    "name": "Skype for Business",
-                    "version": "16.2.156",
+                    "name": "Adobe Photoshop Lightroom CC",
+                    "version": "Adobe Lightroom [1073342]",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.microsoft.skypeforbusiness",
+                            "value": "com.adobe.Lightroom6",
                             "type": "recon",
-                            "and": true
+            				"and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "16.2.156",
+                            "value": "Adobe Lightroom [1073342]",
                             "type": "recon",
-                            "and": true
+            				"and": true
                         }
                     ]
                 }
@@ -413,43 +413,43 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.11",
+                    "value": "10.9.0",
                     "type": "recon",
-                    "and": true
+            		"and": true
                 }
             ],
-            "dependencies": []
+            "dependencies": [ ] 
         },
         {
-            "version": "16.2.145",
-            "releaseDate": "2016-12-08T00:44:25.473Z",
+            "version": "Adobe Lightroom [1067055]",
+            "releaseDate": "2016-03-16T07:22:34Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.11",
+            "minimumOperatingSystem": "10.9.0",
             "reboot": false,
             "killApps": [
-                {
-                    "bundleId": "com.microsoft.skypeforbusiness",
-                    "appName": "skypeforbusiness.app"
-                }
-            ],
+            {
+                "bundleId": "com.adobe.Lightroom6",
+                "appName": "Adobe Lightroom.app"
+            }           
+        ],
             "components": [
                 {
-                    "name": "Skype for Business",
-                    "version": "16.2.145",
+                    "name": "Adobe Photoshop Lightroom CC",
+                    "version": "Adobe Lightroom [1067055]",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.microsoft.skypeforbusiness",
+                            "value": "com.adobe.Lightroom6",
                             "type": "recon",
-                            "and": true
+            				"and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "16.2.145",
+                            "value": "Adobe Lightroom [1067055]",
                             "type": "recon",
-                            "and": true
+            				"and": true
                         }
                     ]
                 }
@@ -458,43 +458,43 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.11",
+                    "value": "10.9.0",
                     "type": "recon",
-                    "and": true
+            		"and": true
                 }
             ],
-            "dependencies": []
+            "dependencies": [ ] 
         },
         {
-            "version": "16.1.456",
-            "releaseDate": "2016-11-22T00:20:25.473Z",
+            "version": "Adobe Lightroom [1052427]",
+            "releaseDate": "2015-11-17T15:15:34Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.11",
+            "minimumOperatingSystem": "10.9.0",
             "reboot": false,
             "killApps": [
-                {
-                    "bundleId": "com.microsoft.skypeforbusiness",
-                    "appName": "skypeforbusiness.app"
-                }
-            ],
+            {
+                "bundleId": "com.adobe.Lightroom6",
+                "appName": "Adobe Lightroom.app"
+            }           
+        ],
             "components": [
                 {
-                    "name": "Skype for Business",
-                    "version": "16.1.456",
+                    "name": "Adobe Photoshop Lightroom CC",
+                    "version": "Adobe Lightroom [1052427]",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.microsoft.skypeforbusiness",
+                            "value": "com.adobe.Lightroom6",
                             "type": "recon",
-                            "and": true
+            				"and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "16.1.456",
+                            "value": "Adobe Lightroom [1052427]",
                             "type": "recon",
-                            "and": true
+            				"and": true
                         }
                     ]
                 }
@@ -503,43 +503,43 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.11",
+                    "value": "10.9.0",
                     "type": "recon",
-                    "and": true
+            		"and": true
                 }
             ],
-            "dependencies": []
+            "dependencies": [ ] 
         },
         {
-            "version": "16.0.3638",
-            "releaseDate": "2016-10-26T00:53:25.473Z",
+            "version": "Adobe Lightroom [1014445]",
+            "releaseDate": "2015-06-15T11:56:34Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.11",
+            "minimumOperatingSystem": "10.9.0",
             "reboot": false,
             "killApps": [
-                {
-                    "bundleId": "com.microsoft.skypeforbusiness",
-                    "appName": "skypeforbusiness.app"
-                }
-            ],
+            {
+                "bundleId": "com.adobe.Lightroom6",
+                "appName": "Adobe Lightroom.app"
+            }           
+        ],
             "components": [
                 {
-                    "name": "Skype for Business",
-                    "version": "16.0.3638",
+                    "name": "Adobe Photoshop Lightroom CC",
+                    "version": "Adobe Lightroom [1014445]",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.microsoft.skypeforbusiness",
+                            "value": "com.adobe.Lightroom6",
                             "type": "recon",
-                            "and": true
+            				"and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "16.0.3638",
+                            "value": "Adobe Lightroom [1014445]",
                             "type": "recon",
-                            "and": true
+            				"and": true
                         }
                     ]
                 }
@@ -548,14 +548,14 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.11",
+                    "value": "10.9.0",
                     "type": "recon",
-                    "and": true
+            		"and": true
                 }
             ],
-            "dependencies": []
+            "dependencies": [ ] 
         }
     ],
     "extensionAttributes": [],
-    "id": "SkypeForBusiness"
+    "id": "AdobePhotoshopLightroomCC"
 }

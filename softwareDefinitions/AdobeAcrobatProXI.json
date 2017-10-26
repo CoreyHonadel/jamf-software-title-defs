@@ -1,0 +1,868 @@
+{
+    "name": "Adobe Acrobat Pro XI",
+    "publisher": "Adobe",
+    "appName": "Adobe Acrobat Pro.app",
+    "bundleId": "com.adobe.Acrobat.Pro",
+    "lastModified": "0000-00-00T00:00:00Z",
+    "currentVersion": "11.0.22",
+    "requirements": [
+        {
+            "name": "Application Bundle ID",
+            "operator": "is",
+            "value": "com.adobe.Acrobat.Pro",
+            "type": "recon",
+            "and": true
+        },
+        {
+            "name": "Application Version",
+            "operator": "like",
+            "value": "11.",
+            "type": "recon",
+            "and": true
+        }
+    ],
+    "patches": [
+        {
+            "version": "11.0.22",
+            "releaseDate": "2017-08-22T09:10:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6.4",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Acrobat.Pro",
+                    "appName": "Adobe Acrobat Pro.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Pro XI",
+                    "version": "11.0.22",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Acrobat.Pro",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.0.22",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6.4",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.0.21",
+            "releaseDate": "2017-08-08T10:09:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6.4",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Acrobat.Pro",
+                    "appName": "Adobe Acrobat Pro.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Pro XI",
+                    "version": "11.0.21",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Acrobat.Pro",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.0.21",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6.4",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.0.20",
+            "releaseDate": "2017-04-11T00:40:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6.4",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Acrobat.Pro",
+                    "appName": "Adobe Acrobat Pro.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Pro XI",
+                    "version": "11.0.20",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Acrobat.Pro",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.0.20",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6.4",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.0.19",
+            "releaseDate": "2017-01-10T00:40:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6.4",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Acrobat.Pro",
+                    "appName": "Adobe Acrobat Pro.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Pro XI",
+                    "version": "11.0.19",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Acrobat.Pro",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.0.19",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6.4",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.0.18",
+            "releaseDate": "2016-10-11T00:40:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6.4",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Acrobat.Pro",
+                    "appName": "Adobe Acrobat Pro.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Pro XI",
+                    "version": "11.0.18",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Acrobat.Pro",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.0.18",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6.4",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.0.17",
+            "releaseDate": "2016-07-29T10:40:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6.4",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Acrobat.Pro",
+                    "appName": "Adobe Acrobat Pro.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Pro XI",
+                    "version": "11.0.17",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Acrobat.Pro",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.0.17",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6.4",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.0.16",
+            "releaseDate": "2016-05-10T10:09:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6.4",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Acrobat.Pro",
+                    "appName": "Adobe Acrobat Pro.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Pro XI",
+                    "version": "11.0.16",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Acrobat.Pro",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.0.16",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6.4",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.0.15",
+            "releaseDate": "2016-03-08T15:40:34Z",
+            "standalone": false,
+            "minimumOperatingSystem": "10.6.4",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Acrobat.Pro",
+                    "appName": "Adobe Acrobat Pro.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Pro XI",
+                    "version": "11.0.15",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Acrobat.Pro",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.0.15",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6.4",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.0.14",
+            "releaseDate": "2016-01-12T07:39:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6.4",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Acrobat.Pro",
+                    "appName": "Adobe Acrobat Pro.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Pro XI",
+                    "version": "11.0.14",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Acrobat.Pro",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.0.14",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6.4",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.0.13",
+            "releaseDate": "2015-10-13T08:13:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6.4",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Acrobat.Pro",
+                    "appName": "Adobe Acrobat Pro.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Pro XI",
+                    "version": "11.0.13",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Acrobat.Pro",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.0.13",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6.4",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.0.12",
+            "releaseDate": "2015-07-14T14:49:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6.4",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Acrobat.Pro",
+                    "appName": "Adobe Acrobat Pro.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Pro XI",
+                    "version": "11.0.12",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Acrobat.Pro",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.0.12",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6.4",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.0.11",
+            "releaseDate": "2015-05-12T20:09:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6.4",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Acrobat.Pro",
+                    "appName": "Adobe Acrobat Pro.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Pro XI",
+                    "version": "11.0.11",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Acrobat.Pro",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.0.11",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6.4",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.0.10",
+            "releaseDate": "2014-12-09T09:11:34Z",
+            "standalone": false,
+            "minimumOperatingSystem": "10.6.4",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Acrobat.Pro",
+                    "appName": "Adobe Acrobat Pro.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Pro XI",
+                    "version": "11.0.10",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Acrobat.Pro",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.0.10",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6.4",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.0.09",
+            "releaseDate": "2014-09-16T14:20:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6.4",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Acrobat.Pro",
+                    "appName": "Adobe Acrobat Pro.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Pro XI",
+                    "version": "11.0.09",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Acrobat.Pro",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.0.09",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6.4",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.0.07",
+            "releaseDate": "2014-05-13T08:19:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6.4",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Acrobat.Pro",
+                    "appName": "Adobe Acrobat Pro.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Pro XI",
+                    "version": "11.0.07",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Acrobat.Pro",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.0.07",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6.4",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.0.06",
+            "releaseDate": "2014-01-14T08:31:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6.4",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Acrobat.Pro",
+                    "appName": "Adobe Acrobat Pro.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Pro XI",
+                    "version": "11.0.06",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Acrobat.Pro",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.0.06",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6.4",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.0.04",
+            "releaseDate": "2013-09-26T20:08:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6.4",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Acrobat.Pro",
+                    "appName": "Adobe Acrobat Pro.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Pro XI",
+                    "version": "11.0.04",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Acrobat.Pro",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.0.04",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6.4",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.0.03",
+            "releaseDate": "2013-05-13T16:42:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6.4",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Acrobat.Pro",
+                    "appName": "Adobe Acrobat Pro.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Pro XI",
+                    "version": "11.0.03",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Acrobat.Pro",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.0.03",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6.4",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.0.01",
+            "releaseDate": "2013-04-11T08:22:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6.4",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Acrobat.Pro",
+                    "appName": "Adobe Acrobat Pro.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Pro XI",
+                    "version": "11.0.01",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Acrobat.Pro",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.0.01",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6.4",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.0.0",
+            "releaseDate": "2013-03-04T14:56:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6.4",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Acrobat.Pro",
+                    "appName": "Adobe Acrobat Pro.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Pro XI",
+                    "version": "11.0.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Acrobat.Pro",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.0.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6.4",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        }
+    ],
+    "extensionAttributes": [],
+    "id": "AdobeAcrobatProXI"
+}

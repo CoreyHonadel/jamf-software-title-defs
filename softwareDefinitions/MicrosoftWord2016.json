@@ -1,48 +1,55 @@
 {
-    "name": "Skype",
+    "name": "Microsoft Word 2016",
     "publisher": "Microsoft",
-    "appName": "Skype.app",
-    "bundleId": "com.skype.skype",
+    "appName": "Microsoft Word.app",
+    "bundleId": "com.microsoft.Word",
     "lastModified": "0000-00-00T00:00:00Z",
-    "currentVersion": "7.59",
+    "currentVersion": "15.39.17101000",
     "requirements": [
         {
             "name": "Application Bundle ID",
             "operator": "is",
-            "value": "com.skype.skype",
+            "value": "com.microsoft.Word",
+            "type": "recon",
+            "and": true
+        },
+        {
+            "name": "Application Version",
+            "operator": "like",
+            "value": "15.",
             "type": "recon",
             "and": true
         }
     ],
     "patches": [
         {
-            "version": "7.59",
-            "releaseDate": "2017-10-09T13:33:34.839Z",
+            "version": "15.39.17101000",
+            "releaseDate": "2017-10-10T18:58:04.285Z",
             "standalone": true,
             "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.59",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.39.17101000",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.59",
+                            "value": "15.39.17101000",
                             "type": "recon",
                             "and": true
                         }
@@ -61,33 +68,33 @@
             "dependencies": []
         },
         {
-            "version": "7.58",
-            "releaseDate": "2017-08-16T12:05:09.764Z",
+            "version": "15.38.17090200",
+            "releaseDate": "2017-09-12T16:00:33.598Z",
             "standalone": true,
             "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.58",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.38.17090200",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.58",
+                            "value": "15.38.17090200",
                             "type": "recon",
                             "and": true
                         }
@@ -106,33 +113,33 @@
             "dependencies": []
         },
         {
-            "version": "7.56",
-            "releaseDate": "2017-06-28T08:14:09.764Z",
+            "version": "15.37.17081500",
+            "releaseDate": "2017-08-15T13:46:50.269Z",
             "standalone": true,
             "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.56",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.37.17081500",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.56",
+                            "value": "15.37.17081500",
                             "type": "recon",
                             "and": true
                         }
@@ -151,33 +158,33 @@
             "dependencies": []
         },
         {
-            "version": "7.55",
-            "releaseDate": "2017-06-14T14:04:09.764Z",
+            "version": "15.36.17070200",
+            "releaseDate": "2017-07-11T14:48:50.269Z",
             "standalone": true,
             "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.55",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.36.17070200",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.55",
+                            "value": "15.36.17070200",
                             "type": "recon",
                             "and": true
                         }
@@ -196,33 +203,33 @@
             "dependencies": []
         },
         {
-            "version": "7.54",
-            "releaseDate": "2017-06-05T14:00:28.671Z",
+            "version": "15.35.17061000",
+            "releaseDate": "2017-06-13T18:05:50.269Z",
             "standalone": true,
             "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.54",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.35.17061000",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.54",
+                            "value": "15.35.17061000",
                             "type": "recon",
                             "and": true
                         }
@@ -241,33 +248,33 @@
             "dependencies": []
         },
         {
-            "version": "7.53",
-            "releaseDate": "2017-05-17T14:02:10.594Z",
+            "version": "15.34.17051500",
+            "releaseDate": "2017-05-16T18:00:59.681Z",
             "standalone": true,
             "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.53",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.34.17051500",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.53",
+                            "value": "15.34.17051500",
                             "type": "recon",
                             "and": true
                         }
@@ -286,33 +293,33 @@
             "dependencies": []
         },
         {
-            "version": "7.52",
-            "releaseDate": "2017-05-04T12:00:42.649Z",
+            "version": "15.33.17040900",
+            "releaseDate": "2017-04-11T22:00:43.591Z",
             "standalone": true,
             "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.52",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.33.17040900",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.52",
+                            "value": "15.33.17040900",
                             "type": "recon",
                             "and": true
                         }
@@ -331,33 +338,33 @@
             "dependencies": []
         },
         {
-            "version": "7.51",
-            "releaseDate": "2017-04-26T14:09:26.401Z",
+            "version": "15.32.17030901",
+            "releaseDate": "2017-03-14T17:28:45.184Z",
             "standalone": true,
             "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.51",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.32.17030901",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.51",
+                            "value": "15.32.17030901",
                             "type": "recon",
                             "and": true
                         }
@@ -376,33 +383,33 @@
             "dependencies": []
         },
         {
-            "version": "7.50",
-            "releaseDate": "2017-04-05T14:00:23.493Z",
+            "version": "15.31.17021600",
+            "releaseDate": "2017-02-16T17:00:56.599Z",
             "standalone": true,
             "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.50",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.31.17021600",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.50",
+                            "value": "15.31.17021600",
                             "type": "recon",
                             "and": true
                         }
@@ -421,33 +428,33 @@
             "dependencies": []
         },
         {
-            "version": "7.49",
-            "releaseDate": "2017-03-23T15:21:12.937Z",
+            "version": "15.30.17010700",
+            "releaseDate": "2017-01-11T17:00:51.184Z",
             "standalone": true,
             "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.49",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.30.17010700",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.49",
+                            "value": "15.30.17010700",
                             "type": "recon",
                             "and": true
                         }
@@ -466,33 +473,33 @@
             "dependencies": []
         },
         {
-            "version": "7.48",
-            "releaseDate": "2017-03-09T15:04:24.076Z",
+            "version": "15.29.16121500",
+            "releaseDate": "2016-12-15T19:00:26.208Z",
             "standalone": true,
             "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.48",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.29.16121500",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.48",
+                            "value": "15.29.16121500",
                             "type": "recon",
                             "and": true
                         }
@@ -511,33 +518,33 @@
             "dependencies": []
         },
         {
-            "version": "7.47",
-            "releaseDate": "2017-02-27T17:00:18.701Z",
+            "version": "15.29.16120900",
+            "releaseDate": "2016-12-13T17:48:53.905Z",
             "standalone": true,
             "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.47",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.29.16120900",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.47",
+                            "value": "15.29.16120900",
                             "type": "recon",
                             "and": true
                         }
@@ -556,33 +563,33 @@
             "dependencies": []
         },
         {
-            "version": "7.46",
-            "releaseDate": "2017-02-08T17:00:29.649Z",
+            "version": "15.28.16111501",
+            "releaseDate": "2016-11-16T07:21:14.090Z",
             "standalone": true,
             "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.46",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.28.16111501",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.46",
+                            "value": "15.28.16111501",
                             "type": "recon",
                             "and": true
                         }
@@ -601,33 +608,33 @@
             "dependencies": []
         },
         {
-            "version": "7.44",
-            "releaseDate": "2017-01-12T15:00:24.397Z",
+            "version": "15.28.16111300",
+            "releaseDate": "2016-11-15T07:21:14.090Z",
             "standalone": true,
             "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.44",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.28.16111300",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.44",
+                            "value": "15.28.16111300",
                             "type": "recon",
                             "and": true
                         }
@@ -646,33 +653,33 @@
             "dependencies": []
         },
         {
-            "version": "7.43",
-            "releaseDate": "2016-12-14T15:00:27.451Z",
+            "version": "15.27.16101000",
+            "releaseDate": "2016-10-11T18:00:28.585Z",
             "standalone": true,
             "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.43",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.27.16101000",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.43",
+                            "value": "15.27.16101000",
                             "type": "recon",
                             "and": true
                         }
@@ -691,33 +698,33 @@
             "dependencies": []
         },
         {
-            "version": "7.42",
-            "releaseDate": "2016-11-30T14:09:18.060Z",
+            "version": "15.26.16091000",
+            "releaseDate": "2016-09-14T14:00:47.230Z",
             "standalone": true,
             "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.42",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.26.16091000",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.42",
+                            "value": "15.26.16091000",
                             "type": "recon",
                             "and": true
                         }
@@ -736,33 +743,33 @@
             "dependencies": []
         },
         {
-            "version": "7.41",
-            "releaseDate": "2016-11-16T15:00:59.761Z",
+            "version": "15.25.16081700",
+            "releaseDate": "2016-08-23T21:00:59.820Z",
             "standalone": true,
             "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.41",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.25.16081700",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.41",
+                            "value": "15.25.16081700",
                             "type": "recon",
                             "and": true
                         }
@@ -781,33 +788,33 @@
             "dependencies": []
         },
         {
-            "version": "7.39",
-            "releaseDate": "2016-10-19T14:00:22.399Z",
+            "version": "15.25.16081800",
+            "releaseDate": "2016-08-23T21:04:59.820Z",
             "standalone": true,
             "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.39",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.25.16081800",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.39",
+                            "value": "15.25.16081800",
                             "type": "recon",
                             "and": true
                         }
@@ -826,33 +833,33 @@
             "dependencies": []
         },
         {
-            "version": "7.37",
-            "releaseDate": "2016-09-26T12:02:26.771Z",
+            "version": "15.24.16070900",
+            "releaseDate": "2016-07-13T14:43:00Z",
             "standalone": true,
             "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.37",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.24.16070900",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.37",
+                            "value": "15.24.16070900",
                             "type": "recon",
                             "and": true
                         }
@@ -871,33 +878,33 @@
             "dependencies": []
         },
         {
-            "version": "7.36",
-            "releaseDate": "2016-09-16T18:00:43.690Z",
+            "version": "15.23.16062400",
+            "releaseDate": "2016-06-27T15:12:00Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.9",
+            "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.36",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.23.16062400",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.36",
+                            "value": "15.23.16062400",
                             "type": "recon",
                             "and": true
                         }
@@ -908,7 +915,7 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.9",
+                    "value": "10.10",
                     "type": "recon",
                     "and": true
                 }
@@ -916,33 +923,33 @@
             "dependencies": []
         },
         {
-            "version": "7.35",
-            "releaseDate": "2016-08-24T19:00:17.571Z",
+            "version": "15.23.16061700",
+            "releaseDate": "2016-06-20T12:52:00Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.9",
+            "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.35",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.23.16061700",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.35",
+                            "value": "15.23.16061700",
                             "type": "recon",
                             "and": true
                         }
@@ -953,7 +960,7 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.9",
+                    "value": "10.10",
                     "type": "recon",
                     "and": true
                 }
@@ -961,33 +968,33 @@
             "dependencies": []
         },
         {
-            "version": "7.34",
-            "releaseDate": "2016-08-17T18:05:53.309Z",
+            "version": "15.23.16061100",
+            "releaseDate": "2016-06-15T04:15:00Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.9",
+            "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.34",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.23.16061100",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.34",
+                            "value": "15.23.16061100",
                             "type": "recon",
                             "and": true
                         }
@@ -998,7 +1005,7 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.9",
+                    "value": "10.10",
                     "type": "recon",
                     "and": true
                 }
@@ -1006,33 +1013,33 @@
             "dependencies": []
         },
         {
-            "version": "7.33",
-            "releaseDate": "2016-07-28T09:50.385Z",
+            "version": "15.22.16051200",
+            "releaseDate": "2016-05-17T08:03:10Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.9",
+            "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.33",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.22.16051200",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.33",
+                            "value": "15.22.16051200",
                             "type": "recon",
                             "and": true
                         }
@@ -1043,7 +1050,7 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.9",
+                    "value": "10.10",
                     "type": "recon",
                     "and": true
                 }
@@ -1051,33 +1058,33 @@
             "dependencies": []
         },
         {
-            "version": "7.32",
-            "releaseDate": "2016-07-20T11:17:19Z",
+            "version": "15.22.16050600",
+            "releaseDate": "2016-05-11T09:01:10Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.9",
+            "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.32",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.22.16050600",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.32",
+                            "value": "15.22.16050600",
                             "type": "recon",
                             "and": true
                         }
@@ -1088,7 +1095,7 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.9",
+                    "value": "10.10",
                     "type": "recon",
                     "and": true
                 }
@@ -1096,33 +1103,33 @@
             "dependencies": []
         },
         {
-            "version": "7.31",
-            "releaseDate": "2016-06-30T08:10:19Z",
+            "version": "15.21.16041100",
+            "releaseDate": "2016-04-13T07:05:00Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.9",
+            "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.31",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.21.16041100",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.31",
+                            "value": "15.21.16041100",
                             "type": "recon",
                             "and": true
                         }
@@ -1133,7 +1140,7 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.9",
+                    "value": "10.10",
                     "type": "recon",
                     "and": true
                 }
@@ -1141,33 +1148,33 @@
             "dependencies": []
         },
         {
-            "version": "7.30",
-            "releaseDate": "2016-06-15T12:00:19Z",
+            "version": "15.20.16031500",
+            "releaseDate": "2016-03-16T09:34:00Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.9",
+            "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.30",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.20.16031500",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.30",
+                            "value": "15.20.16031500",
                             "type": "recon",
                             "and": true
                         }
@@ -1178,7 +1185,7 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.9",
+                    "value": "10.10",
                     "type": "recon",
                     "and": true
                 }
@@ -1186,33 +1193,33 @@
             "dependencies": []
         },
         {
-            "version": "7.29",
-            "releaseDate": "2016-06-01T11:24:19Z",
+            "version": "15.19.1",
+            "releaseDate": "2016-02-17T07:56:00Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.9",
+            "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.29",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.19.1",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.29",
+                            "value": "15.19.1",
                             "type": "recon",
                             "and": true
                         }
@@ -1223,7 +1230,7 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.9",
+                    "value": "10.10",
                     "type": "recon",
                     "and": true
                 }
@@ -1231,33 +1238,33 @@
             "dependencies": []
         },
         {
-            "version": "7.28",
-            "releaseDate": "2016-05-19T13:18:19Z",
+            "version": "15.18",
+            "releaseDate": "2016-01-12T17:20:00Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.9",
+            "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.28",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.18",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.28",
+                            "value": "15.18",
                             "type": "recon",
                             "and": true
                         }
@@ -1268,7 +1275,7 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.9",
+                    "value": "10.10",
                     "type": "recon",
                     "and": true
                 }
@@ -1276,33 +1283,33 @@
             "dependencies": []
         },
         {
-            "version": "7.27",
-            "releaseDate": "2016-05-05T09:05:19Z",
+            "version": "15.17.1",
+            "releaseDate": "2015-12-23T18:18:00Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.9",
+            "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.27",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.17.1",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.27",
+                            "value": "15.17.1",
                             "type": "recon",
                             "and": true
                         }
@@ -1313,7 +1320,7 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.9",
+                    "value": "10.10",
                     "type": "recon",
                     "and": true
                 }
@@ -1321,33 +1328,33 @@
             "dependencies": []
         },
         {
-            "version": "7.26",
-            "releaseDate": "2016-04-21T08:46:30Z",
+            "version": "15.17",
+            "releaseDate": "2015-12-10T09:20:00Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.9",
+            "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.26",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.17",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.26",
+                            "value": "15.17",
                             "type": "recon",
                             "and": true
                         }
@@ -1358,7 +1365,7 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.9",
+                    "value": "10.10",
                     "type": "recon",
                     "and": true
                 }
@@ -1366,33 +1373,33 @@
             "dependencies": []
         },
         {
-            "version": "7.25",
-            "releaseDate": "2016-04-08T14:26:30Z",
+            "version": "15.16",
+            "releaseDate": "2015-11-10T10:23:00Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.9",
+            "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.25",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.16",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.25",
+                            "value": "15.16",
                             "type": "recon",
                             "and": true
                         }
@@ -1403,7 +1410,7 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.9",
+                    "value": "10.10",
                     "type": "recon",
                     "and": true
                 }
@@ -1411,33 +1418,33 @@
             "dependencies": []
         },
         {
-            "version": "7.24",
-            "releaseDate": "2016-03-23T08:10:30Z",
+            "version": "15.15",
+            "releaseDate": "2015-10-13T11:11:00Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.9",
+            "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.24",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.15",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.24",
+                            "value": "15.15",
                             "type": "recon",
                             "and": true
                         }
@@ -1448,7 +1455,7 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.9",
+                    "value": "10.10",
                     "type": "recon",
                     "and": true
                 }
@@ -1456,33 +1463,33 @@
             "dependencies": []
         },
         {
-            "version": "7.21",
-            "releaseDate": "2016-02-17T15:10:30Z",
+            "version": "15.14",
+            "releaseDate": "2015-09-15T13:14:00Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.9",
+            "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.21",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.14",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.21",
+                            "value": "15.14",
                             "type": "recon",
                             "and": true
                         }
@@ -1493,7 +1500,7 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.9",
+                    "value": "10.10",
                     "type": "recon",
                     "and": true
                 }
@@ -1501,33 +1508,33 @@
             "dependencies": []
         },
         {
-            "version": "7.19",
-            "releaseDate": "2016-01-11T07:11:30Z",
+            "version": "15.13.1",
+            "releaseDate": "2015-08-11T07:34:00Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.9",
+            "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.19",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.13.1",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.19",
+                            "value": "15.13.1",
                             "type": "recon",
                             "and": true
                         }
@@ -1538,7 +1545,7 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.9",
+                    "value": "10.10",
                     "type": "recon",
                     "and": true
                 }
@@ -1546,33 +1553,33 @@
             "dependencies": []
         },
         {
-            "version": "7.18",
-            "releaseDate": "2015-12-28T16:20:30Z",
+            "version": "15.12.3",
+            "releaseDate": "2015-07-28T10:22:00Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.9",
+            "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.18",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.12.3",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.18",
+                            "value": "15.12.3",
                             "type": "recon",
                             "and": true
                         }
@@ -1583,7 +1590,7 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.9",
+                    "value": "10.10",
                     "type": "recon",
                     "and": true
                 }
@@ -1591,33 +1598,33 @@
             "dependencies": []
         },
         {
-            "version": "7.16",
-            "releaseDate": "2015-11-11T07:32:30Z",
+            "version": "15.11.2",
+            "releaseDate": "2015-07-09T09:21:00Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.9",
+            "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Skype",
-                    "version": "7.16",
+                    "name": "Microsoft Word 2016",
+                    "version": "15.11.2",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.skype.skype",
+                            "value": "com.microsoft.Word",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "7.16",
+                            "value": "15.11.2",
                             "type": "recon",
                             "and": true
                         }
@@ -1628,592 +1635,7 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.9",
-                    "type": "recon",
-                    "and": true
-                }
-            ],
-            "dependencies": []
-        },
-        {
-            "version": "7.15",
-            "releaseDate": "2015-10-20T07:12:30Z",
-            "standalone": true,
-            "minimumOperatingSystem": "10.9",
-            "reboot": false,
-            "killApps": [
-                {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
-                }
-            ],
-            "components": [
-                {
-                    "name": "Skype",
-                    "version": "7.15",
-                    "criteria": [
-                        {
-                            "name": "Application Bundle ID",
-                            "operator": "is",
-                            "value": "com.skype.skype",
-                            "type": "recon",
-                            "and": true
-                        },
-                        {
-                            "name": "Application Version",
-                            "operator": "is",
-                            "value": "7.15",
-                            "type": "recon",
-                            "and": true
-                        }
-                    ]
-                }
-            ],
-            "capabilities": [
-                {
-                    "name": "Operating System Version",
-                    "operator": "greater than or equal",
-                    "value": "10.9",
-                    "type": "recon",
-                    "and": true
-                }
-            ],
-            "dependencies": []
-        },
-        {
-            "version": "7.14",
-            "releaseDate": "2015-09-15T09:43:30Z",
-            "standalone": true,
-            "minimumOperatingSystem": "10.9",
-            "reboot": false,
-            "killApps": [
-                {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
-                }
-            ],
-            "components": [
-                {
-                    "name": "Skype",
-                    "version": "7.14",
-                    "criteria": [
-                        {
-                            "name": "Application Bundle ID",
-                            "operator": "is",
-                            "value": "com.skype.skype",
-                            "type": "recon",
-                            "and": true
-                        },
-                        {
-                            "name": "Application Version",
-                            "operator": "is",
-                            "value": "7.14",
-                            "type": "recon",
-                            "and": true
-                        }
-                    ]
-                }
-            ],
-            "capabilities": [
-                {
-                    "name": "Operating System Version",
-                    "operator": "greater than or equal",
-                    "value": "10.9",
-                    "type": "recon",
-                    "and": true
-                }
-            ],
-            "dependencies": []
-        },
-        {
-            "version": "7.13",
-            "releaseDate": "2015-08-09T08:21:30Z",
-            "standalone": true,
-            "minimumOperatingSystem": "10.9",
-            "reboot": false,
-            "killApps": [
-                {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
-                }
-            ],
-            "components": [
-                {
-                    "name": "Skype",
-                    "version": "7.13",
-                    "criteria": [
-                        {
-                            "name": "Application Bundle ID",
-                            "operator": "is",
-                            "value": "com.skype.skype",
-                            "type": "recon",
-                            "and": true
-                        },
-                        {
-                            "name": "Application Version",
-                            "operator": "is",
-                            "value": "7.13",
-                            "type": "recon",
-                            "and": true
-                        }
-                    ]
-                }
-            ],
-            "capabilities": [
-                {
-                    "name": "Operating System Version",
-                    "operator": "greater than or equal",
-                    "value": "10.9",
-                    "type": "recon",
-                    "and": true
-                }
-            ],
-            "dependencies": []
-        },
-        {
-            "version": "7.12",
-            "releaseDate": "2015-07-10T07:38:30Z",
-            "standalone": true,
-            "minimumOperatingSystem": "10.9",
-            "reboot": false,
-            "killApps": [
-                {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
-                }
-            ],
-            "components": [
-                {
-                    "name": "Skype",
-                    "version": "7.12",
-                    "criteria": [
-                        {
-                            "name": "Application Bundle ID",
-                            "operator": "is",
-                            "value": "com.skype.skype",
-                            "type": "recon",
-                            "and": true
-                        },
-                        {
-                            "name": "Application Version",
-                            "operator": "is",
-                            "value": "7.12",
-                            "type": "recon",
-                            "and": true
-                        }
-                    ]
-                }
-            ],
-            "capabilities": [
-                {
-                    "name": "Operating System Version",
-                    "operator": "greater than or equal",
-                    "value": "10.9",
-                    "type": "recon",
-                    "and": true
-                }
-            ],
-            "dependencies": []
-        },
-        {
-            "version": "7.11",
-            "releaseDate": "2015-06-30T07:34:30Z",
-            "standalone": true,
-            "minimumOperatingSystem": "10.9",
-            "reboot": false,
-            "killApps": [
-                {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
-                }
-            ],
-            "components": [
-                {
-                    "name": "Skype",
-                    "version": "7.11",
-                    "criteria": [
-                        {
-                            "name": "Application Bundle ID",
-                            "operator": "is",
-                            "value": "com.skype.skype",
-                            "type": "recon",
-                            "and": true
-                        },
-                        {
-                            "name": "Application Version",
-                            "operator": "is",
-                            "value": "7.11",
-                            "type": "recon",
-                            "and": true
-                        }
-                    ]
-                }
-            ],
-            "capabilities": [
-                {
-                    "name": "Operating System Version",
-                    "operator": "greater than or equal",
-                    "value": "10.9",
-                    "type": "recon",
-                    "and": true
-                }
-            ],
-            "dependencies": []
-        },
-        {
-            "version": "7.10",
-            "releaseDate": "2015-05-22T07:44:30Z",
-            "standalone": true,
-            "minimumOperatingSystem": "10.9",
-            "reboot": false,
-            "killApps": [
-                {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
-                }
-            ],
-            "components": [
-                {
-                    "name": "Skype",
-                    "version": "7.10",
-                    "criteria": [
-                        {
-                            "name": "Application Bundle ID",
-                            "operator": "is",
-                            "value": "com.skype.skype",
-                            "type": "recon",
-                            "and": true
-                        },
-                        {
-                            "name": "Application Version",
-                            "operator": "is",
-                            "value": "7.10",
-                            "type": "recon",
-                            "and": true
-                        }
-                    ]
-                }
-            ],
-            "capabilities": [
-                {
-                    "name": "Operating System Version",
-                    "operator": "greater than or equal",
-                    "value": "10.9",
-                    "type": "recon",
-                    "and": true
-                }
-            ],
-            "dependencies": []
-        },
-        {
-            "version": "7.9",
-            "releaseDate": "2015-04-17T12:43:30Z",
-            "standalone": true,
-            "minimumOperatingSystem": "10.9",
-            "reboot": false,
-            "killApps": [
-                {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
-                }
-            ],
-            "components": [
-                {
-                    "name": "Skype",
-                    "version": "7.9",
-                    "criteria": [
-                        {
-                            "name": "Application Bundle ID",
-                            "operator": "is",
-                            "value": "com.skype.skype",
-                            "type": "recon",
-                            "and": true
-                        },
-                        {
-                            "name": "Application Version",
-                            "operator": "is",
-                            "value": "7.9",
-                            "type": "recon",
-                            "and": true
-                        }
-                    ]
-                }
-            ],
-            "capabilities": [
-                {
-                    "name": "Operating System Version",
-                    "operator": "greater than or equal",
-                    "value": "10.9",
-                    "type": "recon",
-                    "and": true
-                }
-            ],
-            "dependencies": []
-        },
-        {
-            "version": "7.8",
-            "releaseDate": "2015-03-27T08:22:30Z",
-            "standalone": true,
-            "minimumOperatingSystem": "10.9",
-            "reboot": false,
-            "killApps": [
-                {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
-                }
-            ],
-            "components": [
-                {
-                    "name": "Skype",
-                    "version": "7.8",
-                    "criteria": [
-                        {
-                            "name": "Application Bundle ID",
-                            "operator": "is",
-                            "value": "com.skype.skype",
-                            "type": "recon",
-                            "and": true
-                        },
-                        {
-                            "name": "Application Version",
-                            "operator": "is",
-                            "value": "7.8",
-                            "type": "recon",
-                            "and": true
-                        }
-                    ]
-                }
-            ],
-            "capabilities": [
-                {
-                    "name": "Operating System Version",
-                    "operator": "greater than or equal",
-                    "value": "10.9",
-                    "type": "recon",
-                    "and": true
-                }
-            ],
-            "dependencies": []
-        },
-        {
-            "version": "7.7",
-            "releaseDate": "2015-02-15T19:11:30Z",
-            "standalone": true,
-            "minimumOperatingSystem": "10.9",
-            "reboot": false,
-            "killApps": [
-                {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
-                }
-            ],
-            "components": [
-                {
-                    "name": "Skype",
-                    "version": "7.7",
-                    "criteria": [
-                        {
-                            "name": "Application Bundle ID",
-                            "operator": "is",
-                            "value": "com.skype.skype",
-                            "type": "recon",
-                            "and": true
-                        },
-                        {
-                            "name": "Application Version",
-                            "operator": "is",
-                            "value": "7.7",
-                            "type": "recon",
-                            "and": true
-                        }
-                    ]
-                }
-            ],
-            "capabilities": [
-                {
-                    "name": "Operating System Version",
-                    "operator": "greater than or equal",
-                    "value": "10.9",
-                    "type": "recon",
-                    "and": true
-                }
-            ],
-            "dependencies": []
-        },
-        {
-            "version": "7.6",
-            "releaseDate": "2015-01-19T12:20:30Z",
-            "standalone": true,
-            "minimumOperatingSystem": "10.9",
-            "reboot": false,
-            "killApps": [
-                {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
-                }
-            ],
-            "components": [
-                {
-                    "name": "Skype",
-                    "version": "7.6",
-                    "criteria": [
-                        {
-                            "name": "Application Bundle ID",
-                            "operator": "is",
-                            "value": "com.skype.skype",
-                            "type": "recon",
-                            "and": true
-                        },
-                        {
-                            "name": "Application Version",
-                            "operator": "is",
-                            "value": "7.6",
-                            "type": "recon",
-                            "and": true
-                        }
-                    ]
-                }
-            ],
-            "capabilities": [
-                {
-                    "name": "Operating System Version",
-                    "operator": "greater than or equal",
-                    "value": "10.9",
-                    "type": "recon",
-                    "and": true
-                }
-            ],
-            "dependencies": []
-        },
-        {
-            "version": "7.5",
-            "releaseDate": "2014-12-26T07:36:30Z",
-            "standalone": true,
-            "minimumOperatingSystem": "10.9",
-            "reboot": false,
-            "killApps": [
-                {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
-                }
-            ],
-            "components": [
-                {
-                    "name": "Skype",
-                    "version": "7.5",
-                    "criteria": [
-                        {
-                            "name": "Application Bundle ID",
-                            "operator": "is",
-                            "value": "com.skype.skype",
-                            "type": "recon",
-                            "and": true
-                        },
-                        {
-                            "name": "Application Version",
-                            "operator": "is",
-                            "value": "7.5",
-                            "type": "recon",
-                            "and": true
-                        }
-                    ]
-                }
-            ],
-            "capabilities": [
-                {
-                    "name": "Operating System Version",
-                    "operator": "greater than or equal",
-                    "value": "10.9",
-                    "type": "recon",
-                    "and": true
-                }
-            ],
-            "dependencies": []
-        },
-        {
-            "version": "7.2",
-            "releaseDate": "2014-11-26T09:28:30Z",
-            "standalone": true,
-            "minimumOperatingSystem": "10.9",
-            "reboot": false,
-            "killApps": [
-                {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
-                }
-            ],
-            "components": [
-                {
-                    "name": "Skype",
-                    "version": "7.2",
-                    "criteria": [
-                        {
-                            "name": "Application Bundle ID",
-                            "operator": "is",
-                            "value": "com.skype.skype",
-                            "type": "recon",
-                            "and": true
-                        },
-                        {
-                            "name": "Application Version",
-                            "operator": "is",
-                            "value": "7.2",
-                            "type": "recon",
-                            "and": true
-                        }
-                    ]
-                }
-            ],
-            "capabilities": [
-                {
-                    "name": "Operating System Version",
-                    "operator": "greater than or equal",
-                    "value": "10.9",
-                    "type": "recon",
-                    "and": true
-                }
-            ],
-            "dependencies": []
-        },
-        {
-            "version": "7.1",
-            "releaseDate": "2014-10-26T07:55:30Z",
-            "standalone": true,
-            "minimumOperatingSystem": "10.9",
-            "reboot": false,
-            "killApps": [
-                {
-                    "bundleId": "com.skype.skype",
-                    "appName": "Skype.app"
-                }
-            ],
-            "components": [
-                {
-                    "name": "Skype",
-                    "version": "7.1",
-                    "criteria": [
-                        {
-                            "name": "Application Bundle ID",
-                            "operator": "is",
-                            "value": "com.skype.skype",
-                            "type": "recon",
-                            "and": true
-                        },
-                        {
-                            "name": "Application Version",
-                            "operator": "is",
-                            "value": "7.1",
-                            "type": "recon",
-                            "and": true
-                        }
-                    ]
-                }
-            ],
-            "capabilities": [
-                {
-                    "name": "Operating System Version",
-                    "operator": "greater than or equal",
-                    "value": "10.9",
+                    "value": "10.10",
                     "type": "recon",
                     "and": true
                 }
@@ -2222,5 +1644,5 @@
         }
     ],
     "extensionAttributes": [],
-    "id": "Skype"
+    "id": "MicrosoftWord2016"
 }

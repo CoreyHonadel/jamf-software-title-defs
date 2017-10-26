@@ -1,0 +1,1001 @@
+{
+    "name": "Adobe Acrobat Reader DC",
+    "publisher": "Adobe",
+    "appName": "Adobe Acrobat Reader DC.app",
+    "bundleId": "com.adobe.Reader",
+    "lastModified": "0000-00-000T00:00:00Z",
+    "currentVersion": "17.012.20098",
+    "requirements": [
+        {
+            "name": "Application Bundle ID",
+            "operator": "is",
+            "value": "com.adobe.Reader",
+            "type": "recon",
+            "and": true
+        },
+        {
+            "name": "Application Version",
+            "operator": "like",
+            "value": "15.",
+            "type": "recon",
+            "and": false
+        },
+        {
+            "name": "Application Version",
+            "operator": "like",
+            "value": "17.",
+            "type": "recon",
+            "and": false
+        }
+    ],
+    "patches": [
+        {
+            "version": "17.012.20098",
+            "releaseDate": "2017-08-29T06:39:28.916Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Reader",
+                    "appName": "Adobe Acrobat Reader DC.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Reader DC",
+                    "version": "17.012.20098",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Reader",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "17.012.20098",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "17.012.20095",
+            "releaseDate": "2017-08-14T10:57:26.947Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Reader",
+                    "appName": "Adobe Acrobat Reader DC.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Reader DC",
+                    "version": "17.012.20095",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Reader",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "17.012.20095",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "17.012.20093",
+            "releaseDate": "2017-08-08T09:02:26.947Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Reader",
+                    "appName": "Adobe Acrobat Reader DC.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Reader DC",
+                    "version": "17.012.20093",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Reader",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "17.012.20093",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "17.009.20058",
+            "releaseDate": "2017-07-11T08:37:26.947Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Reader",
+                    "appName": "Adobe Acrobat Reader DC.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Reader DC",
+                    "version": "17.009.20058",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Reader",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "17.009.20058",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "17.009.20044",
+            "releaseDate": "2017-04-11T08:01:26.947Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Reader",
+                    "appName": "Adobe Acrobat Reader DC.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Reader DC",
+                    "version": "17.009.20044",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Reader",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "17.009.20044",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "15.023.20056",
+            "releaseDate": "2017-01-19T11:00:11.325Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Reader",
+                    "appName": "Adobe Acrobat Reader DC.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Reader DC",
+                    "version": "15.023.20056",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Reader",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "15.023.20056",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "15.023.20053",
+            "releaseDate": "2017-01-10T07:21:26.257Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Reader",
+                    "appName": "Adobe Acrobat Reader DC.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Reader DC",
+                    "version": "15.023.20053",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Reader",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "15.023.20053",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "15.020.20042",
+            "releaseDate": "2016-11-03T08:00:19.228Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Reader",
+                    "appName": "Adobe Acrobat Reader DC.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Reader DC",
+                    "version": "15.020.20042",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Reader",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "15.020.20042",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "15.020.20039",
+            "releaseDate": "2016-10-11T08:00:23.311Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Reader",
+                    "appName": "Adobe Acrobat Reader DC.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Reader DC",
+                    "version": "15.020.20039",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Reader",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "15.020.20039",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "15.017.20053",
+            "releaseDate": "2016-08-08T13:37:17Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Reader",
+                    "appName": "Adobe Acrobat Reader DC.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Reader DC",
+                    "version": "15.017.20053",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Reader",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "15.017.20053",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "15.017.20050",
+            "releaseDate": "2016-07-12T10:58:17Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Reader",
+                    "appName": "Adobe Acrobat Reader DC.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Reader DC",
+                    "version": "15.017.20050",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.Adobe.Reader",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "15.017.20050",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "15.016.20045",
+            "releaseDate": "2016-06-10T01:26:17Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Reader",
+                    "appName": "Adobe Acrobat Reader DC.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Reader DC",
+                    "version": "15.016.20045",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.Adobe.Reader",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "15.016.20045",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "15.016.20041",
+            "releaseDate": "2016-05-19T08:35:17Z",
+            "standalone": false,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Reader",
+                    "appName": "Adobe Acrobat Reader DC.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Reader DC",
+                    "version": "15.016.20041",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.Adobe.Reader",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "15.016.20041",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "15.016.20039",
+            "releaseDate": "2016-05-10T10:36:17Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Reader",
+                    "appName": "Adobe Acrobat Reader DC.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Reader DC",
+                    "version": "15.016.20039",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.Adobe.Reader",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "15.016.20039",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "15.010.20060",
+            "releaseDate": "2016-03-08T15:50:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Reader",
+                    "appName": "Adobe Acrobat Reader DC.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Reader DC",
+                    "version": "15.010.20060",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.Adobe.Reader",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "15.010.20060",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "15.010.20059",
+            "releaseDate": "2016-03-03T11:10:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Reader",
+                    "appName": "Adobe Acrobat Reader DC.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Reader DC",
+                    "version": "15.010.20059",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.Adobe.Reader",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "15.010.20059",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "15.010.20056",
+            "releaseDate": "2016-02-17T08:23:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Reader",
+                    "appName": "Adobe Acrobat Reader DC.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Reader DC",
+                    "version": "15.010.20056",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.Adobe.Reader",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "15.010.20056",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "15.009.20077",
+            "releaseDate": "2015-10-29T12:56:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Reader",
+                    "appName": "Adobe Acrobat Reader DC.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Reader DC",
+                    "version": "15.009.20077",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.Adobe.Reader",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "15.009.20077",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "15.009.20071",
+            "releaseDate": "2015-10-14T16:36:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Reader",
+                    "appName": "Adobe Acrobat Reader DC.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Reader DC",
+                    "version": "15.009.20071",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Reader",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "15.009.20071",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "15.009.20069",
+            "releaseDate": "2015-09-14T07:48:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Reader",
+                    "appName": "Adobe Acrobat Reader DC.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Reader DC",
+                    "version": "15.009.20069",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Reader",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "15.009.20069",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "15.008.20082",
+            "releaseDate": "2015-08-14T08:33:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Reader",
+                    "appName": "Adobe Acrobat Reader DC.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Reader DC",
+                    "version": "15.008.20082",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Reader",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "15.008.20082",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "15.007.20033",
+            "releaseDate": "2015-07-14T10:21:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Reader",
+                    "appName": "Adobe Acrobat Reader DC.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Reader DC",
+                    "version": "15.007.20033",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Reader",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "15.007.20033",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "15.006.30060",
+            "releaseDate": "2015-06-14T18:29:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Reader",
+                    "appName": "Adobe Acrobat Reader DC.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Reader DC",
+                    "version": "15.006.30060",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Reader",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "15.006.30060",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        }
+    ],
+    "extensionAttributes": [],
+    "id": "AdobeAcrobatReaderDC"
+}

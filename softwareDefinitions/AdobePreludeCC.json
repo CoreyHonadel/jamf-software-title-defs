@@ -1,0 +1,956 @@
+{
+    "name": "Adobe Prelude CC",
+    "publisher": "Adobe",
+    "appName": "Adobe Prelude CC 2018.app",
+    "bundleId": "com.adobe.Prelude.CC7",
+    "lastModified": "0000-00-00T00:00:00Z",
+    "currentVersion": "7.0.0",
+    "requirements": [
+        {
+            "name": "Application Bundle ID",
+            "operator": "is",
+            "value": "com.adobe.Prelude.CC7",
+            "type": "recon",
+            "and": false
+        },
+        {
+            "name": "Application Bundle ID",
+            "operator": "is",
+            "value": "com.adobe.Prelude.CC6",
+            "type": "recon",
+            "and": false
+        },
+        {
+            "name": "Application Bundle ID",
+            "operator": "is",
+            "value": "com.adobe.Prelude.CC5",
+            "type": "recon",
+            "and": false
+        },
+        {
+            "name": "Application Bundle ID",
+            "operator": "is",
+            "value": "com.adobe.Prelude",
+            "type": "recon",
+            "and": false
+        }
+    ],
+    "patches": [
+      {
+        "version": "7.0.0",
+        "releaseDate": "2017-10-19T15:23:00Z",
+        "standalone": true,
+        "minimumOperatingSystem": "10.11",
+        "reboot": false,
+        "killApps": [
+          {
+            "bundleId": "com.adobe.Prelude.CC7",
+            "appName": "Adobe Prelude CC 2018.app"
+          },
+          {
+            "bundleId": "com.adobe.Prelude.CC6",
+            "appName": "Adobe Prelude CC 2017.app"
+          },
+          {
+            "bundleId": "com.adobe.Prelude.CC5",
+            "appName": "Adobe Prelude CC 2015.app"
+          },
+          {
+            "bundleId": "com.adobe.Prelude",
+            "appName": "Adobe Prelude CC 2015.app"
+          }
+        ],
+        "components": [
+          {
+            "name": "Adobe Prelude CC",
+            "version": "7.0.0",
+            "criteria": [
+              {
+                "name": "Application Bundle ID",
+                "operator": "is",
+                "value": "com.adobe.Prelude.CC7",
+                "type": "recon",
+                "and": true
+              },
+              {
+                "name": "Application Version",
+                "operator": "is",
+                "value": "7.0.0",
+                "type": "recon",
+                "and": true
+              }
+            ]
+          }
+        ],
+        "capabilities": [
+          {
+            "name": "Operating System Version",
+            "operator": "greater than or equal",
+            "value": "10.11",
+            "type": "recon",
+            "and": true
+          }
+        ],
+        "dependencies": [ ]
+      },
+      {
+            "version": "6.1.2",
+            "releaseDate": "2017-06-14T16:05:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Prelude.CC6",
+                    "appName": "Adobe Prelude CC 2017.app"
+                },
+                {
+                    "bundleId": "com.adobe.Prelude.CC5",
+                    "appName": "Adobe Prelude CC 2015.app"
+                },
+                {
+                    "bundleId": "com.adobe.Prelude",
+                    "appName": "Adobe Prelude CC 2015.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Prelude CC",
+                    "version": "6.1.2",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Prelude.CC6",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "6.1.2",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ]
+        },
+        {
+            "version": "6.1.1",
+            "releaseDate": "2017-05-17T14:05:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.Prelude.CC6",
+                "appName": "Adobe Prelude CC 2017.app"
+            },
+            {
+                "bundleId": "com.adobe.Prelude.CC5",
+                "appName": "Adobe Prelude CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Prelude",
+                "appName": "Adobe Prelude CC 2015.app"
+            }           
+        	],
+            "components": [
+                {
+                    "name": "Adobe Prelude CC",
+                    "version": "6.1.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Prelude.CC6",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "6.1.1",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "6.1.0",
+            "releaseDate": "2017-04-20T10:28:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.Prelude.CC6",
+                "appName": "Adobe Prelude CC 2017.app"
+            },
+            {
+                "bundleId": "com.adobe.Prelude.CC5",
+                "appName": "Adobe Prelude CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Prelude",
+                "appName": "Adobe Prelude CC 2015.app"
+            }           
+        	],
+            "components": [
+                {
+                    "name": "Adobe Prelude CC",
+                    "version": "6.1.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Prelude.CC6",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "6.1.0",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "6.0.2",
+            "releaseDate": "2017-01-19T12:40:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.Prelude.CC6",
+                "appName": "Adobe Prelude CC 2017.app"
+            },
+            {
+                "bundleId": "com.adobe.Prelude.CC5",
+                "appName": "Adobe Prelude CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Prelude",
+                "appName": "Adobe Prelude CC 2015.app"
+            }           
+        	],
+            "components": [
+                {
+                    "name": "Adobe Prelude CC",
+                    "version": "6.0.2",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Prelude.CC6",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "6.0.2",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "6.0.1",
+            "releaseDate": "2016-11-17T05:54:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.Prelude.CC6",
+                "appName": "Adobe Prelude CC 2017.app"
+            },
+            {
+                "bundleId": "com.adobe.Prelude.CC5",
+                "appName": "Adobe Prelude CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Prelude",
+                "appName": "Adobe Prelude CC 2015.app"
+            }           
+        	],
+            "components": [
+                {
+                    "name": "Adobe Prelude CC",
+                    "version": "6.0.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Prelude.CC6",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "6.0.1",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "6.0.0",
+            "releaseDate": "2016-11-03T10:54:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.Prelude.CC6",
+                "appName": "Adobe Prelude CC 2017.app"
+            },
+            {
+                "bundleId": "com.adobe.Prelude.CC5",
+                "appName": "Adobe Prelude CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Prelude",
+                "appName": "Adobe Prelude CC 2015.app"
+            }           
+        	],
+            "components": [
+                {
+                    "name": "Adobe Prelude CC",
+                    "version": "6.0.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Prelude.CC6",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "6.0.0",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "5.0.1",
+            "releaseDate": "2016-09-21T15:39:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.Prelude.CC5",
+                "appName": "Adobe Prelude CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Prelude",
+                "appName": "Adobe Prelude CC 2015.app"
+            }           
+        	],
+            "components": [
+                {
+                    "name": "Adobe Prelude CC",
+                    "version": "5.0.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Prelude.CC5",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "5.0.1",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "5.0.0",
+            "releaseDate": "2016-06-22T12:32:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.Prelude.CC5",
+                "appName": "Adobe Prelude CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Prelude",
+                "appName": "Adobe Prelude CC 2015.app"
+            }           
+        	],
+            "components": [
+                {
+                    "name": "Adobe Prelude CC",
+                    "version": "5.0.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Prelude.CC5",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "5.0.0",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "4.3.0",
+            "releaseDate": "2016-03-16T13:01:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.Prelude",
+                "appName": "Adobe Prelude CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Prelude.CC5",
+                "appName": "Adobe Prelude CC 2015.app"
+            }            
+        	],
+            "components": [
+                {
+                    "name": "Adobe Prelude CC",
+                    "version": "4.3.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Prelude",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "4.3.0",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "4.2.0",
+            "releaseDate": "2016-01-14T07:56:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.Prelude",
+                "appName": "Adobe Prelude CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Prelude.CC5",
+                "appName": "Adobe Prelude CC 2015.app"
+            }            
+        	],
+            "components": [
+                {
+                    "name": "Adobe Prelude CC",
+                    "version": "4.2.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Prelude",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "4.2.0",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "4.1.0",
+            "releaseDate": "2015-12-11T12:23:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.Prelude",
+                "appName": "Adobe Prelude CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Prelude.CC5",
+                "appName": "Adobe Prelude CC 2015.app"
+            }             
+        	],
+            "components": [
+                {
+                    "name": "Adobe Prelude CC",
+                    "version": "4.1.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Prelude",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "4.1.0",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "3.2.0",
+            "releaseDate": "2015-10-13T09:23:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.Prelude",
+                "appName": "Adobe Prelude CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Prelude.CC5",
+                "appName": "Adobe Prelude CC 2015.app"
+            }             
+        	],
+            "components": [
+                {
+                    "name": "Adobe Prelude CC",
+                    "version": "3.2.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Prelude",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "3.2.0",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "3.1.0",
+            "releaseDate": "2015-08-14T11:22:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.Prelude",
+                "appName": "Adobe Prelude CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Prelude.CC5",
+                "appName": "Adobe Prelude CC 2015.app"
+            }             
+        	],
+            "components": [
+                {
+                    "name": "Adobe Prelude CC",
+                    "version": "3.1.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Prelude",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "3.1.0",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "3.0.1",
+            "releaseDate": "2015-06-30T09:43:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.Prelude",
+                "appName": "Adobe Prelude CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Prelude.CC5",
+                "appName": "Adobe Prelude CC 2015.app"
+            }             
+        	],
+            "components": [
+                {
+                    "name": "Adobe Prelude CC",
+                    "version": "3.0.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Prelude",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "3.0.1",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "2.2",
+            "releaseDate": "2015-05-20T08:19:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.Prelude",
+                "appName": "Adobe Prelude CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Prelude.CC5",
+                "appName": "Adobe Prelude CC 2015.app"
+            }             
+        	],
+            "components": [
+                {
+                    "name": "Adobe Prelude CC",
+                    "version": "2.2",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Prelude",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "2.2",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "2.1",
+            "releaseDate": "2015-04-15T14:56:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.Prelude",
+                "appName": "Adobe Prelude CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Prelude.CC5",
+                "appName": "Adobe Prelude CC 2015.app"
+            }             
+       	 	],
+            "components": [
+                {
+                    "name": "Adobe Prelude CC",
+                    "version": "2.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Prelude",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "2.1",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "2.0.1",
+            "releaseDate": "2015-02-01T07:32:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.adobe.Prelude",
+                "appName": "Adobe Prelude CC 2015.app"
+            },
+            {
+                "bundleId": "com.adobe.Prelude.CC5",
+                "appName": "Adobe Prelude CC 2015.app"
+            }             
+        	],
+            "components": [
+                {
+                    "name": "Adobe Prelude CC",
+                    "version": "2.0.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Prelude",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "2.0.1",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ] 
+        }
+    ],
+    "extensionAttributes": [],
+    "id": "AdobePreludeCC"
+}

@@ -1,0 +1,562 @@
+{
+	"name": "Adobe Shockwave Player",
+	"publisher": "Adobe",
+	"appName": null,
+	"bundleId": "com.adobe.director.shockwave.pluginshim",
+	"lastModified": "0000-00-00T00:00:00Z",
+	"currentVersion": "12.2.5r195",
+	"patches": [
+		{
+			"version": "12.2.5r195",
+			"releaseDate": "2016-10-12T15:38:30Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.7",
+			"reboot": false,
+			"killApps": [
+			{
+				"bundleId": "com.adobe.director.shockwave.pluginshim",
+				"appName": "DirectorShockwave"
+			},
+            {
+                "bundleId": "org.mozilla.firefox",
+                "appName": "Firefox.app"
+            },
+            {
+                "bundleId": "com.apple.Safari",
+                "appName": "Safari.app"
+            },
+            {
+            	"bundleId": "com.operasoftware.Opera",
+            	"appName": "Opera.app"
+            }	
+		],
+			"components": [
+				{
+					"name": "Adobe Shockwave Player",
+					"version": "12.2.5r195",
+					"criteria": [
+						{
+							"name":"shockwave-player",
+							"operator": "is",
+							"value": "12.2.5r195",
+							"type": "extensionAttribute"
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.7",
+					"type": "recon"
+				}
+			],
+			"dependencies": []		
+		},
+		{
+			"version": "12.2.4r194",
+			"releaseDate": "2016-03-03T15:08:30Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.7",
+			"reboot": false,
+			"killApps": [
+			{
+				"bundleId": "com.adobe.director.shockwave.pluginshim",
+				"appName": "DirectorShockwave"
+			},
+            {
+                "bundleId": "org.mozilla.firefox",
+                "appName": "Firefox.app"
+            },
+            {
+                "bundleId": "com.apple.Safari",
+                "appName": "Safari.app"
+            },
+            {
+            	"bundleId": "com.operasoftware.Opera",
+            	"appName": "Opera.app"
+            }	
+		],
+			"components": [
+				{
+					"name": "Adobe Shockwave Player",
+					"version": "12.2.4r194",
+					"criteria": [
+						{
+							"name":"shockwave-player",
+							"operator": "is",
+							"value": "12.2.4r194",
+							"type": "extensionAttribute"
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.7",
+					"type": "recon"
+				}
+			],
+			"dependencies": []		
+		},
+		{
+			"version": "12.2.3r183",
+			"releaseDate": "2016-02-03T09:13:30Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.7",
+			"reboot": false,
+			"killApps": [
+			{
+				"bundleId": "com.adobe.director.shockwave.pluginshim",
+				"appName": "DirectorShockwave"
+			},
+            {
+                "bundleId": "org.mozilla.firefox",
+                "appName": "Firefox.app"
+            },
+            {
+                "bundleId": "com.apple.Safari",
+                "appName": "Safari.app"
+            },
+            {
+            	"bundleId": "com.operasoftware.Opera",
+            	"appName": "Opera.app"
+            }	
+		],
+			"components": [
+				{
+					"name": "Adobe Shockwave Player",
+					"version": "12.2.3r183",
+					"criteria": [
+						{
+							"name":"shockwave-player",
+							"operator": "is",
+							"value": "12.2.3r183",
+							"type": "extensionAttribute"
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.7",
+					"type": "recon"
+				}
+			],
+			"dependencies": []		
+		},
+		{
+			"version": "12.2.2r172",
+			"releaseDate": "2016-01-14T07:23:30Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.7",
+			"reboot": false,
+			"killApps": [
+			{
+				"bundleId": "com.adobe.director.shockwave.pluginshim",
+				"appName": "DirectorShockwave"
+			},
+			{
+                "bundleId": "org.mozilla.firefox",
+                "appName": "Firefox.app"
+            },
+            {
+                "bundleId": "com.apple.Safari",
+                "appName": "Safari.app"
+            },
+            {
+            	"bundleId": "com.operasoftware.Opera",
+            	"appName": "Opera.app"
+            }
+		],
+			"components": [
+				{
+					"name": "Adobe Shockwave Player",
+					"version": "12.2.2r172",
+					"criteria": [
+						{
+							"name":"shockwave-player",
+							"operator": "is",
+							"value": "12.2.2r172",
+							"type": "extensionAttribute"
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.7",
+					"type": "recon"
+				}
+			],
+			"dependencies": []		
+		},
+		{
+			"version": "12.2.1r171",
+			"releaseDate": "2015-12-11T19:22:30Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.7",
+			"reboot": false,
+			"killApps": [
+			{
+				"bundleId": "com.adobe.director.shockwave.pluginshim",
+				"appName": "DirectorShockwave"
+			},
+			{
+                "bundleId": "org.mozilla.firefox",
+                "appName": "Firefox.app"
+            },
+            {
+                "bundleId": "com.apple.Safari",
+                "appName": "Safari.app"
+            },
+            {
+            	"bundleId": "com.operasoftware.Opera",
+            	"appName": "Opera.app"
+            }
+		],
+			"components": [
+				{
+					"name": "Adobe Shockwave Player",
+					"version": "12.2.1r171",
+					"criteria": [
+						{
+							"name":"shockwave-player",
+							"operator": "is",
+							"value": "12.2.1r171",
+							"type": "extensionAttribute"
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.7",
+					"type": "recon"
+				}
+			],
+			"dependencies": []		
+		},
+		{
+			"version": "12.2.0r162",
+			"releaseDate": "2015-11-01T17:43:30Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.7",
+			"reboot": false,
+			"killApps": [
+			{
+				"bundleId": "com.adobe.director.shockwave.pluginshim",
+				"appName": "DirectorShockwave"
+			},
+			{
+                "bundleId": "org.mozilla.firefox",
+                "appName": "Firefox.app"
+            },
+            {
+                "bundleId": "com.apple.Safari",
+                "appName": "Safari.app"
+            },
+            {
+            	"bundleId": "com.operasoftware.Opera",
+            	"appName": "Opera.app"
+            }
+		],
+			"components": [
+				{
+					"name": "Adobe Shockwave Player",
+					"version": "12.2.0r162",
+					"criteria": [
+						{
+							"name":"shockwave-player",
+							"operator": "is",
+							"value": "12.2.0r162",
+							"type": "extensionAttribute"
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.7",
+					"type": "recon"
+				}
+			],
+			"dependencies": []		
+		},
+		{
+			"version": "12.1.9r159",
+			"releaseDate": "2015-10-04T16:22:30Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.7",
+			"reboot": false,
+			"killApps": [
+			{
+				"bundleId": "com.adobe.director.shockwave.pluginshim",
+				"appName": "DirectorShockwave"
+			},
+			{
+                "bundleId": "org.mozilla.firefox",
+                "appName": "Firefox.app"
+            },
+            {
+                "bundleId": "com.apple.Safari",
+                "appName": "Safari.app"
+            },
+            {
+            	"bundleId": "com.operasoftware.Opera",
+            	"appName": "Opera.app"
+            }
+		],
+			"components": [
+				{
+					"name": "Adobe Shockwave Player",
+					"version": "12.1.9r159",
+					"criteria": [
+						{
+							"name":"shockwave-player",
+							"operator": "is",
+							"value": "12.1.9r159",
+							"type": "extensionAttribute"
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.7",
+					"type": "recon"
+				}
+			],
+			"dependencies": []		
+		},
+		{
+			"version": "12.1.7r157",
+			"releaseDate": "2015-09-01T15:43:30Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.7",
+			"reboot": false,
+			"killApps": [
+			{
+				"bundleId": "com.adobe.director.shockwave.pluginshim",
+				"appName": "DirectorShockwave"
+			},
+			{
+                "bundleId": "org.mozilla.firefox",
+                "appName": "Firefox.app"
+            },
+            {
+                "bundleId": "com.apple.Safari",
+                "appName": "Safari.app"
+            },
+            {
+            	"bundleId": "com.operasoftware.Opera",
+            	"appName": "Opera.app"
+            }
+		],
+			"components": [
+				{
+					"name": "Adobe Shockwave Player",
+					"version": "12.1.7r157",
+					"criteria": [
+						{
+							"name":"shockwave-player",
+							"operator": "is",
+							"value": "12.1.7r157",
+							"type": "extensionAttribute"
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.7",
+					"type": "recon"
+				}
+			],
+			"dependencies": []		
+		},
+		{
+			"version": "12.1.6r156",
+			"releaseDate": "2015-08-11T12:21:30Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.7",
+			"reboot": false,
+			"killApps": [
+			{
+				"bundleId": "com.adobe.director.shockwave.pluginshim",
+				"appName": "DirectorShockwave"
+			},
+			{
+                "bundleId": "org.mozilla.firefox",
+                "appName": "Firefox.app"
+            },
+            {
+                "bundleId": "com.apple.Safari",
+                "appName": "Safari.app"
+            },
+            {
+            	"bundleId": "com.operasoftware.Opera",
+            	"appName": "Opera.app"
+            }
+		],
+			"components": [
+				{
+					"name": "Adobe Shockwave Player",
+					"version": "12.1.6r156",
+					"criteria": [
+						{
+							"name":"shockwave-player",
+							"operator": "is",
+							"value": "12.1.6r156",
+							"type": "extensionAttribute"
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.7",
+					"type": "recon"
+				}
+			],
+			"dependencies": []		
+		},
+		{
+			"version": "12.1.5r155",
+			"releaseDate": "2015-07-09T08:00:30Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.7",
+			"reboot": false,
+			"killApps": [
+			{
+				"bundleId": "com.adobe.director.shockwave.pluginshim",
+				"appName": "DirectorShockwave"
+			},
+			{
+                "bundleId": "org.mozilla.firefox",
+                "appName": "Firefox.app"
+            },
+            {
+                "bundleId": "com.apple.Safari",
+                "appName": "Safari.app"
+            },
+            {
+            	"bundleId": "com.operasoftware.Opera",
+            	"appName": "Opera.app"
+            }
+		],
+			"components": [
+				{
+					"name": "Adobe Shockwave Player",
+					"version": "12.1.5r155",
+					"criteria": [
+						{
+							"name":"shockwave-player",
+							"operator": "is",
+							"value": "12.1.5r155",
+							"type": "extensionAttribute"
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.7",
+					"type": "recon"
+				}
+			],
+			"dependencies": []		
+		},
+		{
+			"version": "12.1.4r154",
+			"releaseDate": "2015-06-01T08:11:30Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.7",
+			"reboot": false,
+			"killApps": [
+			{
+				"bundleId": "com.adobe.director.shockwave.pluginshim",
+				"appName": "DirectorShockwave"
+			},
+			{
+                "bundleId": "org.mozilla.firefox",
+                "appName": "Firefox.app"
+            },
+            {
+                "bundleId": "com.apple.Safari",
+                "appName": "Safari.app"
+            },
+            {
+            	"bundleId": "com.operasoftware.Opera",
+            	"appName": "Opera.app"
+            }
+		],
+			"components": [
+				{
+					"name": "Adobe Shockwave Player",
+					"version": "12.1.4r154",
+					"criteria": [
+						{
+							"name":"shockwave-player",
+							"operator": "is",
+							"value": "12.1.4r154",
+							"type": "extensionAttribute"
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.7",
+					"type": "recon"
+				}
+			],
+			"dependencies": []		
+		}
+	],
+	"extensionAttributes": [
+		{
+			"key": "shockwave-player",
+			"value": "IyEvdXNyL2Jpbi9lbnYgYmFzaA0KIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjDQojIEEgc2NyaXB0IHRvIGNvbGxlY3QgdGhlIHZlcnNpb24gb2YgQWRvYmUgU2hvY2t3YXZlIFBsYXllciBjdXJyZW50bHkgaW5zdGFsbGVkLiAjDQojIElmIFNoY29rd2F2ZSBQbGF5ZXIgaXMgbm90IGluc3RhbGxlZCAiTm90IEluc3RhbGxlZCIgd2lsbCByZXR1cm4gYmFjayAgICAgICAgICAgICAgICAgIw0KIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjDQpSRVNVTFQ9Ik5vdCBJbnN0YWxsZWQiDQoNCmlmIFsgLWYgIi9MaWJyYXJ5L0ludGVybmV0IFBsdWctSW5zL0RpcmVjdG9yU2hvY2t3YXZlLnBsdWdpbi9Db250ZW50cy9pbmZvLnBsaXN0IiBdIDsgdGhlbg0KICAgIFJFU1VMVD0kKCAvdXNyL2Jpbi9kZWZhdWx0cyByZWFkICIvTGlicmFyeS9JbnRlcm5ldCBQbHVnLUlucy9EaXJlY3RvclNob2Nrd2F2ZS5wbHVnaW4vQ29udGVudHMvaW5mby5wbGlzdCIgQ0ZCdW5kbGVWZXJzaW9uICkNCmZpDQoNCmVjaG8gIjxyZXN1bHQ+JFJFU1VMVDwvcmVzdWx0PiI=",
+			"displayName": "Shockwave"
+		}
+	],
+	"requirements": [
+		{
+			"name": "shockwave-player",
+			"operator": "is not",
+			"value": "Not Installed",
+			"type": "extensionAttribute",
+			"and": true
+		},
+		{
+			"name": "shockwave-player",
+			"operator": "is not",
+			"value": "",
+			"type": "extensionAttribute",
+			"and": true 
+		}
+	],
+	"id": "AdobeShockwavePlayer"
+}

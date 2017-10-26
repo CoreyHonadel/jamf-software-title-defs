@@ -1,0 +1,105 @@
+{
+    "name": "Adobe Fireworks CS6",
+    "publisher": "Adobe",
+    "appName": "Adobe Fireworks CS6.app",
+    "bundleId": "com.macromedia.fireworks",
+    "lastModified": "0000-00-00T00:00:00Z",
+    "currentVersion": "Adobe Fireworks CS6 version 12.0.1.274",
+    "requirements": [
+        {
+            "name": "Application Bundle ID",
+            "operator": "is",
+            "value": "com.macromedia.fireworks",
+            "type": "recon",
+            "and": true
+        }
+    ],
+    "patches": [
+        {
+            "version": "Adobe Fireworks CS6 version 12.0.1.274",
+            "releaseDate": "2016-01-15T07:31:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6.8",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.macromedia.fireworks",
+                "appName": "Adobe Fireworks CS6.app"
+            }           
+        ],
+            "components": [
+                {
+                    "name": "Adobe Fireworks CS6",
+                    "version": "Adobe Fireworks CS6 version 12.0.1.274",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.macromedia.fireworks",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "Adobe Fireworks CS6 version 12.0.1.274",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6.8",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        },
+        {
+            "version": "Adobe Fireworks CS6 version 12.0.0.236",
+            "releaseDate": "2016-01-10T14:56:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6.8",
+            "reboot": false,
+            "killApps": [
+            {
+                "bundleId": "com.macromedia.fireworks",
+                "appName": "Adobe Fireworks CS6.app"
+            }            
+        ],
+            "components": [
+                {
+                    "name": "Adobe Fireworks CS6",
+                    "version": "Adobe Fireworks CS6 version 12.0.0.236",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.macromedia.fireworks",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "Adobe Fireworks CS6 version 12.0.0.236",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6.8",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ] 
+        }
+    ],
+    "extensionAttributes": [],
+    "id": "AdobeFireworksCS6"
+}
