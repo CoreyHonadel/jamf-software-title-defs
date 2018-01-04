@@ -3,7 +3,7 @@
     "publisher": "Microsoft",
     "appName": "AutoUpdate.app",
     "bundleId": "com.microsoft.autoupdate2",
-    "lastModified": "0000-00-00T00:00:00Z",
+    "lastModified": "2018-01-04T11:30:00Z",
     "currentVersion": "3.14.17121501",
     "requirements": [
         {
