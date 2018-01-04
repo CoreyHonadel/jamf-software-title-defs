@@ -4,7 +4,7 @@
     "appName": "Firefox.app",
     "bundleId": "org.mozilla.firefox",
     "lastModified": "0000-00-00T00:00:00Z",
-    "currentVersion": "56.0.2",
+    "currentVersion": "57.0.3",
     "requirements": [
         {
             "name": "Application Bundle ID",
@@ -29,7 +29,159 @@
         }
     ],
     "patches": [
-        {
+       {
+        "version": "57.0.3",
+        "releaseDate": "2017-12-27T08:38:28.516Z",
+        "standalone": true,
+        "minimumOperatingSystem": "10.9",
+        "reboot": false,
+        "killApps": [
+          {
+            "bundleId": "org.mozilla.firefox",
+            "appName": "Firefox.app"
+          }
+        ],
+        "components": [
+          {
+            "name": "Mozilla Firefox",
+            "version": "57.0.3",
+            "criteria": [
+              {
+                "name": "mozilla-firefox",
+                "operator": "is",
+                "value": "57.0.3",
+                "type": "extensionAttribute",
+                "and": true
+              }
+            ]
+          }
+        ],
+        "capabilities": [
+          {
+            "name": "Operating System Version",
+            "operator": "greater than or equal",
+            "value": "10.9",
+            "type": "recon",
+            "and": true
+          }
+        ],
+        "dependencies": []
+        },
+	{
+        "version": "57.0.2",
+        "releaseDate": "2017-12-07T15:30:28.516Z",
+        "standalone": true,
+        "minimumOperatingSystem": "10.9",
+        "reboot": false,
+        "killApps": [
+          {
+            "bundleId": "org.mozilla.firefox",
+            "appName": "Firefox.app"
+          }
+        ],
+        "components": [
+          {
+            "name": "Mozilla Firefox",
+            "version": "57.0.2",
+            "criteria": [
+              {
+                "name": "mozilla-firefox",
+                "operator": "is",
+                "value": "57.0.2",
+                "type": "extensionAttribute",
+                "and": true
+              }
+            ]
+          }
+        ],
+        "capabilities": [
+          {
+            "name": "Operating System Version",
+            "operator": "greater than or equal",
+            "value": "10.9",
+            "type": "recon",
+            "and": true
+          }
+        ],
+        "dependencies": []
+        },
+	{
+        "version": "57.0.1",
+        "releaseDate": "2017-11-30T11:47:28.516Z",
+        "standalone": true,
+        "minimumOperatingSystem": "10.9",
+        "reboot": false,
+        "killApps": [
+          {
+            "bundleId": "org.mozilla.firefox",
+            "appName": "Firefox.app"
+          }
+        ],
+        "components": [
+          {
+            "name": "Mozilla Firefox",
+            "version": "57.0.1",
+            "criteria": [
+              {
+                "name": "mozilla-firefox",
+                "operator": "is",
+                "value": "57.0.1",
+                "type": "extensionAttribute",
+                "and": true
+              }
+            ]
+          }
+        ],
+        "capabilities": [
+          {
+            "name": "Operating System Version",
+            "operator": "greater than or equal",
+            "value": "10.9",
+            "type": "recon",
+            "and": true
+          }
+        ],
+        "dependencies": []
+      },
+      {
+        "version": "57.0",
+        "releaseDate": "2017-11-13T07:50:25.516Z",
+        "standalone": true,
+        "minimumOperatingSystem": "10.9",
+        "reboot": false,
+        "killApps": [
+          {
+            "bundleId": "org.mozilla.firefox",
+            "appName": "Firefox.app"
+          }
+        ],
+        "components": [
+          {
+            "name": "Mozilla Firefox",
+            "version": "57.0",
+            "criteria": [
+              {
+                "name": "mozilla-firefox",
+                "operator": "is",
+                "value": "57.0",
+                "type": "extensionAttribute",
+                "and": true
+              }
+            ]
+          }
+        ],
+        "capabilities": [
+          {
+            "name": "Operating System Version",
+            "operator": "greater than or equal",
+            "value": "10.9",
+            "type": "recon",
+            "and": true
+          }
+        ],
+        "dependencies": []
+      },
+      {
             "version": "56.0.2",
             "releaseDate": "2017-10-25T10:04:25.516Z",
             "standalone": true,

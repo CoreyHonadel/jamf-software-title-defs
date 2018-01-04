@@ -4,7 +4,7 @@
     "appName": "Firefox.app",
     "bundleId": "org.mozilla.firefox",
     "lastModified": "0000-00-00T00:00:00Z",
-    "currentVersion": "52.4.1",
+    "currentVersion": "52.5.3",
     "requirements": [
         {
             "name": "Application Bundle ID",
@@ -29,6 +29,158 @@
         }
     ],
     "patches": [
+        {
+            "version": "52.5.3",
+            "releaseDate": "2017-12-27T10:53:51.813Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox Extended Support Release (ESR)",
+                    "version": "52.5.3",
+                    "criteria": [
+                        {
+                            "name": "firefox-ESR",
+                            "operator": "is",
+                            "value": "52.5.3",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+	{
+            "version": "52.5.2",
+            "releaseDate": "2017-12-07T15:23:51.813Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox Extended Support Release (ESR)",
+                    "version": "52.5.2",
+                    "criteria": [
+                        {
+                            "name": "firefox-ESR",
+                            "operator": "is",
+                            "value": "52.5.2",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+	{
+            "version": "52.5.1",
+            "releaseDate": "2017-11-30T11:49:51.813Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox Extended Support Release (ESR)",
+                    "version": "52.5.1",
+                    "criteria": [
+                        {
+                            "name": "firefox-ESR",
+                            "operator": "is",
+                            "value": "52.5.1",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "52.5.0",
+            "releaseDate": "2017-11-14T07:58:07.813Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox Extended Support Release (ESR)",
+                    "version": "52.5.0",
+                    "criteria": [
+                        {
+                            "name": "firefox-ESR",
+                            "operator": "is",
+                            "value": "52.5.0",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
         {
             "version": "52.4.1",
             "releaseDate": "2017-10-09T14:04:07.813Z",

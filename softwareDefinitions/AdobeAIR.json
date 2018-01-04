@@ -4,9 +4,47 @@
     "appName": "Adobe AIR Application Installer.app",
     "bundleId": "com.adobe.AIR",
     "lastModified": "0000-00-00T00:00:00Z",
-    "currentVersion": "27.0.0.128",
+    "currentVersion": "28.0.0.127",
     "patches": [
         {
+            "version": "28.0.0.127",
+            "releaseDate": "2017-12-12T08:41:18.265Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.AIR",
+                    "appName": "Adobe AIR Application Installer.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe AIR",
+                    "version": "28.0.0.127",
+                    "criteria": [
+                        {
+                            "name": "adobe-air",
+                            "operator": "like",
+                            "value": "28.0.0.127",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+	{
             "version": "27.0.0.128",
             "releaseDate": "2017-09-12T12:01:18.265Z",
             "standalone": true,

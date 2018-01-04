@@ -1,0 +1,1181 @@
+{
+ "name": "macOS",
+ "publisher": "Apple Inc.",
+ "appName": "",
+ "bundleId": "",
+ "lastModified": "2017-09-25T12:00:26Z",
+ "currentVersion": "10.13.2",
+ "requirements": [
+  {
+   "name": "Platform",
+   "operator": "is",
+   "value": "Mac",
+   "type": "recon",
+   "and": true
+  }
+ ],
+ "patches": [
+  {
+   "version": "10.13.2",
+   "releaseDate": "2017-12-06T10:00:00.323Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.9",
+   "reboot": true,
+   "killApps": [],
+   "components": [
+    {
+     "name": "macOS",
+     "version": "10.13.2",
+     "criteria": [
+      {
+       "name": "Platform",
+       "operator": "is",
+       "value": "Mac",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Operating System Version",
+       "operator": "is",
+       "value": "10.13.2",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.9.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "10.13.1",
+   "releaseDate": "2017-10-31T12:00:00.323Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.9",
+   "reboot": true,
+   "killApps": [],
+   "components": [
+    {
+     "name": "macOS",
+     "version": "10.13.1",
+     "criteria": [
+      {
+       "name": "Platform",
+       "operator": "is",
+       "value": "Mac",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Operating System Version",
+       "operator": "is",
+       "value": "10.13.1",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.9.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "10.13.0",
+   "releaseDate": "2017-09-25T12:00:00.323Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.9",
+   "reboot": true,
+   "killApps": [],
+   "components": [
+    {
+     "name": "macOS",
+     "version": "10.13.0",
+     "criteria": [
+      {
+       "name": "Platform",
+       "operator": "is",
+       "value": "Mac",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Operating System Version",
+       "operator": "is",
+       "value": "10.13.0",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.9.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "10.12.6",
+   "releaseDate": "2017-07-19T12:00:00.323Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.9",
+   "reboot": true,
+   "killApps": [],
+   "components": [
+    {
+     "name": "macOS",
+     "version": "10.12.6",
+     "criteria": [
+      {
+       "name": "Platform",
+       "operator": "is",
+       "value": "Mac",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Operating System Version",
+       "operator": "is",
+       "value": "10.12.6",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.9.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "10.12.5",
+   "releaseDate": "2017-05-15T12:00:00.323Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.9",
+   "reboot": true,
+   "killApps": [],
+   "components": [
+    {
+     "name": "macOS",
+     "version": "10.12.5",
+     "criteria": [
+      {
+       "name": "Platform",
+       "operator": "is",
+       "value": "Mac",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Operating System Version",
+       "operator": "is",
+       "value": "10.12.5",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.9.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "10.12.4",
+   "releaseDate": "2017-03-27T12:00:00.323Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.9",
+   "reboot": true,
+   "killApps": [],
+   "components": [
+    {
+     "name": "macOS",
+     "version": "10.12.4",
+     "criteria": [
+      {
+       "name": "Platform",
+       "operator": "is",
+       "value": "Mac",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Operating System Version",
+       "operator": "is",
+       "value": "10.12.4",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.9.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "10.12.3",
+   "releaseDate": "2017-01-23T12:00:00.323Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.9",
+   "reboot": true,
+   "killApps": [],
+   "components": [
+    {
+     "name": "macOS",
+     "version": "10.12.3",
+     "criteria": [
+      {
+       "name": "Platform",
+       "operator": "is",
+       "value": "Mac",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Operating System Version",
+       "operator": "is",
+       "value": "10.12.3",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.9.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "10.12.2",
+   "releaseDate": "2016-12-13T12:00:00.323Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.9",
+   "reboot": true,
+   "killApps": [],
+   "components": [
+    {
+     "name": "macOS",
+     "version": "10.12.2",
+     "criteria": [
+      {
+       "name": "Platform",
+       "operator": "is",
+       "value": "Mac",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Operating System Version",
+       "operator": "is",
+       "value": "10.12.2",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.9.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "10.12.1",
+   "releaseDate": "2016-10-24T12:00:00.323Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.9",
+   "reboot": true,
+   "killApps": [],
+   "components": [
+    {
+     "name": "macOS",
+     "version": "10.12.1",
+     "criteria": [
+      {
+       "name": "Platform",
+       "operator": "is",
+       "value": "Mac",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Operating System Version",
+       "operator": "is",
+       "value": "10.12.1",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.9.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "10.12.0",
+   "releaseDate": "2016-09-16T12:00:00.323Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.9",
+   "reboot": true,
+   "killApps": [],
+   "components": [
+    {
+     "name": "macOS",
+     "version": "10.12.0",
+     "criteria": [
+      {
+       "name": "Platform",
+       "operator": "is",
+       "value": "Mac",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Operating System Version",
+       "operator": "is",
+       "value": "10.12.0",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.9.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "10.11.6",
+   "releaseDate": "2016-07-18T12:00:00.323Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.9",
+   "reboot": true,
+   "killApps": [],
+   "components": [
+    {
+     "name": "macOS",
+     "version": "10.11.6",
+     "criteria": [
+      {
+       "name": "Platform",
+       "operator": "is",
+       "value": "Mac",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Operating System Version",
+       "operator": "is",
+       "value": "10.11.6",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.9.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "10.11.5",
+   "releaseDate": "2016-05-16T12:00:00.323Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.9",
+   "reboot": true,
+   "killApps": [],
+   "components": [
+    {
+     "name": "macOS",
+     "version": "10.11.5",
+     "criteria": [
+      {
+       "name": "Platform",
+       "operator": "is",
+       "value": "Mac",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Operating System Version",
+       "operator": "is",
+       "value": "10.11.5",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.9.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "10.11.4",
+   "releaseDate": "2016-03-21T12:00:00.323Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.9",
+   "reboot": true,
+   "killApps": [],
+   "components": [
+    {
+     "name": "macOS",
+     "version": "10.11.4",
+     "criteria": [
+      {
+       "name": "Platform",
+       "operator": "is",
+       "value": "Mac",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Operating System Version",
+       "operator": "is",
+       "value": "10.11.4",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.9.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "10.11.3",
+   "releaseDate": "2016-01-19T12:00:00.323Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.9",
+   "reboot": true,
+   "killApps": [],
+   "components": [
+    {
+     "name": "macOS",
+     "version": "10.11.3",
+     "criteria": [
+      {
+       "name": "Platform",
+       "operator": "is",
+       "value": "Mac",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Operating System Version",
+       "operator": "is",
+       "value": "10.11.3",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.9.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "10.11.2",
+   "releaseDate": "2015-12-08T12:00:00.323Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.9",
+   "reboot": true,
+   "killApps": [],
+   "components": [
+    {
+     "name": "macOS",
+     "version": "10.11.2",
+     "criteria": [
+      {
+       "name": "Platform",
+       "operator": "is",
+       "value": "Mac",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Operating System Version",
+       "operator": "is",
+       "value": "10.11.2",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.9.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "10.11.1",
+   "releaseDate": "2015-10-21T12:00:00.323Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.9",
+   "reboot": true,
+   "killApps": [],
+   "components": [
+    {
+     "name": "macOS",
+     "version": "10.11.1",
+     "criteria": [
+      {
+       "name": "Platform",
+       "operator": "is",
+       "value": "Mac",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Operating System Version",
+       "operator": "is",
+       "value": "10.11.1",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.9.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "10.11.0",
+   "releaseDate": "2015-09-30T12:00:00.323Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.9",
+   "reboot": true,
+   "killApps": [],
+   "components": [
+    {
+     "name": "macOS",
+     "version": "10.11.0",
+     "criteria": [
+      {
+       "name": "Platform",
+       "operator": "is",
+       "value": "Mac",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Operating System Version",
+       "operator": "is",
+       "value": "10.11.0",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.9.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "10.10.5",
+   "releaseDate": "2015-08-13T12:00:00.323Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.9",
+   "reboot": true,
+   "killApps": [],
+   "components": [
+    {
+     "name": "macOS",
+     "version": "10.10.5",
+     "criteria": [
+      {
+       "name": "Platform",
+       "operator": "is",
+       "value": "Mac",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Operating System Version",
+       "operator": "is",
+       "value": "10.10.5",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.9.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "10.10.4",
+   "releaseDate": "2015-06-30T12:00:00.323Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.9",
+   "reboot": true,
+   "killApps": [],
+   "components": [
+    {
+     "name": "macOS",
+     "version": "10.10.4",
+     "criteria": [
+      {
+       "name": "Platform",
+       "operator": "is",
+       "value": "Mac",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Operating System Version",
+       "operator": "is",
+       "value": "10.10.4",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.9.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "10.10.3",
+   "releaseDate": "2015-04-08T12:00:00.323Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.9",
+   "reboot": true,
+   "killApps": [],
+   "components": [
+    {
+     "name": "macOS",
+     "version": "10.10.3",
+     "criteria": [
+      {
+       "name": "Platform",
+       "operator": "is",
+       "value": "Mac",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Operating System Version",
+       "operator": "is",
+       "value": "10.10.3",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.9.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "10.10.2",
+   "releaseDate": "2015-01-27T12:00:00.323Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.9",
+   "reboot": true,
+   "killApps": [],
+   "components": [
+    {
+     "name": "macOS",
+     "version": "10.10.2",
+     "criteria": [
+      {
+       "name": "Platform",
+       "operator": "is",
+       "value": "Mac",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Operating System Version",
+       "operator": "is",
+       "value": "10.10.2",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.9.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "10.10.1",
+   "releaseDate": "2014-11-17T12:0:00.323Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.9",
+   "reboot": true,
+   "killApps": [],
+   "components": [
+    {
+     "name": "macOS",
+     "version": "10.10.1",
+     "criteria": [
+      {
+       "name": "Platform",
+       "operator": "is",
+       "value": "Mac",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Operating System Version",
+       "operator": "is",
+       "value": "10.10.1",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.9.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "10.10.0",
+   "releaseDate": "2014-10-16T12:00:00.323Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.9",
+   "reboot": true,
+   "killApps": [],
+   "components": [
+    {
+     "name": "macOS",
+     "version": "10.10.0",
+     "criteria": [
+      {
+       "name": "Platform",
+       "operator": "is",
+       "value": "Mac",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Operating System Version",
+       "operator": "is",
+       "value": "10.10.0",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.9.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "10.9.5",
+   "releaseDate": "2014-09-17T12:00:00.323Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.9",
+   "reboot": true,
+   "killApps": [],
+   "components": [
+    {
+     "name": "macOS",
+     "version": "10.9.5",
+     "criteria": [
+      {
+       "name": "Platform",
+       "operator": "is",
+       "value": "Mac",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Operating System Version",
+       "operator": "is",
+       "value": "10.9.5",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.9.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "10.9.4",
+   "releaseDate": "2014-06-30T12:00:00.323Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.9",
+   "reboot": true,
+   "killApps": [],
+   "components": [
+    {
+     "name": "macOS",
+     "version": "10.9.4",
+     "criteria": [
+      {
+       "name": "Platform",
+       "operator": "is",
+       "value": "Mac",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Operating System Version",
+       "operator": "is",
+       "value": "10.9.4",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.9.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "10.9.3",
+   "releaseDate": "2014-05-15T12:00:00.323Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.9",
+   "reboot": true,
+   "killApps": [],
+   "components": [
+    {
+     "name": "macOS",
+     "version": "10.9.3",
+     "criteria": [
+      {
+       "name": "Platform",
+       "operator": "is",
+       "value": "Mac",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Operating System Version",
+       "operator": "is",
+       "value": "10.9.3",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.9.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "10.9.2",
+   "releaseDate": "2014-02-25T12:00:00.323Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.9",
+   "reboot": true,
+   "killApps": [],
+   "components": [
+    {
+     "name": "macOS",
+     "version": "10.9.2",
+     "criteria": [
+      {
+       "name": "Platform",
+       "operator": "is",
+       "value": "Mac",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Operating System Version",
+       "operator": "is",
+       "value": "10.9.2",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.9.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "10.9.1",
+   "releaseDate": "2013-12-16T12:00:00.323Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.9",
+   "reboot": true,
+   "killApps": [],
+   "components": [
+    {
+     "name": "macOS",
+     "version": "10.9.1",
+     "criteria": [
+      {
+       "name": "Platform",
+       "operator": "is",
+       "value": "Mac",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Operating System Version",
+       "operator": "is",
+       "value": "10.9.1",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.9.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "10.9.0",
+   "releaseDate": "2013-10-22T12:00:00.323Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.9",
+   "reboot": true,
+   "killApps": [],
+   "components": [
+    {
+     "name": "macOS",
+     "version": "10.9.0",
+     "criteria": [
+      {
+       "name": "Platform",
+       "operator": "is",
+       "value": "Mac",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Operating System Version",
+       "operator": "is",
+       "value": "10.9.0",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.9.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  }
+ ],
+ "extensionAttributes": [],
+ "id": "macOS"
+}

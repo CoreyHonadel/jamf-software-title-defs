@@ -1,0 +1,66 @@
+{
+ "name": "Adobe Lightroom CC",
+ "publisher": "Adobe",
+ "appName": "Adobe Lightroom CC.app",
+ "bundleId": "com.adobe.lightroomCC",
+ "lastModified": "2017-10-24T01:01:03Z",
+ "currentVersion": "Adobe Lightroom CC [20170919-1412-ccb76bd]",
+ "requirements": [
+  {
+   "name": "Application Bundle ID",
+   "operator": "is",
+   "value": "com.adobe.lightroomCC",
+   "type": "recon",
+   "and": true
+  }
+ ],
+ "patches": [
+  {
+   "version": "Adobe Lightroom CC [20170919-1412-ccb76bd]",
+   "releaseDate": "2017-10-19T13:57:34Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.11",
+   "reboot": false,
+   "killApps": [
+    {
+     "bundleId": "com.adobe.lightroomCC",
+     "appName": "Adobe Lightroom CC.app"
+    }
+   ],
+   "components": [
+    {
+     "name": "Adobe Lightroom CC",
+     "version": "Adobe Lightroom CC [20170919-1412-ccb76bd]",
+     "criteria": [
+      {
+       "name": "Application Bundle ID",
+       "operator": "is",
+       "value": "com.adobe.lightroomCC",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Application Version",
+       "operator": "is",
+       "value": "Adobe Lightroom CC [20170919-1412-ccb76bd]",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.11",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  }
+ ],
+ "extensionAttributes": [],
+ "id": "AdobeLightroomCC"
+}

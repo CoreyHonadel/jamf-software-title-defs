@@ -4,7 +4,7 @@
     "appName": "Adobe Illustrator CC 2018.app",
     "bundleId": "com.adobe.illustrator",
     "lastModified": "0000-00-00T00:00:00Z",
-    "currentVersion": "22.0.0",
+    "currentVersion": "22.0.1",
     "requirements": [
         {
             "name": "Application Bundle ID",
@@ -15,6 +15,52 @@
         }
     ],
     "patches": [
+        {
+            "version": "22.0.1",
+            "releaseDate": "2017-11-02T08:16:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.11",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.illustrator",
+                    "appName": "Adobe Illustrator CC 2018.app"
+                },
+                {
+                    "bundleId": "com.adobe.illustrator",
+                    "appName": "Adobe Illustrator.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Illustrator CC",
+                    "version": "22.0.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.illustrator",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "22.0.1",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.11",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ]
+        },
         {
             "version": "22.0.0",
             "releaseDate": "2017-10-19T14:35:00Z",

@@ -4,7 +4,7 @@
     "appName": "Adobe Lightroom.app",
     "bundleId": "com.adobe.Lightroom6",
     "lastModified": "0000-00-00T00:00:00Z",
-    "currentVersion": "Adobe Lightroom [1125239]",
+    "currentVersion": "Adobe Lightroom [1141928]",
     "requirements": [
         {
             "name": "Application Bundle ID",
@@ -16,6 +16,51 @@
     ],
     "patches": [
         {
+            "version": "Adobe Lightroom [1141928]",
+            "releaseDate": "2017-11-14T18:47:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Lightroom6",
+                    "appName": "Adobe Lightroom.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Photoshop Lightroom CC",
+                    "version": "Adobe Lightroom [1141928]",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Lightroom6",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "Adobe Lightroom [1141928]",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ]
+        },
+	{
             "version": "Adobe Lightroom [1125239]",
             "releaseDate": "2017-07-19T13:57:34Z",
             "standalone": true,
@@ -67,11 +112,11 @@
             "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
-            {
-                "bundleId": "com.adobe.Lightroom6",
-                "appName": "Adobe Lightroom.app"
-            }           
-        ],
+                {
+                    "bundleId": "com.adobe.Lightroom6",
+                    "appName": "Adobe Lightroom.app"
+                }
+            ],
             "components": [
                 {
                     "name": "Adobe Photoshop Lightroom CC",
@@ -82,14 +127,14 @@
                             "operator": "is",
                             "value": "com.adobe.Lightroom6",
                             "type": "recon",
-            				"and": true
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "Adobe Lightroom [1117303]",
                             "type": "recon",
-            				"and": true
+                            "and": true
                         }
                     ]
                 }
@@ -100,10 +145,10 @@
                     "operator": "greater than or equal",
                     "value": "10.10",
                     "type": "recon",
-            		"and": true
+                    "and": true
                 }
             ],
-            "dependencies": [ ] 
+            "dependencies": [ ]
         },
         {
             "version": "Adobe Lightroom [1111918]",
@@ -112,11 +157,11 @@
             "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
-            {
-                "bundleId": "com.adobe.Lightroom6",
-                "appName": "Adobe Lightroom.app"
-            }           
-        ],
+                {
+                    "bundleId": "com.adobe.Lightroom6",
+                    "appName": "Adobe Lightroom.app"
+                }
+            ],
             "components": [
                 {
                     "name": "Adobe Photoshop Lightroom CC",
@@ -127,14 +172,14 @@
                             "operator": "is",
                             "value": "com.adobe.Lightroom6",
                             "type": "recon",
-            				"and": true
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "Adobe Lightroom [1111918]",
                             "type": "recon",
-            				"and": true
+                            "and": true
                         }
                     ]
                 }
@@ -145,10 +190,10 @@
                     "operator": "greater than or equal",
                     "value": "10.10",
                     "type": "recon",
-            		"and": true
+                    "and": true
                 }
             ],
-            "dependencies": [ ] 
+            "dependencies": [ ]
         },
         {
             "version": "Adobe Lightroom [1106920]",
@@ -157,11 +202,11 @@
             "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
-            {
-                "bundleId": "com.adobe.Lightroom6",
-                "appName": "Adobe Lightroom.app"
-            }           
-        ],
+                {
+                    "bundleId": "com.adobe.Lightroom6",
+                    "appName": "Adobe Lightroom.app"
+                }
+            ],
             "components": [
                 {
                     "name": "Adobe Photoshop Lightroom CC",
@@ -172,14 +217,14 @@
                             "operator": "is",
                             "value": "com.adobe.Lightroom6",
                             "type": "recon",
-            				"and": true
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "Adobe Lightroom [1106920]",
                             "type": "recon",
-            				"and": true
+                            "and": true
                         }
                     ]
                 }
@@ -190,10 +235,10 @@
                     "operator": "greater than or equal",
                     "value": "10.10",
                     "type": "recon",
-            		"and": true
+                    "and": true
                 }
             ],
-            "dependencies": [ ] 
+            "dependencies": [ ]
         },
         {
             "version": "Adobe Lightroom [1099473]",
@@ -202,11 +247,11 @@
             "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
-            {
-                "bundleId": "com.adobe.Lightroom6",
-                "appName": "Adobe Lightroom.app"
-            }           
-        ],
+                {
+                    "bundleId": "com.adobe.Lightroom6",
+                    "appName": "Adobe Lightroom.app"
+                }
+            ],
             "components": [
                 {
                     "name": "Adobe Photoshop Lightroom CC",
@@ -217,14 +262,14 @@
                             "operator": "is",
                             "value": "com.adobe.Lightroom6",
                             "type": "recon",
-            				"and": true
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "Adobe Lightroom [1099473]",
                             "type": "recon",
-            				"and": true
+                            "and": true
                         }
                     ]
                 }
@@ -235,10 +280,10 @@
                     "operator": "greater than or equal",
                     "value": "10.10",
                     "type": "recon",
-            		"and": true
+                    "and": true
                 }
             ],
-            "dependencies": [ ] 
+            "dependencies": [ ]
         },
         {
             "version": "Adobe Lightroom [1090788]",
@@ -247,11 +292,11 @@
             "minimumOperatingSystem": "10.9.0",
             "reboot": false,
             "killApps": [
-            {
-                "bundleId": "com.adobe.Lightroom6",
-                "appName": "Adobe Lightroom.app"
-            }           
-        ],
+                {
+                    "bundleId": "com.adobe.Lightroom6",
+                    "appName": "Adobe Lightroom.app"
+                }
+            ],
             "components": [
                 {
                     "name": "Adobe Photoshop Lightroom CC",
@@ -262,14 +307,14 @@
                             "operator": "is",
                             "value": "com.adobe.Lightroom6",
                             "type": "recon",
-            				"and": true
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "Adobe Lightroom [1090788]",
                             "type": "recon",
-            				"and": true
+                            "and": true
                         }
                     ]
                 }
@@ -280,10 +325,10 @@
                     "operator": "greater than or equal",
                     "value": "10.9.0",
                     "type": "recon",
-            		"and": true
+                    "and": true
                 }
             ],
-            "dependencies": [ ] 
+            "dependencies": [ ]
         },
         {
             "version": "Adobe Lightroom [1083169]",
@@ -292,11 +337,11 @@
             "minimumOperatingSystem": "10.9.0",
             "reboot": false,
             "killApps": [
-            {
-                "bundleId": "com.adobe.Lightroom6",
-                "appName": "Adobe Lightroom.app"
-            }           
-        ],
+                {
+                    "bundleId": "com.adobe.Lightroom6",
+                    "appName": "Adobe Lightroom.app"
+                }
+            ],
             "components": [
                 {
                     "name": "Adobe Photoshop Lightroom CC",
@@ -307,14 +352,14 @@
                             "operator": "is",
                             "value": "com.adobe.Lightroom6",
                             "type": "recon",
-            				"and": true
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "Adobe Lightroom [1083169]",
                             "type": "recon",
-            				"and": true
+                            "and": true
                         }
                     ]
                 }
@@ -325,10 +370,10 @@
                     "operator": "greater than or equal",
                     "value": "10.9.0",
                     "type": "recon",
-            		"and": true
+                    "and": true
                 }
             ],
-            "dependencies": [ ] 
+            "dependencies": [ ]
         },
         {
             "version": "Adobe Lightroom [1078672]",
@@ -337,11 +382,11 @@
             "minimumOperatingSystem": "10.9.0",
             "reboot": false,
             "killApps": [
-            {
-                "bundleId": "com.adobe.Lightroom6",
-                "appName": "Adobe Lightroom.app"
-            }           
-        ],
+                {
+                    "bundleId": "com.adobe.Lightroom6",
+                    "appName": "Adobe Lightroom.app"
+                }
+            ],
             "components": [
                 {
                     "name": "Adobe Photoshop Lightroom CC",
@@ -352,14 +397,14 @@
                             "operator": "is",
                             "value": "com.adobe.Lightroom6",
                             "type": "recon",
-            				"and": true
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "Adobe Lightroom [1078672]",
                             "type": "recon",
-            				"and": true
+                            "and": true
                         }
                     ]
                 }
@@ -370,10 +415,10 @@
                     "operator": "greater than or equal",
                     "value": "10.9.0",
                     "type": "recon",
-            		"and": true
+                    "and": true
                 }
             ],
-            "dependencies": [ ] 
+            "dependencies": [ ]
         },
         {
             "version": "Adobe Lightroom [1073342]",
@@ -382,11 +427,11 @@
             "minimumOperatingSystem": "10.9.0",
             "reboot": false,
             "killApps": [
-            {
-                "bundleId": "com.adobe.Lightroom6",
-                "appName": "Adobe Lightroom.app"
-            }           
-        ],
+                {
+                    "bundleId": "com.adobe.Lightroom6",
+                    "appName": "Adobe Lightroom.app"
+                }
+            ],
             "components": [
                 {
                     "name": "Adobe Photoshop Lightroom CC",
@@ -397,14 +442,14 @@
                             "operator": "is",
                             "value": "com.adobe.Lightroom6",
                             "type": "recon",
-            				"and": true
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "Adobe Lightroom [1073342]",
                             "type": "recon",
-            				"and": true
+                            "and": true
                         }
                     ]
                 }
@@ -415,10 +460,10 @@
                     "operator": "greater than or equal",
                     "value": "10.9.0",
                     "type": "recon",
-            		"and": true
+                    "and": true
                 }
             ],
-            "dependencies": [ ] 
+            "dependencies": [ ]
         },
         {
             "version": "Adobe Lightroom [1067055]",
@@ -427,11 +472,11 @@
             "minimumOperatingSystem": "10.9.0",
             "reboot": false,
             "killApps": [
-            {
-                "bundleId": "com.adobe.Lightroom6",
-                "appName": "Adobe Lightroom.app"
-            }           
-        ],
+                {
+                    "bundleId": "com.adobe.Lightroom6",
+                    "appName": "Adobe Lightroom.app"
+                }
+            ],
             "components": [
                 {
                     "name": "Adobe Photoshop Lightroom CC",
@@ -442,14 +487,14 @@
                             "operator": "is",
                             "value": "com.adobe.Lightroom6",
                             "type": "recon",
-            				"and": true
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "Adobe Lightroom [1067055]",
                             "type": "recon",
-            				"and": true
+                            "and": true
                         }
                     ]
                 }
@@ -460,10 +505,10 @@
                     "operator": "greater than or equal",
                     "value": "10.9.0",
                     "type": "recon",
-            		"and": true
+                    "and": true
                 }
             ],
-            "dependencies": [ ] 
+            "dependencies": [ ]
         },
         {
             "version": "Adobe Lightroom [1052427]",
@@ -472,11 +517,11 @@
             "minimumOperatingSystem": "10.9.0",
             "reboot": false,
             "killApps": [
-            {
-                "bundleId": "com.adobe.Lightroom6",
-                "appName": "Adobe Lightroom.app"
-            }           
-        ],
+                {
+                    "bundleId": "com.adobe.Lightroom6",
+                    "appName": "Adobe Lightroom.app"
+                }
+            ],
             "components": [
                 {
                     "name": "Adobe Photoshop Lightroom CC",
@@ -487,14 +532,14 @@
                             "operator": "is",
                             "value": "com.adobe.Lightroom6",
                             "type": "recon",
-            				"and": true
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "Adobe Lightroom [1052427]",
                             "type": "recon",
-            				"and": true
+                            "and": true
                         }
                     ]
                 }
@@ -505,10 +550,10 @@
                     "operator": "greater than or equal",
                     "value": "10.9.0",
                     "type": "recon",
-            		"and": true
+                    "and": true
                 }
             ],
-            "dependencies": [ ] 
+            "dependencies": [ ]
         },
         {
             "version": "Adobe Lightroom [1014445]",
@@ -517,11 +562,11 @@
             "minimumOperatingSystem": "10.9.0",
             "reboot": false,
             "killApps": [
-            {
-                "bundleId": "com.adobe.Lightroom6",
-                "appName": "Adobe Lightroom.app"
-            }           
-        ],
+                {
+                    "bundleId": "com.adobe.Lightroom6",
+                    "appName": "Adobe Lightroom.app"
+                }
+            ],
             "components": [
                 {
                     "name": "Adobe Photoshop Lightroom CC",
@@ -532,14 +577,14 @@
                             "operator": "is",
                             "value": "com.adobe.Lightroom6",
                             "type": "recon",
-            				"and": true
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
                             "value": "Adobe Lightroom [1014445]",
                             "type": "recon",
-            				"and": true
+                            "and": true
                         }
                     ]
                 }
@@ -550,10 +595,10 @@
                     "operator": "greater than or equal",
                     "value": "10.9.0",
                     "type": "recon",
-            		"and": true
+                    "and": true
                 }
             ],
-            "dependencies": [ ] 
+            "dependencies": [ ]
         }
     ],
     "extensionAttributes": [],

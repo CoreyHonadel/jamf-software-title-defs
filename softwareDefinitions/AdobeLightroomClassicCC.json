@@ -1,0 +1,111 @@
+{
+ "name": "Adobe Lightroom Classic CC",
+ "publisher": "Adobe",
+ "appName": "Adobe Lightroom Classic CC.app",
+ "bundleId": "com.adobe.LightroomClassicCC7",
+ "lastModified": "2017-10-27T07:00:03Z",
+ "currentVersion": "Adobe Lightroom Classic [1142117]",
+ "requirements": [
+  {
+   "name": "Application Bundle ID",
+   "operator": "is",
+   "value": "com.adobe.LightroomClassicCC7",
+   "type": "recon",
+   "and": true
+  }
+ ],
+ "patches": [
+  {
+   "version": "Adobe Lightroom Classic [1142117]",
+   "releaseDate": "2017-10-27T07:00:03Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.11",
+   "reboot": false,
+   "killApps": [
+    {
+     "bundleId": "com.adobe.LightroomClassicCC7",
+     "appName": "Adobe Lightroom Classic CC.app"
+    }
+   ],
+   "components": [
+    {
+     "name": "Adobe Lightroom Classic CC",
+     "version": "Adobe Lightroom Classic [1142117]",
+     "criteria": [
+      {
+       "name": "Application Bundle ID",
+       "operator": "is",
+       "value": "com.adobe.LightroomClassicCC7",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Application Version",
+       "operator": "is",
+       "value": "Adobe Lightroom Classic [1142117]",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.11",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "Adobe Lightroom Classic [1140024]",
+   "releaseDate": "2017-07-19T13:57:34Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.11",
+   "reboot": false,
+   "killApps": [
+    {
+     "bundleId": "com.adobe.LightroomClassicCC7",
+     "appName": "Adobe Lightroom Classic CC.app"
+    }
+   ],
+   "components": [
+    {
+     "name": "Adobe Lightroom Classic CC",
+     "version": "Adobe Lightroom Classic [1140024]",
+     "criteria": [
+      {
+       "name": "Application Bundle ID",
+       "operator": "is",
+       "value": "com.adobe.LightroomClassicCC7",
+       "type": "recon",
+       "and": true
+      },
+      {
+       "name": "Application Version",
+       "operator": "is",
+       "value": "Adobe Lightroom Classic [1140024]",
+       "type": "recon",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.11",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  }
+ ],
+ "extensionAttributes": [],
+ "id": "AdobeLightroomClassicCC"
+}

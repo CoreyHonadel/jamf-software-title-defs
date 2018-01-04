@@ -1,59 +1,48 @@
 {
-    "name": "Jamf Admin",
-    "publisher": "Jamf",
-    "appName": "Jamf Admin.app",
-    "bundleId": "com.jamfsoftware.JamfAdmin",
+    "name": "Symantec Endpoint Protection",
+    "publisher": "Symantec Corporation",
+    "appName": "Symantec Endpoint Protection.app",
+    "bundleId": "com.symantec.sep.mainapp",
     "lastModified": "0000-00-00T00:00:00Z",
-    "currentVersion": "10.1.1",
+    "currentVersion": "14.0.3876.1100",
     "requirements": [
         {
             "name": "Application Bundle ID",
             "operator": "is",
-            "value": "com.jamfsoftware.JamfAdmin",
+            "value": "com.symantec.sep.mainapp",
             "type": "recon",
-            "and": false
-        },
-        {
-            "name": "Application Bundle ID",
-            "operator": "is",
-            "value": "com.jamfsoftware.CasperAdmin",
-            "type": "recon",
-            "and": false
+            "and": true
         }
     ],
     "patches": [
         {
-            "version": "10.1.1",
-            "releaseDate": "2017-12-20T09:54:00.270Z",
+            "version": "14.0.3876.1100",
+            "releaseDate": "2017-12-26T19:00:20.009Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.9",
+            "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.jamfsoftware.CasperAdmin",
-                    "appName": "Casper Admin.app"
-                },
-                {
-                    "bundleId": "com.jamfsoftware.JamfAdmin",
-                    "appName": "Jamf Admin.app"
+                    "bundleId": "com.symantec.sep.mainapp",
+                    "appName": "Symantec Endpoint Protection.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Jamf Admin",
-                    "version": "10.1.1",
+                    "name": "Symantec Endpoint Protection",
+                    "version": "14.0.3876.1100",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.jamfsoftware.JamfAdmin",
+                            "value": "com.symantec.sep.mainapp",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "10.1.1",
+                            "value": "14.0.3876.1100",
                             "type": "recon"
                         }
                     ]
@@ -63,44 +52,40 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.9",
+                    "value": "10.10",
                     "type": "recon"
                 }
             ],
             "dependencies": []
         },
-	{
-            "version": "10.1.0",
-            "releaseDate": "2017-12-14T12:41:00.270Z",
+        {
+            "version": "14.0.3752.1000",
+            "releaseDate": "2017-10-12T12:00:00.270Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.9",
+            "minimumOperatingSystem": "10.10",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.jamfsoftware.CasperAdmin",
-                    "appName": "Casper Admin.app"
-                },
-                {
-                    "bundleId": "com.jamfsoftware.JamfAdmin",
-                    "appName": "Jamf Admin.app"
+                    "bundleId": "com.symantec.sep.mainapp",
+                    "appName": "Symantec Endpoint Protection.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Jamf Admin",
-                    "version": "10.1.0",
+                    "name": "Symantec Endpoint Protection",
+                    "version": "14.0.3752.1000",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.jamfsoftware.JamfAdmin",
+                            "value": "com.symantec.sep.mainapp",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "10.1.0",
+                            "value": "14.0.3752.1000",
                             "type": "recon"
                         }
                     ]
@@ -110,44 +95,40 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.9",
+                    "value": "10.10",
                     "type": "recon"
                 }
             ],
             "dependencies": []
         },
-	{
-            "version": "10.0.0",
-            "releaseDate": "2017-10-31T12:00:00.270Z",
+        {
+            "version": "14.0.2415.0200",
+            "releaseDate": "2017-06-02T10:00:00.270Z",
             "standalone": true,
             "minimumOperatingSystem": "10.9",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.jamfsoftware.CasperAdmin",
-                    "appName": "Casper Admin.app"
-                },
-                {
-                    "bundleId": "com.jamfsoftware.JamfAdmin",
-                    "appName": "Jamf Admin.app"
+                    "bundleId": "com.symantec.sep.mainapp",
+                    "appName": "Symantec Endpoint Protection.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Jamf Admin",
-                    "version": "10.0.0",
+                    "name": "Symantec Endpoint Protection",
+                    "version": "14.0.2415.0200",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.jamfsoftware.JamfAdmin",
+                            "value": "com.symantec.sep.mainapp",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "10.0.0",
+                            "value": "14.0.2415.0200",
                             "type": "recon"
                         }
                     ]
@@ -164,33 +145,33 @@
             "dependencies": []
         },
         {
-            "version": "9.101.0",
-            "releaseDate": "2017-9-12T14:19:38.270Z",
+            "version": "14.0.2349.0100",
+            "releaseDate": "2017-02-18T08:30:00.270Z",
             "standalone": true,
             "minimumOperatingSystem": "10.9",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.jamfsoftware.CasperAdmin",
-                    "appName": "Casper Admin.app"
+                    "bundleId": "com.symantec.sep.mainapp",
+                    "appName": "Symantec Endpoint Protection.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Jamf Admin",
-                    "version": "9.101.0",
+                    "name": "Symantec Endpoint Protection",
+                    "version": "14.0.2349.0100",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.jamfsoftware.CasperAdmin",
+                            "value": "com.symantec.sep.mainapp",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "9.101.0",
+                            "value": "14.0.2349.0100",
                             "type": "recon"
                         }
                     ]
@@ -207,33 +188,33 @@
             "dependencies": []
         },
         {
-            "version": "9.100.0",
-            "releaseDate": "2017-7-20T16:54:29.814Z",
+            "version": "14.0.2332.0100",
+            "releaseDate": "2017-02-17T08:00:00.270Z",
             "standalone": true,
             "minimumOperatingSystem": "10.9",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.jamfsoftware.CasperAdmin",
-                    "appName": "Casper Admin.app"
+                    "bundleId": "com.symantec.sep.mainapp",
+                    "appName": "Symantec Endpoint Protection.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Jamf Admin",
-                    "version": "9.100.0",
+                    "name": "Symantec Endpoint Protection",
+                    "version": "14.0.2332.0100",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.jamfsoftware.CasperAdmin",
+                            "value": "com.symantec.sep.mainapp",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "9.100.0",
+                            "value": "14.0.2332.0100",
                             "type": "recon"
                         }
                     ]
@@ -250,33 +231,33 @@
             "dependencies": []
         },
         {
-            "version": "9.99.0",
-            "releaseDate": "2017-05-23T18:09:29.814Z",
+            "version": "14.0.1904.0000",
+            "releaseDate": "2016-10-28T06:00:00.270Z",
             "standalone": true,
             "minimumOperatingSystem": "10.9",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.jamfsoftware.CasperAdmin",
-                    "appName": "Casper Admin.app"
+                    "bundleId": "com.symantec.sep.mainapp",
+                    "appName": "Symantec Endpoint Protection.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Jamf Admin",
-                    "version": "9.99.0",
+                    "name": "Symantec Endpoint Protection",
+                    "version": "14.0.1904.0000",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.jamfsoftware.CasperAdmin",
+                            "value": "com.symantec.sep.mainapp",
                             "type": "recon",
                             "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "9.99.0",
+                            "value": "14.0.1904.0000",
                             "type": "recon"
                         }
                     ]
@@ -294,5 +275,5 @@
         }
     ],
     "extensionAttributes": [],
-    "id": "JamfAdmin"
+    "id": "SymantecEndpointProtection"
 }

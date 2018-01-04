@@ -4,7 +4,7 @@
     "appName": "Recon.app",
     "bundleId": "com.jamfsoftware.Recon",
     "lastModified": "0000-00-00T00:00:00Z",
-    "currentVersion": "9.101.0",
+    "currentVersion": "10.1.1",
     "requirements": [
         {
             "name": "Application Bundle ID",
@@ -15,6 +15,135 @@
         }
     ],
     "patches": [
+        {
+            "version": "10.1.1",
+            "releaseDate": "2017-12-20T10:12:38.270Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.jamfsoftware.Recon",
+                    "appName": "Recon.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Recon",
+                    "version": "10.1.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.jamfsoftware.Recon",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "10.1.1",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+	{
+            "version": "10.1.0",
+            "releaseDate": "2017-12-14T13:02:38.270Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.jamfsoftware.Recon",
+                    "appName": "Recon.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Recon",
+                    "version": "10.1.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.jamfsoftware.Recon",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "10.1.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+	{
+            "version": "10.0.0",
+            "releaseDate": "2017-10-31T14:59:38.270Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.jamfsoftware.Recon",
+                    "appName": "Recon.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Recon",
+                    "version": "10.0.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.jamfsoftware.Recon",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "10.0.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
         {
             "version": "9.101.0",
             "releaseDate": "2017-9-12T14:19:38.270Z",

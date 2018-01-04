@@ -4,7 +4,7 @@
     "appName": "AutoUpdate.app",
     "bundleId": "com.microsoft.autoupdate2",
     "lastModified": "0000-00-00T00:00:00Z",
-    "currentVersion": "3.11.17101000",
+    "currentVersion": "3.14.17121501",
     "requirements": [
         {
             "name": "auto-update2",
@@ -22,6 +22,82 @@
         }
     ],
     "patches": [
+        {
+            "version": "3.14.17121501",
+            "releaseDate": "2017-12-16T15:00:17.066Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.autoupdate2",
+                    "appName": "AutoUpdate.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft AutoUpdate",
+                    "version": "3.14.17121501",
+                    "criteria": [
+                        {
+                            "name": "auto-update2",
+                            "operator": "is",
+                            "value": "3.14.17121501",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "3.14.17112900",
+            "releaseDate": "2017-12-12T19:08:57.347Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.autoupdate2",
+                    "appName": "AutoUpdate.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft AutoUpdate",
+                    "version": "3.14.17112900",
+                    "criteria": [
+                        {
+                            "name": "auto-update2",
+                            "operator": "is",
+                            "value": "3.14.17112900",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
         {
             "version": "3.11.17101000",
             "releaseDate": "2017-10-10T20:02:15.266Z",

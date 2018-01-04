@@ -1,54 +1,48 @@
 {
-    "name": "Adobe Acrobat Pro XI",
-    "publisher": "Adobe",
-    "appName": "Adobe Acrobat Pro.app",
-    "bundleId": "com.adobe.Acrobat.Pro",
+    "name": "OneDrive",
+    "publisher": "Microsoft",
+    "appName": "OneDrive.app",
+    "bundleId": "com.microsoft.OneDrive",
     "lastModified": "0000-00-00T00:00:00Z",
-    "currentVersion": "11.0.23",
+    "currentVersion": "17.3.7131",
     "requirements": [
         {
             "name": "Application Bundle ID",
             "operator": "is",
-            "value": "com.adobe.Acrobat.Pro",
-            "type": "recon",
-            "and": true
-        },
-        {
-            "name": "Application Version",
-            "operator": "like",
-            "value": "11.",
+            "value": "com.microsoft.OneDrive",
             "type": "recon",
             "and": true
         }
     ],
     "patches": [
-        {
-            "version": "11.0.23",
-            "releaseDate": "2017-11-14T10:58:34Z",
+       {
+            "version": "17.3.7131",
+            "releaseDate": "2017-11-27T10:00:00.270Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.6.4",
+            "minimumOperatingSystem": "10.9",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.adobe.Acrobat.Pro",
-                    "appName": "Adobe Acrobat Pro.app"
+                    "bundleId": "com.microsoft.OneDrive",
+                    "appName": "OneDrive.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Adobe Acrobat Pro XI",
-                    "version": "11.0.23",
+                    "name": "OneDrive",
+                    "version": "17.3.7131",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.adobe.Acrobat.Pro",
-                            "type": "recon"
+                            "value": "com.microsoft.OneDrive",
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "11.0.23",
+                            "value": "17.3.7131",
                             "type": "recon"
                         }
                     ]
@@ -58,39 +52,40 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.6.4",
+                    "value": "10.9",
                     "type": "recon"
                 }
             ],
             "dependencies": []
         },
-        {
-            "version": "11.0.22",
-            "releaseDate": "2017-08-22T09:10:34Z",
+       {
+            "version": "17.3.7078",
+            "releaseDate": "2017-11-06T12:00:00.270Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.6.4",
+            "minimumOperatingSystem": "10.9",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.adobe.Acrobat.Pro",
-                    "appName": "Adobe Acrobat Pro.app"
+                    "bundleId": "com.microsoft.OneDrive",
+                    "appName": "OneDrive.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Adobe Acrobat Pro XI",
-                    "version": "11.0.22",
+                    "name": "OneDrive",
+                    "version": "17.3.7078",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.adobe.Acrobat.Pro",
-                            "type": "recon"
+                            "value": "com.microsoft.OneDrive",
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "11.0.22",
+                            "value": "17.3.7078",
                             "type": "recon"
                         }
                     ]
@@ -100,39 +95,40 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.6.4",
+                    "value": "10.9",
                     "type": "recon"
                 }
             ],
             "dependencies": []
         },
         {
-            "version": "11.0.21",
-            "releaseDate": "2017-08-08T10:09:34Z",
+            "version": "17.3.7066",
+            "releaseDate": "2017-10-19T12:00:00.270Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.6.4",
+            "minimumOperatingSystem": "10.9",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.adobe.Acrobat.Pro",
-                    "appName": "Adobe Acrobat Pro.app"
+                    "bundleId": "com.microsoft.OneDrive",
+                    "appName": "OneDrive.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Adobe Acrobat Pro XI",
-                    "version": "11.0.21",
+                    "name": "OneDrive",
+                    "version": "17.3.7066",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.adobe.Acrobat.Pro",
-                            "type": "recon"
+                            "value": "com.microsoft.OneDrive",
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "11.0.21",
+                            "value": "17.3.7066",
                             "type": "recon"
                         }
                     ]
@@ -142,39 +138,40 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.6.4",
+                    "value": "10.9",
                     "type": "recon"
                 }
             ],
             "dependencies": []
         },
         {
-            "version": "11.0.20",
-            "releaseDate": "2017-04-11T00:40:34Z",
+            "version": "17.3.6967",
+            "releaseDate": "2017-08-28T12:00:00.270Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.6.4",
+            "minimumOperatingSystem": "10.9",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.adobe.Acrobat.Pro",
-                    "appName": "Adobe Acrobat Pro.app"
+                    "bundleId": "com.microsoft.OneDrive",
+                    "appName": "OneDrive.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Adobe Acrobat Pro XI",
-                    "version": "11.0.20",
+                    "name": "OneDrive",
+                    "version": "17.3.6967",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.adobe.Acrobat.Pro",
-                            "type": "recon"
+                            "value": "com.microsoft.OneDrive",
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "11.0.20",
+                            "value": "17.3.6967",
                             "type": "recon"
                         }
                     ]
@@ -184,39 +181,40 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.6.4",
+                    "value": "10.9",
                     "type": "recon"
                 }
             ],
             "dependencies": []
         },
         {
-            "version": "11.0.19",
-            "releaseDate": "2017-01-10T00:40:34Z",
+            "version": "17.3.6945",
+            "releaseDate": "2017-07-27T12:00:00.270Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.6.4",
+            "minimumOperatingSystem": "10.9",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.adobe.Acrobat.Pro",
-                    "appName": "Adobe Acrobat Pro.app"
+                    "bundleId": "com.microsoft.OneDrive",
+                    "appName": "OneDrive.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Adobe Acrobat Pro XI",
-                    "version": "11.0.19",
+                    "name": "OneDrive",
+                    "version": "17.3.6945",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.adobe.Acrobat.Pro",
-                            "type": "recon"
+                            "value": "com.microsoft.OneDrive",
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "11.0.19",
+                            "value": "17.3.6945",
                             "type": "recon"
                         }
                     ]
@@ -226,39 +224,40 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.6.4",
+                    "value": "10.9",
                     "type": "recon"
                 }
             ],
             "dependencies": []
         },
         {
-            "version": "11.0.18",
-            "releaseDate": "2016-10-11T00:40:34Z",
+            "version": "17.3.6943",
+            "releaseDate": "2017-07-17T12:00:00.270Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.6.4",
+            "minimumOperatingSystem": "10.9",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.adobe.Acrobat.Pro",
-                    "appName": "Adobe Acrobat Pro.app"
+                    "bundleId": "com.microsoft.OneDrive",
+                    "appName": "OneDrive.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Adobe Acrobat Pro XI",
-                    "version": "11.0.18",
+                    "name": "OneDrive",
+                    "version": "17.3.6943",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.adobe.Acrobat.Pro",
-                            "type": "recon"
+                            "value": "com.microsoft.OneDrive",
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "11.0.18",
+                            "value": "17.3.6943",
                             "type": "recon"
                         }
                     ]
@@ -268,39 +267,40 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.6.4",
+                    "value": "10.9",
                     "type": "recon"
                 }
             ],
             "dependencies": []
         },
         {
-            "version": "11.0.17",
-            "releaseDate": "2016-07-29T10:40:34Z",
+            "version": "17.3.6919",
+            "releaseDate": "2017-07-05T12:00:00.270Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.6.4",
+            "minimumOperatingSystem": "10.9",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.adobe.Acrobat.Pro",
-                    "appName": "Adobe Acrobat Pro.app"
+                    "bundleId": "com.microsoft.OneDrive",
+                    "appName": "OneDrive.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Adobe Acrobat Pro XI",
-                    "version": "11.0.17",
+                    "name": "OneDrive",
+                    "version": "17.3.6919",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.adobe.Acrobat.Pro",
-                            "type": "recon"
+                            "value": "com.microsoft.OneDrive",
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "11.0.17",
+                            "value": "17.3.6919",
                             "type": "recon"
                         }
                     ]
@@ -310,39 +310,40 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.6.4",
+                    "value": "10.9",
                     "type": "recon"
                 }
             ],
             "dependencies": []
         },
         {
-            "version": "11.0.16",
-            "releaseDate": "2016-05-10T10:09:34Z",
+            "version": "17.3.6916",
+            "releaseDate": "2017-06-22T12:00:00.270Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.6.4",
+            "minimumOperatingSystem": "10.9",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.adobe.Acrobat.Pro",
-                    "appName": "Adobe Acrobat Pro.app"
+                    "bundleId": "com.microsoft.OneDrive",
+                    "appName": "OneDrive.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Adobe Acrobat Pro XI",
-                    "version": "11.0.16",
+                    "name": "OneDrive",
+                    "version": "17.3.6916",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.adobe.Acrobat.Pro",
-                            "type": "recon"
+                            "value": "com.microsoft.OneDrive",
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "11.0.16",
+                            "value": "17.3.6916",
                             "type": "recon"
                         }
                     ]
@@ -352,81 +353,40 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.6.4",
+                    "value": "10.9",
                     "type": "recon"
                 }
             ],
             "dependencies": []
         },
         {
-            "version": "11.0.15",
-            "releaseDate": "2016-03-08T15:40:34Z",
-            "standalone": false,
-            "minimumOperatingSystem": "10.6.4",
-            "reboot": false,
-            "killApps": [
-                {
-                    "bundleId": "com.adobe.Acrobat.Pro",
-                    "appName": "Adobe Acrobat Pro.app"
-                }
-            ],
-            "components": [
-                {
-                    "name": "Adobe Acrobat Pro XI",
-                    "version": "11.0.15",
-                    "criteria": [
-                        {
-                            "name": "Application Bundle ID",
-                            "operator": "is",
-                            "value": "com.adobe.Acrobat.Pro",
-                            "type": "recon"
-                        },
-                        {
-                            "name": "Application Version",
-                            "operator": "is",
-                            "value": "11.0.15",
-                            "type": "recon"
-                        }
-                    ]
-                }
-            ],
-            "capabilities": [
-                {
-                    "name": "Operating System Version",
-                    "operator": "greater than or equal",
-                    "value": "10.6.4",
-                    "type": "recon"
-                }
-            ],
-            "dependencies": []
-        },
-        {
-            "version": "11.0.14",
-            "releaseDate": "2016-01-12T07:39:34Z",
+            "version": "17.3.6798",
+            "releaseDate": "2017-02-16T12:00:00.270Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.6.4",
+            "minimumOperatingSystem": "10.9",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.adobe.Acrobat.Pro",
-                    "appName": "Adobe Acrobat Pro.app"
+                    "bundleId": "com.microsoft.OneDrive",
+                    "appName": "OneDrive.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Adobe Acrobat Pro XI",
-                    "version": "11.0.14",
+                    "name": "OneDrive",
+                    "version": "17.3.6798",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.adobe.Acrobat.Pro",
-                            "type": "recon"
+                            "value": "com.microsoft.OneDrive",
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "11.0.14",
+                            "value": "17.3.6798",
                             "type": "recon"
                         }
                     ]
@@ -436,39 +396,40 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.6.4",
+                    "value": "10.9",
                     "type": "recon"
                 }
             ],
             "dependencies": []
         },
         {
-            "version": "11.0.13",
-            "releaseDate": "2015-10-13T08:13:34Z",
+            "version": "17.3.6760",
+            "releaseDate": "2017-01-23T12:00:00.270Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.6.4",
+            "minimumOperatingSystem": "10.9",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.adobe.Acrobat.Pro",
-                    "appName": "Adobe Acrobat Pro.app"
+                    "bundleId": "com.microsoft.OneDrive",
+                    "appName": "OneDrive.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Adobe Acrobat Pro XI",
-                    "version": "11.0.13",
+                    "name": "OneDrive",
+                    "version": "17.3.6760",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.adobe.Acrobat.Pro",
-                            "type": "recon"
+                            "value": "com.microsoft.OneDrive",
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "11.0.13",
+                            "value": "17.3.6760",
                             "type": "recon"
                         }
                     ]
@@ -478,39 +439,40 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.6.4",
+                    "value": "10.9",
                     "type": "recon"
                 }
             ],
             "dependencies": []
         },
         {
-            "version": "11.0.12",
-            "releaseDate": "2015-07-14T14:49:34Z",
+            "version": "17.3.6720",
+            "releaseDate": "2016-12-14T12:00:00.270Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.6.4",
+            "minimumOperatingSystem": "10.9",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.adobe.Acrobat.Pro",
-                    "appName": "Adobe Acrobat Pro.app"
+                    "bundleId": "com.microsoft.OneDrive",
+                    "appName": "OneDrive.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Adobe Acrobat Pro XI",
-                    "version": "11.0.12",
+                    "name": "OneDrive",
+                    "version": "17.3.6720",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.adobe.Acrobat.Pro",
-                            "type": "recon"
+                            "value": "com.microsoft.OneDrive",
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "11.0.12",
+                            "value": "17.3.6720",
                             "type": "recon"
                         }
                     ]
@@ -520,39 +482,40 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.6.4",
+                    "value": "10.9",
                     "type": "recon"
                 }
             ],
             "dependencies": []
         },
         {
-            "version": "11.0.11",
-            "releaseDate": "2015-05-12T20:09:34Z",
+            "version": "17.3.6707",
+            "releaseDate": "2016-12-01T12:00:00.270Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.6.4",
+            "minimumOperatingSystem": "10.9",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.adobe.Acrobat.Pro",
-                    "appName": "Adobe Acrobat Pro.app"
+                    "bundleId": "com.microsoft.OneDrive",
+                    "appName": "OneDrive.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Adobe Acrobat Pro XI",
-                    "version": "11.0.11",
+                    "name": "OneDrive",
+                    "version": "17.3.6707",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.adobe.Acrobat.Pro",
-                            "type": "recon"
+                            "value": "com.microsoft.OneDrive",
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "11.0.11",
+                            "value": "17.3.6707",
                             "type": "recon"
                         }
                     ]
@@ -562,81 +525,40 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.6.4",
+                    "value": "10.9",
                     "type": "recon"
                 }
             ],
             "dependencies": []
         },
         {
-            "version": "11.0.10",
-            "releaseDate": "2014-12-09T09:11:34Z",
-            "standalone": false,
-            "minimumOperatingSystem": "10.6.4",
-            "reboot": false,
-            "killApps": [
-                {
-                    "bundleId": "com.adobe.Acrobat.Pro",
-                    "appName": "Adobe Acrobat Pro.app"
-                }
-            ],
-            "components": [
-                {
-                    "name": "Adobe Acrobat Pro XI",
-                    "version": "11.0.10",
-                    "criteria": [
-                        {
-                            "name": "Application Bundle ID",
-                            "operator": "is",
-                            "value": "com.adobe.Acrobat.Pro",
-                            "type": "recon"
-                        },
-                        {
-                            "name": "Application Version",
-                            "operator": "is",
-                            "value": "11.0.10",
-                            "type": "recon"
-                        }
-                    ]
-                }
-            ],
-            "capabilities": [
-                {
-                    "name": "Operating System Version",
-                    "operator": "greater than or equal",
-                    "value": "10.6.4",
-                    "type": "recon"
-                }
-            ],
-            "dependencies": []
-        },
-        {
-            "version": "11.0.09",
-            "releaseDate": "2014-09-16T14:20:34Z",
+            "version": "17.3.6674",
+            "releaseDate": "2016-11-10T12:00:00.270Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.6.4",
+            "minimumOperatingSystem": "10.9",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.adobe.Acrobat.Pro",
-                    "appName": "Adobe Acrobat Pro.app"
+                    "bundleId": "com.microsoft.OneDrive",
+                    "appName": "OneDrive.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Adobe Acrobat Pro XI",
-                    "version": "11.0.09",
+                    "name": "OneDrive",
+                    "version": "17.3.6674",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.adobe.Acrobat.Pro",
-                            "type": "recon"
+                            "value": "com.microsoft.OneDrive",
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "11.0.09",
+                            "value": "17.3.6674",
                             "type": "recon"
                         }
                     ]
@@ -646,39 +568,83 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.6.4",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+       {
+            "version": "17.3.6673",
+            "releaseDate": "2016-10-19T12:00:00.270Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.OneDrive",
+                    "appName": "OneDrive.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "OneDrive",
+                    "version": "17.3.6673",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.microsoft.OneDrive",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "17.3.6673",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
                     "type": "recon"
                 }
             ],
             "dependencies": []
         },
         {
-            "version": "11.0.07",
-            "releaseDate": "2014-05-13T08:19:34Z",
+            "version": "17.3.6517",
+            "releaseDate": "2016-08-24T12:00:00.270Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.6.4",
+            "minimumOperatingSystem": "10.9",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.adobe.Acrobat.Pro",
-                    "appName": "Adobe Acrobat Pro.app"
+                    "bundleId": "com.microsoft.OneDrive",
+                    "appName": "OneDrive.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Adobe Acrobat Pro XI",
-                    "version": "11.0.07",
+                    "name": "OneDrive",
+                    "version": "17.3.6517",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.adobe.Acrobat.Pro",
-                            "type": "recon"
+                            "value": "com.microsoft.OneDrive",
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "11.0.07",
+                            "value": "17.3.6517",
                             "type": "recon"
                         }
                     ]
@@ -688,39 +654,40 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.6.4",
+                    "value": "10.9",
                     "type": "recon"
                 }
             ],
             "dependencies": []
         },
         {
-            "version": "11.0.06",
-            "releaseDate": "2014-01-14T08:31:34Z",
+            "version": "17.3.6389",
+            "releaseDate": "2016-04-19T12:00:00.270Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.6.4",
+            "minimumOperatingSystem": "10.9",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.adobe.Acrobat.Pro",
-                    "appName": "Adobe Acrobat Pro.app"
+                    "bundleId": "com.microsoft.OneDrive",
+                    "appName": "OneDrive.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Adobe Acrobat Pro XI",
-                    "version": "11.0.06",
+                    "name": "OneDrive",
+                    "version": "17.3.6389",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.adobe.Acrobat.Pro",
-                            "type": "recon"
+                            "value": "com.microsoft.OneDrive",
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "11.0.06",
+                            "value": "17.3.6389",
                             "type": "recon"
                         }
                     ]
@@ -730,39 +697,40 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.6.4",
+                    "value": "10.9",
                     "type": "recon"
                 }
             ],
             "dependencies": []
         },
         {
-            "version": "11.0.04",
-            "releaseDate": "2013-09-26T20:08:34Z",
+            "version": "17.3.6378",
+            "releaseDate": "2016-03-30T12:00:00.270Z",
             "standalone": true,
-            "minimumOperatingSystem": "10.6.4",
+            "minimumOperatingSystem": "10.9",
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.adobe.Acrobat.Pro",
-                    "appName": "Adobe Acrobat Pro.app"
+                    "bundleId": "com.microsoft.OneDrive",
+                    "appName": "OneDrive.app"
                 }
             ],
             "components": [
                 {
-                    "name": "Adobe Acrobat Pro XI",
-                    "version": "11.0.04",
+                    "name": "OneDrive",
+                    "version": "17.3.6378",
                     "criteria": [
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.adobe.Acrobat.Pro",
-                            "type": "recon"
+                            "value": "com.microsoft.OneDrive",
+                            "type": "recon",
+                            "and": true
                         },
                         {
                             "name": "Application Version",
                             "operator": "is",
-                            "value": "11.0.04",
+                            "value": "17.3.6378",
                             "type": "recon"
                         }
                     ]
@@ -772,133 +740,7 @@
                 {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
-                    "value": "10.6.4",
-                    "type": "recon"
-                }
-            ],
-            "dependencies": []
-        },
-        {
-            "version": "11.0.03",
-            "releaseDate": "2013-05-13T16:42:34Z",
-            "standalone": true,
-            "minimumOperatingSystem": "10.6.4",
-            "reboot": false,
-            "killApps": [
-                {
-                    "bundleId": "com.adobe.Acrobat.Pro",
-                    "appName": "Adobe Acrobat Pro.app"
-                }
-            ],
-            "components": [
-                {
-                    "name": "Adobe Acrobat Pro XI",
-                    "version": "11.0.03",
-                    "criteria": [
-                        {
-                            "name": "Application Bundle ID",
-                            "operator": "is",
-                            "value": "com.adobe.Acrobat.Pro",
-                            "type": "recon"
-                        },
-                        {
-                            "name": "Application Version",
-                            "operator": "is",
-                            "value": "11.0.03",
-                            "type": "recon"
-                        }
-                    ]
-                }
-            ],
-            "capabilities": [
-                {
-                    "name": "Operating System Version",
-                    "operator": "greater than or equal",
-                    "value": "10.6.4",
-                    "type": "recon"
-                }
-            ],
-            "dependencies": []
-        },
-        {
-            "version": "11.0.01",
-            "releaseDate": "2013-04-11T08:22:34Z",
-            "standalone": true,
-            "minimumOperatingSystem": "10.6.4",
-            "reboot": false,
-            "killApps": [
-                {
-                    "bundleId": "com.adobe.Acrobat.Pro",
-                    "appName": "Adobe Acrobat Pro.app"
-                }
-            ],
-            "components": [
-                {
-                    "name": "Adobe Acrobat Pro XI",
-                    "version": "11.0.01",
-                    "criteria": [
-                        {
-                            "name": "Application Bundle ID",
-                            "operator": "is",
-                            "value": "com.adobe.Acrobat.Pro",
-                            "type": "recon"
-                        },
-                        {
-                            "name": "Application Version",
-                            "operator": "is",
-                            "value": "11.0.01",
-                            "type": "recon"
-                        }
-                    ]
-                }
-            ],
-            "capabilities": [
-                {
-                    "name": "Operating System Version",
-                    "operator": "greater than or equal",
-                    "value": "10.6.4",
-                    "type": "recon"
-                }
-            ],
-            "dependencies": []
-        },
-        {
-            "version": "11.0.0",
-            "releaseDate": "2013-03-04T14:56:34Z",
-            "standalone": true,
-            "minimumOperatingSystem": "10.6.4",
-            "reboot": false,
-            "killApps": [
-                {
-                    "bundleId": "com.adobe.Acrobat.Pro",
-                    "appName": "Adobe Acrobat Pro.app"
-                }
-            ],
-            "components": [
-                {
-                    "name": "Adobe Acrobat Pro XI",
-                    "version": "11.0.0",
-                    "criteria": [
-                        {
-                            "name": "Application Bundle ID",
-                            "operator": "is",
-                            "value": "com.adobe.Acrobat.Pro",
-                            "type": "recon"
-                        },
-                        {
-                            "name": "Application Version",
-                            "operator": "is",
-                            "value": "11.0.0",
-                            "type": "recon"
-                        }
-                    ]
-                }
-            ],
-            "capabilities": [
-                {
-                    "name": "Operating System Version",
-                    "operator": "greater than or equal",
-                    "value": "10.6.4",
+                    "value": "10.9",
                     "type": "recon"
                 }
             ],
@@ -906,5 +748,5 @@
         }
     ],
     "extensionAttributes": [],
-    "id": "AdobeAcrobatProXI"
+    "id": "OneDrive"
 }

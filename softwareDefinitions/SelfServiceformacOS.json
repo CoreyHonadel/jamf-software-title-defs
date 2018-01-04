@@ -4,17 +4,164 @@
     "appName": "Self Service.app",
     "bundleId": "com.jamfsoftware.selfservice",
     "lastModified": "0000-00-00T00:00:00Z",
-    "currentVersion": "9.101.0",
+    "currentVersion": "10.1.1-t1513360285",
     "requirements": [
         {
             "name": "Application Bundle ID",
-            "operator": "is",
+            "operator": "like",
             "value": "com.jamfsoftware.selfservice",
             "type": "recon",
             "and": true
         }
     ],
     "patches": [
+        {
+            "version": "10.1.1-t1513360285",
+            "releaseDate": "2017-12-20T10:25:00.270Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.jamfsoftware.selfservice",
+                    "appName": "Self Service.app"
+                },
+                {
+                    "bundleId": "com.jamfsoftware.selfservice.mac",
+                    "appName": "Self Service.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Self Service",
+                    "version": "10.1.1-t1513360285",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.jamfsoftware.selfservice.mac",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "10.1.1-t1513360285",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [
+
+            ]
+        },
+	{
+            "version": "10.1.0-t1512589869",
+            "releaseDate": "2017-12-14T13:15:00.270Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.jamfsoftware.selfservice",
+                    "appName": "Self Service.app"
+                },
+                {
+                    "bundleId": "com.jamfsoftware.selfservice.mac",
+                    "appName": "Self Service.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Self Service",
+                    "version": "10.1.0-t1512589869",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.jamfsoftware.selfservice.mac",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "10.1.0-t1512589869",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [
+
+            ]
+        },
+	{
+            "version": "10.0.0-t1508873342",
+            "releaseDate": "2017-10-31T12:00:00.270Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.jamfsoftware.selfservice",
+                    "appName": "Self Service.app"
+                },
+                {
+                    "bundleId": "com.jamfsoftware.selfservice.mac",
+                    "appName": "Self Service.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Self Service",
+                    "version": "10.0.0-t1508873342",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.jamfsoftware.selfservice.mac",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "10.0.0-t1508873342",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [
+
+            ]
+        },
         {
             "version": "9.101.0",
             "releaseDate": "2017-9-12T14:19:38.270Z",
@@ -56,7 +203,9 @@
                     "type": "recon"
                 }
             ],
-            "dependencies": []
+            "dependencies": [
+
+            ]
         },
         {
             "version": "9.100.0",
@@ -99,9 +248,11 @@
                     "type": "recon"
                 }
             ],
-            "dependencies": []
+            "dependencies": [
+
+            ]
         },
-                {
+        {
             "version": "9.99.0",
             "releaseDate": "2017-05-23T18:09:29.814Z",
             "standalone": true,
@@ -142,9 +293,11 @@
                     "type": "recon"
                 }
             ],
-            "dependencies": []
+            "dependencies": [
+
+            ]
         },
-                        {
+        {
             "version": "9.98",
             "releaseDate": "2017-03-22T12:00:00.814Z",
             "standalone": true,
@@ -185,9 +338,11 @@
                     "type": "recon"
                 }
             ],
-            "dependencies": []
-         },
-                        {
+            "dependencies": [
+
+            ]
+        },
+        {
             "version": "9.97.1488392992",
             "releaseDate": "2017-03-6T12:00:00.814Z",
             "standalone": true,
@@ -228,9 +383,11 @@
                     "type": "recon"
                 }
             ],
-            "dependencies": []
-         },
-                        {
+            "dependencies": [
+
+            ]
+        },
+        {
             "version": "9.97.1482356336",
             "releaseDate": "2017-03-3T12:00:00.814Z",
             "standalone": true,
@@ -271,9 +428,11 @@
                     "type": "recon"
                 }
             ],
-            "dependencies": []
+            "dependencies": [
+
+            ]
         },
-                        {
+        {
             "version": "9.97",
             "releaseDate": "2017-03-3T04:00:00.814Z",
             "standalone": true,
@@ -314,9 +473,11 @@
                     "type": "recon"
                 }
             ],
-            "dependencies": []
-               },
-                        {
+            "dependencies": [
+
+            ]
+        },
+        {
             "version": "9.96",
             "releaseDate": "2016-08-25T12:00:00.814Z",
             "standalone": true,
@@ -357,9 +518,13 @@
                     "type": "recon"
                 }
             ],
-            "dependencies": []
+            "dependencies": [
+
+            ]
         }
     ],
-    "extensionAttributes": [],
+    "extensionAttributes": [
+
+    ],
     "id": "SelfServiceformacOS"
 }

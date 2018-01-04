@@ -4,8 +4,41 @@
     "appName": "Sophos Anti-Virus.app",
     "bundleId": "com.sophos.macendpoint.Sophos-Anti-Virus",
     "lastModified": "0000-00-00T00:00:00Z",
-    "currentVersion": "9.6.5",
+    "currentVersion": "9.6.6",
     "patches": [
+        {
+            "version": "9.6.6",
+            "releaseDate": "2017-11-28T13:28:35.746Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Sophos Antivirus for Mac",
+                    "version": "9.6.6",
+                    "criteria": [
+                        {
+                            "name": "sophos-anti-virus",
+                            "operator": "is",
+                            "value": "9.6.6",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
         {
             "version": "9.6.5",
             "releaseDate": "2017-10-04T11:48:35.746Z",

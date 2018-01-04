@@ -2,19 +2,154 @@
     "name": "Skype for Business",
     "publisher": "Microsoft",
     "appName": "Skype for Business.app",
-    "bundleId": "com.microsoft.skypeforbusiness",
+    "bundleId": "com.microsoft.SkypeForBusiness",
     "lastModified": "0000-00-00T00:00:00Z",
-    "currentVersion": "16.11.149",
+    "currentVersion": "16.13.184",
     "requirements": [
         {
             "name": "Application Bundle ID",
             "operator": "is",
-            "value": "com.microsoft.skypeforbusiness",
+            "value": "com.microsoft.SkypeForBusiness",
             "type": "recon",
             "and": true
         }
     ],
     "patches": [
+      {
+        "version": "16.13.184",
+        "releaseDate": "2017-12-09T08:26:43.323Z",
+        "standalone": true,
+        "minimumOperatingSystem": "10.11",
+        "reboot": false,
+        "killApps": [
+          {
+            "bundleId": "com.microsoft.SkypeForBusiness",
+            "appName": "Skype for Business.app"
+          }
+        ],
+        "components": [
+          {
+            "name": "Skype for Business",
+            "version": "16.13.184",
+            "criteria": [
+              {
+                "name": "Application Bundle ID",
+                "operator": "is",
+                "value": "com.microsoft.SkypeForBusiness",
+                "type": "recon",
+                "and": true
+              },
+              {
+                "name": "Application Version",
+                "operator": "is",
+                "value": "16.13.184",
+                "type": "recon",
+                "and": true
+              }
+            ]
+          }
+        ],
+        "capabilities": [
+          {
+            "name": "Operating System Version",
+            "operator": "greater than or equal",
+            "value": "10.11",
+            "type": "recon",
+            "and": true
+          }
+        ],
+        "dependencies": []
+      },
+      {
+        "version": "16.12.77",
+        "releaseDate": "2017-11-10T07:53:43.323Z",
+        "standalone": true,
+        "minimumOperatingSystem": "10.11",
+        "reboot": false,
+        "killApps": [
+          {
+            "bundleId": "com.microsoft.SkypeForBusiness",
+            "appName": "Skype for Business.app"
+          }
+        ],
+        "components": [
+          {
+            "name": "Skype for Business",
+            "version": "16.12.77",
+            "criteria": [
+              {
+                "name": "Application Bundle ID",
+                "operator": "is",
+                "value": "com.microsoft.SkypeForBusiness",
+                "type": "recon",
+                "and": true
+              },
+              {
+                "name": "Application Version",
+                "operator": "is",
+                "value": "16.12.77",
+                "type": "recon",
+                "and": true
+              }
+            ]
+          }
+        ],
+        "capabilities": [
+          {
+            "name": "Operating System Version",
+            "operator": "greater than or equal",
+            "value": "10.11",
+            "type": "recon",
+            "and": true
+          }
+        ],
+        "dependencies": []
+      },
+      {
+            "version": "16.12.75",
+            "releaseDate": "2017-10-31T07:54:43.323Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.11",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.SkypeForBusiness",
+                    "appName": "Skype for Business.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Skype for Business",
+                    "version": "16.12.75",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.microsoft.SkypeForBusiness",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "16.12.75",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.11",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
         {
             "version": "16.11.149",
             "releaseDate": "2017-10-05T13:57:43.323Z",
@@ -23,8 +158,8 @@
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.microsoft.skypeforbusiness",
-                    "appName": "skypeforbusiness.app"
+                    "bundleId": "com.microsoft.SkypeForBusiness",
+                    "appName": "Skype for Business.app"
                 }
             ],
             "components": [
@@ -35,7 +170,7 @@
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.microsoft.skypeforbusiness",
+                            "value": "com.microsoft.SkypeForBusiness",
                             "type": "recon",
                             "and": true
                         },
@@ -68,8 +203,8 @@
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.microsoft.skypeforbusiness",
-                    "appName": "skypeforbusiness.app"
+                    "bundleId": "com.microsoft.SkypeForBusiness",
+                    "appName": "Skype for Business.app"
                 }
             ],
             "components": [
@@ -80,7 +215,7 @@
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.microsoft.skypeforbusiness",
+                            "value": "com.microsoft.SkypeForBusiness",
                             "type": "recon",
                             "and": true
                         },
@@ -113,8 +248,8 @@
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.microsoft.skypeforbusiness",
-                    "appName": "skypeforbusiness.app"
+                    "bundleId": "com.microsoft.SkypeForBusiness",
+                    "appName": "Skype for Business.app"
                 }
             ],
             "components": [
@@ -125,7 +260,7 @@
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.microsoft.skypeforbusiness",
+                            "value": "com.microsoft.SkypeForBusiness",
                             "type": "recon",
                             "and": true
                         },
@@ -158,8 +293,8 @@
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.microsoft.skypeforbusiness",
-                    "appName": "skypeforbusiness.app"
+                    "bundleId": "com.microsoft.SkypeForBusiness",
+                    "appName": "Skype for Business.app"
                 }
             ],
             "components": [
@@ -170,7 +305,7 @@
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.microsoft.skypeforbusiness",
+                            "value": "com.microsoft.SkypeForBusiness",
                             "type": "recon",
                             "and": true
                         },
@@ -203,8 +338,8 @@
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.microsoft.skypeforbusiness",
-                    "appName": "skypeforbusiness.app"
+                    "bundleId": "com.microsoft.SkypeForBusiness",
+                    "appName": "Skype for Business.app"
                 }
             ],
             "components": [
@@ -215,7 +350,7 @@
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.microsoft.skypeforbusiness",
+                            "value": "com.microsoft.SkypeForBusiness",
                             "type": "recon",
                             "and": true
                         },
@@ -248,8 +383,8 @@
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.microsoft.skypeforbusiness",
-                    "appName": "skypeforbusiness.app"
+                    "bundleId": "com.microsoft.SkypeForBusiness",
+                    "appName": "Skype for Business.app"
                 }
             ],
             "components": [
@@ -260,7 +395,7 @@
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.microsoft.skypeforbusiness",
+                            "value": "com.microsoft.SkypeForBusiness",
                             "type": "recon",
                             "and": true
                         },
@@ -293,8 +428,8 @@
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.microsoft.skypeforbusiness",
-                    "appName": "skypeforbusiness.app"
+                    "bundleId": "com.microsoft.SkypeForBusiness",
+                    "appName": "Skype for Business.app"
                 }
             ],
             "components": [
@@ -305,7 +440,7 @@
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.microsoft.skypeforbusiness",
+                            "value": "com.microsoft.SkypeForBusiness",
                             "type": "recon",
                             "and": true
                         },
@@ -338,8 +473,8 @@
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.microsoft.skypeforbusiness",
-                    "appName": "skypeforbusiness.app"
+                    "bundleId": "com.microsoft.SkypeForBusiness",
+                    "appName": "Skype for Business.app"
                 }
             ],
             "components": [
@@ -350,7 +485,7 @@
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.microsoft.skypeforbusiness",
+                            "value": "com.microsoft.SkypeForBusiness",
                             "type": "recon",
                             "and": true
                         },
@@ -383,8 +518,8 @@
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.microsoft.skypeforbusiness",
-                    "appName": "skypeforbusiness.app"
+                    "bundleId": "com.microsoft.SkypeForBusiness",
+                    "appName": "Skype for Business.app"
                 }
             ],
             "components": [
@@ -395,7 +530,7 @@
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.microsoft.skypeforbusiness",
+                            "value": "com.microsoft.SkypeForBusiness",
                             "type": "recon",
                             "and": true
                         },
@@ -428,8 +563,8 @@
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.microsoft.skypeforbusiness",
-                    "appName": "skypeforbusiness.app"
+                    "bundleId": "com.microsoft.SkypeForBusiness",
+                    "appName": "Skype for Business.app"
                 }
             ],
             "components": [
@@ -440,7 +575,7 @@
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.microsoft.skypeforbusiness",
+                            "value": "com.microsoft.SkypeForBusiness",
                             "type": "recon",
                             "and": true
                         },
@@ -473,8 +608,8 @@
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.microsoft.skypeforbusiness",
-                    "appName": "skypeforbusiness.app"
+                    "bundleId": "com.microsoft.SkypeForBusiness",
+                    "appName": "Skype for Business.app"
                 }
             ],
             "components": [
@@ -485,7 +620,7 @@
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.microsoft.skypeforbusiness",
+                            "value": "com.microsoft.SkypeForBusiness",
                             "type": "recon",
                             "and": true
                         },
@@ -518,8 +653,8 @@
             "reboot": false,
             "killApps": [
                 {
-                    "bundleId": "com.microsoft.skypeforbusiness",
-                    "appName": "skypeforbusiness.app"
+                    "bundleId": "com.microsoft.SkypeForBusiness",
+                    "appName": "Skype for Business.app"
                 }
             ],
             "components": [
@@ -530,7 +665,7 @@
                         {
                             "name": "Application Bundle ID",
                             "operator": "is",
-                            "value": "com.microsoft.skypeforbusiness",
+                            "value": "com.microsoft.SkypeForBusiness",
                             "type": "recon",
                             "and": true
                         },

@@ -4,7 +4,7 @@
     "appName": "Adobe InDesign CC 2018.app",
     "bundleId": "com.adobe.InDesign",
     "lastModified": "0000-00-00T00:00:00Z",
-    "currentVersion": "13.0.0.125",
+    "currentVersion": "13.0.1.207",
     "requirements": [
         {
             "name": "Application Bundle ID",
@@ -15,6 +15,60 @@
         }
     ],
     "patches": [
+        {
+            "version": "13.0.1.207",
+            "releaseDate": "2017-11-20T08:25:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.11",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.InDesign",
+                    "appName": "Adobe InDesign CC 2018.app"
+                },
+                {
+                    "bundleId": "com.adobe.InDesign",
+                    "appName": "Adobe InDesign CC 2017.app"
+                },
+                {
+                    "bundleId": "com.adobe.InDesign",
+                    "appName": "Adobe InDesign CC 2015.app"
+                },
+                {
+                    "bundleId": "com.adobe.InDesign ",
+                    "appName": "Adobe InDesign CC 2014.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe InDesign CC",
+                    "version": "13.0.1.207",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.InDesign",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "13.0.1.207",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.11",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ]
+        },
         {
             "version": "13.0.0.125",
             "releaseDate": "2017-10-19T14:40:34Z",

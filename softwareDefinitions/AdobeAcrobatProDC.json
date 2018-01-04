@@ -4,7 +4,7 @@
     "appName": "Adobe Acrobat.app",
     "bundleId": "com.adobe.Acrobat.Pro",
     "lastModified": "0000-00-00T00:00:00Z",
-    "currentVersion": "17.012.20098",
+    "currentVersion": "18.009.20050",
     "requirements": [
         {
             "name": "Application Bundle ID",
@@ -26,9 +26,100 @@
             "value": "17.",
             "type": "recon",
             "and": false
+        },
+        {
+            "name": "Application Version",
+            "operator": "like",
+            "value": "18.",
+            "type": "recon",
+            "and": false
         }
     ],
     "patches": [
+         {
+            "version": "18.009.20050",
+            "releaseDate": "2017-12-04T09:45:24.349Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Acrobat.Pro",
+                    "appName": "Adobe Acrobat.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Pro DC",
+                    "version": "18.009.20050",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Acrobat.Pro",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "18.009.20050",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+         },
+	 {
+            "version": "18.009.20044",
+            "releaseDate": "2017-11-14T11:07:24.349Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Acrobat.Pro",
+                    "appName": "Adobe Acrobat.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Pro DC",
+                    "version": "18.009.20044",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Acrobat.Pro",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "18.009.20044",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
         {
             "version": "17.012.20098",
             "releaseDate": "2017-08-29T06:39:24.349Z",

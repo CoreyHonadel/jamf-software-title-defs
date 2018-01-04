@@ -4,7 +4,7 @@
     "appName": "Microsoft Outlook.app",
     "bundleId": "com.microsoft.outlook",
     "lastModified": "0000-00-00T00:00:00Z",
-    "currentVersion": "15.39.17101000",
+    "currentVersion": "15.41.17120500",
     "requirements": [
         {
             "name": "Application Bundle ID",
@@ -22,6 +22,96 @@
         }
     ],
     "patches": [
+        {
+            "version": "15.41.17120500",
+            "releaseDate": "2017-12-12T19:08:49.376Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.outlook",
+                    "appName": "Microsoft Outlook.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft Outlook 2016",
+                    "version": "15.41.17120500",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.microsoft.outlook",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "15.41.17120500",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "15.40.17110800",
+            "releaseDate": "2017-11-14T19:42:42.855Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.outlook",
+                    "appName": "Microsoft Outlook.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft Outlook 2016",
+                    "version": "15.40.17110800",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.microsoft.outlook",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "15.40.17110800",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
         {
             "version": "15.39.17101000",
             "releaseDate": "2017-10-10T18:57:56.312Z",

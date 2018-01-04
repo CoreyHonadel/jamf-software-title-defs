@@ -4,7 +4,7 @@
     "appName": "Adobe Reader.app",
     "bundleId": "com.adobe.Reader",
     "lastModified": "0000-00-00T00:00:00Z",
-    "currentVersion": "11.0.22",
+    "currentVersion": "11.0.23",
     "requirements": [
         {
             "name": "Application Bundle ID",
@@ -22,6 +22,48 @@
         }
     ],
     "patches": [
+        {
+            "version": "11.0.23",
+            "releaseDate": "2017-11-14T11:16:34.885Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.6.4",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Reader",
+                    "appName": "Adobe Reader.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Reader XI",
+                    "version": "11.0.23",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Reader",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.0.23",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.6.4",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
         {
             "version": "11.0.22",
             "releaseDate": "2017-08-22T14:10:34.885Z",
