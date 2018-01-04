@@ -1,6 +1,6 @@
 ## This project was designed as a proof-of-concept to use GitHub as a patch definition source. More documentation will be added in the future.
 
-## Jamf Pro source url https://patchserver.fun/
+## Jamf Pro source url https://patchserver.fun/v1/
 
 ### Endpoints used by Jamf Pro to monitor
 #### https://patchserver.fun/v1/software
