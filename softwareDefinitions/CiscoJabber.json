@@ -1,0 +1,1056 @@
+{
+    "name": "Cisco Jabber",
+    "publisher": "Cisco",
+    "appName": "Google Jabber.app",
+    "bundleId": "com.cisco.Jabber",
+    "lastModified": "2018-01-05T11:30:00Z",
+    "currentVersion": "11.9.2",
+    "requirements": [
+        {
+            "name": "Application Bundle ID",
+            "operator": "is",
+            "value": "com.cisco.Jabber",
+            "type": "recon",
+            "and": true
+        }
+    ],
+    "patches": [
+        {
+            "version": "11.9.2",
+            "releaseDate": "2017-12-14T23:00:22.052Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.11",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.cisco.Jabber",
+                    "appName": "Cisco Jabber.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Cisco Jabber",
+                    "version": "11.9.2",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.cisco.Jabber",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.9.2",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.11",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.9.1",
+            "releaseDate": "2017-10-14T23:00:22.052Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.11",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.cisco.Jabber",
+                    "appName": "Cisco Jabber.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Cisco Jabber",
+                    "version": "11.9.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.cisco.Jabber",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.9.1",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.11",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.9.0",
+            "releaseDate": "2017-08-08T23:00:22.052Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.11",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.cisco.Jabber",
+                    "appName": "Cisco Jabber.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Cisco Jabber",
+                    "version": "11.9.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.cisco.Jabber",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.9.0",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.11",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.8.1",
+            "releaseDate": "2017-06-14T23:00:22.052Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.11",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.cisco.Jabber",
+                    "appName": "Cisco Jabber.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Cisco Jabber",
+                    "version": "11.8.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.cisco.Jabber",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.8.1",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.11",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.8.0",
+            "releaseDate": "2017-04-14T23:00:22.052Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.11",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.cisco.Jabber",
+                    "appName": "Cisco Jabber.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Cisco Jabber",
+                    "version": "11.8.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.cisco.Jabber",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.8.0",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.11",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.7.2",
+            "releaseDate": "2017-01-01T23:00:22.052Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.cisco.Jabber",
+                    "appName": "Cisco Jabber.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Cisco Jabber",
+                    "version": "11.7.2",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.cisco.Jabber",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.7.2",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.7.1",
+            "releaseDate": "2016-11-14T23:00:22.052Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.cisco.Jabber",
+                    "appName": "Cisco Jabber.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Cisco Jabber",
+                    "version": "11.7.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.cisco.Jabber",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.7.1",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.7.0",
+            "releaseDate": "2016-09-14T23:00:22.052Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.cisco.Jabber",
+                    "appName": "Cisco Jabber.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Cisco Jabber",
+                    "version": "11.7.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.cisco.Jabber",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.7.0",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.6.0",
+            "releaseDate": "2016-04-27T23:00:22.052Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.cisco.Jabber",
+                    "appName": "Cisco Jabber.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Cisco Jabber",
+                    "version": "11.6.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.cisco.Jabber",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.6.0",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.5.2",
+            "releaseDate": "2016-04-21T23:00:22.052Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.cisco.Jabber",
+                    "appName": "Cisco Jabber.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Cisco Jabber",
+                    "version": "11.5.2",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.cisco.Jabber",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.5.2",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.5.1",
+            "releaseDate": "2016-03-14T23:00:22.052Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.cisco.Jabber",
+                    "appName": "Cisco Jabber.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Cisco Jabber",
+                    "version": "11.5.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.cisco.Jabber",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.5.1",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.5.0",
+            "releaseDate": "2016-01-14T23:00:22.052Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.cisco.Jabber",
+                    "appName": "Cisco Jabber.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Cisco Jabber",
+                    "version": "11.5.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.cisco.Jabber",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.5.0",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.1.1",
+            "releaseDate": "2015-10-14T23:00:22.052Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.19",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.cisco.Jabber",
+                    "appName": "Cisco Jabber.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Cisco Jabber",
+                    "version": "11.1.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.cisco.Jabber",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.1.1",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.1.0",
+            "releaseDate": "2015-09-14T23:00:22.052Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.cisco.Jabber",
+                    "appName": "Cisco Jabber.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Cisco Jabber",
+                    "version": "11.1.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.cisco.Jabber",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.1.0",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "11.0.0",
+            "releaseDate": "2015-08-14T23:00:22.052Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.cisco.Jabber",
+                    "appName": "Cisco Jabber.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Cisco Jabber",
+                    "version": "11.0.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.cisco.Jabber",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "11.0.0",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "10.6.1",
+            "releaseDate": "2015-04-14T23:00:22.052Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8.1",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.cisco.Jabber",
+                    "appName": "Cisco Jabber.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Cisco Jabber",
+                    "version": "10.6.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.cisco.Jabber",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "10.6.1",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8.1",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "10.6.0",
+            "releaseDate": "2015-02-14T23:00:22.052Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8.1",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.cisco.Jabber",
+                    "appName": "Cisco Jabber.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Cisco Jabber",
+                    "version": "10.6.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.cisco.Jabber",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "10.6.0",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8.1",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "10.5.1",
+            "releaseDate": "2014-12-14T23:00:22.052Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8.1",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.cisco.Jabber",
+                    "appName": "Cisco Jabber.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Cisco Jabber",
+                    "version": "10.5.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.cisco.Jabber",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "10.5.1",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8.1",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "10.5.0",
+            "releaseDate": "2014-11-14T23:00:22.052Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8.1",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.cisco.Jabber",
+                    "appName": "Cisco Jabber.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Cisco Jabber",
+                    "version": "10.5.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.cisco.Jabber",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "10.5.0",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8.1",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.6.1",
+            "releaseDate": "2014-08-14T23:00:22.052Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.4",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.cisco.Jabber",
+                    "appName": "Cisco Jabber.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Cisco Jabber",
+                    "version": "9.6.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.cisco.Jabber",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "9.6.1",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.4",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.6.0",
+            "releaseDate": "2014-06-14T23:00:22.052Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.4",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.cisco.Jabber",
+                    "appName": "Cisco Jabber.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Cisco Jabber",
+                    "version": "9.6.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.cisco.Jabber",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "9.6.0",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.4",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.2.2",
+            "releaseDate": "2014-03-14T23:00:22.052Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.4",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.cisco.Jabber",
+                    "appName": "Cisco Jabber.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Cisco Jabber",
+                    "version": "9.2.2",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.cisco.Jabber",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "9.2.2",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.4",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "9.2.1",
+            "releaseDate": "2013-12-14T23:00:22.052Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.7.4",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.cisco.Jabber",
+                    "appName": "Cisco Jabber.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Cisco Jabber",
+                    "version": "9.2.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.cisco.Jabber",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "9.2.1",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.7.4",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        }
+    ],
+    "extensionAttributes": [],
+    "id": "CiscoJabber"
+}
