@@ -1,0 +1,100 @@
+{
+ "name": "Java SE Runtime Environment 9",
+ "publisher": "Oracle",
+ "appName": null,
+ "bundleId": null,
+ "lastModified": "2018-01-17T13:00:00Z",
+ "currentVersion": "9.0.4",
+ "patches": [
+  {
+   "version": "9.0.4",
+   "releaseDate": "2018-01-17T13:00:18.498Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.10.0",
+   "reboot": false,
+   "killApps": [],
+   "components": [
+    {
+     "name": "Java SE Runtime Environment 9",
+     "version": "9.0.4",
+     "criteria": [
+      {
+       "name": "java-9-jre",
+       "operator": "is",
+       "value": "9.0.4",
+       "type": "extensionAttribute",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.10.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  },
+  {
+   "version": "9.0.1",
+   "releaseDate": "2017-10-17T10:00:18.498Z",
+   "standalone": true,
+   "minimumOperatingSystem": "10.10.0",
+   "reboot": false,
+   "killApps": [],
+   "components": [
+    {
+     "name": "Java SE Runtime Environment 9",
+     "version": "9.0.1",
+     "criteria": [
+      {
+       "name": "java-9-jre",
+       "operator": "is",
+       "value": "9.0.1",
+       "type": "extensionAttribute",
+       "and": true
+      }
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "name": "Operating System Version",
+     "operator": "greater than or equal",
+     "value": "10.10.0",
+     "type": "recon",
+     "and": true
+    }
+   ],
+   "dependencies": []
+  }
+ ],
+ "extensionAttributes": [
+  {
+   "key": "java-9-jre",
+   "value": "IyEvdXNyL2Jpbi9lbnYgYmFzaA0KIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjDQojIENvbGxlY3RzIGluZm9ybWF0aW9uIHRvIGRldGVybWluZSB3aGljaCB2ZXJzaW9uIG9mIHRoZSBKYXZhIHBsdWdpbiBpcyBpbnN0YWxsZWQgYW5kICMgDQojIHRoZW4gcmV0dXJuaW5nIHRoYXQgdmVyc2lvbiBiYWNrLiBTRUFSQ0hfRk9SX1ZFUlNJT04gY29tcGFyZXMgbWFqb3IgdmVyc2lvbiB0byAgICAgICMNCiMgZW5zdXJlIHRoYXQgdGhlIG1ham9yIHZlcnNpb24gaXMgbmluZS4gQnVpbGRzIHRoZSByZXN1bHQgYXMgTUFKT1IuTUlOT1IuU0VDVVJJVFkJICAjCQ0KIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjDQpTRUFSQ0hfRk9SX1ZFUlNJT049IjkiDQpNQUpPUl9WRVJTSU9OPSItMSINClJFU1VMVD0iTm90IEluc3RhbGxlZCINCg0KaWYgWyAtZiAiL0xpYnJhcnkvSW50ZXJuZXQgUGx1Zy1JbnMvSmF2YUFwcGxldFBsdWdpbi5wbHVnaW4vQ29udGVudHMvSW5mby5wbGlzdCIgXSA7IHRoZW4NCglHQVRIRVJFRF9WRVJTSU9OPSQoIC91c3IvYmluL2RlZmF1bHRzIHJlYWQgIi9MaWJyYXJ5L0ludGVybmV0IFBsdWctSW5zL0phdmFBcHBsZXRQbHVnaW4ucGx1Z2luL0NvbnRlbnRzL0luZm8ucGxpc3QiIENGQnVuZGxlVmVyc2lvbiApDQoJVkVSU0lPTj0iJChlY2hvICR7R0FUSEVSRURfVkVSU0lPTn0gfCBjdXQgLWQgIi4iIC1mIDEsMiwzKSINCglNQUpPUl9WRVJTSU9OPWBlY2hvICRWRVJTSU9OIHwgY3V0IC1kICcuJyAtZiAxYA0KZmkNCg0KaWYgWyAiJE1BSk9SX1ZFUlNJT04iID09ICIkU0VBUkNIX0ZPUl9WRVJTSU9OIiBdIDsgdGhlbg0KICAgIFJFU1VMVD0iJFZFUlNJT04iDQpmaQ0KDQplY2hvICI8cmVzdWx0PiRSRVNVTFQ8L3Jlc3VsdD4i",
+   "displayName": "Java SE Runtime Environment 9"
+  }
+ ],
+ "requirements": [
+  {
+   "name": "java-9-jre",
+   "operator": "is not",
+   "value": "Not Installed",
+   "type": "extensionAttribute",
+   "and": true
+  },
+  {
+   "name": "java-9-jre",
+   "operator": "is not",
+   "value": "",
+   "type": "extensionAttribute",
+   "and": true
+  }
+ ],
+ "id": "JavaSERuntimeEnvironmentJRE9"
+}
