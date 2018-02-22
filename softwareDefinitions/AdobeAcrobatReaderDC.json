@@ -4,7 +4,7 @@
     "appName": "Adobe Acrobat Reader DC.app",
     "bundleId": "com.adobe.Reader",
     "lastModified": "0000-00-000T00:00:00Z",
-    "currentVersion": "18.009.20050",
+    "currentVersion": "18.011.20036",
     "requirements": [
         {
             "name": "Application Bundle ID",
@@ -36,7 +36,91 @@
         }
     ],
     "patches": [
-	{
+    {
+            "version": "18.011.20036",
+            "releaseDate": "2018-02-20T06:30:00.916Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Reader",
+                    "appName": "Adobe Acrobat Reader DC.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Reader DC",
+                    "version": "18.011.20036",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Reader",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "18.011.20036",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "18.011.20035",
+            "releaseDate": "2018-02-20T05:30:00.916Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Reader",
+                    "appName": "Adobe Acrobat Reader DC.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Reader DC",
+                    "version": "18.011.20035",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Reader",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "18.011.20035",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+	    {
             "version": "18.009.20050",
             "releaseDate": "2017-12-04T08:46:28.916Z",
             "standalone": true,

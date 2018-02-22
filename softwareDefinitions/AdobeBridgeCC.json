@@ -3,8 +3,8 @@
     "publisher": "Adobe",
     "appName": "Adobe Bridge CC 2018.app",
     "bundleId": "com.adobe.bridge8",
-    "lastModified": "2018-01-04T11:30:00Z",
-    "currentVersion": "8.0.0.262",
+    "lastModified": "2018-02-22T15:35:00Z",
+    "currentVersion": "8.0.1.282",
     "requirements": [
         {
             "name": "Application Bundle ID",
@@ -36,6 +36,60 @@
         }
     ],
     "patches": [
+      {
+        "version": "8.0.1.282",
+        "releaseDate": "2018-02-20T06:00:34Z",
+        "standalone": true,
+        "minimumOperatingSystem": "10.11",
+        "reboot": false,
+        "killApps": [
+          {
+            "bundleId": "com.adobe.bridge8",
+            "appName": "Adobe Bridge CC 2018.app"
+          },
+          {
+            "bundleId": "com.adobe.bridge7",
+            "appName": "Adobe Bridge CC 2017.app"
+          },
+          {
+            "bundleId": "com.adobe.bridge6.3",
+            "appName": "Adobe Bridge CC.app"
+          },
+          {
+            "bundleId": "com.adobe.bridge6",
+            "appName": "Adobe Bridge CC.app"
+          }
+        ],
+        "components": [
+          {
+            "name": "Adobe Bridge CC",
+            "version": "8.0.1.282",
+            "criteria": [
+              {
+                "name": "Application Bundle ID",
+                "operator": "is",
+                "value": "com.adobe.bridge8",
+                "type": "recon"
+              },
+              {
+                "name": "Application Version",
+                "operator": "is",
+                "value": "8.0.1.282",
+                "type": "recon"
+              }
+            ]
+          }
+        ],
+        "capabilities": [
+          {
+            "name": "Operating System Version",
+            "operator": "greater than or equal",
+            "value": "10.10",
+            "type": "recon"
+          }
+        ],
+        "dependencies": [ ]
+      },
       {
         "version": "8.0.0.262",
         "releaseDate": "2017-10-19T14:07:34Z",

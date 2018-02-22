@@ -1,12 +1,78 @@
 {
-    "name": "Sophos Antivirus for Mac",
+    "name": "Sophos Endpoint for Mac",
     "publisher": "Sophos Ltd",
-    "appName": "Sophos Anti-Virus.app",
-    "bundleId": "com.sophos.macendpoint.Sophos-Anti-Virus",
-    "lastModified": "2018-01-04T11:30:00Z",
-    "currentVersion": "9.6.6",
+    "appName": "Sophos Endpoint.app",
+    "bundleId": "com.sophos.macendpoint.sophos-endpoint",
+    "lastModified": "2018-02-22T15:35:00Z",
+    "currentVersion": "9.7.4",
     "patches": [
+            {
+            "version": "9.7.4",
+            "releaseDate": "2018-02-20T07:00:00.746Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Sophos Antivirus for Mac",
+                    "version": "9.7.4",
+                    "criteria": [
+                        {
+                            "name": "sophos-endpoint",
+                            "operator": "is",
+                            "value": "9.7.4",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
         {
+            "version": "9.6.7",
+            "releaseDate": "2018-01-31T08:05:35.746Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Sophos Antivirus for Mac",
+                    "version": "9.6.7",
+                    "criteria": [
+                        {
+                            "name": "sophos-endpoint",
+                            "operator": "is",
+                            "value": "9.6.7",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+	{
             "version": "9.6.6",
             "releaseDate": "2017-11-28T13:28:35.746Z",
             "standalone": true,
@@ -19,7 +85,7 @@
                     "version": "9.6.6",
                     "criteria": [
                         {
-                            "name": "sophos-anti-virus",
+                            "name": "sophos-endpoint",
                             "operator": "is",
                             "value": "9.6.6",
                             "type": "extensionAttribute",
@@ -52,7 +118,7 @@
                     "version": "9.6.5",
                     "criteria": [
                         {
-                            "name": "sophos-anti-virus",
+                            "name": "sophos-endpoint",
                             "operator": "is",
                             "value": "9.6.5",
                             "type": "extensionAttribute",
@@ -85,7 +151,7 @@
                     "version": "9.6.4",
                     "criteria": [
                         {
-                            "name": "sophos-anti-virus",
+                            "name": "sophos-endpoint",
                             "operator": "is",
                             "value": "9.6.4",
                             "type": "extensionAttribute",
@@ -118,7 +184,7 @@
                     "version": "9.6.3",
                     "criteria": [
                         {
-                            "name": "sophos-anti-virus",
+                            "name": "sophos-endpoint",
                             "operator": "is",
                             "value": "9.6.3",
                             "type": "extensionAttribute",
@@ -151,7 +217,7 @@
                     "version": "9.6.2",
                     "criteria": [
                         {
-                            "name": "sophos-anti-virus",
+                            "name": "sophos-endpoint",
                             "operator": "is",
                             "value": "9.6.2",
                             "type": "extensionAttribute",
@@ -184,7 +250,7 @@
                     "version": "9.6.1",
                     "criteria": [
                         {
-                            "name": "sophos-anti-virus",
+                            "name": "sophos-endpoint",
                             "operator": "is",
                             "value": "9.6.1",
                             "type": "extensionAttribute",
@@ -217,7 +283,7 @@
                     "version": "9.6.0",
                     "criteria": [
                         {
-                            "name": "sophos-anti-virus",
+                            "name": "sophos-endpoint",
                             "operator": "is",
                             "value": "9.6.0",
                             "type": "extensionAttribute",
@@ -250,7 +316,7 @@
                     "version": "9.5.5",
                     "criteria": [
                         {
-                            "name": "sophos-anti-virus",
+                            "name": "sophos-endpoint",
                             "operator": "is",
                             "value": "9.5.5",
                             "type": "extensionAttribute",
@@ -283,7 +349,7 @@
                     "version": "9.5.4",
                     "criteria": [
                         {
-                            "name": "sophos-anti-virus",
+                            "name": "sophos-endpoint",
                             "operator": "is",
                             "value": "9.5.4",
                             "type": "extensionAttribute",
@@ -316,7 +382,7 @@
                     "version": "9.5.3",
                     "criteria": [
                         {
-                            "name": "sophos-anti-virus",
+                            "name": "sophos-endpoint",
                             "operator": "is",
                             "value": "9.5.3",
                             "type": "extensionAttribute",
@@ -349,7 +415,7 @@
                     "version": "9.5.2",
                     "criteria": [
                         {
-                            "name": "sophos-anti-virus",
+                            "name": "sophos-endpoint",
                             "operator": "is",
                             "value": "9.5.2",
                             "type": "extensionAttribute",
@@ -382,7 +448,7 @@
                     "version": "9.5.0",
                     "criteria": [
                         {
-                            "name": "sophos-anti-virus",
+                            "name": "sophos-endpoint",
                             "operator": "is",
                             "value": "9.5.0",
                             "type": "extensionAttribute",
@@ -415,7 +481,7 @@
                     "version": "9.4.3",
                     "criteria": [
                         {
-                            "name": "sophos-anti-virus",
+                            "name": "sophos-endpoint",
                             "operator": "is",
                             "value": "9.4.3",
                             "type": "extensionAttribute",
@@ -448,7 +514,7 @@
                     "version": "9.2.10",
                     "criteria": [
                         {
-                            "name": "sophos-anti-virus",
+                            "name": "sophos-endpoint",
                             "operator": "is",
                             "value": "9.2.10",
                             "type": "extensionAttribute",
@@ -481,7 +547,7 @@
                     "version": "9.4.2",
                     "criteria": [
                         {
-                            "name": "sophos-anti-virus",
+                            "name": "sophos-endpoint",
                             "operator": "is",
                             "value": "9.4.2",
                             "type": "extensionAttribute",
@@ -514,7 +580,7 @@
                     "version": "9.2.9",
                     "criteria": [
                         {
-                            "name": "sophos-anti-virus",
+                            "name": "sophos-endpoint",
                             "operator": "is",
                             "value": "9.2.9",
                             "type": "extensionAttribute",
@@ -547,7 +613,7 @@
                     "version": "9.4.1",
                     "criteria": [
                         {
-                            "name": "sophos-anti-virus",
+                            "name": "sophos-endpoint",
                             "operator": "is",
                             "value": "9.4.1",
                             "type": "extensionAttribute",
@@ -580,7 +646,7 @@
                     "version": "9.4.0",
                     "criteria": [
                         {
-                            "name": "sophos-anti-virus",
+                            "name": "sophos-endpoint",
                             "operator": "is",
                             "value": "9.4.0",
                             "type": "extensionAttribute",
@@ -613,7 +679,7 @@
                     "version": "9.2.8",
                     "criteria": [
                         {
-                            "name": "sophos-anti-virus",
+                            "name": "sophos-endpoint",
                             "operator": "is",
                             "value": "9.2.8",
                             "type": "extensionAttribute",
@@ -646,7 +712,7 @@
                     "version": "9.2.7",
                     "criteria": [
                         {
-                            "name": "sophos-anti-virus",
+                            "name": "sophos-endpoint",
                             "operator": "is",
                             "value": "9.2.7",
                             "type": "extensionAttribute",
@@ -679,7 +745,7 @@
                     "version": "9.2.4",
                     "criteria": [
                         {
-                            "name": "sophos-anti-virus",
+                            "name": "sophos-endpoint",
                             "operator": "is",
                             "value": "9.2.4",
                             "type": "extensionAttribute",
@@ -712,7 +778,7 @@
                     "version": "9.2.2",
                     "criteria": [
                         {
-                            "name": "sophos-anti-virus",
+                            "name": "sophos-endpoint",
                             "operator": "is",
                             "value": "9.2.2",
                             "type": "extensionAttribute",
@@ -745,7 +811,7 @@
                     "version": "9.1.8",
                     "criteria": [
                         {
-                            "name": "sophos-anti-virus",
+                            "name": "sophos-endpoint",
                             "operator": "is",
                             "value": "9.1.8",
                             "type": "extensionAttribute",
@@ -778,7 +844,7 @@
                     "version": "9.1.7",
                     "criteria": [
                         {
-                            "name": "sophos-anti-virus",
+                            "name": "sophos-endpoint",
                             "operator": "is",
                             "value": "9.1.7",
                             "type": "extensionAttribute",
@@ -811,7 +877,7 @@
                     "version": "9.1.6",
                     "criteria": [
                         {
-                            "name": "sophos-anti-virus",
+                            "name": "sophos-endpoint",
                             "operator": "is",
                             "value": "9.1.6",
                             "type": "extensionAttribute",
@@ -844,7 +910,7 @@
                     "version": "9.1.5",
                     "criteria": [
                         {
-                            "name": "sophos-anti-virus",
+                            "name": "sophos-endpoint",
                             "operator": "is",
                             "value": "9.1.5",
                             "type": "extensionAttribute",
@@ -877,7 +943,7 @@
                     "version": "9.1.4",
                     "criteria": [
                         {
-                            "name": "sophos-anti-virus",
+                            "name": "sophos-endpoint",
                             "operator": "is",
                             "value": "9.1.4",
                             "type": "extensionAttribute",
@@ -900,21 +966,21 @@
     ],
     "extensionAttributes": [
         {
-            "key": "sophos-anti-virus",
-            "value": "IyEvdXNyL2Jpbi9lbnYgYmFzaA0KIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMNCiMgQSBzY3JpcHQgdG8gY29sbGVjdCB0aGUgdmVyc2lvbiBvZiBTb3Bob3MgQW50aS1WaXJ1cyBpcyBjdXJyZW50bHkgaW5zdGFsbGVkLiAjDQojIElmIFNvcGhvcyBpcyBub3QgaW5zdGFsbGVkICJOb3QgSW5zdGFsbGVkIiB3aWxsIHJldHVybiBiYWNrICAgICAgICAgICAgICAgICAgIw0KIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMNCg0KUkVTVUxUPSJOb3QgSW5zdGFsbGVkIg0KDQppZiBbIC1kIC9BcHBsaWNhdGlvbnMvU29waG9zXCBBbnRpLVZpcnVzLmFwcCBdOyB0aGVuDQpSRVNVTFQ9JCggL3Vzci9iaW4vZGVmYXVsdHMgcmVhZCAvTGlicmFyeS9Tb3Bob3NcIEFudGktVmlydXMvcHJvZHVjdC1pbmZvIFByb2R1Y3RWZXJzaW9uKQ0KZmkNCg0KZWNobyAiPHJlc3VsdD4kUkVTVUxUPC9yZXN1bHQ+Ig==",
+            "key": "sophos-endpoint",
+            "value": "IyEvdXNyL2Jpbi9lbnYgYmFzaA0KIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMNCiMgQSBzY3JpcHQgdG8gY29sbGVjdCB0aGUgdmVyc2lvbiBvZiBTb3Bob3MgQW50aS1WaXJ1cyBvciBTb3Bob3MgRW5kcG9pbnQgaXMgICAjDQojIGN1cnJlbnRseSBpbnN0YWxsZWQuIElmIFNvcGhvcyBpcyBub3QgaW5zdGFsbGVkICJOb3QgSW5zdGFsbGVkIiB3aWxsIHJldHVybiAgIw0KIyBiYWNrICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICMgDQojIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIw0KUkVTVUxUPSJOb3QgSW5zdGFsbGVkIg0KQU5USVZJUlVTPSIvQXBwbGljYXRpb25zL1NvcGhvcyBBbnRpLVZpcnVzLmFwcCINCkVORFBPSU5UPSIvQXBwbGljYXRpb25zL1NvcGhvcyBFbmRwb2ludC5hcHAiDQoNCmlmIFsgLWQgIiR7QU5USVZJUlVTfSIgXSB8fCBbIC1kICIke0VORFBPSU5UfSIgXTsgdGhlbg0KCVJFU1VMVD0kKCAvdXNyL2Jpbi9kZWZhdWx0cyByZWFkIC9MaWJyYXJ5L1NvcGhvc1wgQW50aS1WaXJ1cy9wcm9kdWN0LWluZm8gUHJvZHVjdFZlcnNpb24pDQpmaQ0KZWNobyAiPHJlc3VsdD4kUkVTVUxUPC9yZXN1bHQ+Ig==",
             "displayName": "Sophos AntiVirus for Mac"
         }
     ],
     "requirements": [
         {
-            "name": "sophos-anti-virus",
+            "name": "sophos-endpoint",
             "operator": "is not",
             "value": "Not Installed",
             "type": "extensionAttribute",
             "and": true
         },
         {
-            "name": "sophos-anti-virus",
+            "name": "sophos-endpoint",
             "operator": "is not",
             "value": "",
             "type": "extensionAttribute",

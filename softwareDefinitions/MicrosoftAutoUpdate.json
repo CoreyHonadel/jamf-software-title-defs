@@ -3,8 +3,8 @@
     "publisher": "Microsoft",
     "appName": "AutoUpdate.app",
     "bundleId": "com.microsoft.autoupdate2",
-    "lastModified": "2018-01-04T11:30:00Z",
-    "currentVersion": "3.14.17121501",
+    "lastModified": "2018-02-22T15:35:00Z",
+    "currentVersion": "3.16.18021001",
     "requirements": [
         {
             "name": "auto-update2",
@@ -22,7 +22,83 @@
         }
     ],
     "patches": [
+           {
+            "version": "3.16.18021001",
+            "releaseDate": "2018-02-15T07:00:00.066Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.autoupdate2",
+                    "appName": "AutoUpdate.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft AutoUpdate",
+                    "version": "3.16.18021001",
+                    "criteria": [
+                        {
+                            "name": "auto-update2",
+                            "operator": "is",
+                            "value": "3.16.18021001",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
         {
+            "version": "3.15.18011602",
+            "releaseDate": "2018-01-22T08:38:17.066Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.autoupdate2",
+                    "appName": "AutoUpdate.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft AutoUpdate",
+                    "version": "3.15.18011602",
+                    "criteria": [
+                        {
+                            "name": "auto-update2",
+                            "operator": "is",
+                            "value": "3.15.18011602",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+	{
             "version": "3.14.17121501",
             "releaseDate": "2017-12-16T15:00:17.066Z",
             "standalone": true,

@@ -3,8 +3,8 @@
     "publisher": "Jamf",
     "appName": "Self Service.app",
     "bundleId": "com.jamfsoftware.selfservice",
-    "lastModified": "2018-01-04T11:30:00Z",
-    "currentVersion": "10.1.1-t1513360285",
+    "lastModified": "2018-02-22T15:35:00Z",
+    "currentVersion": "10.2.0",
     "requirements": [
         {
             "name": "Application Bundle ID",
@@ -15,6 +15,55 @@
         }
     ],
     "patches": [
+           {
+            "version": "10.2.0",
+            "releaseDate": "2018-02-13T01:35:00.270Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.jamfsoftware.selfservice",
+                    "appName": "Self Service.app"
+                },
+                {
+                    "bundleId": "com.jamfsoftware.selfservice.mac",
+                    "appName": "Self Service.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Self Service",
+                    "version": "10.2.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.jamfsoftware.selfservice.mac",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "10.2.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [
+
+            ]
+        },
         {
             "version": "10.1.1-t1513360285",
             "releaseDate": "2017-12-20T10:25:00.270Z",

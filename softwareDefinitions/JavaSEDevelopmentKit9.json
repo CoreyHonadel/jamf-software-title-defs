@@ -1,100 +1,100 @@
 {
- "name": "Java SE Development Kit 9",
- "publisher": "Oracle",
- "appName": null,
- "bundleId": null,
- "lastModified": "2018-01-17T13:00:00Z",
- "currentVersion": "9.0.4",
- "patches": [
-  {
-   "version": "9.0.4",
-   "releaseDate": "2018-01-17T13:00:18.498Z",
-   "standalone": true,
-   "minimumOperatingSystem": "10.10.0",
-   "reboot": false,
-   "killApps": [],
-   "components": [
+  "name": "Java SE Development Kit 9",
+  "publisher": "Oracle",
+  "appName": null,
+  "bundleId": null,
+  "lastModified": "2018-02-22T15:35:00Z",
+  "currentVersion": "9.0.4",
+  "patches": [
     {
-     "name": "Java SE Development Kit 9",
-     "version": "9.0.4",
-     "criteria": [
-      {
-       "name": "java-9-jdk",
-       "operator": "is",
-       "value": "9.0.4",
-       "type": "extensionAttribute",
-       "and": true
-      }
-     ]
-    }
-   ],
-   "capabilities": [
+      "version": "9.0.4",
+      "releaseDate": "2018-01-17T13:00:18.498Z",
+      "standalone": true,
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "killApps": [],
+      "components": [
+        {
+          "name": "Java SE Development Kit 9",
+          "version": "9.0.4",
+          "criteria": [
+            {
+              "name": "java-9-jdk",
+              "operator": "is",
+              "value": "9.0.4",
+              "type": "extensionAttribute",
+              "and": true
+            }
+          ]
+        }
+      ],
+      "capabilities": [
+        {
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "value": "10.10",
+          "type": "recon",
+          "and": true
+        }
+      ],
+      "dependencies": []
+    },
     {
-     "name": "Operating System Version",
-     "operator": "greater than or equal",
-     "value": "10.10.0",
-     "type": "recon",
-     "and": true
+      "version": "9.0.1",
+      "releaseDate": "2017-10-17T10:00:18.498Z",
+      "standalone": true,
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "killApps": [],
+      "components": [
+        {
+          "name": "Java SE Development Kit 9",
+          "version": "9.0.1",
+          "criteria": [
+            {
+              "name": "java-9-jdk",
+              "operator": "is",
+              "value": "9.0.1",
+              "type": "extensionAttribute",
+              "and": true
+            }
+          ]
+        }
+      ],
+      "capabilities": [
+        {
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "value": "10.10",
+          "type": "recon",
+          "and": true
+        }
+      ],
+      "dependencies": []
     }
-   ],
-   "dependencies": []
-  },
-  {
-   "version": "9.0.1",
-   "releaseDate": "2017-10-17T10:00:18.498Z",
-   "standalone": true,
-   "minimumOperatingSystem": "10.10.0",
-   "reboot": false,
-   "killApps": [],
-   "components": [
+  ],
+  "extensionAttributes": [
     {
-     "name": "Java SE Development Kit 9",
-     "version": "9.0.1",
-     "criteria": [
-      {
-       "name": "java-9-jdk",
-       "operator": "is",
-       "value": "9.0.1",
-       "type": "extensionAttribute",
-       "and": true
-      }
-     ]
+      "key": "java-9-jdk",
+      "value": "IyEvdXNyL2Jpbi9lbnYgYmFzaA0KIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjDQojIENvbGxlY3RzIGluZm9ybWF0aW9uIHRvIGRldGVybWluZSB3aGljaCB2ZXJzaW9uIG9mIHRoZSBKYXZhIFNFIEpESyBpcyBpbnN0YWxsZWQgICAgICMgDQojIGFuZCByZXR1cm5zIHRoYXQgdmVyc2lvbiBiYWNrLiBTRUFSQ0hfRk9SX1ZFUlNJT04gY29tcGFyZXMgbWFqb3IgdmVyc2lvbiB0byBlbnN1cmUgICMNCiMgdGhhdCB0aGUgbWFqb3IgdmVyc2lvbiBpcyBuaW5lLiBCdWlsZHMgdGhlIHJlc3VsdCBhcyBNQUpPUi5NSU5PUi5TRUNVUklUWQkJCSAgIyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIw0KIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjDQpTRUFSQ0hfRk9SX1ZFUlNJT049IjkiDQpNQUpPUl9WRVJTSU9OPSItMSINClJFU1VMVD0iTm90IEluc3RhbGxlZCINCg0KaW5zdGFsbGVkX2pka3M9JCgvYmluL2xzIC9MaWJyYXJ5L0phdmEvSmF2YVZpcnR1YWxNYWNoaW5lcy8pDQoNCmZvciBpIGluICR7aW5zdGFsbGVkX2pka3N9OyBkbw0KICAgIEpBVkFfVkVSU0lPTj0kKCAvdXNyL2Jpbi9kZWZhdWx0cyByZWFkICIvTGlicmFyeS9KYXZhL0phdmFWaXJ0dWFsTWFjaGluZXMvJHtpfS9Db250ZW50cy9JbmZvLnBsaXN0IiBDRkJ1bmRsZVZlcnNpb24pDQogICAgTUFKT1JfVkVSU0lPTj1gZWNobyAkSkFWQV9WRVJTSU9OIHwgY3V0IC1kICcuJyAtZiAxYA0KDQppZiBbICIkTUFKT1JfVkVSU0lPTiIgPT0gIiRTRUFSQ0hfRk9SX1ZFUlNJT04iIF0gOyB0aGVuDQogICAgUkVTVUxUPSIkSkFWQV9WRVJTSU9OIg0KZmkNCmRvbmUNCg0KZWNobyAiPHJlc3VsdD4kUkVTVUxUPC9yZXN1bHQ+Ig==",
+      "displayName": "Java 9 SE Development Kit"
     }
-   ],
-   "capabilities": [
+  ],
+  "requirements": [
     {
-     "name": "Operating System Version",
-     "operator": "greater than or equal",
-     "value": "10.10.0",
-     "type": "recon",
-     "and": true
+      "name": "java-9-jdk",
+      "operator": "is not",
+      "value": "Not Installed",
+      "type": "extensionAttribute",
+      "and": true
+    },
+    {
+      "name": "java-9-jdk",
+      "operator": "is not",
+      "value": "",
+      "type": "extensionAttribute",
+      "and": true
     }
-   ],
-   "dependencies": []
-  }
- ],
- "extensionAttributes": [
-  {
-   "key": "java-9-jdk",
-   "value": "IyEvdXNyL2Jpbi9lbnYgYmFzaA0KIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjDQojIENvbGxlY3RzIGluZm9ybWF0aW9uIHRvIGRldGVybWluZSB3aGljaCB2ZXJzaW9uIG9mIHRoZSBKYXZhIFNFIEpESyBpcyBpbnN0YWxsZWQgICAgICMgDQojIGFuZCByZXR1cm5zIHRoYXQgdmVyc2lvbiBiYWNrLiBTRUFSQ0hfRk9SX1ZFUlNJT04gY29tcGFyZXMgbWFqb3IgdmVyc2lvbiB0byBlbnN1cmUgICMNCiMgdGhhdCB0aGUgbWFqb3IgdmVyc2lvbiBpcyBuaW5lLiBCdWlsZHMgdGhlIHJlc3VsdCBhcyBNQUpPUi5NSU5PUi5TRUNVUklUWQkJCSAgIyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIw0KIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjDQpTRUFSQ0hfRk9SX1ZFUlNJT049IjkiDQpNQUpPUl9WRVJTSU9OPSItMSINClJFU1VMVD0iTm90IEluc3RhbGxlZCINCg0KaW5zdGFsbGVkX2pka3M9JCgvYmluL2xzIC9MaWJyYXJ5L0phdmEvSmF2YVZpcnR1YWxNYWNoaW5lcy8pDQoNCmZvciBpIGluICR7aW5zdGFsbGVkX2pka3N9OyBkbw0KICAgIEpBVkFfVkVSU0lPTj0kKCAvdXNyL2Jpbi9kZWZhdWx0cyByZWFkICIvTGlicmFyeS9KYXZhL0phdmFWaXJ0dWFsTWFjaGluZXMvJHtpfS9Db250ZW50cy9JbmZvLnBsaXN0IiBDRkJ1bmRsZVZlcnNpb24pDQogICAgTUFKT1JfVkVSU0lPTj1gZWNobyAkSkFWQV9WRVJTSU9OIHwgY3V0IC1kICcuJyAtZiAxYA0KDQppZiBbICIkTUFKT1JfVkVSU0lPTiIgPT0gIiRTRUFSQ0hfRk9SX1ZFUlNJT04iIF0gOyB0aGVuDQogICAgUkVTVUxUPSIkSkFWQV9WRVJTSU9OIg0KZmkNCmRvbmUNCg0KZWNobyAiPHJlc3VsdD4kUkVTVUxUPC9yZXN1bHQ+Ig==",
-   "displayName": "Java 9 SE Development Kit"
-  }
- ],
- "requirements": [
-  {
-   "name": "java-9-jdk",
-   "operator": "is not",
-   "value": "Not Installed",
-   "type": "extensionAttribute",
-   "and": true
-  },
-  {
-   "name": "java-9-jdk",
-   "operator": "is not",
-   "value": "",
-   "type": "extensionAttribute",
-   "and": true
-  }
- ],
- "id": "JavaSEDevelopmentKit9"
+  ],
+  "id": "JavaSEDevelopmentKit9"
 }

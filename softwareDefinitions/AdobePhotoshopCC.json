@@ -3,8 +3,8 @@
     "publisher": "Adobe",
     "appName": "Adobe Photoshop CC 2018.app",
     "bundleId": "com.adobe.Photoshop",
-    "lastModified": "2018-01-04T11:30:00Z",
-    "currentVersion": "19.0.1",
+    "lastModified": "2018-02-22T15:35:00Z",
+    "currentVersion": "19.1.1",
     "requirements": [
         {
             "name": "Application Bundle ID",
@@ -16,6 +16,146 @@
     ],
     "patches": [
         {
+            "version": "19.1.1",
+            "releaseDate": "2018-02-16T08:15:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.11",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Photoshop",
+                    "appName": "Adobe Photoshop CC 2018.app"
+                },
+                {
+                    "bundleId": "com.adobe.Photoshop",
+                    "appName": "Adobe Photoshop CC 2017.app"
+                },
+                {
+                    "bundleId": "com.adobe.Photoshop",
+                    "appName": "Adobe Photoshop CC 2015.app"
+                },
+                {
+                    "bundleId": "com.adobe.Photoshop",
+                    "appName": "Adobe Photoshop CC 2015.5.app"
+                },
+                {
+                    "bundleId": "com.adobe.Photoshop",
+                    "appName": "Adobe Photoshop CC 2014.app"
+                },
+                {
+                    "bundleId": "com.adobe.AfterEffects",
+                    "appName": "Adobe After Effects CC 2014.app"
+                },
+                {
+                    "bundleId": "com.adobe.AfterEffects",
+                    "appName": "Adobe After Effects CC 2015.app"
+                },
+                {
+                    "bundleId": "com.adobe.Bridge",
+                    "appName": "Adobe Bridge.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Photoshop CC",
+                    "version": "19.1.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Photoshop",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "19.1.1",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.11",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ]
+        },
+        {
+            "version": "19.1",
+            "releaseDate": "2018-01-23T09:35:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.11",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Photoshop",
+                    "appName": "Adobe Photoshop CC 2018.app"
+                },
+                {
+                    "bundleId": "com.adobe.Photoshop",
+                    "appName": "Adobe Photoshop CC 2017.app"
+                },
+                {
+                    "bundleId": "com.adobe.Photoshop",
+                    "appName": "Adobe Photoshop CC 2015.app"
+                },
+                {
+                    "bundleId": "com.adobe.Photoshop",
+                    "appName": "Adobe Photoshop CC 2015.5.app"
+                },
+                {
+                    "bundleId": "com.adobe.Photoshop",
+                    "appName": "Adobe Photoshop CC 2014.app"
+                },
+                {
+                    "bundleId": "com.adobe.AfterEffects",
+                    "appName": "Adobe After Effects CC 2014.app"
+                },
+                {
+                    "bundleId": "com.adobe.AfterEffects",
+                    "appName": "Adobe After Effects CC 2015.app"
+                },
+                {
+                    "bundleId": "com.adobe.Bridge",
+                    "appName": "Adobe Bridge.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Photoshop CC",
+                    "version": "19.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Photoshop",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "19.1",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.11",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": [ ]
+        },
+	{
             "version": "19.0.1",
             "releaseDate": "2017-11-14T08:36:34Z",
             "standalone": true,

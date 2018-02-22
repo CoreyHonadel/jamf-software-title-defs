@@ -3,10 +3,76 @@
     "publisher": "Oracle",
     "appName": null,
     "bundleId": null,
-    "lastModified": "2018-01-04T11:30:00Z",
-    "currentVersion": "1.8.152",
+    "lastModified": "2018-02-22T15:35:00Z",
+    "currentVersion": "1.8.162",
     "patches": [
         {
+            "version": "1.8.162",
+            "releaseDate": "2018-01-16T13:36:18.498Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8.3",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Java SE Development Kit 8",
+                    "version": "1.8.162",
+                    "criteria": [
+                        {
+                            "name": "java-8-jdk",
+                            "operator": "is",
+                            "value": "1.8.162",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8.3",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+	{
+            "version": "1.8.161",
+            "releaseDate": "2018-01-15T13:37:18.498Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8.3",
+            "reboot": false,
+            "killApps": [],
+            "components": [
+                {
+                    "name": "Java SE Development Kit 8",
+                    "version": "1.8.161",
+                    "criteria": [
+                        {
+                            "name": "java-8-jdk",
+                            "operator": "is",
+                            "value": "1.8.161",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.8.3",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+	{
             "version": "1.8.152",
             "releaseDate": "2017-10-16T15:18:18.498Z",
             "standalone": true,

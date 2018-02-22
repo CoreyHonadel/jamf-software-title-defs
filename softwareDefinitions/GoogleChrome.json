@@ -3,8 +3,8 @@
     "publisher": "Google",
     "appName": "Google Chrome.app",
     "bundleId": "com.google.Chrome",
-    "lastModified": "2018-01-04T11:30:00Z",
-    "currentVersion": "63.0.3239.108",
+    "lastModified": "2018-02-22T15:35:00Z",
+    "currentVersion": "64.0.3282.167",
     "requirements": [
         {
             "name": "Application Bundle ID",
@@ -15,6 +15,186 @@
         }
     ],
     "patches": [
+        {
+            "version": "64.0.3282.167",
+            "releaseDate": "2018-02-14T02:00:10.367Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.google.Chrome",
+                    "appName": "Google Chrome.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Google Chrome",
+                    "version": "64.0.3282.167",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.google.Chrome",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "64.0.3282.167",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "64.0.3282.140",
+            "releaseDate": "2018-02-01T23:00:09.491Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.google.Chrome",
+                    "appName": "Google Chrome.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Google Chrome",
+                    "version": "64.0.3282.140",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.google.Chrome",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "64.0.3282.140",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "64.0.3282.119",
+            "releaseDate": "2018-01-24T19:54:52.554Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.google.Chrome",
+                    "appName": "Google Chrome.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Google Chrome",
+                    "version": "64.0.3282.119",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.google.Chrome",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "64.0.3282.119",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "63.0.3239.132",
+            "releaseDate": "2018-01-04T20:31:32.859Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.google.Chrome",
+                    "appName": "Google Chrome.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Google Chrome",
+                    "version": "63.0.3239.132",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.google.Chrome",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "63.0.3239.132",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
         {
             "version": "63.0.3239.108",
             "releaseDate": "2017-12-14T23:00:22.052Z",

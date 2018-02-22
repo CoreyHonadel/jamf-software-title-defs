@@ -3,8 +3,8 @@
     "publisher": "Jamf",
     "appName": "Jamf Imaging.app",
     "bundleId": "com.jamfsoftware.JamfImaging",
-    "lastModified": "2018-01-04T11:30:00Z",
-    "currentVersion": "10.1.1",
+    "lastModified": "2018-02-22T15:35:00Z",
+    "currentVersion": "10.2.0",
     "requirements": [
         {
             "name": "Application Bundle ID",
@@ -22,6 +22,53 @@
         }
     ],
     "patches": [
+            {
+            "version": "10.2.0",
+            "releaseDate": "2018-02-13T11:32:00.270Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.jamfsoftware.CasperImaging",
+                    "appName": "Casper Imaging.app"
+                },
+                {
+                    "bundleId": "com.jamfsoftware.JamfImaging",
+                    "appName": "Jamf Imaging.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Jamf Imaging",
+                    "version": "10.2.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.jamfsoftware.JamfImaging",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "10.2.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
         {
             "version": "10.1.1",
             "releaseDate": "2017-12-20T10:29:00.270Z",

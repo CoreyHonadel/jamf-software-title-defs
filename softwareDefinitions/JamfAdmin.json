@@ -3,8 +3,8 @@
     "publisher": "Jamf",
     "appName": "Jamf Admin.app",
     "bundleId": "com.jamfsoftware.JamfAdmin",
-    "lastModified": "2018-01-04T11:30:00Z",
-    "currentVersion": "10.1.1",
+    "lastModified": "2018-02-22T15:35:00Z",
+    "currentVersion": "10.2.0",
     "requirements": [
         {
             "name": "Application Bundle ID",
@@ -22,6 +22,53 @@
         }
     ],
     "patches": [
+            {
+            "version": "10.2.0",
+            "releaseDate": "2018-02-13T15:00:00.270Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.jamfsoftware.CasperAdmin",
+                    "appName": "Casper Admin.app"
+                },
+                {
+                    "bundleId": "com.jamfsoftware.JamfAdmin",
+                    "appName": "Jamf Admin.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Jamf Admin",
+                    "version": "10.2.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.jamfsoftware.JamfAdmin",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "10.2.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
         {
             "version": "10.1.1",
             "releaseDate": "2017-12-20T09:54:00.270Z",

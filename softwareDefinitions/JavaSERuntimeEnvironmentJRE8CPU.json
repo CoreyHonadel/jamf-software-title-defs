@@ -1,0 +1,756 @@
+{
+  "name": "Java SE Runtime Environment JRE 8 (CPU)",
+  "publisher": "Oracle",
+  "appName": null,
+  "bundleId": "com.oracle.jre",
+  "lastModified": "2018-02-22T15:35:00Z",
+  "currentVersion": "1.8.161",
+  "patches": [
+    {
+      "version": "1.8.161",
+      "releaseDate": "2018-01-15T13:28:00Z",
+      "standalone": true,
+      "minimumOperatingSystem": "10.8.3",
+      "reboot": false,
+      "killApps": [
+        {
+          "bundleId": "com.oracle.jre",
+          "appName": "JavaAppletPlugin.plugin"
+        }
+      ],
+      "components": [
+        {
+          "name": "Java SE Runtime Environment JRE 8",
+          "version": "1.8.161",
+          "criteria": [
+            {
+              "name": "java-8-runtime-cpu",
+              "operator": "is",
+              "value": "1.8.161",
+              "type": "extensionAttribute",
+              "and": true
+            }
+          ]
+        }
+      ],
+      "capabilities": [
+        {
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "value": "10.8.3",
+          "type": "recon",
+          "and": true
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "version": "1.8.151",
+      "releaseDate": "2017-10-15T10:24:00Z",
+      "standalone": true,
+      "minimumOperatingSystem": "10.8.3",
+      "reboot": false,
+      "killApps": [
+        {
+          "bundleId": "com.oracle.jre",
+          "appName": "JavaAppletPlugin.plugin"
+        }
+      ],
+      "components": [
+        {
+          "name": "Java SE Runtime Environment JRE 8",
+          "version": "1.8.151",
+          "criteria": [
+            {
+              "name": "java-8-runtime-cpu",
+              "operator": "is",
+              "value": "1.8.151",
+              "type": "extensionAttribute",
+              "and": true
+            }
+          ]
+        }
+      ],
+      "capabilities": [
+        {
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "value": "10.8.3",
+          "type": "recon",
+          "and": true
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "version": "1.8.141",
+      "releaseDate": "2017-07-18T10:16:00Z",
+      "standalone": true,
+      "minimumOperatingSystem": "10.8.3",
+      "reboot": false,
+      "killApps": [
+        {
+          "bundleId": "com.oracle.jre",
+          "appName": "JavaAppletPlugin.plugin"
+        }
+      ],
+      "components": [
+        {
+          "name": "Java SE Runtime Environment JRE 8",
+          "version": "1.8.141",
+          "criteria": [
+            {
+              "name": "java-8-runtime-cpu",
+              "operator": "is",
+              "value": "1.8.141",
+              "type": "extensionAttribute",
+              "and": true
+            }
+          ]
+        }
+      ],
+      "capabilities": [
+        {
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "value": "10.8.3",
+          "type": "recon",
+          "and": true
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "version": "1.8.131",
+      "releaseDate": "2017-04-18T15:50:00Z",
+      "standalone": true,
+      "minimumOperatingSystem": "10.8.3",
+      "reboot": false,
+      "killApps": [
+        {
+          "bundleId": "com.oracle.jre",
+          "appName": "JavaAppletPlugin.plugin"
+        }
+      ],
+      "components": [
+        {
+          "name": "Java SE Runtime Environment JRE 8",
+          "version": "1.8.131",
+          "criteria": [
+            {
+              "name": "java-8-runtime-cpu",
+              "operator": "is",
+              "value": "1.8.131",
+              "type": "extensionAttribute",
+              "and": true
+            }
+          ]
+        }
+      ],
+      "capabilities": [
+        {
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "value": "10.8.3",
+          "type": "recon",
+          "and": true
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "version": "1.8.121",
+      "releaseDate": "2017-01-20T07:50:00Z",
+      "standalone": true,
+      "minimumOperatingSystem": "10.8.3",
+      "reboot": false,
+      "killApps": [
+        {
+          "bundleId": "com.oracle.jre",
+          "appName": "JavaAppletPlugin.plugin"
+        }
+      ],
+      "components": [
+        {
+          "name": "Java SE Runtime Environment JRE 8",
+          "version": "1.8.121",
+          "criteria": [
+            {
+              "name": "java-8-runtime-cpu",
+              "operator": "is",
+              "value": "1.8.121",
+              "type": "extensionAttribute",
+              "and": true
+            }
+          ]
+        }
+      ],
+      "capabilities": [
+        {
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "value": "10.8.3",
+          "type": "recon",
+          "and": true
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "version": "1.8.111",
+      "releaseDate": "2016-10-19T00:36:00Z",
+      "standalone": true,
+      "minimumOperatingSystem": "10.8.3",
+      "reboot": false,
+      "killApps": [
+        {
+          "bundleId": "com.oracle.jre",
+          "appName": "JavaAppletPlugin.plugin"
+        }
+      ],
+      "components": [
+        {
+          "name": "Java SE Runtime Environment JRE 8",
+          "version": "1.8.111",
+          "criteria": [
+            {
+              "name": "java-8-runtime-cpu",
+              "operator": "is",
+              "value": "1.8.111",
+              "type": "extensionAttribute",
+              "and": true
+            }
+          ]
+        }
+      ],
+      "capabilities": [
+        {
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "value": "10.8.3",
+          "type": "recon",
+          "and": true
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "version": "1.8.101",
+      "releaseDate": "2016-07-19T14:58:00Z",
+      "standalone": true,
+      "minimumOperatingSystem": "10.8.3",
+      "reboot": false,
+      "killApps": [
+        {
+          "bundleId": "com.oracle.jre",
+          "appName": "JavaAppletPlugin.plugin"
+        }
+      ],
+      "components": [
+        {
+          "name": "Java SE Runtime Environment JRE 8",
+          "version": "1.8.101",
+          "criteria": [
+            {
+              "name": "java-8-runtime-cpu",
+              "operator": "is",
+              "value": "1.8.101",
+              "type": "extensionAttribute",
+              "and": true
+            }
+          ]
+        }
+      ],
+      "capabilities": [
+        {
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "value": "10.8.3",
+          "type": "recon",
+          "and": true
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "version": "1.8.91",
+      "releaseDate": "2016-04-19T15:22:00Z",
+      "standalone": true,
+      "minimumOperatingSystem": "10.8.3",
+      "reboot": false,
+      "killApps": [
+        {
+          "bundleId": "com.oracle.jre",
+          "appName": "JavaAppletPlugin.plugin"
+        }
+      ],
+      "components": [
+        {
+          "name": "Java SE Runtime Environment JRE 8",
+          "version": "1.8.91",
+          "criteria": [
+            {
+              "name": "java-8-runtime-cpu",
+              "operator": "is",
+              "value": "1.8.91",
+              "type": "extensionAttribute",
+              "and": true
+            }
+          ]
+        }
+      ],
+      "capabilities": [
+        {
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "value": "10.8.3",
+          "type": "recon",
+          "and": true
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "version": "1.8.77",
+      "releaseDate": "2016-03-23T14:00:00Z",
+      "standalone": true,
+      "minimumOperatingSystem": "10.8.3",
+      "reboot": false,
+      "killApps": [
+        {
+          "bundleId": "com.oracle.jre",
+          "appName": "JavaAppletPlugin.plugin"
+        }
+      ],
+      "components": [
+        {
+          "name": "Java SE Runtime Environment JRE 8",
+          "version": "1.8.77",
+          "criteria": [
+            {
+              "name": "java-8-runtime-cpu",
+              "operator": "is",
+              "value": "1.8.77",
+              "type": "extensionAttribute",
+              "and": true
+            }
+          ]
+        }
+      ],
+      "capabilities": [
+        {
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "value": "10.8.3",
+          "type": "recon",
+          "and": true
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "version": "1.8.73",
+      "releaseDate": "2016-02-04T08:32:00Z",
+      "standalone": true,
+      "minimumOperatingSystem": "10.8.3",
+      "reboot": false,
+      "killApps": [
+        {
+          "bundleId": "com.oracle.jre",
+          "appName": "JavaAppletPlugin.plugin"
+        }
+      ],
+      "components": [
+        {
+          "name": "Java SE Runtime Environment JRE 8",
+          "version": "1.8.73",
+          "criteria": [
+            {
+              "name": "java-8-runtime-cpu",
+              "operator": "is",
+              "value": "1.8.73",
+              "type": "extensionAttribute",
+              "and": true
+            }
+          ]
+        }
+      ],
+      "capabilities": [
+        {
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "value": "10.8.3",
+          "type": "recon",
+          "and": true
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "version": "1.8.71",
+      "releaseDate": "2016-01-21T13:53:00Z",
+      "standalone": true,
+      "minimumOperatingSystem": "10.8.3",
+      "reboot": false,
+      "killApps": [
+        {
+          "bundleId": "com.oracle.jre",
+          "appName": "JavaAppletPlugin.plugin"
+        }
+      ],
+      "components": [
+        {
+          "name": "Java SE Runtime Environment JRE 8",
+          "version": "1.8.71",
+          "criteria": [
+            {
+              "name": "java-8-runtime-cpu",
+              "operator": "is",
+              "value": "1.8.71",
+              "type": "extensionAttribute",
+              "and": true
+            }
+          ]
+        }
+      ],
+      "capabilities": [
+        {
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "value": "10.8.3",
+          "type": "recon",
+          "and": true
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "version": "1.8.65",
+      "releaseDate": "2015-09-20T10:23:00Z",
+      "standalone": true,
+      "minimumOperatingSystem": "10.8.3",
+      "reboot": false,
+      "killApps": [
+        {
+          "bundleId": "com.oracle.jre",
+          "appName": "JavaAppletPlugin.plugin"
+        }
+      ],
+      "components": [
+        {
+          "name": "Java SE Runtime Environment JRE 8",
+          "version": "1.8.65",
+          "criteria": [
+            {
+              "name": "java-8-runtime-cpu",
+              "operator": "is",
+              "value": "1.8.65",
+              "type": "extensionAttribute",
+              "and": true
+            }
+          ]
+        }
+      ],
+      "capabilities": [
+        {
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "value": "10.8.3",
+          "type": "recon",
+          "and": true
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "version": "1.8.51",
+      "releaseDate": "2015-07-14T07:55:00Z",
+      "standalone": true,
+      "minimumOperatingSystem": "10.8.3",
+      "reboot": false,
+      "killApps": [
+        {
+          "bundleId": "com.oracle.jre",
+          "appName": "JavaAppletPlugin.plugin"
+        }
+      ],
+      "components": [
+        {
+          "name": "Java SE Runtime Environment JRE 8",
+          "version": "1.8.51",
+          "criteria": [
+            {
+              "name": "java-8-runtime-cpu",
+              "operator": "is",
+              "value": "1.8.51",
+              "type": "extensionAttribute",
+              "and": true
+            }
+          ]
+        }
+      ],
+      "capabilities": [
+        {
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "value": "10.8.3",
+          "type": "recon",
+          "and": true
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "version": "1.8.45",
+      "releaseDate": "2015-04-14T07:32:00Z",
+      "standalone": true,
+      "minimumOperatingSystem": "10.8.3",
+      "reboot": false,
+      "killApps": [
+        {
+          "bundleId": "com.oracle.jre",
+          "appName": "JavaAppletPlugin.plugin"
+        }
+      ],
+      "components": [
+        {
+          "name": "Java SE Runtime Environment JRE 8",
+          "version": "1.8.45",
+          "criteria": [
+            {
+              "name": "java-8-runtime-cpu",
+              "operator": "is",
+              "value": "1.8.45",
+              "type": "extensionAttribute",
+              "and": true
+            }
+          ]
+        }
+      ],
+      "capabilities": [
+        {
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "value": "10.8.3",
+          "type": "recon",
+          "and": true
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "version": "1.8.31",
+      "releaseDate": "2015-01-20T15:34:00Z",
+      "standalone": true,
+      "minimumOperatingSystem": "10.8.3",
+      "reboot": false,
+      "killApps": [
+        {
+          "bundleId": "com.oracle.jre",
+          "appName": "JavaAppletPlugin.plugin"
+        }
+      ],
+      "components": [
+        {
+          "name": "Java SE Runtime Environment JRE 8",
+          "version": "1.8.31",
+          "criteria": [
+            {
+              "name": "java-8-runtime-cpu",
+              "operator": "is",
+              "value": "1.8.31",
+              "type": "extensionAttribute",
+              "and": true
+            }
+          ]
+        }
+      ],
+      "capabilities": [
+        {
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "value": "10.8.3",
+          "type": "recon",
+          "and": true
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "version": "1.8.25",
+      "releaseDate": "2014-10-14T14:20:00Z",
+      "standalone": true,
+      "minimumOperatingSystem": "10.8.3",
+      "reboot": false,
+      "killApps": [
+        {
+          "bundleId": "com.oracle.jre",
+          "appName": "JavaAppletPlugin.plugin"
+        }
+      ],
+      "components": [
+        {
+          "name": "Java SE Runtime Environment JRE 8",
+          "version": "1.8.25",
+          "criteria": [
+            {
+              "name": "java-8-runtime-cpu",
+              "operator": "is",
+              "value": "1.8.25",
+              "type": "extensionAttribute",
+              "and": true
+            }
+          ]
+        }
+      ],
+      "capabilities": [
+        {
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "value": "10.8.3",
+          "type": "recon",
+          "and": true
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "version": "1.8.11",
+      "releaseDate": "2014-07-15T07:22:00Z",
+      "standalone": true,
+      "minimumOperatingSystem": "10.8.3",
+      "reboot": false,
+      "killApps": [
+        {
+          "bundleId": "com.oracle.jre",
+          "appName": "JavaAppletPlugin.plugin"
+        }
+      ],
+      "components": [
+        {
+          "name": "Java SE Runtime Environment JRE 8",
+          "version": "1.8.11",
+          "criteria": [
+            {
+              "name": "java-8-runtime-cpu",
+              "operator": "is",
+              "value": "1.8.11",
+              "type": "extensionAttribute",
+              "and": true
+            }
+          ]
+        }
+      ],
+      "capabilities": [
+        {
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "value": "10.8.3",
+          "type": "recon",
+          "and": true
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "version": "1.8.5",
+      "releaseDate": "2014-04-15T08:34:00Z",
+      "standalone": true,
+      "minimumOperatingSystem": "10.8.3",
+      "reboot": false,
+      "killApps": [
+        {
+          "bundleId": "com.oracle.jre",
+          "appName": "JavaAppletPlugin.plugin"
+        }
+      ],
+      "components": [
+        {
+          "name": "Java SE Runtime Environment JRE 8",
+          "version": "1.8.5",
+          "criteria": [
+            {
+              "name": "java-8-runtime-cpu",
+              "operator": "is",
+              "value": "1.8.5",
+              "type": "extensionAttribute",
+              "and": true
+            }
+          ]
+        }
+      ],
+      "capabilities": [
+        {
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "value": "10.8.3",
+          "type": "recon",
+          "and": true
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "version": "1.8.0",
+      "releaseDate": "2014-03-18T11:10:00Z",
+      "standalone": true,
+      "minimumOperatingSystem": "10.8.3",
+      "reboot": false,
+      "killApps": [
+        {
+          "bundleId": "com.oracle.jre",
+          "appName": "JavaAppletPlugin.plugin"
+        }
+      ],
+      "components": [
+        {
+          "name": "Java SE Runtime Environment JRE 8",
+          "version": "1.8.0",
+          "criteria": [
+            {
+              "name": "java-8-runtime-cpu",
+              "operator": "is",
+              "value": "1.8.0",
+              "type": "extensionAttribute",
+              "and": true
+            }
+          ]
+        }
+      ],
+      "capabilities": [
+        {
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "value": "10.8.3",
+          "type": "recon",
+          "and": true
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "extensionAttributes": [
+    {
+      "key": "java-8-runtime-cpu",
+      "value": "IyEvdXNyL2Jpbi9lbnYgYmFzaA0KIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjDQojIENvbGxlY3RzIGluZm9ybWF0aW9uIHRvIGRldGVybWluZSB3aGljaCB2ZXJzaW9uIG9mIHRoZSBKYXZhIHBsdWdpbiBpcyBpbnN0YWxsZWQgYW5kICMgDQojIHRoZW4gcmV0dXJuaW5nIHRoYXQgdmVyc2lvbiBiYWNrIGlmIG1ham9yIHZlcnNpb24gKDEuWCkgbWF0Y2ggd2hhdCB3ZSdyZSBzZWFyY2hpbmcgICMgDQojIGZvciB3aXRoIFNFQVJDSF9GT1JfVkVSU0lPTi4gQnVpbGRzIHRoZSByZXN1bHQgYXMgMS5YLlksIGlnbm9yaW5nIHRoZSBidWlsZCBudW1iZXIsICMNCiMgd2hlcmUgWCBpcyBtYWpvciB2ZXJzaW9uIGFuZCBZIGlzIHRoZSBtaW5vciB2ZXJzaW9uLgkJCQkJCQkJICAjCQ0KIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjDQpOT1RfSU5TVEFMTEVEPSJOb3QgSW5zdGFsbGVkIg0KU0VBUkNIX0ZPUl9WRVJTSU9OPSI4Ig0KUkVTVUxUPSIiDQoNCmlmIFsgLWYgIi9MaWJyYXJ5L0ludGVybmV0IFBsdWctSW5zL0phdmFBcHBsZXRQbHVnaW4ucGx1Z2luL0NvbnRlbnRzL0VuYWJsZWQucGxpc3QiIF0gOyB0aGVuDQoJUkVTVUxUPSQoIC91c3IvYmluL2RlZmF1bHRzIHJlYWQgIi9MaWJyYXJ5L0ludGVybmV0IFBsdWctSW5zL0phdmFBcHBsZXRQbHVnaW4ucGx1Z2luL0NvbnRlbnRzL0VuYWJsZWQucGxpc3QiIENGQnVuZGxlVmVyc2lvbiApDQoJUkVQT1JURURfTUFKT1JfVkVSU0lPTj1gZWNobyAiJFJFU1VMVCIgfCBhd2sgLUYnLicgJ3twcmludCAkMn0nYA0KCVJFUE9SVEVEX01JTk9SX1ZFUlNJT049YGVjaG8gIiRSRVNVTFQiIHwgYXdrIC1GJy4nICd7cHJpbnQgJDN9J2ANCglpZiBbICIkUkVQT1JURURfTUFKT1JfVkVSU0lPTiIgIT0gIiRTRUFSQ0hfRk9SX1ZFUlNJT04iIF0gOyB0aGVuDQoJCVJFU1VMVD0iJE5PVF9JTlNUQUxMRUQiDQoJZWxzZQ0KCQlSRVNVTFQ9MS4iJFJFUE9SVEVEX01BSk9SX1ZFUlNJT04iLiRSRVBPUlRFRF9NSU5PUl9WRVJTSU9ODQoJZmkNCmVsc2UNCglSRVNVTFQ9IiROT1RfSU5TVEFMTEVEIg0KZmkNCg0KZWNobyAiPHJlc3VsdD4kUkVTVUxUPC9yZXN1bHQ+Ig==",
+      "displayName": "Java 8 SE Runtime"
+    }
+  ],
+  "requirements": [
+    {
+      "name": "java-8-runtime-cpu",
+      "operator": "is not",
+      "value": "Not Installed",
+      "type": "extensionAttribute",
+      "and": true
+    },
+    {
+      "name": "java-8-runtime-cpu",
+      "operator": "is not",
+      "value": "",
+      "type": "extensionAttribute",
+      "and": true
+    }
+  ],
+  "id": "JavaSERuntimeEnvironmentJRE8CPU"
+}

@@ -1,0 +1,628 @@
+{
+	"name": "Java SE Development Kit 8 (CPU)",
+	"publisher": "Oracle",
+	"appName": null,
+	"bundleId": null,
+	"lastModified": "2018-01-16T21:06:25Z",
+	"currentVersion": "1.8.161",
+	"patches": [
+		{
+			"version": "1.8.161",
+			"releaseDate": "2018-01-15T13:37:18.498Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.8.3",
+			"reboot": false,
+			"killApps": [],
+			"components": [
+				{
+					"name": "Java SE Development Kit 8",
+					"version": "1.8.161",
+					"criteria": [
+						{
+							"name": "java-8-jdk-cpu",
+							"operator": "is",
+							"value": "1.8.161",
+							"type": "extensionAttribute",
+							"and": true
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.8.3",
+					"type": "recon",
+					"and": true
+				}
+			],
+			"dependencies": []
+		},
+		{
+			"version": "1.8.151",
+			"releaseDate": "2017-10-15T10:18:18.498Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.8.3",
+			"reboot": false,
+			"killApps": [],
+			"components": [
+				{
+					"name": "Java SE Development Kit 8",
+					"version": "1.8.151",
+					"criteria": [
+						{
+							"name": "java-8-jdk-cpu",
+							"operator": "is",
+							"value": "1.8.151",
+							"type": "extensionAttribute",
+							"and": true
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.8.3",
+					"type": "recon",
+					"and": true
+				}
+			],
+			"dependencies": []
+		},
+		{
+			"version": "1.8.141",
+			"releaseDate": "2017-07-18T09:37:18.498Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.8.3",
+			"reboot": false,
+			"killApps": [],
+			"components": [
+				{
+					"name": "Java SE Development Kit 8",
+					"version": "1.8.141",
+					"criteria": [
+						{
+							"name": "java-8-jdk-cpu",
+							"operator": "is",
+							"value": "1.8.141",
+							"type": "extensionAttribute",
+							"and": true
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.8.3",
+					"type": "recon",
+					"and": true
+				}
+			],
+			"dependencies": []
+		},
+		{
+			"version": "1.8.131",
+			"releaseDate": "2017-04-18T08:42:18.498Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.8.3",
+			"reboot": false,
+			"killApps": [],
+			"components": [
+				{
+					"name": "Java SE Development Kit 8",
+					"version": "1.8.131",
+					"criteria": [
+						{
+							"name": "java-8-jdk-cpu",
+							"operator": "is",
+							"value": "1.8.131",
+							"type": "extensionAttribute",
+							"and": true
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.8.3",
+					"type": "recon",
+					"and": true
+				}
+			],
+			"dependencies": []
+		},
+		{
+			"version": "1.8.121",
+			"releaseDate": "2017-01-18T08:19:18.498Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.8.3",
+			"reboot": false,
+			"killApps": [],
+			"components": [
+				{
+					"name": "Java SE Development Kit 8",
+					"version": "1.8.121",
+					"criteria": [
+						{
+							"name": "java-8-jdk-cpu",
+							"operator": "is",
+							"value": "1.8.121",
+							"type": "extensionAttribute",
+							"and": true
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.8.3",
+					"type": "recon",
+					"and": true
+				}
+			],
+			"dependencies": []
+		},
+		{
+			"version": "1.8.111",
+			"releaseDate": "2016-10-18T20:00:18.498Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.8.3",
+			"reboot": false,
+			"killApps": [],
+			"components": [
+				{
+					"name": "Java SE Development Kit 8",
+					"version": "1.8.111",
+					"criteria": [
+						{
+							"name": "java-8-jdk-cpu",
+							"operator": "is",
+							"value": "1.8.111",
+							"type": "extensionAttribute",
+							"and": true
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.8.3",
+					"type": "recon",
+					"and": true
+				}
+			],
+			"dependencies": []
+		},
+		{
+			"version": "1.8.101",
+			"releaseDate": "2016-07-19T15:45:00Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.8.3",
+			"reboot": false,
+			"killApps": [],
+			"components": [
+				{
+					"name": "Java SE Development Kit 8",
+					"version": "1.8.101",
+					"criteria": [
+						{
+							"name": "java-8-jdk-cpu",
+							"operator": "is",
+							"value": "1.8.101",
+							"type": "extensionAttribute",
+							"and": true
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.8.3",
+					"type": "recon",
+					"and": true
+				}
+			],
+			"dependencies": []
+		},
+		{
+			"version": "1.8.91",
+			"releaseDate": "2016-04-19T15:17:00Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.8.3",
+			"reboot": false,
+			"killApps": [],
+			"components": [
+				{
+					"name": "Java SE Development Kit 8",
+					"version": "1.8.91",
+					"criteria": [
+						{
+							"name": "java-8-jdk-cpu",
+							"operator": "is",
+							"value": "1.8.91",
+							"type": "extensionAttribute",
+							"and": true
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.8.3",
+					"type": "recon",
+					"and": true
+				}
+			],
+			"dependencies": []
+		},
+		{
+			"version": "1.8.77",
+			"releaseDate": "2016-03-23T14:06:00Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.8.3",
+			"reboot": false,
+			"killApps": [],
+			"components": [
+				{
+					"name": "Java SE Development Kit 8",
+					"version": "1.8.77",
+					"criteria": [
+						{
+							"name": "java-8-jdk-cpu",
+							"operator": "is",
+							"value": "1.8.77",
+							"type": "extensionAttribute",
+							"and": true
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.8.3",
+					"type": "recon",
+					"and": true
+				}
+			],
+			"dependencies": []
+		},
+		{
+			"version": "1.8.71",
+			"releaseDate": "2016-01-19T08:11:00Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.8.3",
+			"reboot": false,
+			"killApps": [],
+			"components": [
+				{
+					"name": "Java SE Development Kit 8",
+					"version": "1.8.71",
+					"criteria": [
+						{
+							"name": "java-8-jdk-cpu",
+							"operator": "is",
+							"value": "1.8.71",
+							"type": "extensionAttribute",
+							"and": true
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.8.3",
+					"type": "recon",
+					"and": true
+				}
+			],
+			"dependencies": []
+		},
+		{
+			"version": "1.8.65",
+			"releaseDate": "2015-09-20T09:32:00Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.8.3",
+			"reboot": false,
+			"killApps": [],
+			"components": [
+				{
+					"name": "Java SE Development Kit 8",
+					"version": "1.8.65",
+					"criteria": [
+						{
+							"name": "java-8-jdk-cpu",
+							"operator": "is",
+							"value": "1.8.65",
+							"type": "extensionAttribute",
+							"and": true
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.8.3",
+					"type": "recon",
+					"and": true
+				}
+			],
+			"dependencies": []
+		},
+		{
+			"version": "1.8.51",
+			"releaseDate": "2015-07-14T08:20:00Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.8.3",
+			"reboot": false,
+			"killApps": [],
+			"components": [
+				{
+					"name": "Java SE Development Kit 8",
+					"version": "1.8.51",
+					"criteria": [
+						{
+							"name": "java-8-jdk-cpu",
+							"operator": "is",
+							"value": "1.8.51",
+							"type": "extensionAttribute",
+							"and": true
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.8.3",
+					"type": "recon",
+					"and": true
+				}
+			],
+			"dependencies": []
+		},
+		{
+			"version": "1.8.45",
+			"releaseDate": "2015-04-14T07:34:00Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.8.3",
+			"reboot": false,
+			"killApps": [],
+			"components": [
+				{
+					"name": "Java SE Development Kit 8",
+					"version": "1.8.45",
+					"criteria": [
+						{
+							"name": "java-8-jdk-cpu",
+							"operator": "is",
+							"value": "1.8.45",
+							"type": "extensionAttribute",
+							"and": true
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.8.3",
+					"type": "recon",
+					"and": true
+				}
+			],
+			"dependencies": []
+		},
+		{
+			"version": "1.8.31",
+			"releaseDate": "2015-01-20T10:21:00Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.8.3",
+			"reboot": false,
+			"killApps": [],
+			"components": [
+				{
+					"name": "Java SE Development Kit 8",
+					"version": "1.8.31",
+					"criteria": [
+						{
+							"name": "java-8-jdk-cpu",
+							"operator": "is",
+							"value": "1.8.31",
+							"type": "extensionAttribute",
+							"and": true
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.8.3",
+					"type": "recon",
+					"and": true
+				}
+			],
+			"dependencies": []
+		},
+		{
+			"version": "1.8.25",
+			"releaseDate": "2014-10-14T10:55:00Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.8.3",
+			"reboot": false,
+			"killApps": [],
+			"components": [
+				{
+					"name": "Java SE Development Kit 8",
+					"version": "1.8.25",
+					"criteria": [
+						{
+							"name": "java-8-jdk-cpu",
+							"operator": "is",
+							"value": "1.8.25",
+							"type": "extensionAttribute",
+							"and": true
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.8.3",
+					"type": "recon",
+					"and": true
+				}
+			],
+			"dependencies": []
+		},
+		{
+			"version": "1.8.11",
+			"releaseDate": "2014-07-15T08:31:00Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.8.3",
+			"reboot": false,
+			"killApps": [],
+			"components": [
+				{
+					"name": "Java SE Development Kit 8",
+					"version": "1.8.11",
+					"criteria": [
+						{
+							"name": "java-8-jdk-cpu",
+							"operator": "is",
+							"value": "1.8.11",
+							"type": "extensionAttribute",
+							"and": true
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.8.3",
+					"type": "recon",
+					"and": true
+				}
+			],
+			"dependencies": []
+		},
+		{
+			"version": "1.8.5",
+			"releaseDate": "2014-04-15T07:19:00Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.8.3",
+			"reboot": false,
+			"killApps": [],
+			"components": [
+				{
+					"name": "Java SE Development Kit 8",
+					"version": "1.8.5",
+					"criteria": [
+						{
+							"name": "java-8-jdk-cpu",
+							"operator": "is",
+							"value": "1.8.5",
+							"type": "extensionAttribute",
+							"and": true
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.8.3",
+					"type": "recon",
+					"and": true
+				}
+			],
+			"dependencies": []
+		},
+		{
+			"version": "1.8.0",
+			"releaseDate": "2014-03-18T12:14:00Z",
+			"standalone": true,
+			"minimumOperatingSystem": "10.8.3",
+			"reboot": false,
+			"killApps": [],
+			"components": [
+				{
+					"name": "Java SE Development Kit 8",
+					"version": "1.8.0",
+					"criteria": [
+						{
+							"name": "java-8-jdk-cpu",
+							"operator": "is",
+							"value": "1.8.0",
+							"type": "extensionAttribute",
+							"and": true
+						}
+					]
+				}
+			],
+			"capabilities": [
+				{
+					"name": "Operating System Version",
+					"operator": "greater than or equal",
+					"value": "10.8.3",
+					"type": "recon",
+					"and": true
+				}
+			],
+			"dependencies": []
+		}
+	],
+	"extensionAttributes": [
+		{
+			"key": "java-8-jdk-cpu",
+			"value": "IyEvdXNyL2Jpbi9lbnYgYmFzaA0KIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjDQojIENvbGxlY3RzIGluZm9ybWF0aW9uIHRvIGRldGVybWluZSB3aGljaCB2ZXJzaW9uIG9mIHRoZSBKYXZhIEpESyBpcyBpbnN0YWxsZWQgYnkgICAgICAgICMNCiMgbG9vcGluZyB0aHJvdWdoIGFsbCB0aGUgaW5zdGFsbGVkIEpES3MgZm9yIHRoZSBtYWpvciB2ZXJzaW9uIHNlbGVjdGVkLiBBbmQgdGhlbiAgICAgICAgIw0KIyBjb21wYXJpbmcgdGhlIGJ1aWxkIG51bWJlciB0byBkZXRlcm1pbmUgdGhlIGhpZ2hlc3QgdmFsdWUuIEJ1aWxkcyB0aGUgcmVzdWx0IGFzICAgICAgICAjDQojIDEuWC5ZLCBpZ25vcmluZyB0aGUgYnVpbGQgbnVtYmVyLCB3aGVyZSBYIGlzIG1ham9yIHZlcnNpb24gYW5kIFkgaXMgdGhlIG1pbm9yIHZlcnNpb24uICMJCQkJCQkJCSAgIwkNCiMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyANClNFQVJDSF9GT1JfVkVSU0lPTj0iOCINCkhJR0hFU1RfQlVJTEQ9Ii0xIg0KUkVTVUxUPSJOb3QgSW5zdGFsbGVkIg0KDQppbnN0YWxsZWRfamRrcz0kKC9iaW4vbHMgL0xpYnJhcnkvSmF2YS9KYXZhVmlydHVhbE1hY2hpbmVzLykNCg0KDQpmb3IgaSBpbiAke2luc3RhbGxlZF9qZGtzfTsgZG8NCgl2ZXJzaW9uPSQoIC91c3IvYmluL2RlZmF1bHRzIHJlYWQgIi9MaWJyYXJ5L0phdmEvSmF2YVZpcnR1YWxNYWNoaW5lcy8ke2l9L0NvbnRlbnRzL0luZm8ucGxpc3QiIENGQnVuZGxlVmVyc2lvbiApDQoNCgltYWpvcl92ZXJzaW9uPWBlY2hvICIkdmVyc2lvbiIgfCBhd2sgLUYnLicgJ3twcmludCAkMn0nYA0KDQoJaWYgWyAiJG1ham9yX3ZlcnNpb24iIC1lcSAiJFNFQVJDSF9GT1JfVkVSU0lPTiIgXSA7IHRoZW4NCgkJIyBTcGxpdCBvbiAxLlguMF9YWCB0byBnZXQgYnVpbGQgbnVtYmVyDQoJCWJ1aWxkX251bWJlcj1gZWNobyAiJHZlcnNpb24iIHwgYXdrIC1GJzBfJyAne3ByaW50ICQyfSdgDQoJCWlmIFsgIiRidWlsZF9udW1iZXIiIC1ndCAiJEhJR0hFU1RfQlVJTEQiIF0gOyB0aGVuDQoJCQlISUdIRVNUX0JVSUxEPSIkYnVpbGRfbnVtYmVyIg0KCQkJUkVTVUxUPSIxLiRtYWpvcl92ZXJzaW9uLiRidWlsZF9udW1iZXIiDQoJCWZpCQ0KCWZpCQkNCmRvbmUNCg0KZWNobyAiPHJlc3VsdD4kUkVTVUxUPC9yZXN1bHQ+Ig==",
+			"displayName": "Java 8 SE Development Kit"
+		}
+	],
+	"requirements": [
+		{
+			"name": "java-8-jdk-cpu",
+			"operator": "is not",
+			"value": "Not Installed",
+			"type": "extensionAttribute",
+			"and": true
+		},
+		{
+			"name": "java-8-jdk-cpu",
+			"operator": "is not",
+			"value": "",
+			"type": "extensionAttribute",
+			"and": true
+		}
+	],
+	"id": "JavaSEDevelopmentKit8CPU"
+}

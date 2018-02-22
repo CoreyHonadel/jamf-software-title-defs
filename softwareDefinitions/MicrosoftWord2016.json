@@ -3,8 +3,8 @@
     "publisher": "Microsoft",
     "appName": "Microsoft Word.app",
     "bundleId": "com.microsoft.Word",
-    "lastModified": "2018-01-04T11:30:00Z",
-    "currentVersion": "15.41.17120500",
+    "lastModified": "2018-02-22T15:35:00Z",
+    "currentVersion": "16.10.18021001",
     "requirements": [
         {
             "name": "Application Bundle ID",
@@ -16,12 +16,154 @@
         {
             "name": "Application Version",
             "operator": "like",
+            "value": "16.",
+            "type": "recon",
+            "and": false
+        },
+        {
+            "name": "Application Version",
+            "operator": "like",
             "value": "15.",
             "type": "recon",
-            "and": true
+            "and": false
         }
     ],
     "patches": [
+        {
+            "version": "16.10.18021001",
+            "releaseDate": "2018-02-13T17:06:19.427Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft Word 2016",
+                    "version": "16.10.18021001",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.microsoft.Word",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "16.10.18021001",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "16.9.18012504",
+            "releaseDate": "2018-01-26T21:01:04.332Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft Word 2016",
+                    "version": "16.9.18012504",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.microsoft.Word",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "16.9.18012504",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "16.9.18011602",
+            "releaseDate": "2018-01-18T16:49:31.152Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.Word",
+                    "appName": "Microsoft Word.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Microsoft Word 2016",
+                    "version": "16.9.18011602",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.microsoft.Word",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "16.9.18011602",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
         {
             "version": "15.41.17120500",
             "releaseDate": "2017-12-12T19:08:54.921Z",

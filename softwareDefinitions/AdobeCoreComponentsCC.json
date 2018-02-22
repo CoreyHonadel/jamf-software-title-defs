@@ -3,8 +3,8 @@
     "publisher": "Adobe",
     "appName": "Creative Cloud.app",
     "bundleId": "com.adobe.acc.AdobeCreativeCloud",
-    "lastModified": "2018-01-04T11:30:00Z",
-    "currentVersion": "4.3.0.256",
+    "lastModified": "2018-02-22T15:35:00Z",
+    "currentVersion": "4.4.0.294",
     "requirements": [
         {
             "name": "Application Bundle ID",
@@ -16,6 +16,51 @@
     ],
     "patches": [
         {
+            "version": "4.4.0.294",
+            "releaseDate": "2018-02-06T09:57:34Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.acc.AdobeCreativeCloud",
+                    "appName": "Creative Cloud.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Core Components CC",
+                    "version": "4.4.0.294",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.acc.AdobeCreativeCloud",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "4.4.0.294",
+                            "type": "recon",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": [ ]
+        },
+	{
             "version": "4.3.0.256",
             "releaseDate": "2017-09-26T09:09:34Z",
             "standalone": true,

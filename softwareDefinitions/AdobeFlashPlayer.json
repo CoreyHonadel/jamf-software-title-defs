@@ -3,35 +3,127 @@
     "publisher": "Adobe",
     "appName": "Adobe Flash Player Install Manager.app",
     "bundleId": "com.macromedia.Flash Player.plugin",
-    "lastModified": "2018-01-04T11:30:00Z",
-    "currentVersion": "28.0.0.126",
+    "lastModified": "2018-02-22T15:35:00Z",
+    "currentVersion": "28.0.0.161",
     "patches": [
-        {   
+        {
+            "version": "28.0.0.161",
+            "releaseDate": "2018-02-06T06:59:20.659Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.macromedia.Flash Player.plugin",
+                    "appName": "Adobe Flash Player Install Manager.app"
+                },
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                },
+                {
+                    "bundleId": "com.apple.Safari",
+                    "appName": "Safari.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Flash Player",
+                    "version": "28.0.0.161",
+                    "criteria": [
+                        {
+                            "name": "adobe-flash",
+                            "operator": "is",
+                            "value": "28.0.0.161",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "28.0.0.137",
+            "releaseDate": "2018-01-09T07:00:19.642Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.macromedia.Flash Player.plugin",
+                    "appName": "Adobe Flash Player Install Manager.app"
+                },
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                },
+                {
+                    "bundleId": "com.apple.Safari",
+                    "appName": "Safari.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Flash Player",
+                    "version": "28.0.0.137",
+                    "criteria": [
+                        {
+                            "name": "adobe-flash",
+                            "operator": "is",
+                            "value": "28.0.0.137",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+        {
             "version": "28.0.0.126",
             "releaseDate": "2017-12-12T08:27:23.650Z",
             "standalone": true,
             "minimumOperatingSystem": "10.9",
             "reboot": false,
             "killApps": [
-                {   
+                {
                     "bundleId": "com.macromedia.Flash Player.plugin",
                     "appName": "Adobe Flash Player Install Manager.app"
                 },
-                {   
+                {
                     "bundleId": "org.mozilla.firefox",
                     "appName": "Firefox.app"
                 },
-                {   
+                {
                     "bundleId": "com.apple.Safari",
                     "appName": "Safari.app"
                 }
             ],
             "components": [
-                {   
+                {
                     "name": "Adobe Flash Player",
                     "version": "28.0.0.126",
                     "criteria": [
-                        {   
+                        {
                             "name": "adobe-flash",
                             "operator": "is",
                             "value": "28.0.0.126",
@@ -42,7 +134,7 @@
                 }
             ],
             "capabilities": [
-                {   
+                {
                     "name": "Operating System Version",
                     "operator": "greater than or equal",
                     "value": "10.9",
@@ -52,7 +144,7 @@
             ],
             "dependencies": []
         },
-	{
+        {
             "version": "27.0.0.187",
             "releaseDate": "2017-11-14T08:23:23.650Z",
             "standalone": true,

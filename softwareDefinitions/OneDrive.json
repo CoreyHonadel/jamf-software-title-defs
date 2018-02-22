@@ -3,8 +3,8 @@
     "publisher": "Microsoft",
     "appName": "OneDrive.app",
     "bundleId": "com.microsoft.OneDrive",
-    "lastModified": "2018-01-04T11:30:00Z",
-    "currentVersion": "17.3.7131",
+    "lastModified": "2018-02-22T15:35:00Z",
+    "currentVersion": "17.3.7294",
     "requirements": [
         {
             "name": "Application Bundle ID",
@@ -15,6 +15,49 @@
         }
     ],
     "patches": [
+          {
+            "version": "17.3.7294",
+            "releaseDate": "2018-01-25T10:00:00.270Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.microsoft.OneDrive",
+                    "appName": "OneDrive.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "OneDrive",
+                    "version": "17.3.7294",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.microsoft.OneDrive",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "17.3.7294",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
        {
             "version": "17.3.7131",
             "releaseDate": "2017-11-27T10:00:00.270Z",

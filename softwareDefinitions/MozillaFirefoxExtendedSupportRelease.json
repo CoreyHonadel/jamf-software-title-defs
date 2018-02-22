@@ -3,8 +3,8 @@
     "publisher": "Mozilla",
     "appName": "Firefox.app",
     "bundleId": "org.mozilla.firefox",
-    "lastModified": "2018-01-04T11:30:00Z",
-    "currentVersion": "52.5.3",
+    "lastModified": "2018-02-22T15:35:00Z",
+    "currentVersion": "52.6.0",
     "requirements": [
         {
             "name": "Application Bundle ID",
@@ -30,6 +30,44 @@
     ],
     "patches": [
         {
+            "version": "52.6.0",
+            "releaseDate": "2018-01-19T13:08:51.813Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "org.mozilla.firefox",
+                    "appName": "Firefox.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Mozilla Firefox Extended Support Release (ESR)",
+                    "version": "52.6.0",
+                    "criteria": [
+                        {
+                            "name": "firefox-ESR",
+                            "operator": "is",
+                            "value": "52.6.0",
+                            "type": "extensionAttribute",
+                            "and": true
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon",
+                    "and": true
+                }
+            ],
+            "dependencies": []
+        },
+	{
             "version": "52.5.3",
             "releaseDate": "2017-12-27T10:53:51.813Z",
             "standalone": true,

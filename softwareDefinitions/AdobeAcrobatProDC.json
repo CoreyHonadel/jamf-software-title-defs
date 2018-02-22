@@ -3,8 +3,8 @@
     "publisher": "Adobe",
     "appName": "Adobe Acrobat.app",
     "bundleId": "com.adobe.Acrobat.Pro",
-    "lastModified": "2018-01-04T11:30:00Z",
-    "currentVersion": "18.009.20050",
+    "lastModified": "2018-02-22T15:35:00Z",
+    "currentVersion": "18.011.20035",
     "requirements": [
         {
             "name": "Application Bundle ID",
@@ -36,7 +36,49 @@
         }
     ],
     "patches": [
-         {
+        {
+            "version": "18.011.20035",
+            "releaseDate": "2018-02-14T15:01:48.092Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.10",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.adobe.Acrobat.Pro",
+                    "appName": "Adobe Acrobat.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Adobe Acrobat Pro DC",
+                    "version": "18.011.20035",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.adobe.Acrobat.Pro",
+                            "type": "recon"
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "18.011.20035",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.10",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
             "version": "18.009.20050",
             "releaseDate": "2017-12-04T09:45:24.349Z",
             "standalone": true,
@@ -77,8 +119,8 @@
                 }
             ],
             "dependencies": []
-         },
-	 {
+        },
+        {
             "version": "18.009.20044",
             "releaseDate": "2017-11-14T11:07:24.349Z",
             "standalone": true,
